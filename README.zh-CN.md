@@ -2,9 +2,11 @@
 
 [English README](README.md)
 
-本仓库保存论文的数据与分析代码。目前包含 **Figure1–Figure4、Extended Data Figure3 及已归档的对应补充分析**。仓库保持私有，编辑和审稿人的访问需另行安排。
+本仓库保存论文的数据与分析代码。目前包含 **Figure1–Figure4、Extended Data Figure3 及已归档的对应补充分析**。仓库现已公开。
 
-根目录仅保留两份 README 和 `Figure1/`、`Figure2/`、`Figure3/`、`Figure4/`、`Extended_Data_Figure3/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
+根目录保留两份 README、`Source_data.xlsx` 和 `Figure1/`、`Figure2/`、`Figure3/`、`Figure4/`、`Extended_Data_Figure3/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
+
+[下载 Source data](Source_data.xlsx)：首个工作表 `References` 列出 281 个 reference_ID 对应的引用标识、题名和发表年份；其余 17 个工作表对应主图 1–4、扩展图 1–5 和补充图 1–8。此工作簿不包含完整主表。
 
 ## 目录
 

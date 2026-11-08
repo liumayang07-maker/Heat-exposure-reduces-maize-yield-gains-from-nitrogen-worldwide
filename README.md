@@ -2,11 +2,13 @@
 
 # Heat exposure reduces maize yield gains from nitrogen worldwide
 
-Data and analysis code accompanying the manuscript with this working title. This deposit contains **Figures 1–4 and Extended Data Figure 3**, including their deposited supplementary analyses. The repository is private; editor/reviewer access must be arranged separately.
+Data and analysis code accompanying the manuscript with this working title. This deposit contains **Figures 1–4 and Extended Data Figure 3**, including their deposited supplementary analyses. The repository is public.
 
 Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) for attribution and applicable access conditions. No publication or archive DOI has been assigned here.
 
 [中文说明 / Chinese README](README.zh-CN.md)
+
+[Download Source data](Source_data.xlsx): the first worksheet, `References`, lists 281 reference IDs with citation labels, titles and publication years. The remaining 17 worksheets provide data for Figures 1–4, Extended Data Figures 1–5 and Supplementary Figures 1–8. This workbook is not the complete master table.
 
 ## Contents
 
