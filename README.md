@@ -2,7 +2,7 @@
 
 # Heat exposure reduces maize yield gains from nitrogen worldwide
 
-Data and analysis code accompanying the manuscript with this working title. This deposit contains **Figures 1–3**, including their deposited supplementary analyses. The repository is private; editor/reviewer access must be arranged separately.
+Data and analysis code accompanying the manuscript with this working title. This deposit contains **Figures 1–4**, including their deposited supplementary analyses. The repository is private; editor/reviewer access must be arranged separately.
 
 Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) for attribution and applicable access conditions. No publication or archive DOI has been assigned here.
 
@@ -18,6 +18,7 @@ Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) 
 - [Figure 1d](#figure-1d)
 - [Figure 2 files and commands](#figure-2)
 - [Figure 3 files and commands](#figure-3)
+- [Figure 4 files and commands](#figure-4)
 - [Data sources and rights](#sources-and-rights)
 
 <a id="environment"></a>
@@ -331,3 +332,46 @@ Rscript Figure3/SD_sensitivity/run_sensitivity.R
 The sensitivity entry calls `Figure2/SD_sensitivity/run_sensitivity.R`, which uses the shared SD inputs under `Figure2/Supplementary_Table_SD_imputation/` and invokes `Figure2/SD_sensitivity/summarize_sensitivity.py`. These files must remain in the repository; the Figure3 branches in the shared code are required. The four scenarios are Baseline, CV05, CV10 and CV20. The six deposited CSVs are consultation outputs; temporary models and old status reports are omitted. The runner creates a new status table and refuses to replace existing result tables with different contents. Re-fitting can take substantial time. Plotting/fitting can replace derived panel outputs; use a separate working copy to preserve the deposited versions.
 
 Figure3a reuses upstream weather/profile and heat-classification inputs documented for Figure 2; its spatial files are retained locally for independent panel use and retain the same source attribution. The numerical inputs are supplied with each panel, so default fitting/plotting does not require the original local master table. No Figure3 model refitting or weather downloading was performed while preparing this deposit.
+
+<a id="figure-4"></a>
+
+## Figure 4 files and commands
+
+Figure4 contains 36 files: simulation-related inputs, losslessly compressed daily simulation outputs, post-processing/plotting code, numerical results and PDFs. Duplicate PNG/SVG/TIFF exports, old layouts, verification reports, input/table assembly helpers and formatted Word tables are omitted.
+
+| Location | Files | Contents |
+| --- | ---: | --- |
+| `Figure4/` | 1 | Current combined figure, `Figure4_combined.pdf`. |
+| `Figure4/APSIM_inputs/` | 4 | 81-site soil/management configuration, two recovered daily weather tables, and the ERA5-Land hourly downloader. |
+| `Figure4/APSIM_outputs/` | 2 | `baseline_daily.csv.gz` and `tmax_plus2_daily.csv.gz`; complete original CSV bytes restored by gzip decompression. |
+| `Figure4/N2O_analysis/` | 25 | Seven analysis/plotting scripts, 14 numerical CSVs and four PDFs. |
+| `Figure4/Yield_analysis/` | 4 | Yield code, site-season and regional-annual tables, and PDF. |
+
+The two simulation output files are about 33.20 and 31.55 MiB compressed. Python readers use pandas' automatic gzip detection. Decompression preserves source-row references used by the harvest-endpoint analysis. The recovered weather tables contain 134,198 baseline and 127,152 warming site-days; they are recovered report records with incomplete date coverage, not complete original APSIM driver files.
+
+The archived simulations cover 81 sites and 2011–2022 sowing years. The warming scenario raises daily maximum temperature by 2°C, with minimum temperature unchanged. Total nitrogen is 240 kg N ha^-1 per season: basal application or a 50:50 basal/topdressing split at End of juvenile. The irrigated management includes irrigation at End of juvenile and Flag leaf. All treatments, including the treatment labelled Rainfed, also receive establishment irrigation; its amount has not been independently documented. `xIW70` denotes the user-confirmed initial-water setting of 70% of field capacity. These management definitions were supplied by the study author; the original APSIM project, model version and cultivar parameters remain unavailable. This is an archive of simulation outputs and post-processing, not a complete runnable APSIM project.
+
+The paired seasonal comparison contains 2,913 baseline–warming pairs; `excluded_pairs.csv` records three excluded management seasons at APSIM_012 in 2013. Main-figure cumulative bars select complete sites independently within each scenario (81 baseline and 80 warming sites), whereas paired analyses use the paired endpoint tables. Preserve these distinct inclusion rules. The archived CSVs provide numerical source data; a separate Source Data workbook is not required for using this deposit.
+
+Python code uses `numpy`, `pandas`, `matplotlib`, `geopandas`, `shapely`, `pyproj`, `pypdf`, `pymupdf` and `Pillow`. The R panel uses `ggplot2`, `scales`, `ragg` and `svglite`, plus base R `grid`. See the scripts for any additional package requirements. Commands run from the repository root; plotting can overwrite derived files, so use a separate working copy to preserve the deposited outputs.
+
+```text
+python Figure4/N2O_analysis/plot_Figure4_combined.py
+python Figure4/N2O_analysis/plot_N2O_cumulative.py
+python Figure4/N2O_analysis/plot_supplementary_N2O_annual.py
+Rscript Figure4/N2O_analysis/plot_warming_management_comparison.R
+python Figure4/Yield_analysis/plot_supplementary_yield.py
+```
+
+The combined figure requires `Rscript` on PATH; otherwise pass `--rscript <Rscript_executable>`. Its shared Python module also reads the deposited `Figure2/Figure2a/study_regions.geojson` and `world_boundaries.gpkg`. `Extended_Data_Figure4.pdf` shows cumulative processes; `Extended_Data_N2O_increments.pdf` shows increments. These are distinct outputs.
+
+Optional upstream post-processing and external weather downloading:
+
+```text
+python Figure4/N2O_analysis/analyze_baseline.py --hourly-dir <hourly_weather_directory>
+python Figure4/N2O_analysis/analyze_warming.py
+python Figure4/APSIM_inputs/ERA5_hourly/scripts/download_era5_land_hourly.py --dry-run
+python Figure4/APSIM_inputs/ERA5_hourly/scripts/download_era5_land_hourly.py --output-dir <external_weather_directory>
+```
+
+The baseline binning step requires external hourly weather files named `<xSite>_2010_2025_hourly_utc.csv`; these are not deposited. The downloader uses CDS ERA5-Land timeseries and requires the user's own credentials, accepted data terms and the Python dependencies `requests`, `xarray`, `h5netcdf`, `h5py` and `cdsapi`, in addition to numpy/pandas. Actual downloading can be large. No download or APSIM simulation was run while preparing this deposit. Existing downstream CSVs/PDFs can be inspected without these external inputs.

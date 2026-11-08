@@ -2,9 +2,9 @@
 
 [English README](README.md)
 
-本仓库保存论文的数据与分析代码。目前包含 **Figure1–Figure3 及已归档的对应补充分析**。仓库保持私有，编辑和审稿人的访问需另行安排。
+本仓库保存论文的数据与分析代码。目前包含 **Figure1–Figure4 及已归档的对应补充分析**。仓库保持私有，编辑和审稿人的访问需另行安排。
 
-根目录仅保留两份 README 和 `Figure1/`、`Figure2/`、`Figure3/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
+根目录仅保留两份 README 和 `Figure1/`、`Figure2/`、`Figure3/`、`Figure4/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
 
 ## 目录
 
@@ -16,6 +16,7 @@
 - [Figure1d](#figure1d)
 - [Figure2 文件与运行命令](#figure2)
 - [Figure3 文件与运行命令](#figure3)
+- [Figure4 文件与运行命令](#figure4)
 - [数据来源与使用条件](#数据来源与使用条件)
 
 ## 环境与安装
@@ -272,3 +273,46 @@ Rscript Figure3/SD_sensitivity/run_sensitivity.R
 敏感性分析入口调用 `Figure2/SD_sensitivity/run_sensitivity.R`，复用 `Figure2/Supplementary_Table_SD_imputation/` 的 SD 输入，并由 `Figure2/SD_sensitivity/summarize_sensitivity.py` 汇总。上述文件及共用代码中的 Figure3 分支均为必要依赖。四种情景为 Baseline、CV05、CV10、CV20。归档保留六份核心 CSV 供查阅，不保存临时模型及旧状态报告；入口运行时生成新的状态表，并拒绝用不同内容覆盖现有结果。重新拟合可能较耗时；绘图或拟合可能覆盖面板派生输出，如需保留归档版本，请在独立副本运行。
 
 Figure3a 的上游天气曲线及热分类来源见 Figure2；区域和底图文件保留在本目录，以便独立使用，沿用相同来源署名。各面板已提供必要数值输入，默认拟合/绘图不依赖整理者的原始本地主表。本次推送准备未重新拟合 Figure3 模型，也未下载天气数据。
+
+<a id="figure4"></a>
+
+## Figure4 文件与运行命令
+
+Figure4 共 36 个文件，保留模拟相关输入、无损压缩逐日模拟输出、后处理/绘图代码、数值结果和 PDF。重复 PNG/SVG/TIFF、旧排版、核验报告、输入准备/表格组装脚本及格式化 Word 表未收录。
+
+| 位置 | 文件数 | 内容 |
+| --- | ---: | --- |
+| `Figure4/` | 1 | 当前完整主图 `Figure4_combined.pdf`。 |
+| `Figure4/APSIM_inputs/` | 4 | 81 站点土壤/管理配置、两份回提日气象及 ERA5-Land 小时下载代码。 |
+| `Figure4/APSIM_outputs/` | 2 | `baseline_daily.csv.gz`、`tmax_plus2_daily.csv.gz`，解压后完整恢复原 CSV 字节。 |
+| `Figure4/N2O_analysis/` | 25 | 7 个分析/绘图脚本、14 份数值 CSV、4 份 PDF。 |
+| `Figure4/Yield_analysis/` | 4 | 产量代码、逐站点季节及区域年度表、PDF。 |
+
+两份模拟输出压缩后约为 33.20、31.55 MiB，代码通过 pandas 自动识别 gzip；解压不改变成熟收获端点使用的源行号。回提气象分别为 134,198 和 127,152 个站点日，日期覆盖不完整，不能视为完整原始 APSIM 驱动气象。
+
+模拟覆盖 81 站点、2011–2022 播种年度。增温为日最高温增加 2°C、最低温不变。每季总施氮 240 kg N ha^-1，分别采用全部基肥或基肥/End of juvenile 追肥各 50%；灌溉管理在 End of juvenile 和 Flag leaf 灌溉。包括 Rainfed 在内的所有处理均有促出苗灌溉，具体水量尚未独立追溯。`xIW70` 为作者确认的初始土壤水分相当于田间持水量 70%。上述管理定义来自研究作者确认；原始 APSIM 工程、版本和品种参数仍缺失。本目录提供模拟输出与后处理归档，不是可完整重跑 APSIM 的工程。
+
+配对比较有 2,913 对基线–增温季节；`excluded_pairs.csv` 记录 APSIM_012 在 2013 年排除的三种管理季节。主图累计柱按情景分别筛选完整站点，基线 81 个、增温 80 个；配对分析则使用配对端点表，两者纳入规则不同。现成 CSV 已提供数值来源，无需另建 Source Data 工作簿。
+
+Python 使用 `numpy`、`pandas`、`matplotlib`、`geopandas`、`shapely`、`pyproj`、`pypdf`、`pymupdf`、`Pillow`；R 面板使用 `ggplot2`、`scales`、`ragg`、`svglite` 及基础 R 的 `grid`，其他依赖以脚本为准。以下命令从仓库根目录执行；绘图可能覆盖派生文件，如需保留归档版本，请在独立副本运行。
+
+```text
+python Figure4/N2O_analysis/plot_Figure4_combined.py
+python Figure4/N2O_analysis/plot_N2O_cumulative.py
+python Figure4/N2O_analysis/plot_supplementary_N2O_annual.py
+Rscript Figure4/N2O_analysis/plot_warming_management_comparison.R
+python Figure4/Yield_analysis/plot_supplementary_yield.py
+```
+
+组合图通过 PATH 定位 `Rscript`，也可用 `--rscript <Rscript_executable>` 指定。共用绘图模块读取已归档的 `Figure2/Figure2a/study_regions.geojson` 和 `world_boundaries.gpkg`。`Extended_Data_Figure4.pdf` 为累计过程，`Extended_Data_N2O_increments.pdf` 为增量过程，二者均保留。
+
+按需重算上游后处理或下载外部小时天气：
+
+```text
+python Figure4/N2O_analysis/analyze_baseline.py --hourly-dir <hourly_weather_directory>
+python Figure4/N2O_analysis/analyze_warming.py
+python Figure4/APSIM_inputs/ERA5_hourly/scripts/download_era5_land_hourly.py --dry-run
+python Figure4/APSIM_inputs/ERA5_hourly/scripts/download_era5_land_hourly.py --output-dir <external_weather_directory>
+```
+
+基线分箱需要外部 `<xSite>_2010_2025_hourly_utc.csv` 文件，本仓库未收录。下载使用 CDS ERA5-Land timeseries，需使用者自行配置凭据、接受数据条款，并安装 `requests`、`xarray`、`h5netcdf`、`h5py`、`cdsapi` 等依赖；数据量较大。本次归档未下载天气或运行 APSIM。查阅现成结果无需这些外部输入。

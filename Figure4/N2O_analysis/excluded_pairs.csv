@@ -1,0 +1,4 @@
+﻿xSite,region,mode,sowing_year,sowing_date,first_record_date,harvest_date,source_first_row,source_last_row,days,hours,GDD,EDH30,dead_days,mzN2Oatm,mzN2Oatm_first_day,reason
+APSIM_012,NAMI,F1_mzI0,2013,2013-04-25,2013-04-26,2013-09-10,38922,39059,138,3312,1331.3121874491403,225.4960449218777,0,6.64,0.01,Warming season ends before mature harvest; remove both climate counterparts
+APSIM_012,NAMI,F1_mzI2,2013,2013-04-25,2013-04-26,2013-09-10,40828,40965,138,3312,1331.3121874491403,225.4960449218777,0,6.43,0.0,Warming season ends before mature harvest; remove both climate counterparts
+APSIM_012,NAMI,F2_mzI2,2013,2013-04-25,2013-04-26,2013-09-10,288050,288187,138,3312,1331.3121874491403,225.4960449218777,0,5.12,0.0,Warming season ends before mature harvest; remove both climate counterparts
