@@ -2,9 +2,9 @@
 
 [English README](README.md)
 
-本仓库保存论文的数据与分析代码。目前包含 **Figure1、Figure2 及 Figure2 对应的补充分析**。仓库保持私有，编辑和审稿人的访问需另行安排。
+本仓库保存论文的数据与分析代码。目前包含 **Figure1–Figure3 及已归档的对应补充分析**。仓库保持私有，编辑和审稿人的访问需另行安排。
 
-根目录仅保留两份 README 和 `Figure1/`、`Figure2/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
+根目录仅保留两份 README 和 `Figure1/`、`Figure2/`、`Figure3/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
 
 ## 目录
 
@@ -15,6 +15,7 @@
 - [Figure1c](#figure1c)
 - [Figure1d](#figure1d)
 - [Figure2 文件与运行命令](#figure2)
+- [Figure3 文件与运行命令](#figure3)
 - [数据来源与使用条件](#数据来源与使用条件)
 
 ## 环境与安装
@@ -237,3 +238,37 @@ python Figure2/Figure2a/prepare_maize_area.py --area-h5 <maize_area_hdf5> --outp
 ```
 
 下载任务表对应通过 CDS 获取 ERA5-Land 数据。气候、作物面积和边界数据沿用各自来源的署名与使用条件；本仓库不赋予这些外部数据额外授权。本次推送准备未下载天气数据，也未重新拟合 Figure2 模型。
+
+<a id="figure3"></a>
+
+## Figure3 文件与运行命令
+
+Figure3 共 33 个文件，仅保留分析代码、输入、拟合模型和数值/图件输出。AI、TIFF 拼版、重复格式化回归表、表格组装脚本及旧运行状态表未收录。
+
+| 目录 | 文件数 | 内容 |
+| --- | ---: | --- |
+| `Figure3/Figure3a/` | 9 | 环境与热暴露曲线输入、区域多边形及世界边界、`reproduce_Figure3a.py`、两份区域汇总 CSV、PDF 和 Source Data。 |
+| `Figure3/Figure3b/` | 17 | 拟合/绘图代码、比较与模型输入、变换参数、拟合 RDS、国家编码、区域支持、系数/协方差/方差分量/模型参数/Wald 检验表、预测曲线、PDF 和 Source Data。 |
+| `Figure3/SD_sensitivity/` | 7 | 分析入口及六份核心 CSV：系数、区域热响应系数、联合检验、方差分量、模型参数和曲线摘要。 |
+
+Figure3a 的环境输入为 856 个环境，曲线输入为 610 个非 Low 环境、61,000 行 bin；空间归属后，12 个区域实际纳入 596 个非 Low 环境。两份区域汇总各 1,200 行。彩色曲线表示平滑强度均值及 Q25–Q75 分布带，虚线表示平均累计暴露。Figure3b 按另一套区域纳入规则使用 4,541 对比较、846 个环境、277 篇文献；108 个系数的 REML 模型对应 3,636 行预测（12 区域 × 3 个施氮情景 × 101 个热暴露点）。两面板的纳入集合不同。
+
+Figure3a 使用 Python `numpy`、`pandas`、`geopandas`、`matplotlib`、`openpyxl`；Figure3b 使用 R `data.table`、`Matrix`、`metafor`、`ggplot2`。敏感性分析另使用 Figure2 共用 Python 汇总代码的依赖。图中文字使用 Arial。以下命令从仓库根目录运行：
+
+```text
+python Figure3/Figure3a/reproduce_Figure3a.py --output-dir <output_directory>
+Rscript Figure3/Figure3b/plot_Figure3b.R
+```
+
+Figure3b 绘图读取随附的 `model_REML.rds`、`model_input.csv`、区域支持/检验表和变换参数。比较输入与模型输入分别服务拟合和绘图，均需保留；国家编码及协方差结果用于理解模型。Source Data 工作簿可直接查阅；Figure3a 分析脚本也会生成自己的工作簿。
+
+按需重新拟合或执行 SD 敏感性分析：
+
+```text
+Rscript Figure3/Figure3b/fit_Figure3b.R
+Rscript Figure3/SD_sensitivity/run_sensitivity.R
+```
+
+敏感性分析入口调用 `Figure2/SD_sensitivity/run_sensitivity.R`，复用 `Figure2/Supplementary_Table_SD_imputation/` 的 SD 输入，并由 `Figure2/SD_sensitivity/summarize_sensitivity.py` 汇总。上述文件及共用代码中的 Figure3 分支均为必要依赖。四种情景为 Baseline、CV05、CV10、CV20。归档保留六份核心 CSV 供查阅，不保存临时模型及旧状态报告；入口运行时生成新的状态表，并拒绝用不同内容覆盖现有结果。重新拟合可能较耗时；绘图或拟合可能覆盖面板派生输出，如需保留归档版本，请在独立副本运行。
+
+Figure3a 的上游天气曲线及热分类来源见 Figure2；区域和底图文件保留在本目录，以便独立使用，沿用相同来源署名。各面板已提供必要数值输入，默认拟合/绘图不依赖整理者的原始本地主表。本次推送准备未重新拟合 Figure3 模型，也未下载天气数据。

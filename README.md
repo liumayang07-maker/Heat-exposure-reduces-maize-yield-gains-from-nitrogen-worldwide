@@ -2,7 +2,7 @@
 
 # Heat exposure reduces maize yield gains from nitrogen worldwide
 
-Data and analysis code accompanying the manuscript with this working title. This deposit contains **Figure 1 and Figure 2**, including the associated Figure 2 supplementary analyses. The repository is private; editor/reviewer access must be arranged separately.
+Data and analysis code accompanying the manuscript with this working title. This deposit contains **Figures 1–3**, including their deposited supplementary analyses. The repository is private; editor/reviewer access must be arranged separately.
 
 Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) for attribution and applicable access conditions. No publication or archive DOI has been assigned here.
 
@@ -17,6 +17,7 @@ Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) 
 - [Figure 1c](#figure-1c)
 - [Figure 1d](#figure-1d)
 - [Figure 2 files and commands](#figure-2)
+- [Figure 3 files and commands](#figure-3)
 - [Data sources and rights](#sources-and-rights)
 
 <a id="environment"></a>
@@ -296,3 +297,37 @@ python Figure2/Figure2a/prepare_maize_area.py --area-h5 <maize_area_hdf5> --outp
 ```
 
 The weather request table describes ERA5-Land retrieval through CDS. Consult the existing attribution and applicable terms for external climate, crop-area and boundary data before redistribution. This deposit does not grant additional rights to those datasets. No weather downloads or Figure 2 model refitting were performed when preparing this deposit.
+
+<a id="figure-3"></a>
+
+## Figure 3 files and commands
+
+Figure3 contains 33 files: analysis code, inputs, fitted model and archived numerical/figure outputs. Editable AI/TIFF layouts, duplicate formatted regression tables, table-assembly scripts and an archived run-status table are omitted.
+
+| Directory | Files | Contents |
+| --- | ---: | --- |
+| `Figure3/Figure3a/` | 9 | Environment and profile inputs, region polygons and world boundaries, `reproduce_Figure3a.py`, two regional summary CSVs, PDF and Source Data. |
+| `Figure3/Figure3b/` | 17 | Fit/plot code, comparison/model inputs, transformation parameters, fitted RDS, country coding, regional support, coefficients/covariance/variance/model-parameter and Wald-test tables, prediction curves, PDF and Source Data. |
+| `Figure3/SD_sensitivity/` | 7 | Analysis entry and six core result CSVs: coefficients, regional heat coefficients, joint tests, variance components, model parameters and curve summaries. |
+
+Figure3a starts with 856 environments and profile inputs for 610 non-Low environments (61,000 bins). Spatial assignment retains 596 non-Low environments in the 12 regions. The two regional summaries each contain 1,200 rows. Colored curves show the mean smoothed intensity with Q25–Q75 bands; dashed curves show mean cumulative exposure. Figure3b uses a separate region-based inclusion rule: 4,541 comparisons, 846 environments and 277 references. Its 108-coefficient REML model produces 3,636 prediction rows (12 regions × 3 nitrogen-rate scenarios × 101 exposure points). The two panels therefore use different inclusion sets.
+
+Figure3a uses Python `numpy`, `pandas`, `geopandas`, `matplotlib` and `openpyxl`. Figure3b uses R `data.table`, `Matrix`, `metafor` and `ggplot2`; sensitivities also use the shared Python summarizer's dependencies listed for Figure 2. Arial is used for figure text. Commands below run from the repository root:
+
+```text
+python Figure3/Figure3a/reproduce_Figure3a.py --output-dir <output_directory>
+Rscript Figure3/Figure3b/plot_Figure3b.R
+```
+
+The Figure3b plot reads the supplied `model_REML.rds`, `model_input.csv`, regional support/tests and transformations. Keep both comparison and model inputs: they serve fitting and plotting respectively. Country-coding and covariance outputs document the fitted model. Source Data workbooks are supplied as archived outputs; Figure3a's analysis script also writes its own workbook.
+
+Optional re-fitting and SD sensitivity analysis:
+
+```text
+Rscript Figure3/Figure3b/fit_Figure3b.R
+Rscript Figure3/SD_sensitivity/run_sensitivity.R
+```
+
+The sensitivity entry calls `Figure2/SD_sensitivity/run_sensitivity.R`, which uses the shared SD inputs under `Figure2/Supplementary_Table_SD_imputation/` and invokes `Figure2/SD_sensitivity/summarize_sensitivity.py`. These files must remain in the repository; the Figure3 branches in the shared code are required. The four scenarios are Baseline, CV05, CV10 and CV20. The six deposited CSVs are consultation outputs; temporary models and old status reports are omitted. The runner creates a new status table and refuses to replace existing result tables with different contents. Re-fitting can take substantial time. Plotting/fitting can replace derived panel outputs; use a separate working copy to preserve the deposited versions.
+
+Figure3a reuses upstream weather/profile and heat-classification inputs documented for Figure 2; its spatial files are retained locally for independent panel use and retain the same source attribution. The numerical inputs are supplied with each panel, so default fitting/plotting does not require the original local master table. No Figure3 model refitting or weather downloading was performed while preparing this deposit.

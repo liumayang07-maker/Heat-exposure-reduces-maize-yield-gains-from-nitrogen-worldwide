@@ -1,0 +1,1201 @@
+region_id,region_name,bin,mean
+East_Africa,East Africa,1,0.0
+East_Africa,East Africa,2,0.0
+East_Africa,East Africa,3,0.0
+East_Africa,East Africa,4,0.0
+East_Africa,East Africa,5,0.0
+East_Africa,East Africa,6,0.0
+East_Africa,East Africa,7,0.0
+East_Africa,East Africa,8,0.0
+East_Africa,East Africa,9,1.3051100000000695
+East_Africa,East Africa,10,1.3051100000000695
+East_Africa,East Africa,11,1.3051100000000695
+East_Africa,East Africa,12,1.3051100000000695
+East_Africa,East Africa,13,1.3051100000000695
+East_Africa,East Africa,14,1.3051100000000695
+East_Africa,East Africa,15,1.3063750000000873
+East_Africa,East Africa,16,1.3063750000000873
+East_Africa,East Africa,17,1.3063750000000873
+East_Africa,East Africa,18,1.3063750000000873
+East_Africa,East Africa,19,1.3063750000000873
+East_Africa,East Africa,20,1.3063750000000873
+East_Africa,East Africa,21,1.3063750000000873
+East_Africa,East Africa,22,1.3063750000000873
+East_Africa,East Africa,23,1.3063750000000873
+East_Africa,East Africa,24,1.3063750000000873
+East_Africa,East Africa,25,1.3063750000000873
+East_Africa,East Africa,26,1.3063750000000873
+East_Africa,East Africa,27,1.3063750000000873
+East_Africa,East Africa,28,1.3063750000000873
+East_Africa,East Africa,29,1.3063750000000873
+East_Africa,East Africa,30,1.3063750000000873
+East_Africa,East Africa,31,1.3063750000000873
+East_Africa,East Africa,32,1.4665500000001244
+East_Africa,East Africa,33,2.0703450000001724
+East_Africa,East Africa,34,2.1655950000001916
+East_Africa,East Africa,35,2.3106550000002195
+East_Africa,East Africa,36,2.3106550000002195
+East_Africa,East Africa,37,2.3106550000002195
+East_Africa,East Africa,38,3.587735000000232
+East_Africa,East Africa,39,4.767965000000283
+East_Africa,East Africa,40,4.767965000000283
+East_Africa,East Africa,41,4.767965000000283
+East_Africa,East Africa,42,4.782780000000281
+East_Africa,East Africa,43,4.782780000000281
+East_Africa,East Africa,44,4.782780000000281
+East_Africa,East Africa,45,4.782780000000281
+East_Africa,East Africa,46,5.429610000000304
+East_Africa,East Africa,47,5.429610000000304
+East_Africa,East Africa,48,6.068525000000386
+East_Africa,East Africa,49,8.656095000000438
+East_Africa,East Africa,50,10.922735000000516
+East_Africa,East Africa,51,11.33028500000056
+East_Africa,East Africa,52,12.154970000000663
+East_Africa,East Africa,53,14.152720000000715
+East_Africa,East Africa,54,17.32088000000082
+East_Africa,East Africa,55,18.82621500000088
+East_Africa,East Africa,56,19.2712150000009
+East_Africa,East Africa,57,19.30348500000091
+East_Africa,East Africa,58,20.277235000000935
+East_Africa,East Africa,59,24.47143500000112
+East_Africa,East Africa,60,27.51909500000122
+East_Africa,East Africa,61,31.985250000001287
+East_Africa,East Africa,62,37.61620000000141
+East_Africa,East Africa,63,39.231000000001444
+East_Africa,East Africa,64,39.231000000001444
+East_Africa,East Africa,65,40.16929000000147
+East_Africa,East Africa,66,46.78284000000162
+East_Africa,East Africa,67,48.41046000000169
+East_Africa,East Africa,68,48.962985000001716
+East_Africa,East Africa,69,50.33045000000178
+East_Africa,East Africa,70,50.580520000001805
+East_Africa,East Africa,71,50.904155000001836
+East_Africa,East Africa,72,53.49396500000188
+East_Africa,East Africa,73,53.85492000000194
+East_Africa,East Africa,74,55.576065000001975
+East_Africa,East Africa,75,55.576065000001975
+East_Africa,East Africa,76,55.576065000001975
+East_Africa,East Africa,77,56.700865000002025
+East_Africa,East Africa,78,56.700865000002025
+East_Africa,East Africa,79,56.700865000002025
+East_Africa,East Africa,80,56.73805000000204
+East_Africa,East Africa,81,57.54369000000205
+East_Africa,East Africa,82,62.15868500000218
+East_Africa,East Africa,83,64.93447500000224
+East_Africa,East Africa,84,70.72211500000233
+East_Africa,East Africa,85,84.70505500000253
+East_Africa,East Africa,86,98.89391500000275
+East_Africa,East Africa,87,113.7602050000029
+East_Africa,East Africa,88,138.66077000000317
+East_Africa,East Africa,89,149.7097750000033
+East_Africa,East Africa,90,161.18027000000342
+East_Africa,East Africa,91,167.79778000000363
+East_Africa,East Africa,92,177.72751500000376
+East_Africa,East Africa,93,191.5351950000039
+East_Africa,East Africa,94,217.81200500000415
+East_Africa,East Africa,95,251.9187650000045
+East_Africa,East Africa,96,292.84827000000485
+East_Africa,East Africa,97,323.1424000000052
+East_Africa,East Africa,98,342.9085200000053
+East_Africa,East Africa,99,374.99401000000546
+East_Africa,East Africa,100,380.7024500000056
+Europe,Europe,1,0.0
+Europe,Europe,2,0.15177054054054293
+Europe,Europe,3,0.3245200000000059
+Europe,Europe,4,0.32856459459460224
+Europe,Europe,5,0.5735794594594728
+Europe,Europe,6,0.6987372972973146
+Europe,Europe,7,0.7749118918919128
+Europe,Europe,8,0.9636302702702956
+Europe,Europe,9,1.460664324324357
+Europe,Europe,10,2.739258108108154
+Europe,Europe,11,2.8110810810811317
+Europe,Europe,12,3.109445135135202
+Europe,Europe,13,4.361907027027118
+Europe,Europe,14,7.310783513513641
+Europe,Europe,15,9.417572432432591
+Europe,Europe,16,13.927305405405614
+Europe,Europe,17,16.271622162162416
+Europe,Europe,18,18.643459729730022
+Europe,Europe,19,21.828458648648983
+Europe,Europe,20,23.829465405405767
+Europe,Europe,21,26.81180945945986
+Europe,Europe,22,28.453061891892325
+Europe,Europe,23,33.55862675675724
+Europe,Europe,24,39.079945135135674
+Europe,Europe,25,43.54895810810872
+Europe,Europe,26,48.28013486486554
+Europe,Europe,27,53.172718378379095
+Europe,Europe,28,58.38762675675755
+Europe,Europe,29,64.68254432432519
+Europe,Europe,30,73.30215918919016
+Europe,Europe,31,84.4233151351362
+Europe,Europe,32,97.29075837837956
+Europe,Europe,33,111.50028108108239
+Europe,Europe,34,124.16903243243384
+Europe,Europe,35,138.10818972973124
+Europe,Europe,36,153.6176521621638
+Europe,Europe,37,169.06337648648824
+Europe,Europe,38,185.45532918919105
+Europe,Europe,39,200.93330459459656
+Europe,Europe,40,215.13292729729937
+Europe,Europe,41,225.10830891892107
+Europe,Europe,42,236.18432000000226
+Europe,Europe,43,247.95142189189426
+Europe,Europe,44,259.1969151351376
+Europe,Europe,45,270.2470613513539
+Europe,Europe,46,285.84178297297564
+Europe,Europe,47,299.4855248648676
+Europe,Europe,48,309.0799270270299
+Europe,Europe,49,316.60538243243536
+Europe,Europe,50,327.2678686486517
+Europe,Europe,51,340.131837837841
+Europe,Europe,52,354.70029405405734
+Europe,Europe,53,373.61892540540885
+Europe,Europe,54,390.08383702703054
+Europe,Europe,55,404.1342767567604
+Europe,Europe,56,418.6866118918957
+Europe,Europe,57,433.0220424324363
+Europe,Europe,58,447.3043708108148
+Europe,Europe,59,459.52912081081496
+Europe,Europe,60,473.9490410810853
+Europe,Europe,61,486.2606821621665
+Europe,Europe,62,499.7646400000045
+Europe,Europe,63,513.0856440540587
+Europe,Europe,64,525.2504029729777
+Europe,Europe,65,539.5355743243291
+Europe,Europe,66,555.9204781081131
+Europe,Europe,67,568.4006002702754
+Europe,Europe,68,582.4337210810863
+Europe,Europe,69,598.1257959459513
+Europe,Europe,70,613.6411672973027
+Europe,Europe,71,628.1697454054109
+Europe,Europe,72,642.9588427027085
+Europe,Europe,73,658.6622427027086
+Europe,Europe,74,673.1836372973032
+Europe,Europe,75,687.7671783783844
+Europe,Europe,76,703.4679943243306
+Europe,Europe,77,717.2655362162225
+Europe,Europe,78,730.3958424324387
+Europe,Europe,79,739.6471418918983
+Europe,Europe,80,747.3007148648713
+Europe,Europe,81,755.3446408108174
+Europe,Europe,82,762.685924324331
+Europe,Europe,83,771.0748737837905
+Europe,Europe,84,780.6334748648717
+Europe,Europe,85,786.386645135142
+Europe,Europe,86,790.5480124324394
+Europe,Europe,87,792.7344337837907
+Europe,Europe,88,793.5322513513584
+Europe,Europe,89,795.185295135142
+Europe,Europe,90,797.772160000007
+Europe,Europe,91,799.3423332432502
+Europe,Europe,92,802.244931891899
+Europe,Europe,93,803.3977854054125
+Europe,Europe,94,804.5575240540612
+Europe,Europe,95,804.9435959459531
+Europe,Europe,96,805.8316913513585
+Europe,Europe,97,806.254081891899
+Europe,Europe,98,806.2721164864936
+Europe,Europe,99,806.3236118918991
+Europe,Europe,100,806.4947351351423
+North_America_Irrigated,North America - Irrigated,1,0.47893710144928664
+North_America_Irrigated,North America - Irrigated,2,0.662913478260888
+North_America_Irrigated,North America - Irrigated,3,1.1524817391304638
+North_America_Irrigated,North America - Irrigated,4,2.35675550724642
+North_America_Irrigated,North America - Irrigated,5,3.5673798550725286
+North_America_Irrigated,North America - Irrigated,6,5.054003913043568
+North_America_Irrigated,North America - Irrigated,7,7.113085797101568
+North_America_Irrigated,North America - Irrigated,8,9.056290289855212
+North_America_Irrigated,North America - Irrigated,9,11.738160434782781
+North_America_Irrigated,North America - Irrigated,10,13.342480869565412
+North_America_Irrigated,North America - Irrigated,11,14.894660000000217
+North_America_Irrigated,North America - Irrigated,12,18.44289768115969
+North_America_Irrigated,North America - Irrigated,13,21.995437246377126
+North_America_Irrigated,North America - Irrigated,14,23.80312666666701
+North_America_Irrigated,North America - Irrigated,15,26.708814202898928
+North_America_Irrigated,North America - Irrigated,16,30.96707376811638
+North_America_Irrigated,North America - Irrigated,17,36.165511594203394
+North_America_Irrigated,North America - Irrigated,18,42.166589275362874
+North_America_Irrigated,North America - Irrigated,19,49.05109536231947
+North_America_Irrigated,North America - Irrigated,20,55.469990289855765
+North_America_Irrigated,North America - Irrigated,21,62.60263086956597
+North_America_Irrigated,North America - Irrigated,22,70.0215034782617
+North_America_Irrigated,North America - Irrigated,23,75.8807527536241
+North_America_Irrigated,North America - Irrigated,24,84.04994000000099
+North_America_Irrigated,North America - Irrigated,25,92.89655623188514
+North_America_Irrigated,North America - Irrigated,26,103.45779681159539
+North_America_Irrigated,North America - Irrigated,27,113.67606753623318
+North_America_Irrigated,North America - Irrigated,28,125.58300420289996
+North_America_Irrigated,North America - Irrigated,29,133.89295753623338
+North_America_Irrigated,North America - Irrigated,30,142.27244362319
+North_America_Irrigated,North America - Irrigated,31,150.01599057971183
+North_America_Irrigated,North America - Irrigated,32,160.8653004347844
+North_America_Irrigated,North America - Irrigated,33,171.84811188405988
+North_America_Irrigated,North America - Irrigated,34,183.19784246377014
+North_America_Irrigated,North America - Irrigated,35,193.50362637681374
+North_America_Irrigated,North America - Irrigated,36,204.08026898550946
+North_America_Irrigated,North America - Irrigated,37,218.13110985507484
+North_America_Irrigated,North America - Irrigated,38,230.86155115942282
+North_America_Irrigated,North America - Irrigated,39,245.2981285507273
+North_America_Irrigated,North America - Irrigated,40,259.1680318840608
+North_America_Irrigated,North America - Irrigated,41,273.5667252173942
+North_America_Irrigated,North America - Irrigated,42,287.86358217391614
+North_America_Irrigated,North America - Irrigated,43,306.94646405797425
+North_America_Irrigated,North America - Irrigated,44,326.73099724638024
+North_America_Irrigated,North America - Irrigated,45,346.58450753623544
+North_America_Irrigated,North America - Irrigated,46,365.573657391308
+North_America_Irrigated,North America - Irrigated,47,383.1214888405836
+North_America_Irrigated,North America - Irrigated,48,399.7004023188445
+North_America_Irrigated,North America - Irrigated,49,416.2790031884099
+North_America_Irrigated,North America - Irrigated,50,428.18761666667086
+North_America_Irrigated,North America - Irrigated,51,444.3956997101493
+North_America_Irrigated,North America - Irrigated,52,461.57536840580167
+North_America_Irrigated,North America - Irrigated,53,482.09477985507715
+North_America_Irrigated,North America - Irrigated,54,503.3381439130483
+North_America_Irrigated,North America - Irrigated,55,524.0617172463819
+North_America_Irrigated,North America - Irrigated,56,542.5556971014544
+North_America_Irrigated,North America - Irrigated,57,561.7240801449328
+North_America_Irrigated,North America - Irrigated,58,580.5225381159476
+North_America_Irrigated,North America - Irrigated,59,603.2258588405854
+North_America_Irrigated,North America - Irrigated,60,626.8586397101507
+North_America_Irrigated,North America - Irrigated,61,651.7049560869625
+North_America_Irrigated,North America - Irrigated,62,676.8928863768177
+North_America_Irrigated,North America - Irrigated,63,701.298974782615
+North_America_Irrigated,North America - Irrigated,64,723.8799810144992
+North_America_Irrigated,North America - Irrigated,65,745.1546062318906
+North_America_Irrigated,North America - Irrigated,66,767.7366310144996
+North_America_Irrigated,North America - Irrigated,67,789.2559143478331
+North_America_Irrigated,North America - Irrigated,68,811.3025500000072
+North_America_Irrigated,North America - Irrigated,69,836.0368923188479
+North_America_Irrigated,North America - Irrigated,70,861.5619776811669
+North_America_Irrigated,North America - Irrigated,71,886.0645633333411
+North_America_Irrigated,North America - Irrigated,72,907.6097472463847
+North_America_Irrigated,North America - Irrigated,73,925.8394450724718
+North_America_Irrigated,North America - Irrigated,74,944.413487826095
+North_America_Irrigated,North America - Irrigated,75,961.518038840588
+North_America_Irrigated,North America - Irrigated,76,978.0726379710228
+North_America_Irrigated,North America - Irrigated,77,995.1296897101533
+North_America_Irrigated,North America - Irrigated,78,1012.2022786956608
+North_America_Irrigated,North America - Irrigated,79,1030.5891001449363
+North_America_Irrigated,North America - Irrigated,80,1047.7563472463858
+North_America_Irrigated,North America - Irrigated,81,1061.870035652183
+North_America_Irrigated,North America - Irrigated,82,1079.5095565217482
+North_America_Irrigated,North America - Irrigated,83,1098.245938840589
+North_America_Irrigated,North America - Irrigated,84,1115.2623243478356
+North_America_Irrigated,North America - Irrigated,85,1131.191593913053
+North_America_Irrigated,North America - Irrigated,86,1146.8099531884154
+North_America_Irrigated,North America - Irrigated,87,1160.9700866666765
+North_America_Irrigated,North America - Irrigated,88,1177.0396575362417
+North_America_Irrigated,North America - Irrigated,89,1193.7143181159522
+North_America_Irrigated,North America - Irrigated,90,1209.164101304358
+North_America_Irrigated,North America - Irrigated,91,1224.375576666677
+North_America_Irrigated,North America - Irrigated,92,1238.0212550724743
+North_America_Irrigated,North America - Irrigated,93,1251.9006410145034
+North_America_Irrigated,North America - Irrigated,94,1262.0139962318947
+North_America_Irrigated,North America - Irrigated,95,1271.8765659420396
+North_America_Irrigated,North America - Irrigated,96,1282.3544620289963
+North_America_Irrigated,North America - Irrigated,97,1291.3427586956632
+North_America_Irrigated,North America - Irrigated,98,1299.9517401449386
+North_America_Irrigated,North America - Irrigated,99,1308.2681247826197
+North_America_Irrigated,North America - Irrigated,100,1313.871081884069
+North_America_Rainfed,North America - Rainfed,1,0.32266060000000385
+North_America_Rainfed,North America - Rainfed,2,0.8965787000000119
+North_America_Rainfed,North America - Rainfed,3,1.2374557000000181
+North_America_Rainfed,North America - Rainfed,4,1.3763408000000212
+North_America_Rainfed,North America - Rainfed,5,1.542372200000026
+North_America_Rainfed,North America - Rainfed,6,1.6487345000000295
+North_America_Rainfed,North America - Rainfed,7,2.1655603000000387
+North_America_Rainfed,North America - Rainfed,8,2.553261100000047
+North_America_Rainfed,North America - Rainfed,9,3.1973692000000598
+North_America_Rainfed,North America - Rainfed,10,3.6669438000000723
+North_America_Rainfed,North America - Rainfed,11,5.281589500000098
+North_America_Rainfed,North America - Rainfed,12,7.677261300000131
+North_America_Rainfed,North America - Rainfed,13,9.68779410000016
+North_America_Rainfed,North America - Rainfed,14,11.256569900000189
+North_America_Rainfed,North America - Rainfed,15,13.432129800000222
+North_America_Rainfed,North America - Rainfed,16,16.429070400000263
+North_America_Rainfed,North America - Rainfed,17,20.342942600000313
+North_America_Rainfed,North America - Rainfed,18,22.96926560000036
+North_America_Rainfed,North America - Rainfed,19,25.701689000000396
+North_America_Rainfed,North America - Rainfed,20,29.051738000000444
+North_America_Rainfed,North America - Rainfed,21,32.280694000000494
+North_America_Rainfed,North America - Rainfed,22,34.98147320000053
+North_America_Rainfed,North America - Rainfed,23,37.87692250000058
+North_America_Rainfed,North America - Rainfed,24,40.39332990000063
+North_America_Rainfed,North America - Rainfed,25,43.613502600000686
+North_America_Rainfed,North America - Rainfed,26,48.048318400000745
+North_America_Rainfed,North America - Rainfed,27,53.03839310000081
+North_America_Rainfed,North America - Rainfed,28,59.42357110000089
+North_America_Rainfed,North America - Rainfed,29,65.95434400000099
+North_America_Rainfed,North America - Rainfed,30,71.91292290000106
+North_America_Rainfed,North America - Rainfed,31,78.97889870000114
+North_America_Rainfed,North America - Rainfed,32,84.39289230000121
+North_America_Rainfed,North America - Rainfed,33,90.46919370000128
+North_America_Rainfed,North America - Rainfed,34,97.71204860000137
+North_America_Rainfed,North America - Rainfed,35,102.93756740000143
+North_America_Rainfed,North America - Rainfed,36,108.7847966000015
+North_America_Rainfed,North America - Rainfed,37,116.5202461000016
+North_America_Rainfed,North America - Rainfed,38,124.7634921000017
+North_America_Rainfed,North America - Rainfed,39,132.3163682000018
+North_America_Rainfed,North America - Rainfed,40,140.09024320000188
+North_America_Rainfed,North America - Rainfed,41,148.43240050000196
+North_America_Rainfed,North America - Rainfed,42,155.29337800000204
+North_America_Rainfed,North America - Rainfed,43,163.57503600000211
+North_America_Rainfed,North America - Rainfed,44,171.03889180000223
+North_America_Rainfed,North America - Rainfed,45,179.10021760000234
+North_America_Rainfed,North America - Rainfed,46,187.43197910000242
+North_America_Rainfed,North America - Rainfed,47,197.23086620000257
+North_America_Rainfed,North America - Rainfed,48,207.66577580000268
+North_America_Rainfed,North America - Rainfed,49,216.9996646000028
+North_America_Rainfed,North America - Rainfed,50,229.7977535000029
+North_America_Rainfed,North America - Rainfed,51,245.68698560000306
+North_America_Rainfed,North America - Rainfed,52,262.05672300000316
+North_America_Rainfed,North America - Rainfed,53,276.31194100000334
+North_America_Rainfed,North America - Rainfed,54,291.85707900000347
+North_America_Rainfed,North America - Rainfed,55,308.0182722000036
+North_America_Rainfed,North America - Rainfed,56,321.1803108000037
+North_America_Rainfed,North America - Rainfed,57,334.6571349000038
+North_America_Rainfed,North America - Rainfed,58,346.73580950000394
+North_America_Rainfed,North America - Rainfed,59,357.59328740000404
+North_America_Rainfed,North America - Rainfed,60,368.4553769000042
+North_America_Rainfed,North America - Rainfed,61,378.4556882000043
+North_America_Rainfed,North America - Rainfed,62,388.8220498000044
+North_America_Rainfed,North America - Rainfed,63,399.7148851000045
+North_America_Rainfed,North America - Rainfed,64,410.1765041000046
+North_America_Rainfed,North America - Rainfed,65,422.00058700000466
+North_America_Rainfed,North America - Rainfed,66,434.1412050000048
+North_America_Rainfed,North America - Rainfed,67,445.9480179000049
+North_America_Rainfed,North America - Rainfed,68,455.397132200005
+North_America_Rainfed,North America - Rainfed,69,464.3423029000051
+North_America_Rainfed,North America - Rainfed,70,473.9776996000052
+North_America_Rainfed,North America - Rainfed,71,483.6656998000053
+North_America_Rainfed,North America - Rainfed,72,492.6290965000054
+North_America_Rainfed,North America - Rainfed,73,500.67301280000555
+North_America_Rainfed,North America - Rainfed,74,508.63420470000557
+North_America_Rainfed,North America - Rainfed,75,517.0544098000057
+North_America_Rainfed,North America - Rainfed,76,524.9732994000057
+North_America_Rainfed,North America - Rainfed,77,534.4338916000058
+North_America_Rainfed,North America - Rainfed,78,543.9855321000059
+North_America_Rainfed,North America - Rainfed,79,552.313148900006
+North_America_Rainfed,North America - Rainfed,80,558.0094079000061
+North_America_Rainfed,North America - Rainfed,81,563.2343457000061
+North_America_Rainfed,North America - Rainfed,82,568.8914798000061
+North_America_Rainfed,North America - Rainfed,83,573.1876916000062
+North_America_Rainfed,North America - Rainfed,84,578.6234616000063
+North_America_Rainfed,North America - Rainfed,85,585.9768332000064
+North_America_Rainfed,North America - Rainfed,86,592.8428740000064
+North_America_Rainfed,North America - Rainfed,87,599.6423340000065
+North_America_Rainfed,North America - Rainfed,88,604.9841443000066
+North_America_Rainfed,North America - Rainfed,89,610.1420456000067
+North_America_Rainfed,North America - Rainfed,90,614.5402912000067
+North_America_Rainfed,North America - Rainfed,91,620.2314458000068
+North_America_Rainfed,North America - Rainfed,92,626.1185318000068
+North_America_Rainfed,North America - Rainfed,93,631.7161584000069
+North_America_Rainfed,North America - Rainfed,94,636.468158300007
+North_America_Rainfed,North America - Rainfed,95,640.693709600007
+North_America_Rainfed,North America - Rainfed,96,645.9752283000071
+North_America_Rainfed,North America - Rainfed,97,650.976803700007
+North_America_Rainfed,North America - Rainfed,98,654.9804583000072
+North_America_Rainfed,North America - Rainfed,99,658.7137152000072
+North_America_Rainfed,North America - Rainfed,100,661.8548693000073
+North_China_Plain,North China Plain,1,14.554704583333454
+North_China_Plain,North China Plain,2,31.533939097222483
+North_China_Plain,North China Plain,3,50.58815125000041
+North_China_Plain,North China Plain,4,66.53971631944498
+North_China_Plain,North China Plain,5,82.421152708334
+North_China_Plain,North China Plain,6,100.05674250000081
+North_China_Plain,North China Plain,7,117.84403812500096
+North_China_Plain,North China Plain,8,134.90491826388998
+North_China_Plain,North China Plain,9,151.19848847222343
+North_China_Plain,North China Plain,10,166.4568264583347
+North_China_Plain,North China Plain,11,182.41663305555704
+North_China_Plain,North China Plain,12,201.15487979166832
+North_China_Plain,North China Plain,13,219.73868701389065
+North_China_Plain,North China Plain,14,237.1915816666686
+North_China_Plain,North China Plain,15,253.6544803472243
+North_China_Plain,North China Plain,16,271.8676581944467
+North_China_Plain,North China Plain,17,288.78305826389123
+North_China_Plain,North China Plain,18,306.2625791666692
+North_China_Plain,North China Plain,19,323.022714583336
+North_China_Plain,North China Plain,20,340.8798160416694
+North_China_Plain,North China Plain,21,358.0227270138918
+North_China_Plain,North China Plain,22,373.09251465278084
+North_China_Plain,North China Plain,23,388.6193318055587
+North_China_Plain,North China Plain,24,402.53448680555886
+North_China_Plain,North China Plain,25,416.776963055559
+North_China_Plain,North China Plain,26,434.0008427777814
+North_China_Plain,North China Plain,27,451.26415875000373
+North_China_Plain,North China Plain,28,469.08186152778165
+North_China_Plain,North China Plain,29,487.10290506944847
+North_China_Plain,North China Plain,30,500.7484850694486
+North_China_Plain,North China Plain,31,512.3916597222264
+North_China_Plain,North China Plain,32,523.6275023611155
+North_China_Plain,North China Plain,33,534.8567170833378
+North_China_Plain,North China Plain,34,547.5545236111158
+North_China_Plain,North China Plain,35,562.278836458338
+North_China_Plain,North China Plain,36,578.4086788888937
+North_China_Plain,North China Plain,37,595.6581749305606
+North_China_Plain,North China Plain,38,610.8615092361163
+North_China_Plain,North China Plain,39,626.4291499305608
+North_China_Plain,North China Plain,40,642.4341150000055
+North_China_Plain,North China Plain,41,658.0836313888944
+North_China_Plain,North China Plain,42,675.314135972228
+North_China_Plain,North China Plain,43,691.4490541666725
+North_China_Plain,North China Plain,44,707.0182847222281
+North_China_Plain,North China Plain,45,722.8435352083395
+North_China_Plain,North China Plain,46,738.7250599305619
+North_China_Plain,North China Plain,47,752.9410685416731
+North_China_Plain,North China Plain,48,768.3710490277844
+North_China_Plain,North China Plain,49,782.4852764583401
+North_China_Plain,North China Plain,50,795.3201025694513
+North_China_Plain,North China Plain,51,809.5084965277847
+North_China_Plain,North China Plain,52,823.0792115972293
+North_China_Plain,North China Plain,53,833.7232926388962
+North_China_Plain,North China Plain,54,844.3592453472296
+North_China_Plain,North China Plain,55,855.2719313888963
+North_China_Plain,North China Plain,56,865.374444444452
+North_China_Plain,North China Plain,57,876.4620315277855
+North_China_Plain,North China Plain,58,886.2254268750078
+North_China_Plain,North China Plain,59,896.430857361119
+North_China_Plain,North China Plain,60,907.1749350000081
+North_China_Plain,North China Plain,61,917.6962363888971
+North_China_Plain,North China Plain,62,927.7504017361193
+North_China_Plain,North China Plain,63,936.1131176388972
+North_China_Plain,North China Plain,64,941.6881100000085
+North_China_Plain,North China Plain,65,947.0275727083418
+North_China_Plain,North China Plain,66,952.6581979166754
+North_China_Plain,North China Plain,67,957.7485479861197
+North_China_Plain,North China Plain,68,962.0783838194532
+North_China_Plain,North China Plain,69,966.4436634027866
+North_China_Plain,North China Plain,70,970.431019722231
+North_China_Plain,North China Plain,71,973.8799164583421
+North_China_Plain,North China Plain,72,977.088888125009
+North_China_Plain,North China Plain,73,980.1044327777868
+North_China_Plain,North China Plain,74,982.6122967361201
+North_China_Plain,North China Plain,75,984.5349055555647
+North_China_Plain,North China Plain,76,987.1137473611203
+North_China_Plain,North China Plain,77,989.4828681250092
+North_China_Plain,North China Plain,78,991.3786562500092
+North_China_Plain,North China Plain,79,992.9529112500093
+North_China_Plain,North China Plain,80,995.127585902787
+North_China_Plain,North China Plain,81,997.505943541676
+North_China_Plain,North China Plain,82,999.8715971527872
+North_China_Plain,North China Plain,83,1002.1854006250093
+North_China_Plain,North China Plain,84,1003.9322519444538
+North_China_Plain,North China Plain,85,1005.6288013888983
+North_China_Plain,North China Plain,86,1007.1105593750095
+North_China_Plain,North China Plain,87,1008.7073966666762
+North_China_Plain,North China Plain,88,1010.2293314583429
+North_China_Plain,North China Plain,89,1012.3008463888984
+North_China_Plain,North China Plain,90,1013.6783150694541
+North_China_Plain,North China Plain,91,1015.0149891666764
+North_China_Plain,North China Plain,92,1016.4506929861208
+North_China_Plain,North China Plain,93,1017.0830046527875
+North_China_Plain,North China Plain,94,1017.5668268055651
+North_China_Plain,North China Plain,95,1018.0592361805652
+North_China_Plain,North China Plain,96,1018.4745987500096
+North_China_Plain,North China Plain,97,1018.7404211805652
+North_China_Plain,North China Plain,98,1019.0291747222319
+North_China_Plain,North China Plain,99,1019.3060388888985
+North_China_Plain,North China Plain,100,1019.430294444454
+Northeast_China,Northeast China,1,0.0
+Northeast_China,Northeast China,2,0.14664048780488115
+Northeast_China,Northeast China,3,0.19769536585366326
+Northeast_China,Northeast China,4,0.5412170731707417
+Northeast_China,Northeast China,5,1.184149512195144
+Northeast_China,Northeast China,6,1.8880719512195496
+Northeast_China,Northeast China,7,3.145157560975664
+Northeast_China,Northeast China,8,4.830861951219589
+Northeast_China,Northeast China,9,7.556186829268385
+Northeast_China,Northeast China,10,9.941584146341576
+Northeast_China,Northeast China,11,11.92328414634159
+Northeast_China,Northeast China,12,13.753849756097713
+Northeast_China,Northeast China,13,16.108843414634336
+Northeast_China,Northeast China,14,19.658931463414863
+Northeast_China,Northeast China,15,22.869805853658807
+Northeast_China,Northeast China,16,25.68492243902471
+Northeast_China,Northeast China,17,30.376843414634532
+Northeast_China,Northeast China,18,36.134472926829716
+Northeast_China,Northeast China,19,39.91286975609806
+Northeast_China,Northeast China,20,42.843936829268834
+Northeast_China,Northeast China,21,45.625416341463996
+Northeast_China,Northeast China,22,47.74640341463476
+Northeast_China,Northeast China,23,50.28735780487871
+Northeast_China,Northeast China,24,53.23467219512266
+Northeast_China,Northeast China,25,54.85846268292757
+Northeast_China,Northeast China,26,56.32881097561053
+Northeast_China,Northeast China,27,58.93057682926911
+Northeast_China,Northeast China,28,61.72699365853744
+Northeast_China,Northeast China,29,65.80584804878141
+Northeast_China,Northeast China,30,70.7544780487815
+Northeast_China,Northeast China,31,77.32701585365962
+Northeast_China,Northeast China,32,82.46571390244016
+Northeast_China,Northeast China,33,87.1597095121963
+Northeast_China,Northeast China,34,89.6822756097573
+Northeast_China,Northeast China,35,91.87728365853783
+Northeast_China,Northeast China,36,93.69519804878178
+Northeast_China,Northeast China,37,96.35210585365988
+Northeast_China,Northeast China,38,98.73135121951358
+Northeast_China,Northeast China,39,101.60849707317217
+Northeast_China,Northeast China,40,105.26633292683077
+Northeast_China,Northeast China,41,108.97160682926983
+Northeast_China,Northeast China,42,112.64221414634306
+Northeast_China,Northeast China,43,116.10429170731871
+Northeast_China,Northeast China,44,121.06384585366025
+Northeast_China,Northeast China,45,125.790769024392
+Northeast_China,Northeast China,46,131.6291880487823
+Northeast_China,Northeast China,47,137.60580170731896
+Northeast_China,Northeast China,48,142.17764926829463
+Northeast_China,Northeast China,49,147.5963380487825
+Northeast_China,Northeast China,50,152.71290560975817
+Northeast_China,Northeast China,51,156.69877073170946
+Northeast_China,Northeast China,52,161.94190756097782
+Northeast_China,Northeast China,53,167.8559768292706
+Northeast_China,Northeast China,54,173.51842463414872
+Northeast_China,Northeast China,55,179.2649821951244
+Northeast_China,Northeast China,56,186.08356902439274
+Northeast_China,Northeast China,57,191.54347170731964
+Northeast_China,Northeast China,58,196.64816121951483
+Northeast_China,Northeast China,59,201.94612487805148
+Northeast_China,Northeast China,60,207.0168407317101
+Northeast_China,Northeast China,61,210.90198048780772
+Northeast_China,Northeast China,62,215.02583048780775
+Northeast_China,Northeast China,63,220.81667073171025
+Northeast_China,Northeast China,64,226.11286707317373
+Northeast_China,Northeast China,65,230.13558487805184
+Northeast_China,Northeast China,66,232.67432317073482
+Northeast_China,Northeast China,67,237.09844317073484
+Northeast_China,Northeast China,68,242.4214558536617
+Northeast_China,Northeast China,69,246.75458780488128
+Northeast_China,Northeast China,70,250.73276317073498
+Northeast_China,Northeast China,71,254.16651439024722
+Northeast_China,Northeast China,72,255.3328365853692
+Northeast_China,Northeast China,73,256.91624000000337
+Northeast_China,Northeast China,74,258.80566975610094
+Northeast_China,Northeast China,75,260.3469626829302
+Northeast_China,Northeast China,76,261.7372753658571
+Northeast_China,Northeast China,77,263.9051473170766
+Northeast_China,Northeast China,78,264.2859890243937
+Northeast_China,Northeast China,79,265.1443417073205
+Northeast_China,Northeast China,80,266.02164878049126
+Northeast_China,Northeast China,81,267.03523048780835
+Northeast_China,Northeast China,82,268.3562990243937
+Northeast_China,Northeast China,83,269.1913248780523
+Northeast_China,Northeast China,84,269.2968312195157
+Northeast_China,Northeast China,85,269.4194787804913
+Northeast_China,Northeast China,86,269.609644146345
+Northeast_China,Northeast China,87,269.6813604878084
+Northeast_China,Northeast China,88,269.6985726829303
+Northeast_China,Northeast China,89,269.6985726829303
+Northeast_China,Northeast China,90,269.8120360975645
+Northeast_China,Northeast China,91,270.1875746341499
+Northeast_China,Northeast China,92,270.1875746341499
+Northeast_China,Northeast China,93,270.1875746341499
+Northeast_China,Northeast China,94,270.1875746341499
+Northeast_China,Northeast China,95,270.1875746341499
+Northeast_China,Northeast China,96,270.1875746341499
+Northeast_China,Northeast China,97,270.1875746341499
+Northeast_China,Northeast China,98,270.1875746341499
+Northeast_China,Northeast China,99,270.1875746341499
+Northeast_China,Northeast China,100,270.1875746341499
+Northwest_China,Northwest China,1,6.552214235294186
+Northwest_China,Northwest China,2,13.640889411764837
+Northwest_China,Northwest China,3,22.271329647059027
+Northwest_China,Northwest China,4,32.14744011764734
+Northwest_China,Northwest China,5,42.71360035294154
+Northwest_China,Northwest China,6,53.00312682352986
+Northwest_China,Northwest China,7,63.114309294118165
+Northwest_China,Northwest China,8,74.55869176470648
+Northwest_China,Northwest China,9,85.12907447058892
+Northwest_China,Northwest China,10,95.24714705882428
+Northwest_China,Northwest China,11,104.40472929411848
+Northwest_China,Northwest China,12,114.61116188235387
+Northwest_China,Northwest China,13,124.92578870588333
+Northwest_China,Northwest China,14,134.3061524705893
+Northwest_China,Northwest China,15,141.31145541176585
+Northwest_China,Northwest China,16,151.12635988235417
+Northwest_China,Northwest China,17,159.91208317647187
+Northwest_China,Northwest China,18,171.32195741176608
+Northwest_China,Northwest China,19,184.93832717647206
+Northwest_China,Northwest China,20,198.25292082353099
+Northwest_China,Northwest China,21,210.59489882353108
+Northwest_China,Northwest China,22,223.22705117647234
+Northwest_China,Northwest China,23,237.97382400000188
+Northwest_China,Northwest China,24,253.3234287058844
+Northwest_China,Northwest China,25,267.10621941176686
+Northwest_China,Northwest China,26,279.54040905882573
+Northwest_China,Northwest China,27,289.9718429411788
+Northwest_China,Northwest China,28,301.80745082353184
+Northwest_China,Northwest China,29,315.1704280000026
+Northwest_China,Northwest China,30,329.47779423529676
+Northwest_China,Northwest China,31,343.3152861176498
+Northwest_China,Northwest China,32,356.3024658823558
+Northwest_China,Northwest China,33,370.0992492941206
+Northwest_China,Northwest China,34,386.01396247059137
+Northwest_China,Northwest China,35,403.6109689411797
+Northwest_China,Northwest China,36,420.24272576470923
+Northwest_China,Northwest China,37,436.399775058827
+Northwest_China,Northwest China,38,452.1817092941213
+Northwest_China,Northwest China,39,465.39696070588604
+Northwest_China,Northwest China,40,481.89231635294504
+Northwest_China,Northwest China,41,499.3849391764746
+Northwest_China,Northwest China,42,516.4079724705923
+Northwest_China,Northwest China,43,531.9406952941218
+Northwest_China,Northwest China,44,546.6849138823573
+Northwest_China,Northwest China,45,563.0978623529456
+Northwest_China,Northwest China,46,579.8623390588281
+Northwest_China,Northwest China,47,596.7894789411812
+Northwest_China,Northwest China,48,613.5011070588283
+Northwest_China,Northwest China,49,628.1257716470637
+Northwest_China,Northwest China,50,641.4243923529463
+Northwest_China,Northwest China,51,654.5354598823582
+Northwest_China,Northwest China,52,668.9566038823582
+Northwest_China,Northwest China,53,685.3489401176524
+Northwest_China,Northwest China,54,703.9175458823585
+Northwest_China,Northwest China,55,721.4709751764763
+Northwest_China,Northwest China,56,735.5331358823587
+Northwest_China,Northwest China,57,747.3648949411823
+Northwest_China,Northwest China,58,762.6147469411825
+Northwest_China,Northwest China,59,778.947899764712
+Northwest_China,Northwest China,60,794.8748240000061
+Northwest_China,Northwest China,61,810.3412723529476
+Northwest_China,Northwest China,62,825.4406064705947
+Northwest_China,Northwest China,63,840.6305704705948
+Northwest_China,Northwest China,64,856.491406588242
+Northwest_China,Northwest China,65,870.6935098823599
+Northwest_China,Northwest China,66,886.7627417647129
+Northwest_China,Northwest China,67,900.9759603529482
+Northwest_China,Northwest China,68,916.7020907058895
+Northwest_China,Northwest China,69,929.2182867058897
+Northwest_China,Northwest China,70,940.9963182353016
+Northwest_China,Northwest China,71,953.2662664705957
+Northwest_China,Northwest China,72,965.2961021176546
+Northwest_China,Northwest China,73,975.9468568235372
+Northwest_China,Northwest China,74,986.0587437647137
+Northwest_China,Northwest China,75,994.6752985882432
+Northwest_China,Northwest China,76,1003.7725471764786
+Northwest_China,Northwest China,77,1011.5021331764787
+Northwest_China,Northwest China,78,1019.6317267058905
+Northwest_China,Northwest China,79,1027.4681704705965
+Northwest_China,Northwest China,80,1034.1035135294198
+Northwest_China,Northwest China,81,1041.0096987058907
+Northwest_China,Northwest China,82,1047.2591683529495
+Northwest_China,Northwest China,83,1052.4806554117731
+Northwest_China,Northwest China,84,1057.758127058832
+Northwest_China,Northwest China,85,1062.7398407058909
+Northwest_China,Northwest China,86,1067.7594601176556
+Northwest_China,Northwest China,87,1072.273336941185
+Northwest_China,Northwest China,88,1075.927564705891
+Northwest_China,Northwest China,89,1079.248740588244
+Northwest_China,Northwest China,90,1082.4546698823617
+Northwest_China,Northwest China,91,1085.2330952941263
+Northwest_China,Northwest China,92,1088.0692018823618
+Northwest_China,Northwest China,93,1089.692672470597
+Northwest_China,Northwest China,94,1090.969936235303
+Northwest_China,Northwest China,95,1092.0260874117735
+Northwest_China,Northwest China,96,1092.367288470597
+Northwest_China,Northwest China,97,1092.8040203529501
+Northwest_China,Northwest China,98,1093.616064000009
+Northwest_China,Northwest China,99,1094.1999309411854
+Northwest_China,Northwest China,100,1094.827842235303
+South_America,South America,1,0.18786675000000327
+South_America,South America,2,1.1866810000000239
+South_America,South America,3,2.1756000000000437
+South_America,South America,4,3.372705000000063
+South_America,South America,5,3.699313750000072
+South_America,South America,6,4.07665650000008
+South_America,South America,7,4.978277500000091
+South_America,South America,8,5.700098500000115
+South_America,South America,9,6.890598750000142
+South_America,South America,10,8.262577250000165
+South_America,South America,11,9.308914750000186
+South_America,South America,12,10.516280500000203
+South_America,South America,13,12.128523750000229
+South_America,South America,14,14.40961875000026
+South_America,South America,15,15.90757725000029
+South_America,South America,16,17.716692500000324
+South_America,South America,17,19.277911500000354
+South_America,South America,18,21.422988250000394
+South_America,South America,19,23.64278225000043
+South_America,South America,20,26.29741350000047
+South_America,South America,21,28.58209075000051
+South_America,South America,22,32.27392350000055
+South_America,South America,23,36.2617007500006
+South_America,South America,24,38.778411750000636
+South_America,South America,25,41.17441400000067
+South_America,South America,26,43.727969750000696
+South_America,South America,27,46.73883525000074
+South_America,South America,28,47.85538200000076
+South_America,South America,29,49.26094425000078
+South_America,South America,30,52.03238350000081
+South_America,South America,31,54.97459625000084
+South_America,South America,32,60.117848250000904
+South_America,South America,33,65.95413075000097
+South_America,South America,34,72.93927750000104
+South_America,South America,35,77.05269200000109
+South_America,South America,36,80.95014125000112
+South_America,South America,37,85.34368000000117
+South_America,South America,38,88.53274475000121
+South_America,South America,39,93.63728325000127
+South_America,South America,40,97.91328775000134
+South_America,South America,41,102.5209090000014
+South_America,South America,42,106.58023175000145
+South_America,South America,43,109.61770775000147
+South_America,South America,44,113.85624075000153
+South_America,South America,45,116.65468175000157
+South_America,South America,46,119.96205475000163
+South_America,South America,47,124.18757775000168
+South_America,South America,48,128.50723250000175
+South_America,South America,49,132.6258532500018
+South_America,South America,50,138.80795725000183
+South_America,South America,51,142.9451945000019
+South_America,South America,52,146.02447225000193
+South_America,South America,53,149.793540000002
+South_America,South America,54,154.84353250000203
+South_America,South America,55,159.0911835000021
+South_America,South America,56,162.0635340000021
+South_America,South America,57,164.56778850000214
+South_America,South America,58,167.8263847500022
+South_America,South America,59,171.42061425000222
+South_America,South America,60,173.69877200000226
+South_America,South America,61,177.25967400000232
+South_America,South America,62,181.34316075000237
+South_America,South America,63,185.24350225000242
+South_America,South America,64,187.68991750000245
+South_America,South America,65,190.01751300000248
+South_America,South America,66,194.14329575000255
+South_America,South America,67,196.9904242500026
+South_America,South America,68,200.50058475000264
+South_America,South America,69,204.89116750000272
+South_America,South America,70,210.60616800000275
+South_America,South America,71,217.86350550000284
+South_America,South America,72,225.1971167500029
+South_America,South America,73,230.13123525000296
+South_America,South America,74,233.49858250000298
+South_America,South America,75,237.71493175000305
+South_America,South America,76,242.01885100000308
+South_America,South America,77,246.30432375000314
+South_America,South America,78,250.6905042500032
+South_America,South America,79,252.44795425000325
+South_America,South America,80,255.19378025000327
+South_America,South America,81,258.3407377500033
+South_America,South America,82,262.2798470000034
+South_America,South America,83,266.11366725000346
+South_America,South America,84,269.1369600000035
+South_America,South America,85,272.31440750000354
+South_America,South America,86,275.72235700000357
+South_America,South America,87,280.09996750000363
+South_America,South America,88,284.5071785000037
+South_America,South America,89,288.09691675000374
+South_America,South America,90,290.1526442500038
+South_America,South America,91,293.2457520000038
+South_America,South America,92,297.6094257500039
+South_America,South America,93,301.9338007500039
+South_America,South America,94,304.530740250004
+South_America,South America,95,307.49058950000403
+South_America,South America,96,309.86667050000403
+South_America,South America,97,312.85900200000407
+South_America,South America,98,316.9918217500041
+South_America,South America,99,322.14792675000416
+South_America,South America,100,327.31375200000423
+South_Asia,South Asia,1,35.72645310344846
+South_Asia,South Asia,2,71.32616275862105
+South_Asia,South Asia,3,102.09426965517295
+South_Asia,South Asia,4,136.68615413793174
+South_Asia,South Asia,5,169.40430827586295
+South_Asia,South Asia,6,201.2400900000011
+South_Asia,South Asia,7,237.1975565517254
+South_Asia,South Asia,8,273.7334665517256
+South_Asia,South Asia,9,308.5472900000016
+South_Asia,South Asia,10,343.47900310345005
+South_Asia,South Asia,11,376.1490131034503
+South_Asia,South Asia,12,406.3267868965539
+South_Asia,South Asia,13,433.6534010344851
+South_Asia,South Asia,14,462.390572068968
+South_Asia,South Asia,15,489.30960655172686
+South_Asia,South Asia,16,516.5445379310373
+South_Asia,South Asia,17,547.8601206896582
+South_Asia,South Asia,18,583.8086093103481
+South_Asia,South Asia,19,613.6106500000035
+South_Asia,South Asia,20,637.9332648275898
+South_Asia,South Asia,21,666.0271596551763
+South_Asia,South Asia,22,694.2203765517281
+South_Asia,South Asia,23,717.5209831034525
+South_Asia,South Asia,24,745.875158620694
+South_Asia,South Asia,25,775.3441055172458
+South_Asia,South Asia,26,803.806773103453
+South_Asia,South Asia,27,831.4244124137979
+South_Asia,South Asia,28,856.7418427586257
+South_Asia,South Asia,29,879.6285382758673
+South_Asia,South Asia,30,900.1274851724191
+South_Asia,South Asia,31,924.0124203448331
+South_Asia,South Asia,32,951.4246717241436
+South_Asia,South Asia,33,980.0284313793162
+South_Asia,South Asia,34,1007.4509968965577
+South_Asia,South Asia,35,1030.8674158620752
+South_Asia,South Asia,36,1048.1503510344892
+South_Asia,South Asia,37,1060.9965182758685
+South_Asia,South Asia,38,1076.3019703448342
+South_Asia,South Asia,39,1099.1584820689723
+South_Asia,South Asia,40,1124.0580734482828
+South_Asia,South Asia,41,1151.4458472413864
+South_Asia,South Asia,42,1179.3036410344898
+South_Asia,South Asia,43,1201.872548620697
+South_Asia,South Asia,44,1221.8355500000077
+South_Asia,South Asia,45,1240.1557586206975
+South_Asia,South Asia,46,1256.465016551732
+South_Asia,South Asia,47,1276.1738268965598
+South_Asia,South Asia,48,1298.4147913793186
+South_Asia,South Asia,49,1325.5877593103532
+South_Asia,South Asia,50,1351.42367551725
+South_Asia,South Asia,51,1375.1574775862157
+South_Asia,South Asia,52,1401.7851155172505
+South_Asia,South Asia,53,1429.1510882758712
+South_Asia,South Asia,54,1452.939026206906
+South_Asia,South Asia,55,1476.7530320689748
+South_Asia,South Asia,56,1501.8902158620788
+South_Asia,South Asia,57,1529.6094293103547
+South_Asia,South Asia,58,1555.0709003448376
+South_Asia,South Asia,59,1582.1024882758722
+South_Asia,South Asia,60,1608.1644306896656
+South_Asia,South Asia,61,1633.0822224138035
+South_Asia,South Asia,62,1656.691543103459
+South_Asia,South Asia,63,1681.3583375862177
+South_Asia,South Asia,64,1706.6436627586315
+South_Asia,South Asia,65,1731.9167603448386
+South_Asia,South Asia,66,1756.7120827586318
+South_Asia,South Asia,67,1782.6617000000115
+South_Asia,South Asia,68,1808.390212068977
+South_Asia,South Asia,69,1832.3008103448394
+South_Asia,South Asia,70,1855.0685537931154
+South_Asia,South Asia,71,1884.4206103448398
+South_Asia,South Asia,72,1915.333542068978
+South_Asia,South Asia,73,1944.8718113793227
+South_Asia,South Asia,74,1973.0845351724265
+South_Asia,South Asia,75,2004.2502279310472
+South_Asia,South Asia,76,2033.7681072413925
+South_Asia,South Asia,77,2062.431044827599
+South_Asia,South Asia,78,2092.266120344841
+South_Asia,South Asia,79,2122.968816896565
+South_Asia,South Asia,80,2151.559589655186
+South_Asia,South Asia,81,2181.3037134482897
+South_Asia,South Asia,82,2209.343446551738
+South_Asia,South Asia,83,2239.689901034497
+South_Asia,South Asia,84,2267.965427931049
+South_Asia,South Asia,85,2291.9130882758764
+South_Asia,South Asia,86,2316.984713103463
+South_Asia,South Asia,87,2347.786711379325
+South_Asia,South Asia,88,2372.9970510344974
+South_Asia,South Asia,89,2401.921837586222
+South_Asia,South Asia,90,2436.6119137931187
+South_Asia,South Asia,91,2469.207766206912
+South_Asia,South Asia,92,2499.354069655188
+South_Asia,South Asia,93,2524.8036534482917
+South_Asia,South Asia,94,2548.729718275878
+South_Asia,South Asia,95,2574.518511379327
+South_Asia,South Asia,96,2595.9117175862234
+South_Asia,South Asia,97,2620.587954827603
+South_Asia,South Asia,98,2647.709530344844
+South_Asia,South Asia,99,2675.1810779310513
+South_Asia,South Asia,100,2705.0837200000174
+Southwest_China,Southwest China,1,0.3713767857142959
+Southwest_China,Southwest China,2,1.458358571428607
+Southwest_China,Southwest China,3,4.952856785714354
+Southwest_China,Southwest China,4,6.684874285714372
+Southwest_China,Southwest China,5,7.704192857142955
+Southwest_China,Southwest China,6,10.011720357142975
+Southwest_China,Southwest China,7,11.334090000000135
+Southwest_China,Southwest China,8,12.115983928571582
+Southwest_China,Southwest China,9,13.757811428571602
+Southwest_China,Southwest China,10,14.992497142857344
+Southwest_China,Southwest China,11,16.29117321428593
+Southwest_China,Southwest China,12,18.064923928571666
+Southwest_China,Southwest China,13,19.061435000000266
+Southwest_China,Southwest China,14,20.665889285714588
+Southwest_China,Southwest China,15,22.65488857142891
+Southwest_China,Southwest China,16,26.656999285714672
+Southwest_China,Southwest China,17,31.840957142857594
+Southwest_China,Southwest China,18,35.93366821428624
+Southwest_China,Southwest China,19,39.98496392857202
+Southwest_China,Southwest China,20,43.08051464285777
+Southwest_China,Southwest China,21,44.275726071429226
+Southwest_China,Southwest China,22,45.29387107142925
+Southwest_China,Southwest China,23,47.57747214285786
+Southwest_China,Southwest China,24,49.8716753571436
+Southwest_China,Southwest China,25,52.38631250000079
+Southwest_China,Southwest China,26,54.926047500000834
+Southwest_China,Southwest China,27,57.16607607142943
+Southwest_China,Southwest China,28,60.610799642858034
+Southwest_China,Southwest China,29,65.44770857142952
+Southwest_China,Southwest China,30,70.89406857142957
+Southwest_China,Southwest China,31,75.16380821428676
+Southwest_China,Southwest China,32,79.0191992857154
+Southwest_China,Southwest China,33,80.77958464285828
+Southwest_China,Southwest China,34,84.1217600000012
+Southwest_China,Southwest China,35,86.82439785714409
+Southwest_China,Southwest China,36,89.36611142857271
+Southwest_China,Southwest China,37,93.07061464285847
+Southwest_China,Southwest China,38,99.08621571428712
+Southwest_China,Southwest China,39,104.46400035714433
+Southwest_China,Southwest China,40,110.24354500000156
+Southwest_China,Southwest China,41,116.95632250000165
+Southwest_China,Southwest China,42,122.52819892857315
+Southwest_China,Southwest China,43,126.7049339285732
+Southwest_China,Southwest China,44,130.77005535714468
+Southwest_China,Southwest China,45,134.97532035714477
+Southwest_China,Southwest China,46,138.19471250000197
+Southwest_China,Southwest China,47,141.5848942857163
+Southwest_China,Southwest China,48,145.56740607143064
+Southwest_China,Southwest China,49,151.58071964285932
+Southwest_China,Southwest China,50,156.10111392857365
+Southwest_China,Southwest China,51,160.26738178571654
+Southwest_China,Southwest China,52,164.0615196428595
+Southwest_China,Southwest China,53,169.17857678571673
+Southwest_China,Southwest China,54,173.0969682142882
+Southwest_China,Southwest China,55,175.82347678571685
+Southwest_China,Southwest China,56,180.1743103571455
+Southwest_China,Southwest China,57,184.9344675000027
+Southwest_China,Southwest China,58,190.55410928571706
+Southwest_China,Southwest China,59,197.47963428571717
+Southwest_China,Southwest China,60,204.44586178571726
+Southwest_China,Southwest China,61,210.9515571428602
+Southwest_China,Southwest China,62,219.64821964286034
+Southwest_China,Southwest China,63,226.98945035714615
+Southwest_China,Southwest China,64,235.04902357143195
+Southwest_China,Southwest China,65,241.6898664285749
+Southwest_China,Southwest China,66,247.2583171428607
+Southwest_China,Southwest China,67,254.5024789285751
+Southwest_China,Southwest China,68,262.35062107143233
+Southwest_China,Southwest China,69,271.5561735714324
+Southwest_China,Southwest China,70,282.78740428571825
+Southwest_China,Southwest China,71,295.7924414285756
+Southwest_China,Southwest China,72,306.6828814285756
+Southwest_China,Southwest China,73,315.9997475000044
+Southwest_China,Southwest China,74,326.86479428571874
+Southwest_China,Southwest China,75,338.169221428576
+Southwest_China,Southwest China,76,348.832176785719
+Southwest_China,Southwest China,77,360.6215314285763
+Southwest_China,Southwest China,78,373.20690464286207
+Southwest_China,Southwest China,79,388.9636435714337
+Southwest_China,Southwest China,80,401.82728750000524
+Southwest_China,Southwest China,81,415.02066500000535
+Southwest_China,Southwest China,82,429.2666753571484
+Southwest_China,Southwest China,83,443.57140178571996
+Southwest_China,Southwest China,84,459.87023357143437
+Southwest_China,Southwest China,85,476.1504425000059
+Southwest_China,Southwest China,86,491.63287821429185
+Southwest_China,Southwest China,87,503.276355714292
+Southwest_China,Southwest China,88,515.6959482142921
+Southwest_China,Southwest China,89,529.638218928578
+Southwest_China,Southwest China,90,545.3368253571496
+Southwest_China,Southwest China,91,558.463664285721
+Southwest_China,Southwest China,92,570.7231025000069
+Southwest_China,Southwest China,93,582.0170085714356
+Southwest_China,Southwest China,94,592.9852871428642
+Southwest_China,Southwest China,95,603.4949017857216
+Southwest_China,Southwest China,96,611.0591692857216
+Southwest_China,Southwest China,97,620.1342100000074
+Southwest_China,Southwest China,98,630.7400396428648
+Southwest_China,Southwest China,99,640.6617728571506
+Southwest_China,Southwest China,100,651.2108778571506
+West_Africa,West Africa,1,32.77202428571452
+West_Africa,West Africa,2,63.75977142857188
+West_Africa,West Africa,3,85.00160142857206
+West_Africa,West Africa,4,113.52530428571511
+West_Africa,West Africa,5,154.40283428571533
+West_Africa,West Africa,6,192.5478414285727
+West_Africa,West Africa,7,224.34280000000146
+West_Africa,West Africa,8,250.78029285714456
+West_Africa,West Africa,9,273.74649285714474
+West_Africa,West Africa,10,301.2634900000021
+West_Africa,West Africa,11,321.73115857143085
+West_Africa,West Africa,12,340.9358585714311
+West_Africa,West Africa,13,358.2718671428598
+West_Africa,West Africa,14,379.9345885714314
+West_Africa,West Africa,15,394.8297342857173
+West_Africa,West Africa,16,403.246562857146
+West_Africa,West Africa,17,417.21768571428896
+West_Africa,West Africa,18,433.96041142857484
+West_Africa,West Africa,19,448.03369571428937
+West_Africa,West Africa,20,470.8733485714324
+West_Africa,West Africa,21,486.3820385714326
+West_Africa,West Africa,22,507.13991000000425
+West_Africa,West Africa,23,527.7038300000044
+West_Africa,West Africa,24,543.4698042857189
+West_Africa,West Africa,25,556.5727285714332
+West_Africa,West Africa,26,568.779510000005
+West_Africa,West Africa,27,586.6128614285765
+West_Africa,West Africa,28,603.367122857148
+West_Africa,West Africa,29,611.9615471428624
+West_Africa,West Africa,30,617.2023800000054
+West_Africa,West Africa,31,626.0118457142913
+West_Africa,West Africa,32,636.3698800000057
+West_Africa,West Africa,33,647.9609085714344
+West_Africa,West Africa,34,664.9674500000059
+West_Africa,West Africa,35,679.5420057142918
+West_Africa,West Africa,36,686.7248742857204
+West_Africa,West Africa,37,694.8420271428633
+West_Africa,West Africa,38,700.4016700000063
+West_Africa,West Africa,39,704.539125714292
+West_Africa,West Africa,40,710.4013957142922
+West_Africa,West Africa,41,716.326311428578
+West_Africa,West Africa,42,719.9745714285781
+West_Africa,West Africa,43,726.5650828571496
+West_Africa,West Africa,44,743.6168957142926
+West_Africa,West Africa,45,757.8432742857212
+West_Africa,West Africa,46,768.09343285715
+West_Africa,West Africa,47,779.6576800000073
+West_Africa,West Africa,48,798.7063142857216
+West_Africa,West Africa,49,824.7170285714362
+West_Africa,West Africa,50,841.646804285722
+West_Africa,West Africa,51,852.0369914285793
+West_Africa,West Africa,52,860.6197714285794
+West_Africa,West Africa,53,869.8894900000081
+West_Africa,West Africa,54,880.1749357142941
+West_Africa,West Africa,55,889.3670442857227
+West_Africa,West Africa,56,900.0307357142943
+West_Africa,West Africa,57,909.2156271428657
+West_Africa,West Africa,58,917.0877857142943
+West_Africa,West Africa,59,930.6054057142946
+West_Africa,West Africa,60,951.1841757142947
+West_Africa,West Africa,61,972.0707628571521
+West_Africa,West Africa,62,994.5432500000094
+West_Africa,West Africa,63,1022.2645342857238
+West_Africa,West Africa,64,1040.6341657142952
+West_Africa,West Africa,65,1060.0685300000098
+West_Africa,West Africa,66,1087.104467142867
+West_Africa,West Africa,67,1112.6932900000102
+West_Africa,West Africa,68,1134.7974614285818
+West_Africa,West Africa,69,1162.3066528571533
+West_Africa,West Africa,70,1189.9114485714395
+West_Africa,West Africa,71,1215.344667142868
+West_Africa,West Africa,72,1235.2097014285825
+West_Africa,West Africa,73,1254.187432857154
+West_Africa,West Africa,74,1279.9489542857257
+West_Africa,West Africa,75,1305.4246571428687
+West_Africa,West Africa,76,1332.2766600000118
+West_Africa,West Africa,77,1357.2300685714404
+West_Africa,West Africa,78,1388.351992857155
+West_Africa,West Africa,79,1420.1537500000122
+West_Africa,West Africa,80,1458.3644100000124
+West_Africa,West Africa,81,1496.8305300000125
+West_Africa,West Africa,82,1527.023674285727
+West_Africa,West Africa,83,1551.7207457142983
+West_Africa,West Africa,84,1586.510555714299
+West_Africa,West Africa,85,1622.983925714299
+West_Africa,West Africa,86,1654.3695971428704
+West_Africa,West Africa,87,1688.718414285728
+West_Africa,West Africa,88,1722.8907128571568
+West_Africa,West Africa,89,1755.4346514285855
+West_Africa,West Africa,90,1792.9536457143
+West_Africa,West Africa,91,1827.1126214285857
+West_Africa,West Africa,92,1863.4067585714433
+West_Africa,West Africa,93,1903.695110000015
+West_Africa,West Africa,94,1952.433075714301
+West_Africa,West Africa,95,1988.9056685714438
+West_Africa,West Africa,96,2031.439931428587
+West_Africa,West Africa,97,2074.3162128571585
+West_Africa,West Africa,98,2111.051508571444
+West_Africa,West Africa,99,2143.226920000016
+West_Africa,West Africa,100,2170.482631428588
+West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.4726300000000296
+West_Asia_North_Africa,West Asia - North Africa (WANA),2,10.06290857142869
+West_Asia_North_Africa,West Asia - North Africa (WANA),3,17.46182785714304
+West_Asia_North_Africa,West Asia - North Africa (WANA),4,25.364046428571672
+West_Asia_North_Africa,West Asia - North Africa (WANA),5,37.29052857142888
+West_Asia_North_Africa,West Asia - North Africa (WANA),6,47.406702857143266
+West_Asia_North_Africa,West Asia - North Africa (WANA),7,59.002785000000465
+West_Asia_North_Africa,West Asia - North Africa (WANA),8,64.75200642857195
+West_Asia_North_Africa,West Asia - North Africa (WANA),9,71.34937214285773
+West_Asia_North_Africa,West Asia - North Africa (WANA),10,78.36124142857207
+West_Asia_North_Africa,West Asia - North Africa (WANA),11,84.92340857142928
+West_Asia_North_Africa,West Asia - North Africa (WANA),12,92.26927285714366
+West_Asia_North_Africa,West Asia - North Africa (WANA),13,102.6475042857152
+West_Asia_North_Africa,West Asia - North Africa (WANA),14,109.41052500000099
+West_Asia_North_Africa,West Asia - North Africa (WANA),15,118.85075714285821
+West_Asia_North_Africa,West Asia - North Africa (WANA),16,130.54529071428686
+West_Asia_North_Africa,West Asia - North Africa (WANA),17,141.30504642857267
+West_Asia_North_Africa,West Asia - North Africa (WANA),18,151.44303571428705
+West_Asia_North_Africa,West Asia - North Africa (WANA),19,157.28003428571566
+West_Asia_North_Africa,West Asia - North Africa (WANA),20,166.51874928571573
+West_Asia_North_Africa,West Asia - North Africa (WANA),21,177.1966742857158
+West_Asia_North_Africa,West Asia - North Africa (WANA),22,189.57459642857302
+West_Asia_North_Africa,West Asia - North Africa (WANA),23,198.65036928571598
+West_Asia_North_Africa,West Asia - North Africa (WANA),24,207.88171857143035
+West_Asia_North_Africa,West Asia - North Africa (WANA),25,216.6683914285733
+West_Asia_North_Africa,West Asia - North Africa (WANA),26,227.93619857143057
+West_Asia_North_Africa,West Asia - North Africa (WANA),27,240.46387642857349
+West_Asia_North_Africa,West Asia - North Africa (WANA),28,248.87512785714503
+West_Asia_North_Africa,West Asia - North Africa (WANA),29,256.38072357143085
+West_Asia_North_Africa,West Asia - North Africa (WANA),30,268.1695407142881
+West_Asia_North_Africa,West Asia - North Africa (WANA),31,282.5254278571454
+West_Asia_North_Africa,West Asia - North Africa (WANA),32,293.87045857143124
+West_Asia_North_Africa,West Asia - North Africa (WANA),33,306.76907285714566
+West_Asia_North_Africa,West Asia - North Africa (WANA),34,319.4252592857171
+West_Asia_North_Africa,West Asia - North Africa (WANA),35,331.1770314285744
+West_Asia_North_Africa,West Asia - North Africa (WANA),36,347.7440992857174
+West_Asia_North_Africa,West Asia - North Africa (WANA),37,361.7824692857176
+West_Asia_North_Africa,West Asia - North Africa (WANA),38,372.5641021428606
+West_Asia_North_Africa,West Asia - North Africa (WANA),39,385.8743578571465
+West_Asia_North_Africa,West Asia - North Africa (WANA),40,397.62582214286084
+West_Asia_North_Africa,West Asia - North Africa (WANA),41,410.72790714286106
+West_Asia_North_Africa,West Asia - North Africa (WANA),42,425.60169071428976
+West_Asia_North_Africa,West Asia - North Africa (WANA),43,436.95632428571844
+West_Asia_North_Africa,West Asia - North Africa (WANA),44,451.80118714286147
+West_Asia_North_Africa,West Asia - North Africa (WANA),45,467.25112000000445
+West_Asia_North_Africa,West Asia - North Africa (WANA),46,481.79801142857605
+West_Asia_North_Africa,West Asia - North Africa (WANA),47,495.65900642857616
+West_Asia_North_Africa,West Asia - North Africa (WANA),48,510.2028821428621
+West_Asia_North_Africa,West Asia - North Africa (WANA),49,528.2267542857195
+West_Asia_North_Africa,West Asia - North Africa (WANA),50,547.395895714291
+West_Asia_North_Africa,West Asia - North Africa (WANA),51,569.2225071428626
+West_Asia_North_Africa,West Asia - North Africa (WANA),52,591.7674378571485
+West_Asia_North_Africa,West Asia - North Africa (WANA),53,614.2225835714344
+West_Asia_North_Africa,West Asia - North Africa (WANA),54,633.6677007142916
+West_Asia_North_Africa,West Asia - North Africa (WANA),55,654.3801757142919
+West_Asia_North_Africa,West Asia - North Africa (WANA),56,678.3096971428635
+West_Asia_North_Africa,West Asia - North Africa (WANA),57,700.3570178571493
+West_Asia_North_Africa,West Asia - North Africa (WANA),58,712.1216521428639
+West_Asia_North_Africa,West Asia - North Africa (WANA),59,724.3965585714353
+West_Asia_North_Africa,West Asia - North Africa (WANA),60,738.9435935714356
+West_Asia_North_Africa,West Asia - North Africa (WANA),61,757.1634171428642
+West_Asia_North_Africa,West Asia - North Africa (WANA),62,776.3685985714359
+West_Asia_North_Africa,West Asia - North Africa (WANA),63,796.6583857142932
+West_Asia_North_Africa,West Asia - North Africa (WANA),64,816.5814528571506
+West_Asia_North_Africa,West Asia - North Africa (WANA),65,832.139304285722
+West_Asia_North_Africa,West Asia - North Africa (WANA),66,845.0673407142937
+West_Asia_North_Africa,West Asia - North Africa (WANA),67,856.2744721428653
+West_Asia_North_Africa,West Asia - North Africa (WANA),68,868.2980428571511
+West_Asia_North_Africa,West Asia - North Africa (WANA),69,880.8143964285799
+West_Asia_North_Africa,West Asia - North Africa (WANA),70,900.1327721428659
+West_Asia_North_Africa,West Asia - North Africa (WANA),71,921.154199285723
+West_Asia_North_Africa,West Asia - North Africa (WANA),72,937.8828921428661
+West_Asia_North_Africa,West Asia - North Africa (WANA),73,953.9880500000093
+West_Asia_North_Africa,West Asia - North Africa (WANA),74,968.3032878571522
+West_Asia_North_Africa,West Asia - North Africa (WANA),75,976.6441114285809
+West_Asia_North_Africa,West Asia - North Africa (WANA),76,988.0303228571526
+West_Asia_North_Africa,West Asia - North Africa (WANA),77,997.9865200000097
+West_Asia_North_Africa,West Asia - North Africa (WANA),78,1005.2564435714384
+West_Asia_North_Africa,West Asia - North Africa (WANA),79,1013.9465014285814
+West_Asia_North_Africa,West Asia - North Africa (WANA),80,1028.8273878571529
+West_Asia_North_Africa,West Asia - North Africa (WANA),81,1041.3740514285817
+West_Asia_North_Africa,West Asia - North Africa (WANA),82,1052.7531514285818
+West_Asia_North_Africa,West Asia - North Africa (WANA),83,1062.7549271428677
+West_Asia_North_Africa,West Asia - North Africa (WANA),84,1071.1594035714393
+West_Asia_North_Africa,West Asia - North Africa (WANA),85,1078.9444300000107
+West_Asia_North_Africa,West Asia - North Africa (WANA),86,1086.758102142868
+West_Asia_North_Africa,West Asia - North Africa (WANA),87,1098.2160800000108
+West_Asia_North_Africa,West Asia - North Africa (WANA),88,1107.2954671428681
+West_Asia_North_Africa,West Asia - North Africa (WANA),89,1116.5507992857254
+West_Asia_North_Africa,West Asia - North Africa (WANA),90,1128.1431400000113
+West_Asia_North_Africa,West Asia - North Africa (WANA),91,1139.931895714297
+West_Asia_North_Africa,West Asia - North Africa (WANA),92,1155.7318342857257
+West_Asia_North_Africa,West Asia - North Africa (WANA),93,1164.73086857144
+West_Asia_North_Africa,West Asia - North Africa (WANA),94,1172.2776964285829
+West_Asia_North_Africa,West Asia - North Africa (WANA),95,1179.531244285726
+West_Asia_North_Africa,West Asia - North Africa (WANA),96,1187.9672328571544
+West_Asia_North_Africa,West Asia - North Africa (WANA),97,1195.3929078571546
+West_Asia_North_Africa,West Asia - North Africa (WANA),98,1197.9110500000118
+West_Asia_North_Africa,West Asia - North Africa (WANA),99,1202.7275392857262
+West_Asia_North_Africa,West Asia - North Africa (WANA),100,1209.1125985714405

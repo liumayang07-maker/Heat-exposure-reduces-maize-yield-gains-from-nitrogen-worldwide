@@ -1,0 +1,13 @@
+model,scenario,level,sigma2,n
+Figure3b,Baseline,reference,0.05097359624361,4541
+Figure3b,Baseline,reference_site_year,0.0418121646085044,4541
+Figure3b,Baseline,effect,0.00844512287742706,4541
+Figure3b,CV05,reference,0.0511067646347361,4541
+Figure3b,CV05,reference_site_year,0.0447151418439367,4541
+Figure3b,CV05,effect,0.0114802311730033,4541
+Figure3b,CV10,reference,0.0494906776412845,4541
+Figure3b,CV10,reference_site_year,0.043086345283254,4541
+Figure3b,CV10,effect,0.00788150857250119,4541
+Figure3b,CV20,reference,0.0493099279738187,4541
+Figure3b,CV20,reference_site_year,0.0356357015299054,4541
+Figure3b,CV20,effect,0.00416365796991219,4541

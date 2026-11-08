@@ -1,0 +1,34 @@
+region,region_abbr,country,reference_country,effects,references,environments
+North China Plain,NCP,China,TRUE,785,59,146
+North America_Irrigated,NAMI,USA,TRUE,500,19,71
+North America_Rainfed,NAMR,USA,TRUE,1007,32,137
+North America_Rainfed,NAMR,Canada,FALSE,257,14,44
+Europe,EUR,Spain,TRUE,139,7,33
+Europe,EUR,Hungary,FALSE,85,3,12
+Europe,EUR,Croatia,FALSE,6,1,3
+Europe,EUR,Poland,FALSE,9,1,3
+Europe,EUR,Germany,FALSE,6,1,2
+Europe,EUR,Italy,FALSE,4,1,2
+Europe,EUR,Portugal,FALSE,3,1,1
+WANA,WAS,Iran,TRUE,82,6,10
+WANA,WAS,Egypt,FALSE,34,2,4
+WANA,WAS,Turkey,FALSE,12,1,2
+Northwest China,NWC,China,TRUE,572,47,132
+Northeast China,NEC,China,TRUE,299,26,86
+South Asia,SAS,India,TRUE,121,6,19
+South Asia,SAS,Pakistan,FALSE,92,7,11
+South Asia,SAS,Australia,FALSE,6,1,2
+South Asia,SAS,Malaysia,FALSE,10,1,2
+South Asia,SAS,Nepal,FALSE,12,1,2
+South Asia,SAS,Bangladesh,FALSE,6,1,1
+South Asia,SAS,Thailand,FALSE,3,1,1
+Southwest China,SWC,China,TRUE,166,11,28
+East Africa,EAF,Uganda,TRUE,45,1,15
+East Africa,EAF,Kenya,FALSE,44,3,9
+East Africa,EAF,Tanzania,FALSE,12,1,4
+East Africa,EAF,Zambia,FALSE,16,1,4
+West Africa,WAF,Niger,TRUE,28,2,7
+West Africa,WAF,Ghana,FALSE,4,1,2
+West Africa,WAF,Nigeria,FALSE,12,1,2
+South America,SAM,Argentina,TRUE,118,12,39
+South America,SAM,Brazil,FALSE,46,7,10
