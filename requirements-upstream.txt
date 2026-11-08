@@ -1,0 +1,4 @@
+# Optional external-input reconstruction; unnecessary for panel redrawing.
+-r requirements.txt
+h5py==3.16.0
+earthengine-api==1.7.42

@@ -1,0 +1,16 @@
+region_id,region_name,hemisphere,order
+CHN_NE,China Northeast,NH,0
+CHN_NCP,China North China Plain,NH,1
+CHN_SW,China Southwest,NH,2
+CHN_NW,China Northwest,NH,3
+USA,United States,NH,4
+IND,India,NH,5
+MEX,Mexico,NH,6
+UKR,Ukraine,NH,7
+NGA,Nigeria,NH,8
+ETH,Ethiopia,NH,9
+CAN,Canada,NH,10
+FRA,France,NH,11
+BRA,Brazil,SH,12
+ARG,Argentina,SH,13
+ZAF,South Africa,SH,14
