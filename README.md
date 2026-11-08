@@ -10,6 +10,7 @@ Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) 
 
 ## Contents
 
+- [Final submission figure and table crosswalk](#submission-crosswalk)
 - [Environment](#environment)
 - [Figure 1 overview and commands](#figure-1)
 - [Figure 1a](#figure-1a)
@@ -21,6 +22,75 @@ Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) 
 - [Figure 4 files and commands](#figure-4)
 - [Extended Data Figure 3](#extended-data-figure-3)
 - [Data sources and rights](#sources-and-rights)
+
+<a id="submission-crosswalk"></a>
+
+## Final submission figure and table crosswalk
+
+Numbering follows the final submission files `Figures.docx`, `Extended_Data_Figures.docx`, `Supplementary_Figures.docx` and `Supplementary_Tables.docx`. Archived names are retained and may differ from final numbering; use this crosswalk. Main-figure directories contain code, inputs and panel outputs; final manual layouts are not always deposited separately. Supplementary-table links identify numerical results or input settings, rather than formatted Word tables.
+
+### Main figures
+
+| Item | Content | Repository location |
+| --- | --- | --- |
+| Figure 1 | Global heat exposure | [Figure1/](Figure1/) |
+| Figure 2 | Heat exposure and nitrogen response | [Figure2/Figure2a/](Figure2/Figure2a/); [Figure2/Figure2b/](Figure2/Figure2b/); [Figure2/Figure2c/](Figure2/Figure2c/); [Figure2/Figure2d/](Figure2/Figure2d/) |
+| Figure 3 | Regional patterns and responses | [Figure3/Figure3a/](Figure3/Figure3a/); [Figure3/Figure3b/](Figure3/Figure3b/) |
+| Figure 4 | Simulated N₂O emissions | [Figure4/Figure4_combined.pdf](Figure4/Figure4_combined.pdf); [Figure4/N2O_analysis/](Figure4/N2O_analysis/) |
+
+
+
+### Extended Data figures
+
+| Item | Content | Repository location |
+| --- | --- | --- |
+| Extended Data Figure 1 | Heat classification | [Figure2/Extended_Data_Figure/](Figure2/Extended_Data_Figure/) (`Extended_Data_a.pdf`, `Extended_Data_b.pdf`, `Extended_Data_c.pdf`) |
+| Extended Data Figure 2 | RF SHAP | [Extended_Data_Figure3/RF_model/SHAP/outputs/figures/Extended_Figure_RF_V7_SHAP_compact.pdf](Extended_Data_Figure3/RF_model/SHAP/outputs/figures/Extended_Figure_RF_V7_SHAP_compact.pdf) |
+| Extended Data Figure 3 | Heat exposure and predicted nitrogen gains | [Extended_Data_Figure3/Extended_Data_Figure3.pdf](Extended_Data_Figure3/Extended_Data_Figure3.pdf) |
+| Extended Data Figure 4 | Seasonal N₂O accumulation | [Figure4/N2O_analysis/Extended_Data_Figure4.pdf](Figure4/N2O_analysis/Extended_Data_Figure4.pdf) |
+| Extended Data Figure 5 | Incremental N₂O emissions | [Figure4/N2O_analysis/Extended_Data_N2O_increments.pdf](Figure4/N2O_analysis/Extended_Data_N2O_increments.pdf) |
+
+
+
+### Supplementary figures
+
+| Item | Content | Repository location |
+| --- | --- | --- |
+| Supplementary Figure 1 | Intensity classification | [Figure2/Supplementary_Figure_heat_classification/Supplementary_intensity_classification.pdf](Figure2/Supplementary_Figure_heat_classification/Supplementary_intensity_classification.pdf) |
+| Supplementary Figure 2 | Classification diagnostics | [Figure2/Supplementary_Figure_heat_classification/Supplementary_K3_diagnostics.pdf](Figure2/Supplementary_Figure_heat_classification/Supplementary_K3_diagnostics.pdf) |
+| Supplementary Figure 3 | RF cross-validation | [Extended_Data_Figure3/RF_model/figures/validation_oof_observed_vs_predicted.pdf](Extended_Data_Figure3/RF_model/figures/validation_oof_observed_vs_predicted.pdf) |
+| Supplementary Figure 4 | Historical yield | [Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_historical_yield.pdf](Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_historical_yield.pdf) |
+| Supplementary Figure 5 | N120 yield gains | [Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_N120_gain.pdf](Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_N120_gain.pdf) |
+| Supplementary Figure 6 | N240 yield gains | [Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_N240_gain.pdf](Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_N240_gain.pdf) |
+| Supplementary Figure 7 | Annual simulated yield | [Figure4/Yield_analysis/Supplementary_yield_annual.pdf](Figure4/Yield_analysis/Supplementary_yield_annual.pdf) |
+| Supplementary Figure 8 | Annual simulated N₂O | [Figure4/N2O_analysis/Supplementary_N2O_annual.pdf](Figure4/N2O_analysis/Supplementary_N2O_annual.pdf) |
+| Supplementary Figure 9 | PRISMA flow diagram | **Not deposited / 尚未收录** |
+
+
+
+### Supplementary tables
+
+| Item | Content | Repository location |
+| --- | --- | --- |
+| Supplementary Table 1 | Intensity × N-rate meta-regression | [Figure2/Figure2b/](Figure2/Figure2b/) (`coefficients_REML.csv`, `model_parameters.csv`, `variance_components_REML.csv`) |
+| Supplementary Table 2 | Heat-type × N-rate meta-regression | [Figure2/Figure2c/](Figure2/Figure2c/) (`coefficients_REML.csv`, `model_parameters.csv`, `variance_components_REML.csv`) |
+| Supplementary Table 3 | Intensity × timing × N-rate meta-regression | [Figure2/Figure2d/](Figure2/Figure2d/) (`coefficients_REML.csv`, `model_parameters.csv`, `variance_components_REML.csv`) |
+| Supplementary Table 4 | Regional meta-regression | [Figure3/Figure3b/](Figure3/Figure3b/) (`coefficients_REML.csv`, `model_parameters.csv`, `variance_components_REML.csv`) |
+| Supplementary Table 5 | Regional RF inputs | [Extended_Data_Figure3/prediction/shared/regional_parameters_historical.csv](Extended_Data_Figure3/prediction/shared/regional_parameters_historical.csv); [Extended_Data_Figure3/prediction/shared/regional_parameters_future.csv](Extended_Data_Figure3/prediction/shared/regional_parameters_future.csv) |
+| Supplementary Table 6 | Fixed future GDP | [Extended_Data_Figure3/prediction/shared/country_year_parameters.csv](Extended_Data_Figure3/prediction/shared/country_year_parameters.csv) |
+| Supplementary Table 7 | RF management settings | [Extended_Data_Figure3/prediction/shared/management_scenarios.csv](Extended_Data_Figure3/prediction/shared/management_scenarios.csv) |
+| Supplementary Table 8 | APSIM site and soil configuration | [Figure4/APSIM_inputs/site_soil_configuration.csv](Figure4/APSIM_inputs/site_soil_configuration.csv) |
+| Supplementary Table 9 | APSIM climate and management settings | [Figure4/APSIM_inputs/weather/](Figure4/APSIM_inputs/weather/); [Figure 4 settings](#figure-4) |
+| Supplementary Table 10 | Grouped median CV for SD imputation | [Figure2/Supplementary_Table_SD_imputation/Supplementary_Table_grouped_median_CV_4613.xlsx](Figure2/Supplementary_Table_SD_imputation/Supplementary_Table_grouped_median_CV_4613.xlsx) |
+| Supplementary Table 11 | Overall SD sensitivity | [Figure2/SD_sensitivity/overall.csv](Figure2/SD_sensitivity/overall.csv) |
+| Supplementary Table 12 | N-rate-group SD sensitivity | [Figure2/SD_sensitivity/](Figure2/SD_sensitivity/) (`model = Figure2b`) |
+| Supplementary Table 13 | Heat-type SD sensitivity | [Figure2/SD_sensitivity/](Figure2/SD_sensitivity/) (`model = Figure2c`) |
+| Supplementary Table 14 | Intensity–timing SD sensitivity | [Figure2/SD_sensitivity/](Figure2/SD_sensitivity/) (`model = Figure2d`) |
+| Supplementary Table 15 | Regional SD sensitivity | [Figure3/SD_sensitivity/](Figure3/SD_sensitivity/) |
+
+
+
+Supplementary Tables 12–14 share result CSVs and are distinguished by the `model` column. For Supplementary Table 9, management settings are described below under Figure 4 and weather tables are archived inputs; the full APSIM project is not deposited. Supplementary Figure 9 has no standalone repository file yet.
 
 <a id="environment"></a>
 

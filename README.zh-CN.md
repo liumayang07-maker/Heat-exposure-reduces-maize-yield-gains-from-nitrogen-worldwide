@@ -8,6 +8,7 @@
 
 ## 目录
 
+- [投稿图表与仓库对应关系](#submission-crosswalk)
 - [环境与安装](#环境与安装)
 - [运行步骤](#运行步骤)
 - [Figure1a](#figure1a)
@@ -19,6 +20,75 @@
 - [Figure4 文件与运行命令](#figure4)
 - [Extended Data Figure3](#extended-data-figure3)
 - [数据来源与使用条件](#数据来源与使用条件)
+
+<a id="submission-crosswalk"></a>
+
+## 投稿图表与仓库对应关系
+
+以下编号以最终投稿文件 `Figures.docx`、`Extended_Data_Figures.docx`、`Supplementary_Figures.docx` 和 `Supplementary_Tables.docx` 为准。归档目录和文件名保留原名，因此不一定与最终图号一致；请按本表查找。主图的目录包含代码、输入及分图输出，最终人工拼版不一定单独保存。补充表链接指向对应数值结果或输入配置，并非排版后的 Word 表格。
+
+### 主图
+
+| 编号 | 内容 | 仓库位置 |
+| --- | --- | --- |
+| Figure 1 | 全球热暴露 | [Figure1/](Figure1/) |
+| Figure 2 | 热暴露与氮肥响应 | [Figure2/Figure2a/](Figure2/Figure2a/); [Figure2/Figure2b/](Figure2/Figure2b/); [Figure2/Figure2c/](Figure2/Figure2c/); [Figure2/Figure2d/](Figure2/Figure2d/) |
+| Figure 3 | 区域格局与响应 | [Figure3/Figure3a/](Figure3/Figure3a/); [Figure3/Figure3b/](Figure3/Figure3b/) |
+| Figure 4 | 模拟 N₂O 排放 | [Figure4/Figure4_combined.pdf](Figure4/Figure4_combined.pdf); [Figure4/N2O_analysis/](Figure4/N2O_analysis/) |
+
+
+
+### 扩展图
+
+| 编号 | 内容 | 仓库位置 |
+| --- | --- | --- |
+| Extended Data Figure 1 | 热暴露分类 | [Figure2/Extended_Data_Figure/](Figure2/Extended_Data_Figure/) (`Extended_Data_a.pdf`, `Extended_Data_b.pdf`, `Extended_Data_c.pdf`) |
+| Extended Data Figure 2 | RF SHAP | [Extended_Data_Figure3/RF_model/SHAP/outputs/figures/Extended_Figure_RF_V7_SHAP_compact.pdf](Extended_Data_Figure3/RF_model/SHAP/outputs/figures/Extended_Figure_RF_V7_SHAP_compact.pdf) |
+| Extended Data Figure 3 | 热暴露与预测氮肥增益 | [Extended_Data_Figure3/Extended_Data_Figure3.pdf](Extended_Data_Figure3/Extended_Data_Figure3.pdf) |
+| Extended Data Figure 4 | 季节 N₂O 累积 | [Figure4/N2O_analysis/Extended_Data_Figure4.pdf](Figure4/N2O_analysis/Extended_Data_Figure4.pdf) |
+| Extended Data Figure 5 | N₂O 排放增量 | [Figure4/N2O_analysis/Extended_Data_N2O_increments.pdf](Figure4/N2O_analysis/Extended_Data_N2O_increments.pdf) |
+
+
+
+### 补充图
+
+| 编号 | 内容 | 仓库位置 |
+| --- | --- | --- |
+| Supplementary Figure 1 | 强度分类 | [Figure2/Supplementary_Figure_heat_classification/Supplementary_intensity_classification.pdf](Figure2/Supplementary_Figure_heat_classification/Supplementary_intensity_classification.pdf) |
+| Supplementary Figure 2 | 分类诊断 | [Figure2/Supplementary_Figure_heat_classification/Supplementary_K3_diagnostics.pdf](Figure2/Supplementary_Figure_heat_classification/Supplementary_K3_diagnostics.pdf) |
+| Supplementary Figure 3 | RF 交叉验证 | [Extended_Data_Figure3/RF_model/figures/validation_oof_observed_vs_predicted.pdf](Extended_Data_Figure3/RF_model/figures/validation_oof_observed_vs_predicted.pdf) |
+| Supplementary Figure 4 | 历史产量 | [Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_historical_yield.pdf](Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_historical_yield.pdf) |
+| Supplementary Figure 5 | N120 产量增益 | [Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_N120_gain.pdf](Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_N120_gain.pdf) |
+| Supplementary Figure 6 | N240 产量增益 | [Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_N240_gain.pdf](Extended_Data_Figure3/Supplementary_Figures/figures/Supplementary_N240_gain.pdf) |
+| Supplementary Figure 7 | 年度模拟产量 | [Figure4/Yield_analysis/Supplementary_yield_annual.pdf](Figure4/Yield_analysis/Supplementary_yield_annual.pdf) |
+| Supplementary Figure 8 | 年度模拟 N₂O | [Figure4/N2O_analysis/Supplementary_N2O_annual.pdf](Figure4/N2O_analysis/Supplementary_N2O_annual.pdf) |
+| Supplementary Figure 9 | PRISMA 流程图 | **Not deposited / 尚未收录** |
+
+
+
+### 补充表
+
+| 编号 | 内容 | 仓库位置 |
+| --- | --- | --- |
+| Supplementary Table 1 | 强度 × 施氮量 Meta 回归 | [Figure2/Figure2b/](Figure2/Figure2b/) (`coefficients_REML.csv`, `model_parameters.csv`, `variance_components_REML.csv`) |
+| Supplementary Table 2 | 热类型 × 施氮量 Meta 回归 | [Figure2/Figure2c/](Figure2/Figure2c/) (`coefficients_REML.csv`, `model_parameters.csv`, `variance_components_REML.csv`) |
+| Supplementary Table 3 | 强度 × 时段 × 施氮量 Meta 回归 | [Figure2/Figure2d/](Figure2/Figure2d/) (`coefficients_REML.csv`, `model_parameters.csv`, `variance_components_REML.csv`) |
+| Supplementary Table 4 | 区域 Meta 回归 | [Figure3/Figure3b/](Figure3/Figure3b/) (`coefficients_REML.csv`, `model_parameters.csv`, `variance_components_REML.csv`) |
+| Supplementary Table 5 | RF 区域输入 | [Extended_Data_Figure3/prediction/shared/regional_parameters_historical.csv](Extended_Data_Figure3/prediction/shared/regional_parameters_historical.csv); [Extended_Data_Figure3/prediction/shared/regional_parameters_future.csv](Extended_Data_Figure3/prediction/shared/regional_parameters_future.csv) |
+| Supplementary Table 6 | 未来固定 GDP | [Extended_Data_Figure3/prediction/shared/country_year_parameters.csv](Extended_Data_Figure3/prediction/shared/country_year_parameters.csv) |
+| Supplementary Table 7 | RF 管理设置 | [Extended_Data_Figure3/prediction/shared/management_scenarios.csv](Extended_Data_Figure3/prediction/shared/management_scenarios.csv) |
+| Supplementary Table 8 | APSIM 站点及土壤配置 | [Figure4/APSIM_inputs/site_soil_configuration.csv](Figure4/APSIM_inputs/site_soil_configuration.csv) |
+| Supplementary Table 9 | APSIM 气候与管理设置 | [Figure4/APSIM_inputs/weather/](Figure4/APSIM_inputs/weather/); [Figure4 设置说明](#figure4) |
+| Supplementary Table 10 | SD 插补分组中位 CV | [Figure2/Supplementary_Table_SD_imputation/Supplementary_Table_grouped_median_CV_4613.xlsx](Figure2/Supplementary_Table_SD_imputation/Supplementary_Table_grouped_median_CV_4613.xlsx) |
+| Supplementary Table 11 | 总体效应 SD 敏感性 | [Figure2/SD_sensitivity/overall.csv](Figure2/SD_sensitivity/overall.csv) |
+| Supplementary Table 12 | 施氮量分组 SD 敏感性 | [Figure2/SD_sensitivity/](Figure2/SD_sensitivity/) (`model = Figure2b`) |
+| Supplementary Table 13 | 热类型 SD 敏感性 | [Figure2/SD_sensitivity/](Figure2/SD_sensitivity/) (`model = Figure2c`) |
+| Supplementary Table 14 | 强度与时段 SD 敏感性 | [Figure2/SD_sensitivity/](Figure2/SD_sensitivity/) (`model = Figure2d`) |
+| Supplementary Table 15 | 区域 SD 敏感性 | [Figure3/SD_sensitivity/](Figure3/SD_sensitivity/) |
+
+
+
+补充表 12–14 共用目录内的结果 CSV，以 `model` 列区分模型。补充表 9 的管理设置见下文 Figure4 说明，天气表为归档输入；完整 APSIM 工程未收录。Supplementary Figure 9 尚无独立仓库文件。
 
 ## 环境与安装
 
