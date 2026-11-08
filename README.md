@@ -8,7 +8,7 @@ Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) 
 
 [中文说明 / Chinese README](README.zh-CN.md)
 
-[Download Source data](Source_data.xlsx): the first worksheet, `References`, lists 281 reference IDs with citation labels, titles and publication years. The remaining 17 worksheets provide data for Figures 1–4, Extended Data Figures 1–5 and Supplementary Figures 1–8. This workbook is not the complete master table.
+[Download Source data](Source_data.xlsx): the first worksheet, `References`, lists 281 reference IDs with citation labels, titles and publication years. The remaining 17 worksheets provide data for Figures 1–4, Extended Data Figures 1–5 and Supplementary Figures 1–8.
 
 ## Contents
 
