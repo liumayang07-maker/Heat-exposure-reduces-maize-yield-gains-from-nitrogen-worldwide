@@ -2,7 +2,7 @@
 
 # Heat exposure reduces maize yield gains from nitrogen worldwide
 
-Data and analysis code accompanying the manuscript with this working title. This initial deposit contains **Figure 1 only**. Other analyses are not yet included. The repository is private; editor/reviewer access must be arranged separately.
+Data and analysis code accompanying the manuscript with this working title. This deposit contains **Figure 1 and Figure 2**, including the associated Figure 2 supplementary analyses. The repository is private; editor/reviewer access must be arranged separately.
 
 Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) for attribution and applicable access conditions. No publication or archive DOI has been assigned here.
 
@@ -16,6 +16,7 @@ Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) 
 - [Figure 1b](#figure-1b)
 - [Figure 1c](#figure-1c)
 - [Figure 1d](#figure-1d)
+- [Figure 2 files and commands](#figure-2)
 - [Data sources and rights](#sources-and-rights)
 
 <a id="environment"></a>
@@ -238,3 +239,60 @@ Made with Natural Earth. Country geometry was converted to GeoPackage without si
 ### Before public release
 
 Confirm area-file access and terms covering redistribution of derived spatial assignments and area-weighted results. Clarify the derived regional crosswalk's status with the applicable rights holder if needed. Select an author-approved code/output licence separately from third-party terms. Arrange editor/reviewer access while private. No provider contact or permission request has been made here.
+
+<a id="figure-2"></a>
+
+## Figure 2 files and commands
+
+Figure2 contains 96 files: analysis code, its inputs, fitted models needed by the plotting code, and archived results. Source Data workbooks are supplied for inspection; workbook-assembly scripts, editable layout assets, duplicate formatted regression tables and verification reports are omitted.
+
+| Directory | Files | Contents |
+| --- | ---: | --- |
+| `Figure2/Figure2a/` | 14 | Comparison input, overall REML code/results, histogram, map and spatial inputs; optional maize-area preparation code. |
+| `Figure2/Figure2b/` | 17 | Nitrogen-group analysis, fit/plot/simple-slope code, comparison/model inputs, transformation parameters, fitted model, coefficient/covariance/Wald/curve results, PDF and Source Data. |
+| `Figure2/Figure2c/` | 15 | Environment-type × nitrogen-rate analysis with fit/plot code and corresponding inputs, model, results, PDF and Source Data. |
+| `Figure2/Figure2d/` | 15 | Three-way interaction analysis with fit/plot code and corresponding inputs, model, results, PDF and Source Data. |
+| `Figure2/Extended_Data_Figure/` | 8 | Three input tables, plotting code, three PDFs and Source Data. |
+| `Figure2/Supplementary_Figure_heat_classification/` | 6 | Profile input, classification/diagnostic code and results, two PDFs and Source Data. |
+| `Figure2/Supplementary_Table_SD_imputation/` | 4 | Observed/current SD input, imputation code, reimputed SD table and grouped-median-CV workbook. |
+| `Figure2/SD_sensitivity/` | 8 | Fitting and summarization code plus six core result CSVs for Baseline, CV05, CV10 and CV20. |
+| `Figure2/Weather_preprocessing/` | 9 | Download/metric code, request and environment/R1 inputs, and four derived weather tables. |
+
+Additional R packages used by Figure 2: `Matrix`, `metafor`, `patchwork`, `scales`, `openxlsx`, `mclust`, `cluster` and `lubridate`. Install these only as needed. Weather downloading additionally needs Python `cdsapi` and the user's own CDS credentials; credentials and hourly weather archives are not included.
+
+Commands below run from the repository root. Scripts locate deposited inputs relative to their own location. The archived results can be inspected directly. Re-running scripts can replace derived outputs; use a separate working copy if retaining the archived versions.
+
+```text
+python Figure2/Figure2a/plot_map.py
+Rscript Figure2/Figure2a/plot_histogram.R
+Rscript Figure2/Figure2b/plot_Figure2b.R
+Rscript Figure2/Figure2c/plot_Figure2c.R
+Rscript Figure2/Figure2d/plot_Figure2d.R
+Rscript Figure2/Extended_Data_Figure/reproduce_extended_data.R
+Rscript Figure2/Supplementary_Figure_heat_classification/reproduce_classification.R
+Rscript Figure2/Supplementary_Table_SD_imputation/reproduce_SD_imputation.R
+```
+
+Optional model fitting uses the deposited comparison tables by default:
+
+```text
+Rscript Figure2/Figure2a/fit_overall_REML.R
+Rscript Figure2/Figure2b/fit_Figure2b.R
+Rscript Figure2/Figure2c/fit_Figure2c.R
+Rscript Figure2/Figure2d/fit_Figure2d.R
+Rscript Figure2/Figure2b/calculate_simple_slopes.R
+Rscript Figure2/SD_sensitivity/run_sensitivity.R
+```
+
+The sensitivity runner invokes `summarize_sensitivity.py` internally and generates a run-status CSV in addition to the six deposited result tables. Re-fitting these models can take substantial time. The three `model_REML.rds` files are retained because the panel plotting scripts read them. Source Data workbooks are archived outputs and are not regenerated by an omitted workbook builder.
+
+External weather inputs are optional for consulting the deposited results. To rebuild them, replace the placeholders below with your own directories; actual machine paths are not stored in these examples. The downloader requires CDS access and can download a large volume of data. `--check-only` performs a local check without downloading.
+
+```text
+python Figure2/Weather_preprocessing/01_download_weather.py --output-dir <weather_directory> --check-only
+python Figure2/Weather_preprocessing/01_download_weather.py --output-dir <weather_directory>
+Rscript Figure2/Weather_preprocessing/02_calculate_weather_metrics.R --raw-dir <weather_directory>/raw_utc --output-dir <derived_output_directory>
+python Figure2/Figure2a/prepare_maize_area.py --area-h5 <maize_area_hdf5> --output <mean_area_tif>
+```
+
+The weather request table describes ERA5-Land retrieval through CDS. Consult the existing attribution and applicable terms for external climate, crop-area and boundary data before redistribution. This deposit does not grant additional rights to those datasets. No weather downloads or Figure 2 model refitting were performed when preparing this deposit.

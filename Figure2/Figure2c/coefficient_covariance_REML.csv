@@ -1,0 +1,3137 @@
+term_1,term_2,covariance
+intrcpt,intrcpt,0.00153183611642426
+Env_TypeEarly heat exposure,intrcpt,-0.000857247923350137
+Env_TypeMiddle heat exposure,intrcpt,-0.000753159041700792
+Env_TypeLate heat exposure,intrcpt,-0.000753207908970356
+N_c,intrcpt,2.19046552843339e-06
+N_c_sq,intrcpt,-6.51945684162784e-06
+plant_density_c,intrcpt,5.19220605047181e-06
+N_strategySV,intrcpt,-5.70764742195238e-05
+N_strategySVR,intrcpt,-7.84111209633842e-05
+N_strategySR,intrcpt,-4.51421394820878e-05
+N_strategyVR,intrcpt,-9.25876645652984e-05
+N_strategyV,intrcpt,-4.67801979208124e-05
+N_strategyR,intrcpt,-1.9374201576077e-05
+countryArgentina,intrcpt,-0.000843923490962169
+countryAustralia,intrcpt,-0.000841370848711779
+countryBangladesh,intrcpt,-0.000682721915309787
+countryBrazil,intrcpt,-0.00126411177156322
+countryCanada,intrcpt,-0.00151792055388074
+countryColombia,intrcpt,-0.00189411261301824
+countryCroatia,intrcpt,-0.000541515288352769
+countryEgypt,intrcpt,-0.000565388320222536
+countryGermany,intrcpt,-0.00125974202435053
+countryGhana,intrcpt,-0.000593904632052594
+countryHungary,intrcpt,-0.0010817501722959
+countryIndia,intrcpt,-0.000542313456606869
+countryIran,intrcpt,-0.000778798015821827
+countryItaly,intrcpt,-0.000896720198908147
+countryKenya,intrcpt,-0.00100321703774319
+countryMalaysia,intrcpt,-0.00130319200405745
+countryNepal,intrcpt,-0.00121565584171607
+countryNiger,intrcpt,-0.000955259636844964
+countryNigeria,intrcpt,-0.00169737584751487
+countryPakistan,intrcpt,-0.000528879111895565
+countryPoland,intrcpt,-0.000787671690986864
+countryPortugal,intrcpt,-0.00109212774525366
+countrySpain,intrcpt,-0.00095612363701312
+countryTanzania,intrcpt,-0.000844863596979748
+countryThailand,intrcpt,-0.00148317108727394
+countryTurkey,intrcpt,0.000185391252355955
+countryUSA,intrcpt,-0.00108276952043262
+countryUganda,intrcpt,-0.00158755590056796
+countryZambia,intrcpt,-0.00201330891627291
+year_c,intrcpt,-0.000262179277108623
+GDD_c,intrcpt,8.79889602005136e-05
+pH_c,intrcpt,-9.11149899834167e-05
+SOC_log_c,intrcpt,0.0002429238582986
+TN_log_c,intrcpt,-5.50013636146078e-05
+rain_c,intrcpt,-2.24956728854538e-05
+rain_c_sq,intrcpt,4.70806584049988e-07
+irrigationIrrigation,intrcpt,-0.000143137224302137
+Env_TypeEarly heat exposure:N_c,intrcpt,-1.537436891856e-06
+Env_TypeMiddle heat exposure:N_c,intrcpt,-6.14999500221712e-06
+Env_TypeLate heat exposure:N_c,intrcpt,-3.26903296000944e-06
+Env_TypeEarly heat exposure:N_c_sq,intrcpt,6.16810933738438e-06
+Env_TypeMiddle heat exposure:N_c_sq,intrcpt,6.88132203070386e-06
+Env_TypeLate heat exposure:N_c_sq,intrcpt,4.01746426670465e-06
+intrcpt,Env_TypeEarly heat exposure,-0.000857247923350137
+Env_TypeEarly heat exposure,Env_TypeEarly heat exposure,0.00129005564041277
+Env_TypeMiddle heat exposure,Env_TypeEarly heat exposure,0.000818456723572649
+Env_TypeLate heat exposure,Env_TypeEarly heat exposure,0.000803525882071295
+N_c,Env_TypeEarly heat exposure,-2.57821880451036e-06
+N_c_sq,Env_TypeEarly heat exposure,5.6295772693065e-06
+plant_density_c,Env_TypeEarly heat exposure,-5.87638095304792e-07
+N_strategySV,Env_TypeEarly heat exposure,3.17857074368673e-06
+N_strategySVR,Env_TypeEarly heat exposure,-8.72633739483714e-07
+N_strategySR,Env_TypeEarly heat exposure,-4.76988626936103e-06
+N_strategyVR,Env_TypeEarly heat exposure,-1.5651401261555e-05
+N_strategyV,Env_TypeEarly heat exposure,1.39505569393276e-05
+N_strategyR,Env_TypeEarly heat exposure,2.80181408298704e-06
+countryArgentina,Env_TypeEarly heat exposure,-1.19407554041805e-05
+countryAustralia,Env_TypeEarly heat exposure,9.47768054467706e-05
+countryBangladesh,Env_TypeEarly heat exposure,0.000237237487905739
+countryBrazil,Env_TypeEarly heat exposure,0.00031552073506881
+countryCanada,Env_TypeEarly heat exposure,0.000441351650118281
+countryColombia,Env_TypeEarly heat exposure,0.00105233344648981
+countryCroatia,Env_TypeEarly heat exposure,-4.78666246087278e-05
+countryEgypt,Env_TypeEarly heat exposure,0.00044296431125086
+countryGermany,Env_TypeEarly heat exposure,0.000560876864193787
+countryGhana,Env_TypeEarly heat exposure,-1.73315134597123e-05
+countryHungary,Env_TypeEarly heat exposure,0.000273823767275013
+countryIndia,Env_TypeEarly heat exposure,1.17257696169496e-06
+countryIran,Env_TypeEarly heat exposure,0.000172322910363351
+countryItaly,Env_TypeEarly heat exposure,0.000143386014351444
+countryKenya,Env_TypeEarly heat exposure,0.000273938123190592
+countryMalaysia,Env_TypeEarly heat exposure,0.000832411840750505
+countryNepal,Env_TypeEarly heat exposure,0.000777535810135925
+countryNiger,Env_TypeEarly heat exposure,4.71153847605548e-05
+countryNigeria,Env_TypeEarly heat exposure,0.000798346193378484
+countryPakistan,Env_TypeEarly heat exposure,0.00011106793636917
+countryPoland,Env_TypeEarly heat exposure,0.00013101279544151
+countryPortugal,Env_TypeEarly heat exposure,-0.000376808109985506
+countrySpain,Env_TypeEarly heat exposure,0.000617499488519966
+countryTanzania,Env_TypeEarly heat exposure,0.000485026817440516
+countryThailand,Env_TypeEarly heat exposure,9.57285189977871e-05
+countryTurkey,Env_TypeEarly heat exposure,-0.000714606666420305
+countryUSA,Env_TypeEarly heat exposure,0.000162880185625553
+countryUganda,Env_TypeEarly heat exposure,0.000710601620244816
+countryZambia,Env_TypeEarly heat exposure,0.000506813685085534
+year_c,Env_TypeEarly heat exposure,1.55978901752319e-05
+GDD_c,Env_TypeEarly heat exposure,-8.12581359470622e-05
+pH_c,Env_TypeEarly heat exposure,-7.20741148877365e-05
+SOC_log_c,Env_TypeEarly heat exposure,-6.57222606116736e-05
+TN_log_c,Env_TypeEarly heat exposure,0.00015652817596991
+rain_c,Env_TypeEarly heat exposure,9.30604952412849e-06
+rain_c_sq,Env_TypeEarly heat exposure,-7.19004775088537e-07
+irrigationIrrigation,Env_TypeEarly heat exposure,-5.13689518218474e-05
+Env_TypeEarly heat exposure:N_c,Env_TypeEarly heat exposure,6.13065799555497e-06
+Env_TypeMiddle heat exposure:N_c,Env_TypeEarly heat exposure,5.56168229757105e-06
+Env_TypeLate heat exposure:N_c,Env_TypeEarly heat exposure,3.44323111319699e-06
+Env_TypeEarly heat exposure:N_c_sq,Env_TypeEarly heat exposure,-1.01979299478908e-05
+Env_TypeMiddle heat exposure:N_c_sq,Env_TypeEarly heat exposure,-5.61789157697442e-06
+Env_TypeLate heat exposure:N_c_sq,Env_TypeEarly heat exposure,-5.3736225056899e-06
+intrcpt,Env_TypeMiddle heat exposure,-0.000753159041700792
+Env_TypeEarly heat exposure,Env_TypeMiddle heat exposure,0.000818456723572649
+Env_TypeMiddle heat exposure,Env_TypeMiddle heat exposure,0.00124518048874757
+Env_TypeLate heat exposure,Env_TypeMiddle heat exposure,0.000887607580298272
+N_c,Env_TypeMiddle heat exposure,-3.75911047926097e-06
+N_c_sq,Env_TypeMiddle heat exposure,5.87108845136779e-06
+plant_density_c,Env_TypeMiddle heat exposure,-6.66304389756754e-07
+N_strategySV,Env_TypeMiddle heat exposure,5.78804710226434e-06
+N_strategySVR,Env_TypeMiddle heat exposure,-1.08871540289714e-06
+N_strategySR,Env_TypeMiddle heat exposure,-1.94146280467971e-06
+N_strategyVR,Env_TypeMiddle heat exposure,-7.89000379223857e-06
+N_strategyV,Env_TypeMiddle heat exposure,1.50129588420034e-05
+N_strategyR,Env_TypeMiddle heat exposure,5.08248828153807e-06
+countryArgentina,Env_TypeMiddle heat exposure,-0.000215102388740598
+countryAustralia,Env_TypeMiddle heat exposure,-0.000407879688298707
+countryBangladesh,Env_TypeMiddle heat exposure,0.000155463188621398
+countryBrazil,Env_TypeMiddle heat exposure,0.000353764817662711
+countryCanada,Env_TypeMiddle heat exposure,0.000381690045913831
+countryColombia,Env_TypeMiddle heat exposure,0.00100092445525432
+countryCroatia,Env_TypeMiddle heat exposure,-1.50511035946202e-05
+countryEgypt,Env_TypeMiddle heat exposure,0.000292756747760633
+countryGermany,Env_TypeMiddle heat exposure,0.000497415385762516
+countryGhana,Env_TypeMiddle heat exposure,0.000140711172316934
+countryHungary,Env_TypeMiddle heat exposure,8.70533286428691e-06
+countryIndia,Env_TypeMiddle heat exposure,1.72397926012316e-05
+countryIran,Env_TypeMiddle heat exposure,0.000210876930693309
+countryItaly,Env_TypeMiddle heat exposure,-0.000410010559399762
+countryKenya,Env_TypeMiddle heat exposure,0.000165635451857061
+countryMalaysia,Env_TypeMiddle heat exposure,0.000661057217581707
+countryNepal,Env_TypeMiddle heat exposure,0.000709943810222384
+countryNiger,Env_TypeMiddle heat exposure,-7.06690812472774e-05
+countryNigeria,Env_TypeMiddle heat exposure,0.000538430457833492
+countryPakistan,Env_TypeMiddle heat exposure,0.000110710929993842
+countryPoland,Env_TypeMiddle heat exposure,1.77617050220533e-05
+countryPortugal,Env_TypeMiddle heat exposure,-0.000751167730490148
+countrySpain,Env_TypeMiddle heat exposure,0.000225439811091659
+countryTanzania,Env_TypeMiddle heat exposure,0.000266825747765035
+countryThailand,Env_TypeMiddle heat exposure,8.34275158984932e-05
+countryTurkey,Env_TypeMiddle heat exposure,-0.000387916425951276
+countryUSA,Env_TypeMiddle heat exposure,-2.09103588150684e-05
+countryUganda,Env_TypeMiddle heat exposure,0.00059570873974351
+countryZambia,Env_TypeMiddle heat exposure,0.000396456739532036
+year_c,Env_TypeMiddle heat exposure,-1.4284927057375e-06
+GDD_c,Env_TypeMiddle heat exposure,-8.72153411718319e-05
+pH_c,Env_TypeMiddle heat exposure,-2.44112274590594e-05
+SOC_log_c,Env_TypeMiddle heat exposure,-6.56998196141068e-05
+TN_log_c,Env_TypeMiddle heat exposure,4.45996539935001e-05
+rain_c,Env_TypeMiddle heat exposure,3.56429677105103e-05
+rain_c_sq,Env_TypeMiddle heat exposure,-2.26629715169699e-06
+irrigationIrrigation,Env_TypeMiddle heat exposure,-1.77892414996005e-05
+Env_TypeEarly heat exposure:N_c,Env_TypeMiddle heat exposure,4.61992158766695e-06
+Env_TypeMiddle heat exposure:N_c,Env_TypeMiddle heat exposure,9.07462850207276e-06
+Env_TypeLate heat exposure:N_c,Env_TypeMiddle heat exposure,2.95870897359029e-06
+Env_TypeEarly heat exposure:N_c_sq,Env_TypeMiddle heat exposure,-5.74175449148205e-06
+Env_TypeMiddle heat exposure:N_c_sq,Env_TypeMiddle heat exposure,-1.35225353438696e-05
+Env_TypeLate heat exposure:N_c_sq,Env_TypeMiddle heat exposure,-7.154350722776e-06
+intrcpt,Env_TypeLate heat exposure,-0.000753207908970356
+Env_TypeEarly heat exposure,Env_TypeLate heat exposure,0.000803525882071295
+Env_TypeMiddle heat exposure,Env_TypeLate heat exposure,0.000887607580298272
+Env_TypeLate heat exposure,Env_TypeLate heat exposure,0.00154328449400625
+N_c,Env_TypeLate heat exposure,-3.69101311174428e-06
+N_c_sq,Env_TypeLate heat exposure,5.96283702771612e-06
+plant_density_c,Env_TypeLate heat exposure,1.38105254021425e-06
+N_strategySV,Env_TypeLate heat exposure,2.29645285349877e-06
+N_strategySVR,Env_TypeLate heat exposure,3.1855905049975e-06
+N_strategySR,Env_TypeLate heat exposure,-6.69564904285253e-06
+N_strategyVR,Env_TypeLate heat exposure,3.76755550007329e-06
+N_strategyV,Env_TypeLate heat exposure,1.63630433606324e-05
+N_strategyR,Env_TypeLate heat exposure,3.07994556435179e-06
+countryArgentina,Env_TypeLate heat exposure,-0.000386275090079372
+countryAustralia,Env_TypeLate heat exposure,-5.69997208769606e-05
+countryBangladesh,Env_TypeLate heat exposure,-0.000474440986065063
+countryBrazil,Env_TypeLate heat exposure,0.000208382389087771
+countryCanada,Env_TypeLate heat exposure,0.000384722396736796
+countryColombia,Env_TypeLate heat exposure,0.00098173276141707
+countryCroatia,Env_TypeLate heat exposure,5.37067893960854e-05
+countryEgypt,Env_TypeLate heat exposure,0.000284751062129887
+countryGermany,Env_TypeLate heat exposure,0.000540979969421286
+countryGhana,Env_TypeLate heat exposure,0.000209456201604474
+countryHungary,Env_TypeLate heat exposure,-0.000103601757906961
+countryIndia,Env_TypeLate heat exposure,-0.000330791700120472
+countryIran,Env_TypeLate heat exposure,0.000229242970367001
+countryItaly,Env_TypeLate heat exposure,-7.69916932439526e-05
+countryKenya,Env_TypeLate heat exposure,0.000252797136825103
+countryMalaysia,Env_TypeLate heat exposure,0.000739395283789434
+countryNepal,Env_TypeLate heat exposure,0.000624369686898019
+countryNiger,Env_TypeLate heat exposure,-0.000339770543650008
+countryNigeria,Env_TypeLate heat exposure,0.000499053523203405
+countryPakistan,Env_TypeLate heat exposure,5.52915971886158e-05
+countryPoland,Env_TypeLate heat exposure,0.000119169921979704
+countryPortugal,Env_TypeLate heat exposure,-0.000371831208406841
+countrySpain,Env_TypeLate heat exposure,0.000323143169692225
+countryTanzania,Env_TypeLate heat exposure,0.000300971852858219
+countryThailand,Env_TypeLate heat exposure,-0.000529555259462601
+countryTurkey,Env_TypeLate heat exposure,-0.000311912250192704
+countryUSA,Env_TypeLate heat exposure,-8.71530125649628e-05
+countryUganda,Env_TypeLate heat exposure,0.000502846479487488
+countryZambia,Env_TypeLate heat exposure,0.000422708364649712
+year_c,Env_TypeLate heat exposure,-2.46869250906099e-05
+GDD_c,Env_TypeLate heat exposure,-7.72070918100105e-05
+pH_c,Env_TypeLate heat exposure,-3.14247331995274e-06
+SOC_log_c,Env_TypeLate heat exposure,-8.81211890949538e-05
+TN_log_c,Env_TypeLate heat exposure,0.000129408910268958
+rain_c,Env_TypeLate heat exposure,4.56965736527448e-05
+rain_c_sq,Env_TypeLate heat exposure,-2.59054490960475e-06
+irrigationIrrigation,Env_TypeLate heat exposure,1.02778414086328e-05
+Env_TypeEarly heat exposure:N_c,Env_TypeLate heat exposure,2.80360338287258e-06
+Env_TypeMiddle heat exposure:N_c,Env_TypeLate heat exposure,4.38625152417318e-06
+Env_TypeLate heat exposure:N_c,Env_TypeLate heat exposure,3.51340644307989e-06
+Env_TypeEarly heat exposure:N_c_sq,Env_TypeLate heat exposure,-5.46820025227449e-06
+Env_TypeMiddle heat exposure:N_c_sq,Env_TypeLate heat exposure,-6.12704284310414e-06
+Env_TypeLate heat exposure:N_c_sq,Env_TypeLate heat exposure,-3.44071814389023e-05
+intrcpt,N_c,2.19046552843339e-06
+Env_TypeEarly heat exposure,N_c,-2.57821880451036e-06
+Env_TypeMiddle heat exposure,N_c,-3.75911047926097e-06
+Env_TypeLate heat exposure,N_c,-3.69101311174428e-06
+N_c,N_c,2.20531969190781e-05
+N_c_sq,N_c,-2.91983269781085e-06
+plant_density_c,N_c,-2.78674175145447e-08
+N_strategySV,N_c,-1.71195478215409e-06
+N_strategySVR,N_c,-1.03221735086789e-06
+N_strategySR,N_c,-1.03571822770399e-06
+N_strategyVR,N_c,-4.18255766873028e-07
+N_strategyV,N_c,-8.54244138552385e-07
+N_strategyR,N_c,2.32035694154285e-06
+countryArgentina,N_c,3.55760658461143e-06
+countryAustralia,N_c,1.78598933248598e-06
+countryBangladesh,N_c,2.47869051589696e-06
+countryBrazil,N_c,-1.763323346917e-06
+countryCanada,N_c,6.69906178606489e-06
+countryColombia,N_c,7.0227868912048e-06
+countryCroatia,N_c,1.05736806752188e-06
+countryEgypt,N_c,2.02794632690461e-06
+countryGermany,N_c,1.28959915264396e-05
+countryGhana,N_c,1.61065431436724e-05
+countryHungary,N_c,2.37292919468664e-06
+countryIndia,N_c,2.79649149683321e-06
+countryIran,N_c,2.9560360070839e-06
+countryItaly,N_c,2.84057264252559e-06
+countryKenya,N_c,2.80178899111488e-05
+countryMalaysia,N_c,1.69491477203473e-05
+countryNepal,N_c,1.06069631193028e-05
+countryNiger,N_c,3.29077204501841e-06
+countryNigeria,N_c,2.99401889844345e-05
+countryPakistan,N_c,3.02878045542959e-06
+countryPoland,N_c,4.77129024843514e-07
+countryPortugal,N_c,1.8399707079895e-06
+countrySpain,N_c,6.62024162688145e-07
+countryTanzania,N_c,2.10058392615113e-05
+countryThailand,N_c,1.19904841072555e-06
+countryTurkey,N_c,2.62125746360442e-06
+countryUSA,N_c,1.68606978059879e-06
+countryUganda,N_c,1.58016993180076e-05
+countryZambia,N_c,2.58331614719469e-05
+year_c,N_c,-3.78598994240578e-07
+GDD_c,N_c,1.1795946191625e-07
+pH_c,N_c,1.07661929223873e-07
+SOC_log_c,N_c,2.32149967712304e-07
+TN_log_c,N_c,1.53217431612202e-06
+rain_c,N_c,1.00534216587664e-07
+rain_c_sq,N_c,4.77981428719482e-09
+irrigationIrrigation,N_c,5.24406420549685e-07
+Env_TypeEarly heat exposure:N_c,N_c,-2.20156882849454e-05
+Env_TypeMiddle heat exposure:N_c,N_c,-2.19433271737812e-05
+Env_TypeLate heat exposure:N_c,N_c,-2.19238277886974e-05
+Env_TypeEarly heat exposure:N_c_sq,N_c,2.90180677361048e-06
+Env_TypeMiddle heat exposure:N_c_sq,N_c,2.88546553219401e-06
+Env_TypeLate heat exposure:N_c_sq,N_c,2.91079925200137e-06
+intrcpt,N_c_sq,-6.51945684162784e-06
+Env_TypeEarly heat exposure,N_c_sq,5.6295772693065e-06
+Env_TypeMiddle heat exposure,N_c_sq,5.87108845136779e-06
+Env_TypeLate heat exposure,N_c_sq,5.96283702771612e-06
+N_c,N_c_sq,-2.91983269781085e-06
+N_c_sq,N_c_sq,9.29172648957828e-06
+plant_density_c,N_c_sq,-1.23524608865764e-08
+N_strategySV,N_c_sq,9.50373852655457e-07
+N_strategySVR,N_c_sq,5.36743546000588e-07
+N_strategySR,N_c_sq,1.16910412751223e-07
+N_strategyVR,N_c_sq,3.84335678655874e-07
+N_strategyV,N_c_sq,1.90569963582787e-07
+N_strategyR,N_c_sq,-3.15743561582587e-07
+countryArgentina,N_c_sq,8.23688669765926e-07
+countryAustralia,N_c_sq,7.09321998474747e-07
+countryBangladesh,N_c_sq,-2.75833311924397e-07
+countryBrazil,N_c_sq,-6.25173817962064e-07
+countryCanada,N_c_sq,1.41647477249204e-06
+countryColombia,N_c_sq,-1.95827576666404e-06
+countryCroatia,N_c_sq,-1.89592547681589e-07
+countryEgypt,N_c_sq,-4.08534936439895e-07
+countryGermany,N_c_sq,1.00802034107016e-06
+countryGhana,N_c_sq,-3.62719773248833e-06
+countryHungary,N_c_sq,-5.70630957341547e-08
+countryIndia,N_c_sq,-2.74710735622437e-07
+countryIran,N_c_sq,4.28571925273623e-08
+countryItaly,N_c_sq,-6.08904092144716e-07
+countryKenya,N_c_sq,-8.29453187782712e-06
+countryMalaysia,N_c_sq,-2.06483611672925e-06
+countryNepal,N_c_sq,-1.2472121910106e-06
+countryNiger,N_c_sq,-4.78676525408217e-08
+countryNigeria,N_c_sq,-1.2101271107957e-05
+countryPakistan,N_c_sq,-5.01120289950462e-07
+countryPoland,N_c_sq,4.60891723675915e-06
+countryPortugal,N_c_sq,1.29900280072992e-06
+countrySpain,N_c_sq,-9.05523540811623e-08
+countryTanzania,N_c_sq,-4.31328919055955e-06
+countryThailand,N_c_sq,5.34139929452214e-07
+countryTurkey,N_c_sq,2.02593848904719e-06
+countryUSA,N_c_sq,1.57555271409324e-07
+countryUganda,N_c_sq,-3.3054516138937e-06
+countryZambia,N_c_sq,-8.30539881635434e-06
+year_c,N_c_sq,6.65199862067106e-08
+GDD_c,N_c_sq,2.39857420212796e-07
+pH_c,N_c_sq,8.86375264656786e-08
+SOC_log_c,N_c_sq,5.01033153651287e-08
+TN_log_c,N_c_sq,-8.06732461960649e-08
+rain_c,N_c_sq,1.09576466812744e-07
+rain_c_sq,N_c_sq,-7.27419689297781e-09
+irrigationIrrigation,N_c_sq,4.82473478226731e-08
+Env_TypeEarly heat exposure:N_c,N_c_sq,2.92910299039316e-06
+Env_TypeMiddle heat exposure:N_c,N_c_sq,2.90177848635343e-06
+Env_TypeLate heat exposure:N_c,N_c_sq,2.87137904578853e-06
+Env_TypeEarly heat exposure:N_c_sq,N_c_sq,-9.28607633902125e-06
+Env_TypeMiddle heat exposure:N_c_sq,N_c_sq,-9.27980441645154e-06
+Env_TypeLate heat exposure:N_c_sq,N_c_sq,-9.27575138076062e-06
+intrcpt,plant_density_c,5.19220605047181e-06
+Env_TypeEarly heat exposure,plant_density_c,-5.87638095304792e-07
+Env_TypeMiddle heat exposure,plant_density_c,-6.66304389756754e-07
+Env_TypeLate heat exposure,plant_density_c,1.38105254021425e-06
+N_c,plant_density_c,-2.78674175145447e-08
+N_c_sq,plant_density_c,-1.23524608865764e-08
+plant_density_c,plant_density_c,9.24885248300137e-06
+N_strategySV,plant_density_c,6.58730285738019e-08
+N_strategySVR,plant_density_c,-5.15837067672161e-07
+N_strategySR,plant_density_c,-1.17069133064207e-07
+N_strategyVR,plant_density_c,-3.770161199436e-07
+N_strategyV,plant_density_c,-2.92557419274356e-07
+N_strategyR,plant_density_c,-1.14716624770879e-07
+countryArgentina,plant_density_c,-1.19755225356598e-05
+countryAustralia,plant_density_c,-1.24329899016593e-05
+countryBangladesh,plant_density_c,1.09938650377919e-05
+countryBrazil,plant_density_c,1.00730053320011e-05
+countryCanada,plant_density_c,-8.84221428721308e-06
+countryColombia,plant_density_c,5.09130686976517e-06
+countryCroatia,plant_density_c,1.06452613085376e-05
+countryEgypt,plant_density_c,1.23399227489305e-05
+countryGermany,plant_density_c,-3.1891875316811e-05
+countryGhana,plant_density_c,1.56843515920541e-05
+countryHungary,plant_density_c,-4.49991887258111e-06
+countryIndia,plant_density_c,-1.19498534685064e-05
+countryIran,plant_density_c,-1.27141640453738e-05
+countryItaly,plant_density_c,-1.08147403243843e-05
+countryKenya,plant_density_c,1.74837234804183e-05
+countryMalaysia,plant_density_c,2.01578942240924e-05
+countryNepal,plant_density_c,6.03092536931057e-06
+countryNiger,plant_density_c,-5.81316313206524e-06
+countryNigeria,plant_density_c,1.23461924164669e-05
+countryPakistan,plant_density_c,-5.98517522431528e-07
+countryPoland,plant_density_c,-2.7580406440201e-05
+countryPortugal,plant_density_c,-2.19692344037979e-05
+countrySpain,plant_density_c,-8.52773018302523e-06
+countryTanzania,plant_density_c,1.84774335078279e-05
+countryThailand,plant_density_c,1.21603827486133e-05
+countryTurkey,plant_density_c,6.85196243795389e-06
+countryUSA,plant_density_c,-8.82100330956161e-06
+countryUganda,plant_density_c,1.39730428794108e-05
+countryZambia,plant_density_c,1.9033163881078e-05
+year_c,plant_density_c,-5.80114193603643e-07
+GDD_c,plant_density_c,1.30613486844796e-07
+pH_c,plant_density_c,-4.2415735211479e-07
+SOC_log_c,plant_density_c,-1.58790983963923e-06
+TN_log_c,plant_density_c,6.85420483114571e-06
+rain_c,plant_density_c,2.06903991193582e-07
+rain_c_sq,plant_density_c,-1.64003489535449e-08
+irrigationIrrigation,plant_density_c,-1.25074879949498e-06
+Env_TypeEarly heat exposure:N_c,plant_density_c,3.52365057376888e-08
+Env_TypeMiddle heat exposure:N_c,plant_density_c,-1.77432161928798e-08
+Env_TypeLate heat exposure:N_c,plant_density_c,-3.00242566682951e-08
+Env_TypeEarly heat exposure:N_c_sq,plant_density_c,-2.10168963919034e-08
+Env_TypeMiddle heat exposure:N_c_sq,plant_density_c,-2.97081179528214e-08
+Env_TypeLate heat exposure:N_c_sq,plant_density_c,-5.17734683861438e-08
+intrcpt,N_strategySV,-5.70764742195238e-05
+Env_TypeEarly heat exposure,N_strategySV,3.17857074368673e-06
+Env_TypeMiddle heat exposure,N_strategySV,5.78804710226434e-06
+Env_TypeLate heat exposure,N_strategySV,2.29645285349877e-06
+N_c,N_strategySV,-1.71195478215409e-06
+N_c_sq,N_strategySV,9.50373852655457e-07
+plant_density_c,N_strategySV,6.58730285738019e-08
+N_strategySV,N_strategySV,0.000102160373322379
+N_strategySVR,N_strategySV,6.6894687102764e-05
+N_strategySR,N_strategySV,1.94386380735209e-05
+N_strategyVR,N_strategySV,5.65082709204844e-05
+N_strategyV,N_strategySV,3.7368081162219e-05
+N_strategyR,N_strategySV,1.14296312327025e-05
+countryArgentina,N_strategySV,3.83136945015656e-05
+countryAustralia,N_strategySV,3.49971879158555e-05
+countryBangladesh,N_strategySV,-1.0830418271814e-05
+countryBrazil,N_strategySV,-7.7982280628723e-06
+countryCanada,N_strategySV,2.32247560159356e-05
+countryColombia,N_strategySV,-1.45979996672981e-05
+countryCroatia,N_strategySV,-8.55789108187675e-06
+countryEgypt,N_strategySV,-5.57812866870468e-06
+countryGermany,N_strategySV,5.24936644088943e-05
+countryGhana,N_strategySV,4.07060295062086e-05
+countryHungary,N_strategySV,5.49855598712213e-05
+countryIndia,N_strategySV,-9.19390120438238e-06
+countryIran,N_strategySV,-3.01084494580649e-06
+countryItaly,N_strategySV,-4.89794177573116e-05
+countryKenya,N_strategySV,-4.97426155096728e-05
+countryMalaysia,N_strategySV,-2.08524567650203e-05
+countryNepal,N_strategySV,-1.54716684030686e-06
+countryNiger,N_strategySV,-4.20041080003229e-05
+countryNigeria,N_strategySV,-4.94657442777145e-05
+countryPakistan,N_strategySV,-1.61388536301994e-05
+countryPoland,N_strategySV,-4.05903613117971e-05
+countryPortugal,N_strategySV,-4.85233742302793e-05
+countrySpain,N_strategySV,-7.36671030500486e-06
+countryTanzania,N_strategySV,3.00445107673621e-05
+countryThailand,N_strategySV,-8.9764919229201e-06
+countryTurkey,N_strategySV,-5.3430083380521e-06
+countryUSA,N_strategySV,3.43875306046137e-05
+countryUganda,N_strategySV,3.09409123051666e-05
+countryZambia,N_strategySV,-5.00459457238301e-05
+year_c,N_strategySV,1.753352728505e-06
+GDD_c,N_strategySV,-1.85657877445316e-07
+pH_c,N_strategySV,-5.38852128562123e-07
+SOC_log_c,N_strategySV,5.00480250998441e-06
+TN_log_c,N_strategySV,-7.17343929849689e-06
+rain_c,N_strategySV,7.6763621829211e-07
+rain_c_sq,N_strategySV,-3.79211379761419e-08
+irrigationIrrigation,N_strategySV,-2.97046096823739e-06
+Env_TypeEarly heat exposure:N_c,N_strategySV,2.63770896459248e-06
+Env_TypeMiddle heat exposure:N_c,N_strategySV,2.00938726625304e-06
+Env_TypeLate heat exposure:N_c,N_strategySV,-2.53906257192057e-06
+Env_TypeEarly heat exposure:N_c_sq,N_strategySV,-7.03851775775627e-07
+Env_TypeMiddle heat exposure:N_c_sq,N_strategySV,-3.62283301119401e-07
+Env_TypeLate heat exposure:N_c_sq,N_strategySV,4.98412290305263e-07
+intrcpt,N_strategySVR,-7.84111209633842e-05
+Env_TypeEarly heat exposure,N_strategySVR,-8.72633739483714e-07
+Env_TypeMiddle heat exposure,N_strategySVR,-1.08871540289714e-06
+Env_TypeLate heat exposure,N_strategySVR,3.1855905049975e-06
+N_c,N_strategySVR,-1.03221735086789e-06
+N_c_sq,N_strategySVR,5.36743546000588e-07
+plant_density_c,N_strategySVR,-5.15837067672161e-07
+N_strategySV,N_strategySVR,6.6894687102764e-05
+N_strategySVR,N_strategySVR,0.000204561005440982
+N_strategySR,N_strategySVR,3.27214258536611e-05
+N_strategyVR,N_strategySVR,0.000125800507563451
+N_strategyV,N_strategySVR,3.79110387990098e-05
+N_strategyR,N_strategySVR,1.5998011718695e-05
+countryArgentina,N_strategySVR,6.80639092392586e-05
+countryAustralia,N_strategySVR,6.83198555435541e-05
+countryBangladesh,N_strategySVR,-0.000129188886873496
+countryBrazil,N_strategySVR,-4.28196991671451e-05
+countryCanada,N_strategySVR,5.33572679106452e-05
+countryColombia,N_strategySVR,-0.000143183772408862
+countryCroatia,N_strategySVR,-0.000115030188554085
+countryEgypt,N_strategySVR,-0.000109361951151046
+countryGermany,N_strategySVR,7.46098273514543e-05
+countryGhana,N_strategySVR,5.66497066669499e-05
+countryHungary,N_strategySVR,8.0426333217579e-05
+countryIndia,N_strategySVR,-0.000107984767862233
+countryIran,N_strategySVR,-7.74867022323388e-06
+countryItaly,N_strategySVR,1.66776522593304e-05
+countryKenya,N_strategySVR,1.27077483057646e-05
+countryMalaysia,N_strategySVR,1.09146404346933e-05
+countryNepal,N_strategySVR,-5.20208203725912e-05
+countryNiger,N_strategySVR,2.66432085084836e-05
+countryNigeria,N_strategySVR,1.01659454649621e-05
+countryPakistan,N_strategySVR,-4.97828447080799e-05
+countryPoland,N_strategySVR,2.40997376509247e-05
+countryPortugal,N_strategySVR,1.76372953502882e-05
+countrySpain,N_strategySVR,2.06695792208878e-05
+countryTanzania,N_strategySVR,4.09699991549758e-05
+countryThailand,N_strategySVR,-0.000108687342111031
+countryTurkey,N_strategySVR,-0.000100330769867141
+countryUSA,N_strategySVR,5.62394331708214e-05
+countryUganda,N_strategySVR,3.14508887498979e-05
+countryZambia,N_strategySVR,4.14729722644385e-06
+year_c,N_strategySVR,3.31272992018928e-06
+GDD_c,N_strategySVR,1.12481706909076e-06
+pH_c,N_strategySVR,-2.5595697624843e-06
+SOC_log_c,N_strategySVR,1.09081066597153e-05
+TN_log_c,N_strategySVR,-7.39993494251425e-06
+rain_c,N_strategySVR,1.44063529011911e-06
+rain_c_sq,N_strategySVR,-7.77612350110142e-08
+irrigationIrrigation,N_strategySVR,-6.91397864053688e-06
+Env_TypeEarly heat exposure:N_c,N_strategySVR,-5.56454336074977e-06
+Env_TypeMiddle heat exposure:N_c,N_strategySVR,2.89046446924246e-06
+Env_TypeLate heat exposure:N_c,N_strategySVR,-1.48513521671672e-06
+Env_TypeEarly heat exposure:N_c_sq,N_strategySVR,-1.61793711707774e-08
+Env_TypeMiddle heat exposure:N_c_sq,N_strategySVR,-6.70699191742441e-07
+Env_TypeLate heat exposure:N_c_sq,N_strategySVR,5.74120925841325e-07
+intrcpt,N_strategySR,-4.51421394820878e-05
+Env_TypeEarly heat exposure,N_strategySR,-4.76988626936103e-06
+Env_TypeMiddle heat exposure,N_strategySR,-1.94146280467971e-06
+Env_TypeLate heat exposure,N_strategySR,-6.69564904285253e-06
+N_c,N_strategySR,-1.03571822770399e-06
+N_c_sq,N_strategySR,1.16910412751223e-07
+plant_density_c,N_strategySR,-1.17069133064207e-07
+N_strategySV,N_strategySR,1.94386380735209e-05
+N_strategySVR,N_strategySR,3.27214258536611e-05
+N_strategySR,N_strategySR,0.000196049505047655
+N_strategyVR,N_strategySR,3.29354925457887e-05
+N_strategyV,N_strategySR,1.64935130733398e-05
+N_strategyR,N_strategySR,2.63940494938901e-05
+countryArgentina,N_strategySR,4.16564360383754e-05
+countryAustralia,N_strategySR,4.06333560896222e-05
+countryBangladesh,N_strategySR,2.47799451569334e-05
+countryBrazil,N_strategySR,3.81559872263438e-05
+countryCanada,N_strategySR,2.44107746978355e-05
+countryColombia,N_strategySR,2.60031612864876e-05
+countryCroatia,N_strategySR,1.53753713390979e-05
+countryEgypt,N_strategySR,1.42313771311277e-05
+countryGermany,N_strategySR,4.5016520992497e-05
+countryGhana,N_strategySR,-0.000163493566979902
+countryHungary,N_strategySR,4.65905198766289e-05
+countryIndia,N_strategySR,1.48591044258916e-05
+countryIran,N_strategySR,-2.07608406979617e-05
+countryItaly,N_strategySR,3.39946112339547e-05
+countryKenya,N_strategySR,2.06808077035059e-05
+countryMalaysia,N_strategySR,-2.30352978625422e-05
+countryNepal,N_strategySR,2.1360054832808e-05
+countryNiger,N_strategySR,2.29771903434379e-05
+countryNigeria,N_strategySR,2.7061233102219e-05
+countryPakistan,N_strategySR,2.26832587350997e-05
+countryPoland,N_strategySR,6.74292070913469e-06
+countryPortugal,N_strategySR,2.28422270580334e-05
+countrySpain,N_strategySR,9.10991670501124e-06
+countryTanzania,N_strategySR,-0.00014869254968641
+countryThailand,N_strategySR,2.81175255337089e-05
+countryTurkey,N_strategySR,1.80803407215289e-07
+countryUSA,N_strategySR,3.86014020724669e-05
+countryUganda,N_strategySR,-0.00014063096434023
+countryZambia,N_strategySR,2.83941927185882e-05
+year_c,N_strategySR,-2.0168008810176e-06
+GDD_c,N_strategySR,-1.4891715416522e-06
+pH_c,N_strategySR,1.91638953487474e-06
+SOC_log_c,N_strategySR,-9.83077448380461e-06
+TN_log_c,N_strategySR,1.67125042115309e-05
+rain_c,N_strategySR,-9.89647362140355e-07
+rain_c_sq,N_strategySR,6.34828004929443e-09
+irrigationIrrigation,N_strategySR,-7.09252927263251e-08
+Env_TypeEarly heat exposure:N_c,N_strategySR,-3.29388000433523e-06
+Env_TypeMiddle heat exposure:N_c,N_strategySR,1.65724607490016e-06
+Env_TypeLate heat exposure:N_c,N_strategySR,3.17581937800567e-07
+Env_TypeEarly heat exposure:N_c_sq,N_strategySR,4.17486537967979e-07
+Env_TypeMiddle heat exposure:N_c_sq,N_strategySR,-3.18315230745854e-07
+Env_TypeLate heat exposure:N_c_sq,N_strategySR,2.44671071726817e-07
+intrcpt,N_strategyVR,-9.25876645652984e-05
+Env_TypeEarly heat exposure,N_strategyVR,-1.5651401261555e-05
+Env_TypeMiddle heat exposure,N_strategyVR,-7.89000379223857e-06
+Env_TypeLate heat exposure,N_strategyVR,3.76755550007329e-06
+N_c,N_strategyVR,-4.18255766873028e-07
+N_c_sq,N_strategyVR,3.84335678655874e-07
+plant_density_c,N_strategyVR,-3.770161199436e-07
+N_strategySV,N_strategyVR,5.65082709204844e-05
+N_strategySVR,N_strategyVR,0.000125800507563451
+N_strategySR,N_strategyVR,3.29354925457887e-05
+N_strategyVR,N_strategyVR,0.000825141580666461
+N_strategyV,N_strategyVR,7.20137092869999e-05
+N_strategyR,N_strategyVR,5.06805131517093e-05
+countryArgentina,N_strategyVR,8.16297869619322e-05
+countryAustralia,N_strategyVR,7.87089921280538e-05
+countryBangladesh,N_strategyVR,-2.11290707527281e-05
+countryBrazil,N_strategyVR,1.58751386830657e-05
+countryCanada,N_strategyVR,7.69612584476769e-05
+countryColombia,N_strategyVR,-5.13097811444571e-05
+countryCroatia,N_strategyVR,6.5080769449646e-06
+countryEgypt,N_strategyVR,1.63707292171638e-05
+countryGermany,N_strategyVR,8.93523027269191e-05
+countryGhana,N_strategyVR,0.000100997965909451
+countryHungary,N_strategyVR,0.000113613918257792
+countryIndia,N_strategyVR,-8.51580503993289e-05
+countryIran,N_strategyVR,4.73141911807196e-05
+countryItaly,N_strategyVR,5.17278693442428e-05
+countryKenya,N_strategyVR,3.73960844520014e-05
+countryMalaysia,N_strategyVR,-9.71964019029601e-07
+countryNepal,N_strategyVR,-0.000693364949505498
+countryNiger,N_strategyVR,7.58118736760022e-05
+countryNigeria,N_strategyVR,2.00267818876732e-05
+countryPakistan,N_strategyVR,2.70152937616646e-05
+countryPoland,N_strategyVR,0.000112867189926599
+countryPortugal,N_strategyVR,6.72261169863512e-05
+countrySpain,N_strategyVR,3.95852208914742e-05
+countryTanzania,N_strategyVR,4.13445839051545e-05
+countryThailand,N_strategyVR,-0.000272855653923403
+countryTurkey,N_strategyVR,1.06856621794136e-05
+countryUSA,N_strategyVR,8.70992683893289e-05
+countryUganda,N_strategyVR,4.40877780677537e-05
+countryZambia,N_strategyVR,2.32097474189542e-05
+year_c,N_strategyVR,4.60690899355646e-06
+GDD_c,N_strategyVR,-2.6731062857754e-08
+pH_c,N_strategyVR,1.69303087953028e-06
+SOC_log_c,N_strategyVR,3.89791168200667e-05
+TN_log_c,N_strategyVR,-6.94739966087819e-05
+rain_c,N_strategyVR,3.50878057081887e-06
+rain_c_sq,N_strategyVR,-2.8016357434507e-07
+irrigationIrrigation,N_strategyVR,-1.45258380719168e-05
+Env_TypeEarly heat exposure:N_c,N_strategyVR,-1.44145189728958e-05
+Env_TypeMiddle heat exposure:N_c,N_strategyVR,3.93410969784456e-06
+Env_TypeLate heat exposure:N_c,N_strategyVR,2.29343246299938e-07
+Env_TypeEarly heat exposure:N_c_sq,N_strategyVR,2.70132869827518e-06
+Env_TypeMiddle heat exposure:N_c_sq,N_strategyVR,-8.18161617121046e-07
+Env_TypeLate heat exposure:N_c_sq,N_strategyVR,-8.77526081624945e-07
+intrcpt,N_strategyV,-4.67801979208124e-05
+Env_TypeEarly heat exposure,N_strategyV,1.39505569393276e-05
+Env_TypeMiddle heat exposure,N_strategyV,1.50129588420034e-05
+Env_TypeLate heat exposure,N_strategyV,1.63630433606324e-05
+N_c,N_strategyV,-8.54244138552385e-07
+N_c_sq,N_strategyV,1.90569963582787e-07
+plant_density_c,N_strategyV,-2.92557419274356e-07
+N_strategySV,N_strategyV,3.7368081162219e-05
+N_strategySVR,N_strategyV,3.79110387990098e-05
+N_strategySR,N_strategyV,1.64935130733398e-05
+N_strategyVR,N_strategyV,7.20137092869999e-05
+N_strategyV,N_strategyV,0.000305042953758753
+N_strategyR,N_strategyV,6.03450791272651e-05
+countryArgentina,N_strategyV,-3.73049526197184e-05
+countryAustralia,N_strategyV,-0.000123780556422458
+countryBangladesh,N_strategyV,-9.50703563188746e-06
+countryBrazil,N_strategyV,1.20418068717163e-05
+countryCanada,N_strategyV,-2.80852605188222e-05
+countryColombia,N_strategyV,1.48281930259126e-05
+countryCroatia,N_strategyV,-1.25849196925788e-06
+countryEgypt,N_strategyV,-4.43375962196459e-06
+countryGermany,N_strategyV,3.7048470886145e-05
+countryGhana,N_strategyV,1.57458988758221e-05
+countryHungary,N_strategyV,3.84125058135715e-05
+countryIndia,N_strategyV,-9.80726511975546e-06
+countryIran,N_strategyV,7.33437221609383e-06
+countryItaly,N_strategyV,2.74337470871016e-06
+countryKenya,N_strategyV,-3.20852230978503e-06
+countryMalaysia,N_strategyV,1.39528251578174e-05
+countryNepal,N_strategyV,-2.69658705209525e-05
+countryNiger,N_strategyV,5.58581533961231e-06
+countryNigeria,N_strategyV,1.97755207761458e-05
+countryPakistan,N_strategyV,1.36600152538631e-06
+countryPoland,N_strategyV,-5.83158315221771e-06
+countryPortugal,N_strategyV,-3.32387436104963e-06
+countrySpain,N_strategyV,-3.0020378334022e-05
+countryTanzania,N_strategyV,1.78253295929365e-05
+countryThailand,N_strategyV,-8.862221939929e-06
+countryTurkey,N_strategyV,-1.64431773288185e-05
+countryUSA,N_strategyV,1.23859762145229e-05
+countryUganda,N_strategyV,3.05363730781195e-05
+countryZambia,N_strategyV,1.89288802945129e-05
+year_c,N_strategyV,7.40428109068881e-06
+GDD_c,N_strategyV,-2.00178471253985e-06
+pH_c,N_strategyV,-7.075694691526e-08
+SOC_log_c,N_strategyV,-1.15422705446804e-06
+TN_log_c,N_strategyV,1.12834537566215e-06
+rain_c,N_strategyV,-3.8514254157038e-07
+rain_c_sq,N_strategyV,2.42017745038488e-08
+irrigationIrrigation,N_strategyV,-1.19288009437772e-06
+Env_TypeEarly heat exposure:N_c,N_strategyV,6.43454828002003e-07
+Env_TypeMiddle heat exposure:N_c,N_strategyV,1.91162502321297e-06
+Env_TypeLate heat exposure:N_c,N_strategyV,5.25711321180132e-07
+Env_TypeEarly heat exposure:N_c_sq,N_strategyV,-2.16949564508985e-07
+Env_TypeMiddle heat exposure:N_c_sq,N_strategyV,-3.97819939554533e-07
+Env_TypeLate heat exposure:N_c_sq,N_strategyV,-1.84501629588711e-06
+intrcpt,N_strategyR,-1.9374201576077e-05
+Env_TypeEarly heat exposure,N_strategyR,2.80181408298704e-06
+Env_TypeMiddle heat exposure,N_strategyR,5.08248828153807e-06
+Env_TypeLate heat exposure,N_strategyR,3.07994556435179e-06
+N_c,N_strategyR,2.32035694154285e-06
+N_c_sq,N_strategyR,-3.15743561582587e-07
+plant_density_c,N_strategyR,-1.14716624770879e-07
+N_strategySV,N_strategyR,1.14296312327025e-05
+N_strategySVR,N_strategyR,1.5998011718695e-05
+N_strategySR,N_strategyR,2.63940494938901e-05
+N_strategyVR,N_strategyR,5.06805131517093e-05
+N_strategyV,N_strategyR,6.03450791272651e-05
+N_strategyR,N_strategyR,0.000293471121613003
+countryArgentina,N_strategyR,1.91902461796191e-06
+countryAustralia,N_strategyR,-1.19422849098577e-05
+countryBangladesh,N_strategyR,-1.68643257867131e-06
+countryBrazil,N_strategyR,4.89202901041418e-06
+countryCanada,N_strategyR,-1.59239698997995e-06
+countryColombia,N_strategyR,3.46688146660263e-06
+countryCroatia,N_strategyR,9.12745717049759e-07
+countryEgypt,N_strategyR,-9.99120156196501e-07
+countryGermany,N_strategyR,1.80794529281511e-05
+countryGhana,N_strategyR,-1.02122953413473e-05
+countryHungary,N_strategyR,1.81463724794475e-05
+countryIndia,N_strategyR,-2.37997706438315e-06
+countryIran,N_strategyR,3.6046676017348e-06
+countryItaly,N_strategyR,7.39492793010834e-06
+countryKenya,N_strategyR,7.72322163690526e-06
+countryMalaysia,N_strategyR,5.89922427741137e-06
+countryNepal,N_strategyR,-3.28115360053356e-05
+countryNiger,N_strategyR,7.32675859953642e-06
+countryNigeria,N_strategyR,1.56020552739628e-05
+countryPakistan,N_strategyR,6.19879493879284e-06
+countryPoland,N_strategyR,-2.51325689915421e-06
+countryPortugal,N_strategyR,-2.22462504882023e-06
+countrySpain,N_strategyR,2.09889026582735e-07
+countryTanzania,N_strategyR,-4.14970482969518e-06
+countryThailand,N_strategyR,-1.35601804454893e-05
+countryTurkey,N_strategyR,1.12514836982848e-06
+countryUSA,N_strategyR,5.77162300133239e-06
+countryUganda,N_strategyR,-6.23246941349337e-06
+countryZambia,N_strategyR,9.86997701864885e-06
+year_c,N_strategyR,1.03908631350579e-06
+GDD_c,N_strategyR,-2.35577413241484e-07
+pH_c,N_strategyR,-1.6929723369072e-06
+SOC_log_c,N_strategyR,-1.76282361759815e-06
+TN_log_c,N_strategyR,6.97605708620354e-06
+rain_c,N_strategyR,-4.15560688347442e-07
+rain_c_sq,N_strategyR,2.16924298666305e-08
+irrigationIrrigation,N_strategyR,-9.00739250161841e-07
+Env_TypeEarly heat exposure:N_c,N_strategyR,-2.29416662300196e-06
+Env_TypeMiddle heat exposure:N_c,N_strategyR,5.61959612798965e-06
+Env_TypeLate heat exposure:N_c,N_strategyR,-2.43230515448044e-06
+Env_TypeEarly heat exposure:N_c_sq,N_strategyR,4.28782170932285e-07
+Env_TypeMiddle heat exposure:N_c_sq,N_strategyR,-1.373109447847e-06
+Env_TypeLate heat exposure:N_c_sq,N_strategyR,6.46377101495894e-08
+intrcpt,countryArgentina,-0.000843923490962169
+Env_TypeEarly heat exposure,countryArgentina,-1.19407554041805e-05
+Env_TypeMiddle heat exposure,countryArgentina,-0.000215102388740598
+Env_TypeLate heat exposure,countryArgentina,-0.000386275090079372
+N_c,countryArgentina,3.55760658461143e-06
+N_c_sq,countryArgentina,8.23688669765926e-07
+plant_density_c,countryArgentina,-1.19755225356598e-05
+N_strategySV,countryArgentina,3.83136945015656e-05
+N_strategySVR,countryArgentina,6.80639092392586e-05
+N_strategySR,countryArgentina,4.16564360383754e-05
+N_strategyVR,countryArgentina,8.16297869619322e-05
+N_strategyV,countryArgentina,-3.73049526197184e-05
+N_strategyR,countryArgentina,1.91902461796191e-06
+countryArgentina,countryArgentina,0.00761845095030694
+countryAustralia,countryArgentina,0.00150355087364354
+countryBangladesh,countryArgentina,0.000992086769169678
+countryBrazil,countryArgentina,0.00119788154799972
+countryCanada,countryArgentina,0.00175628749843609
+countryColombia,countryArgentina,0.000956280244205662
+countryCroatia,countryArgentina,0.000611636511627486
+countryEgypt,countryArgentina,5.74918441858074e-05
+countryGermany,countryArgentina,0.000958753149938933
+countryGhana,countryArgentina,0.000470330690799025
+countryHungary,countryArgentina,0.00133084984555648
+countryIndia,countryArgentina,0.00074694348269069
+countryIran,countryArgentina,0.000861146082299058
+countryItaly,countryArgentina,0.00148867596315108
+countryKenya,countryArgentina,0.00142736751090847
+countryMalaysia,countryArgentina,0.000955409912740816
+countryNepal,countryArgentina,0.000712696993216179
+countryNiger,countryArgentina,0.0015398245061288
+countryNigeria,countryArgentina,0.00152240398984929
+countryPakistan,countryArgentina,0.000402784232290244
+countryPoland,countryArgentina,0.000873055857879204
+countryPortugal,countryArgentina,0.00291621388303975
+countrySpain,countryArgentina,0.000772564278167307
+countryTanzania,countryArgentina,0.00069060150244068
+countryThailand,countryArgentina,0.00276867837138914
+countryTurkey,countryArgentina,0.000665235627251625
+countryUSA,countryArgentina,0.00133416028317087
+countryUganda,countryArgentina,0.00128562515726485
+countryZambia,countryArgentina,0.00253648341303043
+year_c,countryArgentina,0.000476708182318888
+GDD_c,countryArgentina,4.25881453993709e-05
+pH_c,countryArgentina,0.000247683736033062
+SOC_log_c,countryArgentina,-0.00032808675637656
+TN_log_c,countryArgentina,-6.03660696607782e-06
+rain_c,countryArgentina,1.23196525403673e-05
+rain_c_sq,countryArgentina,-1.62632675068361e-07
+irrigationIrrigation,countryArgentina,-5.40832697008225e-05
+Env_TypeEarly heat exposure:N_c,countryArgentina,-3.42796569622156e-06
+Env_TypeMiddle heat exposure:N_c,countryArgentina,-2.44754726041691e-06
+Env_TypeLate heat exposure:N_c,countryArgentina,2.48815493141213e-06
+Env_TypeEarly heat exposure:N_c_sq,countryArgentina,-7.08030766512614e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryArgentina,7.50086731827597e-07
+Env_TypeLate heat exposure:N_c_sq,countryArgentina,6.37281429849257e-06
+intrcpt,countryAustralia,-0.000841370848711779
+Env_TypeEarly heat exposure,countryAustralia,9.47768054467706e-05
+Env_TypeMiddle heat exposure,countryAustralia,-0.000407879688298707
+Env_TypeLate heat exposure,countryAustralia,-5.69997208769606e-05
+N_c,countryAustralia,1.78598933248598e-06
+N_c_sq,countryAustralia,7.09321998474747e-07
+plant_density_c,countryAustralia,-1.24329899016593e-05
+N_strategySV,countryAustralia,3.49971879158555e-05
+N_strategySVR,countryAustralia,6.83198555435541e-05
+N_strategySR,countryAustralia,4.06333560896222e-05
+N_strategyVR,countryAustralia,7.87089921280538e-05
+N_strategyV,countryAustralia,-0.000123780556422458
+N_strategyR,countryAustralia,-1.19422849098577e-05
+countryArgentina,countryAustralia,0.00150355087364354
+countryAustralia,countryAustralia,0.0697724466833276
+countryBangladesh,countryAustralia,0.00122010618055828
+countryBrazil,countryAustralia,0.00139053576000005
+countryCanada,countryAustralia,0.00136565605411835
+countryColombia,countryAustralia,0.00124116108653112
+countryCroatia,countryAustralia,0.000802942466016494
+countryEgypt,countryAustralia,0.000522361185041978
+countryGermany,countryAustralia,0.00087289997654663
+countryGhana,countryAustralia,0.000651470415459122
+countryHungary,countryAustralia,0.00133173015814707
+countryIndia,countryAustralia,0.000771338427293055
+countryIran,countryAustralia,0.00129795044741626
+countryItaly,countryAustralia,0.00211468637112959
+countryKenya,countryAustralia,0.00142554435972482
+countryMalaysia,countryAustralia,0.00180155075491514
+countryNepal,countryAustralia,0.000755382994727106
+countryNiger,countryAustralia,0.00180542844213169
+countryNigeria,countryAustralia,0.00151689417417634
+countryPakistan,countryAustralia,0.000641436562023361
+countryPoland,countryAustralia,0.00043570964765079
+countryPortugal,countryAustralia,0.00306055293056077
+countrySpain,countryAustralia,0.00125288557028195
+countryTanzania,countryAustralia,0.000524826954868713
+countryThailand,countryAustralia,0.00300637806953149
+countryTurkey,countryAustralia,0.000720331031592349
+countryUSA,countryAustralia,0.00141847870006651
+countryUganda,countryAustralia,0.00131863376805188
+countryZambia,countryAustralia,0.00266398409773356
+year_c,countryAustralia,0.000457819446432238
+GDD_c,countryAustralia,-7.3420668459916e-06
+pH_c,countryAustralia,0.000366823901637336
+SOC_log_c,countryAustralia,-0.000407164373217136
+TN_log_c,countryAustralia,0.000581978071325912
+rain_c,countryAustralia,4.96806528328187e-05
+rain_c_sq,countryAustralia,-2.71594159790719e-06
+irrigationIrrigation,countryAustralia,-0.00022282919724236
+Env_TypeEarly heat exposure:N_c,countryAustralia,-3.00551548931798e-06
+Env_TypeMiddle heat exposure:N_c,countryAustralia,1.1556936484672e-05
+Env_TypeLate heat exposure:N_c,countryAustralia,-1.81382226761914e-06
+Env_TypeEarly heat exposure:N_c_sq,countryAustralia,-3.36106367155647e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryAustralia,-8.74858135585007e-08
+Env_TypeLate heat exposure:N_c_sq,countryAustralia,1.95870336469223e-06
+intrcpt,countryBangladesh,-0.000682721915309787
+Env_TypeEarly heat exposure,countryBangladesh,0.000237237487905739
+Env_TypeMiddle heat exposure,countryBangladesh,0.000155463188621398
+Env_TypeLate heat exposure,countryBangladesh,-0.000474440986065063
+N_c,countryBangladesh,2.47869051589696e-06
+N_c_sq,countryBangladesh,-2.75833311924397e-07
+plant_density_c,countryBangladesh,1.09938650377919e-05
+N_strategySV,countryBangladesh,-1.0830418271814e-05
+N_strategySVR,countryBangladesh,-0.000129188886873496
+N_strategySR,countryBangladesh,2.47799451569334e-05
+N_strategyVR,countryBangladesh,-2.11290707527281e-05
+N_strategyV,countryBangladesh,-9.50703563188746e-06
+N_strategyR,countryBangladesh,-1.68643257867131e-06
+countryArgentina,countryBangladesh,0.000992086769169678
+countryAustralia,countryBangladesh,0.00122010618055828
+countryBangladesh,countryBangladesh,0.10493799544633
+countryBrazil,countryBangladesh,0.001902725594695
+countryCanada,countryBangladesh,0.000600352974035746
+countryColombia,countryBangladesh,0.00174831968697895
+countryCroatia,countryBangladesh,0.000750208572710539
+countryEgypt,countryBangladesh,0.00135546625102783
+countryGermany,countryBangladesh,0.0010335159102479
+countryGhana,countryBangladesh,0.000833816382249099
+countryHungary,countryBangladesh,0.00108130324801059
+countryIndia,countryBangladesh,0.00103485389927668
+countryIran,countryBangladesh,0.00129920270600232
+countryItaly,countryBangladesh,0.00122021105327099
+countryKenya,countryBangladesh,0.00107903442258477
+countryMalaysia,countryBangladesh,0.00224479553922762
+countryNepal,countryBangladesh,0.00138477008801907
+countryNiger,countryBangladesh,0.00108866519424656
+countryNigeria,countryBangladesh,2.87994672400824e-05
+countryPakistan,countryBangladesh,0.000726062547555415
+countryPoland,countryBangladesh,0.000703655228913778
+countryPortugal,countryBangladesh,0.00146492725142751
+countrySpain,countryBangladesh,0.000788096714568602
+countryTanzania,countryBangladesh,0.000362456754177529
+countryThailand,countryBangladesh,0.00300474822487088
+countryTurkey,countryBangladesh,0.000397650719780535
+countryUSA,countryBangladesh,0.00109455561262737
+countryUganda,countryBangladesh,0.00122135268468442
+countryZambia,countryBangladesh,0.00110262882712769
+year_c,countryBangladesh,-0.000234612803961888
+GDD_c,countryBangladesh,-7.62276104587705e-05
+pH_c,countryBangladesh,0.000466592941203852
+SOC_log_c,countryBangladesh,-0.000229245764946355
+TN_log_c,countryBangladesh,0.000201009984452792
+rain_c,countryBangladesh,9.78696654468889e-05
+rain_c_sq,countryBangladesh,-7.01314100622356e-06
+irrigationIrrigation,countryBangladesh,-0.000270613861859019
+Env_TypeEarly heat exposure:N_c,countryBangladesh,5.78973711590259e-06
+Env_TypeMiddle heat exposure:N_c,countryBangladesh,-1.03014681350633e-06
+Env_TypeLate heat exposure:N_c,countryBangladesh,1.28298811895191e-05
+Env_TypeEarly heat exposure:N_c_sq,countryBangladesh,-1.17024052772285e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryBangladesh,-4.78389486384545e-09
+Env_TypeLate heat exposure:N_c_sq,countryBangladesh,2.44252858701806e-05
+intrcpt,countryBrazil,-0.00126411177156322
+Env_TypeEarly heat exposure,countryBrazil,0.00031552073506881
+Env_TypeMiddle heat exposure,countryBrazil,0.000353764817662711
+Env_TypeLate heat exposure,countryBrazil,0.000208382389087771
+N_c,countryBrazil,-1.763323346917e-06
+N_c_sq,countryBrazil,-6.25173817962064e-07
+plant_density_c,countryBrazil,1.00730053320011e-05
+N_strategySV,countryBrazil,-7.7982280628723e-06
+N_strategySVR,countryBrazil,-4.28196991671451e-05
+N_strategySR,countryBrazil,3.81559872263438e-05
+N_strategyVR,countryBrazil,1.58751386830657e-05
+N_strategyV,countryBrazil,1.20418068717163e-05
+N_strategyR,countryBrazil,4.89202901041418e-06
+countryArgentina,countryBrazil,0.00119788154799972
+countryAustralia,countryBrazil,0.00139053576000005
+countryBangladesh,countryBrazil,0.001902725594695
+countryBrazil,countryBrazil,0.0153875526474755
+countryCanada,countryBrazil,0.00159540442363506
+countryColombia,countryBrazil,0.00276903997452253
+countryCroatia,countryBrazil,0.000799988915807441
+countryEgypt,countryBrazil,0.000474391401659437
+countryGermany,countryBrazil,0.00144234183758536
+countryGhana,countryBrazil,0.000536670519156317
+countryHungary,countryBrazil,0.00135628587951452
+countryIndia,countryBrazil,0.000880878064858046
+countryIran,countryBrazil,0.00104757442326545
+countryItaly,countryBrazil,0.00169469046965842
+countryKenya,countryBrazil,0.00145234973424295
+countryMalaysia,countryBrazil,0.00269271968661908
+countryNepal,countryBrazil,0.00240654599649574
+countryNiger,countryBrazil,0.00107229526278713
+countryNigeria,countryBrazil,0.00145343218596883
+countryPakistan,countryBrazil,0.00049660216260453
+countryPoland,countryBrazil,0.000796450819054982
+countryPortugal,countryBrazil,0.00229375354700379
+countrySpain,countryBrazil,0.000706731925446801
+countryTanzania,countryBrazil,0.000910934170600594
+countryThailand,countryBrazil,0.00331251783182809
+countryTurkey,countryBrazil,-0.00044508181324947
+countryUSA,countryBrazil,0.0015794368287589
+countryUganda,countryBrazil,0.00233499877879969
+countryZambia,countryBrazil,0.00282506467807137
+year_c,countryBrazil,0.000136584610519546
+GDD_c,countryBrazil,-0.000125263319173584
+pH_c,countryBrazil,0.000534485502523997
+SOC_log_c,countryBrazil,-0.000567972270954028
+TN_log_c,countryBrazil,0.000149155506747072
+rain_c,countryBrazil,2.20029990811826e-06
+rain_c_sq,countryBrazil,-3.0321323456918e-06
+irrigationIrrigation,countryBrazil,-2.21490449236167e-05
+Env_TypeEarly heat exposure:N_c,countryBrazil,7.67280300308155e-06
+Env_TypeMiddle heat exposure:N_c,countryBrazil,3.97041528264158e-06
+Env_TypeLate heat exposure:N_c,countryBrazil,5.69202258874479e-06
+Env_TypeEarly heat exposure:N_c_sq,countryBrazil,-7.52273492192502e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryBrazil,-1.88843844330825e-07
+Env_TypeLate heat exposure:N_c_sq,countryBrazil,3.05317417077878e-06
+intrcpt,countryCanada,-0.00151792055388074
+Env_TypeEarly heat exposure,countryCanada,0.000441351650118281
+Env_TypeMiddle heat exposure,countryCanada,0.000381690045913831
+Env_TypeLate heat exposure,countryCanada,0.000384722396736796
+N_c,countryCanada,6.69906178606489e-06
+N_c_sq,countryCanada,1.41647477249204e-06
+plant_density_c,countryCanada,-8.84221428721308e-06
+N_strategySV,countryCanada,2.32247560159356e-05
+N_strategySVR,countryCanada,5.33572679106452e-05
+N_strategySR,countryCanada,2.44107746978355e-05
+N_strategyVR,countryCanada,7.69612584476769e-05
+N_strategyV,countryCanada,-2.80852605188222e-05
+N_strategyR,countryCanada,-1.59239698997995e-06
+countryArgentina,countryCanada,0.00175628749843609
+countryAustralia,countryCanada,0.00136565605411835
+countryBangladesh,countryCanada,0.000600352974035746
+countryBrazil,countryCanada,0.00159540442363506
+countryCanada,countryCanada,0.00890799978002932
+countryColombia,countryCanada,0.00170239556238247
+countryCroatia,countryCanada,0.000814717335188337
+countryEgypt,countryCanada,-4.84308560388065e-05
+countryGermany,countryCanada,0.00163420540764533
+countryGhana,countryCanada,-6.19843066643443e-05
+countryHungary,countryCanada,0.00198297834520282
+countryIndia,countryCanada,0.000413730349369972
+countryIran,countryCanada,0.000632924595827403
+countryItaly,countryCanada,0.00118068778288096
+countryKenya,countryCanada,0.00160667476076598
+countryMalaysia,countryCanada,-0.000317206539191084
+countryNepal,countryCanada,0.00154610815020135
+countryNiger,countryCanada,0.00101190984575986
+countryNigeria,countryCanada,0.00177690986063588
+countryPakistan,countryCanada,4.28285673919354e-05
+countryPoland,countryCanada,0.00266559070704291
+countryPortugal,countryCanada,0.00433612866843142
+countrySpain,countryCanada,0.000499684309016773
+countryTanzania,countryCanada,0.000703561732985714
+countryThailand,countryCanada,0.0031139334769085
+countryTurkey,countryCanada,-5.60123379697003e-05
+countryUSA,countryCanada,0.00179610611145295
+countryUganda,countryCanada,0.00194610082430444
+countryZambia,countryCanada,0.00312292867445305
+year_c,countryCanada,0.000647734086239315
+GDD_c,countryCanada,1.71390206065487e-05
+pH_c,countryCanada,0.00017478968553952
+SOC_log_c,countryCanada,-0.000319011530208463
+TN_log_c,countryCanada,-0.00200471060647486
+rain_c,countryCanada,2.56874735021716e-05
+rain_c_sq,countryCanada,-3.05027116187867e-07
+irrigationIrrigation,countryCanada,-2.97781380640918e-06
+Env_TypeEarly heat exposure:N_c,countryCanada,-7.72370954675731e-06
+Env_TypeMiddle heat exposure:N_c,countryCanada,-4.51384021302194e-06
+Env_TypeLate heat exposure:N_c,countryCanada,-5.13729853269387e-06
+Env_TypeEarly heat exposure:N_c_sq,countryCanada,-9.04951698201476e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryCanada,-1.9310256516247e-06
+Env_TypeLate heat exposure:N_c_sq,countryCanada,1.65758036593277e-06
+intrcpt,countryColombia,-0.00189411261301824
+Env_TypeEarly heat exposure,countryColombia,0.00105233344648981
+Env_TypeMiddle heat exposure,countryColombia,0.00100092445525432
+Env_TypeLate heat exposure,countryColombia,0.00098173276141707
+N_c,countryColombia,7.0227868912048e-06
+N_c_sq,countryColombia,-1.95827576666404e-06
+plant_density_c,countryColombia,5.09130686976517e-06
+N_strategySV,countryColombia,-1.45979996672981e-05
+N_strategySVR,countryColombia,-0.000143183772408862
+N_strategySR,countryColombia,2.60031612864876e-05
+N_strategyVR,countryColombia,-5.13097811444571e-05
+N_strategyV,countryColombia,1.48281930259126e-05
+N_strategyR,countryColombia,3.46688146660263e-06
+countryArgentina,countryColombia,0.000956280244205662
+countryAustralia,countryColombia,0.00124116108653112
+countryBangladesh,countryColombia,0.00174831968697895
+countryBrazil,countryColombia,0.00276903997452253
+countryCanada,countryColombia,0.00170239556238247
+countryColombia,countryColombia,0.134695754101561
+countryCroatia,countryColombia,0.000887032964964262
+countryEgypt,countryColombia,0.000579596957221933
+countryGermany,countryColombia,0.00169950188603645
+countryGhana,countryColombia,0.000391422636001525
+countryHungary,countryColombia,0.00136220205998612
+countryIndia,countryColombia,0.000923311023437163
+countryIran,countryColombia,0.00101352486146752
+countryItaly,countryColombia,0.00176976796184623
+countryKenya,countryColombia,0.00132272044708683
+countryMalaysia,countryColombia,0.00338245293024959
+countryNepal,countryColombia,0.00251360881816466
+countryNiger,countryColombia,0.000938896008089575
+countryNigeria,countryColombia,0.00230372150878956
+countryPakistan,countryColombia,0.000638673609212237
+countryPoland,countryColombia,0.000434942973281526
+countryPortugal,countryColombia,0.00148987511229666
+countrySpain,countryColombia,0.00105746414839451
+countryTanzania,countryColombia,0.00106688646062811
+countryThailand,countryColombia,0.00305072155010194
+countryTurkey,countryColombia,-0.00127447143304889
+countryUSA,countryColombia,0.00167423842005665
+countryUganda,countryColombia,0.00289665324872047
+countryZambia,countryColombia,0.00332130636588417
+year_c,countryColombia,0.000215908922673404
+GDD_c,countryColombia,-0.000234729039818377
+pH_c,countryColombia,0.000460024739924527
+SOC_log_c,countryColombia,-0.000711049631445374
+TN_log_c,countryColombia,0.00051435061312544
+rain_c,countryColombia,-4.11896077596481e-05
+rain_c_sq,countryColombia,1.61036943151047e-06
+irrigationIrrigation,countryColombia,8.27802922974005e-05
+Env_TypeEarly heat exposure:N_c,countryColombia,-2.41712237404388e-06
+Env_TypeMiddle heat exposure:N_c,countryColombia,-4.34571957299346e-06
+Env_TypeLate heat exposure:N_c,countryColombia,-1.19494367621727e-06
+Env_TypeEarly heat exposure:N_c_sq,countryColombia,2.14022362332907e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryColombia,1.13566753003019e-06
+Env_TypeLate heat exposure:N_c_sq,countryColombia,2.13774579296087e-06
+intrcpt,countryCroatia,-0.000541515288352769
+Env_TypeEarly heat exposure,countryCroatia,-4.78666246087278e-05
+Env_TypeMiddle heat exposure,countryCroatia,-1.50511035946202e-05
+Env_TypeLate heat exposure,countryCroatia,5.37067893960854e-05
+N_c,countryCroatia,1.05736806752188e-06
+N_c_sq,countryCroatia,-1.89592547681589e-07
+plant_density_c,countryCroatia,1.06452613085376e-05
+N_strategySV,countryCroatia,-8.55789108187675e-06
+N_strategySVR,countryCroatia,-0.000115030188554085
+N_strategySR,countryCroatia,1.53753713390979e-05
+N_strategyVR,countryCroatia,6.5080769449646e-06
+N_strategyV,countryCroatia,-1.25849196925788e-06
+N_strategyR,countryCroatia,9.12745717049759e-07
+countryArgentina,countryCroatia,0.000611636511627486
+countryAustralia,countryCroatia,0.000802942466016494
+countryBangladesh,countryCroatia,0.000750208572710539
+countryBrazil,countryCroatia,0.000799988915807441
+countryCanada,countryCroatia,0.000814717335188337
+countryColombia,countryCroatia,0.000887032964964262
+countryCroatia,countryCroatia,0.072124946962021
+countryEgypt,countryCroatia,0.000993687358193824
+countryGermany,countryCroatia,0.000214589543231971
+countryGhana,countryCroatia,0.00034114453823405
+countryHungary,countryCroatia,0.000883451435679568
+countryIndia,countryCroatia,0.000826446730917229
+countryIran,countryCroatia,0.000720416979741882
+countryItaly,countryCroatia,0.000881662546612512
+countryKenya,countryCroatia,0.000199155445408261
+countryMalaysia,countryCroatia,7.74703055397902e-05
+countryNepal,countryCroatia,0.000930324726195136
+countryNiger,countryCroatia,0.000943326217311764
+countryNigeria,countryCroatia,0.000777032897490569
+countryPakistan,countryCroatia,0.000765349824020572
+countryPoland,countryCroatia,0.000805293894288881
+countryPortugal,countryCroatia,0.00113050794155171
+countrySpain,countryCroatia,0.000716641485904915
+countryTanzania,countryCroatia,3.5896108399828e-05
+countryThailand,countryCroatia,0.00115845341290376
+countryTurkey,countryCroatia,0.000372451186316587
+countryUSA,countryCroatia,0.000882594625055152
+countryUganda,countryCroatia,0.00068362979740931
+countryZambia,countryCroatia,0.000882630892362358
+year_c,countryCroatia,0.000267096046614992
+GDD_c,countryCroatia,-7.34837537055651e-05
+pH_c,countryCroatia,1.08337106175439e-05
+SOC_log_c,countryCroatia,0.000119704889195397
+TN_log_c,countryCroatia,-0.000708630447977408
+rain_c,countryCroatia,3.40744606620873e-06
+rain_c_sq,countryCroatia,-1.03908479302525e-06
+irrigationIrrigation,countryCroatia,-0.000217604280049482
+Env_TypeEarly heat exposure:N_c,countryCroatia,-8.32159418938864e-07
+Env_TypeMiddle heat exposure:N_c,countryCroatia,-3.7202460194514e-06
+Env_TypeLate heat exposure:N_c,countryCroatia,2.54780966789505e-06
+Env_TypeEarly heat exposure:N_c_sq,countryCroatia,3.90952322619548e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryCroatia,2.97502357459131e-06
+Env_TypeLate heat exposure:N_c_sq,countryCroatia,2.135299133072e-06
+intrcpt,countryEgypt,-0.000565388320222536
+Env_TypeEarly heat exposure,countryEgypt,0.00044296431125086
+Env_TypeMiddle heat exposure,countryEgypt,0.000292756747760633
+Env_TypeLate heat exposure,countryEgypt,0.000284751062129887
+N_c,countryEgypt,2.02794632690461e-06
+N_c_sq,countryEgypt,-4.08534936439895e-07
+plant_density_c,countryEgypt,1.23399227489305e-05
+N_strategySV,countryEgypt,-5.57812866870468e-06
+N_strategySVR,countryEgypt,-0.000109361951151046
+N_strategySR,countryEgypt,1.42313771311277e-05
+N_strategyVR,countryEgypt,1.63707292171638e-05
+N_strategyV,countryEgypt,-4.43375962196459e-06
+N_strategyR,countryEgypt,-9.99120156196501e-07
+countryArgentina,countryEgypt,5.74918441858074e-05
+countryAustralia,countryEgypt,0.000522361185041978
+countryBangladesh,countryEgypt,0.00135546625102783
+countryBrazil,countryEgypt,0.000474391401659437
+countryCanada,countryEgypt,-4.84308560388065e-05
+countryColombia,countryEgypt,0.000579596957221933
+countryCroatia,countryEgypt,0.000993687358193824
+countryEgypt,countryEgypt,0.041711993650061
+countryGermany,countryEgypt,4.09722684882157e-05
+countryGhana,countryEgypt,0.000370249484967429
+countryHungary,countryEgypt,0.000745725095237372
+countryIndia,countryEgypt,0.000597052690009381
+countryIran,countryEgypt,0.00142035498806866
+countryItaly,countryEgypt,7.21854966435767e-05
+countryKenya,countryEgypt,-0.000599811933524924
+countryMalaysia,countryEgypt,-0.00051194300958864
+countryNepal,countryEgypt,0.00184193103971851
+countryNiger,countryEgypt,0.000766380370976278
+countryNigeria,countryEgypt,-0.000505421112662812
+countryPakistan,countryEgypt,0.00107308556826312
+countryPoland,countryEgypt,0.000607673987156615
+countryPortugal,countryEgypt,-0.000118908772523105
+countrySpain,countryEgypt,0.00136864680212149
+countryTanzania,countryEgypt,-0.000227733208865163
+countryThailand,countryEgypt,0.000614055026495155
+countryTurkey,countryEgypt,0.00063062379272008
+countryUSA,countryEgypt,0.000473560570354101
+countryUganda,countryEgypt,0.000139316627413102
+countryZambia,countryEgypt,-0.00112455218394779
+year_c,countryEgypt,-0.000178882055536149
+GDD_c,countryEgypt,-0.000140046146216313
+pH_c,countryEgypt,-0.000197463166600178
+SOC_log_c,countryEgypt,0.000207341131903051
+TN_log_c,countryEgypt,-0.000621683452141986
+rain_c,countryEgypt,0.000203115639266141
+rain_c_sq,countryEgypt,-1.88288260717097e-05
+irrigationIrrigation,countryEgypt,-0.000149581098237764
+Env_TypeEarly heat exposure:N_c,countryEgypt,1.01892870181436e-06
+Env_TypeMiddle heat exposure:N_c,countryEgypt,-7.40346444284578e-06
+Env_TypeLate heat exposure:N_c,countryEgypt,-4.02739970523159e-06
+Env_TypeEarly heat exposure:N_c_sq,countryEgypt,1.63540246215865e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryEgypt,3.50273912791608e-08
+Env_TypeLate heat exposure:N_c_sq,countryEgypt,-1.78855086899597e-06
+intrcpt,countryGermany,-0.00125974202435053
+Env_TypeEarly heat exposure,countryGermany,0.000560876864193787
+Env_TypeMiddle heat exposure,countryGermany,0.000497415385762516
+Env_TypeLate heat exposure,countryGermany,0.000540979969421286
+N_c,countryGermany,1.28959915264396e-05
+N_c_sq,countryGermany,1.00802034107016e-06
+plant_density_c,countryGermany,-3.1891875316811e-05
+N_strategySV,countryGermany,5.24936644088943e-05
+N_strategySVR,countryGermany,7.46098273514543e-05
+N_strategySR,countryGermany,4.5016520992497e-05
+N_strategyVR,countryGermany,8.93523027269191e-05
+N_strategyV,countryGermany,3.7048470886145e-05
+N_strategyR,countryGermany,1.80794529281511e-05
+countryArgentina,countryGermany,0.000958753149938933
+countryAustralia,countryGermany,0.00087289997654663
+countryBangladesh,countryGermany,0.0010335159102479
+countryBrazil,countryGermany,0.00144234183758536
+countryCanada,countryGermany,0.00163420540764533
+countryColombia,countryGermany,0.00169950188603645
+countryCroatia,countryGermany,0.000214589543231971
+countryEgypt,countryGermany,4.09722684882157e-05
+countryGermany,countryGermany,0.0806002419465591
+countryGhana,countryGermany,0.000871306585431047
+countryHungary,countryGermany,0.000913157923562114
+countryIndia,countryGermany,0.000382331025191494
+countryIran,countryGermany,0.000601964320696564
+countryItaly,countryGermany,0.000827089165342372
+countryKenya,countryGermany,0.00168427497290208
+countryMalaysia,countryGermany,0.00183875372915554
+countryNepal,countryGermany,0.0011936453072762
+countryNiger,countryGermany,0.000277456247318226
+countryNigeria,countryGermany,0.000683172428812556
+countryPakistan,countryGermany,0.000157908516589422
+countryPoland,countryGermany,0.00157686363913778
+countryPortugal,countryGermany,0.00162580192282523
+countrySpain,countryGermany,0.000290163583612091
+countryTanzania,countryGermany,0.00113732514268404
+countryThailand,countryGermany,0.00145447702977318
+countryTurkey,countryGermany,0.000119729540497042
+countryUSA,countryGermany,0.000924802630032107
+countryUganda,countryGermany,0.00145245955983278
+countryZambia,countryGermany,0.00164400713813459
+year_c,countryGermany,-0.000184299289200136
+GDD_c,countryGermany,1.42399448559999e-05
+pH_c,countryGermany,0.000348663041998851
+SOC_log_c,countryGermany,-0.000216710706445498
+TN_log_c,countryGermany,-0.000168803712100485
+rain_c,countryGermany,2.35758418012718e-05
+rain_c_sq,countryGermany,4.49683408148065e-08
+irrigationIrrigation,countryGermany,9.55742434249244e-05
+Env_TypeEarly heat exposure:N_c,countryGermany,-1.26930898568405e-05
+Env_TypeMiddle heat exposure:N_c,countryGermany,-9.38051508359623e-06
+Env_TypeLate heat exposure:N_c,countryGermany,-1.02131601636686e-05
+Env_TypeEarly heat exposure:N_c_sq,countryGermany,-1.14222496124307e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryGermany,-1.63607910620586e-06
+Env_TypeLate heat exposure:N_c_sq,countryGermany,2.23974812873271e-06
+intrcpt,countryGhana,-0.000593904632052594
+Env_TypeEarly heat exposure,countryGhana,-1.73315134597123e-05
+Env_TypeMiddle heat exposure,countryGhana,0.000140711172316934
+Env_TypeLate heat exposure,countryGhana,0.000209456201604474
+N_c,countryGhana,1.61065431436724e-05
+N_c_sq,countryGhana,-3.62719773248833e-06
+plant_density_c,countryGhana,1.56843515920541e-05
+N_strategySV,countryGhana,4.07060295062086e-05
+N_strategySVR,countryGhana,5.66497066669499e-05
+N_strategySR,countryGhana,-0.000163493566979902
+N_strategyVR,countryGhana,0.000100997965909451
+N_strategyV,countryGhana,1.57458988758221e-05
+N_strategyR,countryGhana,-1.02122953413473e-05
+countryArgentina,countryGhana,0.000470330690799025
+countryAustralia,countryGhana,0.000651470415459122
+countryBangladesh,countryGhana,0.000833816382249099
+countryBrazil,countryGhana,0.000536670519156317
+countryCanada,countryGhana,-6.19843066643443e-05
+countryColombia,countryGhana,0.000391422636001525
+countryCroatia,countryGhana,0.00034114453823405
+countryEgypt,countryGhana,0.000370249484967429
+countryGermany,countryGhana,0.000871306585431047
+countryGhana,countryGhana,0.0845405168036019
+countryHungary,countryGhana,0.000169459672605154
+countryIndia,countryGhana,0.00148964649826831
+countryIran,countryGhana,0.000370173347182139
+countryItaly,countryGhana,0.000865047301969539
+countryKenya,countryGhana,0.00213644657554084
+countryMalaysia,countryGhana,0.00167529676106656
+countryNepal,countryGhana,0.00188547785917838
+countryNiger,countryGhana,0.00272320432724016
+countryNigeria,countryGhana,0.000881835754683574
+countryPakistan,countryGhana,0.000698232066759266
+countryPoland,countryGhana,0.00254939247091443
+countryPortugal,countryGhana,-0.000333456648163932
+countrySpain,countryGhana,-0.000603899440080708
+countryTanzania,countryGhana,0.0010152051886877
+countryThailand,countryGhana,-0.000269575517050306
+countryTurkey,countryGhana,0.00210526946172428
+countryUSA,countryGhana,0.000301502740196221
+countryUganda,countryGhana,0.000604067957711635
+countryZambia,countryGhana,0.00193393520837327
+year_c,countryGhana,7.55988885023225e-05
+GDD_c,countryGhana,5.88489728256081e-05
+pH_c,countryGhana,0.000704364279794528
+SOC_log_c,countryGhana,0.00179028831355773
+TN_log_c,countryGhana,-0.000418073211059307
+rain_c,countryGhana,9.63139941667941e-05
+rain_c_sq,countryGhana,-5.57189532536423e-06
+irrigationIrrigation,countryGhana,0.000225177176545133
+Env_TypeEarly heat exposure:N_c,countryGhana,6.21559140960311e-06
+Env_TypeMiddle heat exposure:N_c,countryGhana,-1.61125907800667e-05
+Env_TypeLate heat exposure:N_c,countryGhana,-1.26437008075595e-05
+Env_TypeEarly heat exposure:N_c_sq,countryGhana,-4.72521751150508e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryGhana,4.21453348054177e-06
+Env_TypeLate heat exposure:N_c_sq,countryGhana,8.30650897654587e-06
+intrcpt,countryHungary,-0.0010817501722959
+Env_TypeEarly heat exposure,countryHungary,0.000273823767275013
+Env_TypeMiddle heat exposure,countryHungary,8.70533286428691e-06
+Env_TypeLate heat exposure,countryHungary,-0.000103601757906961
+N_c,countryHungary,2.37292919468664e-06
+N_c_sq,countryHungary,-5.70630957341547e-08
+plant_density_c,countryHungary,-4.49991887258111e-06
+N_strategySV,countryHungary,5.49855598712213e-05
+N_strategySVR,countryHungary,8.0426333217579e-05
+N_strategySR,countryHungary,4.65905198766289e-05
+N_strategyVR,countryHungary,0.000113613918257792
+N_strategyV,countryHungary,3.84125058135715e-05
+N_strategyR,countryHungary,1.81463724794475e-05
+countryArgentina,countryHungary,0.00133084984555648
+countryAustralia,countryHungary,0.00133173015814707
+countryBangladesh,countryHungary,0.00108130324801059
+countryBrazil,countryHungary,0.00135628587951452
+countryCanada,countryHungary,0.00198297834520282
+countryColombia,countryHungary,0.00136220205998612
+countryCroatia,countryHungary,0.000883451435679568
+countryEgypt,countryHungary,0.000745725095237372
+countryGermany,countryHungary,0.000913157923562114
+countryGhana,countryHungary,0.000169459672605154
+countryHungary,countryHungary,0.0246403613533452
+countryIndia,countryHungary,0.000715561007630369
+countryIran,countryHungary,0.000861931036152758
+countryItaly,countryHungary,0.0012657728623318
+countryKenya,countryHungary,0.00074542932112653
+countryMalaysia,countryHungary,7.43468089408071e-05
+countryNepal,countryHungary,0.00116499077890764
+countryNiger,countryHungary,0.00130861487541187
+countryNigeria,countryHungary,0.00121722480961571
+countryPakistan,countryHungary,0.000492235470026522
+countryPoland,countryHungary,0.00152398126713788
+countryPortugal,countryHungary,0.00270799547802583
+countrySpain,countryHungary,0.000868907762306994
+countryTanzania,countryHungary,0.00023759088211423
+countryThailand,countryHungary,0.00251847260517467
+countryTurkey,countryHungary,-6.23386797454082e-05
+countryUSA,countryHungary,0.00153879001737367
+countryUganda,countryHungary,0.00137155331344912
+countryZambia,countryHungary,0.00193902259870458
+year_c,countryHungary,0.00043958438529316
+GDD_c,countryHungary,-6.07973786606153e-05
+pH_c,countryHungary,0.000124269497954678
+SOC_log_c,countryHungary,-0.000150025184608942
+TN_log_c,countryHungary,-0.0010864151658795
+rain_c,countryHungary,3.7279235428706e-05
+rain_c_sq,countryHungary,-2.05008189557077e-06
+irrigationIrrigation,countryHungary,-5.87225129451072e-05
+Env_TypeEarly heat exposure:N_c,countryHungary,-3.23403216514174e-06
+Env_TypeMiddle heat exposure:N_c,countryHungary,7.92609614231806e-06
+Env_TypeLate heat exposure:N_c,countryHungary,5.86879795775086e-06
+Env_TypeEarly heat exposure:N_c_sq,countryHungary,2.82666754185569e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryHungary,-2.82669599284137e-06
+Env_TypeLate heat exposure:N_c_sq,countryHungary,1.89622036022402e-06
+intrcpt,countryIndia,-0.000542313456606869
+Env_TypeEarly heat exposure,countryIndia,1.17257696169496e-06
+Env_TypeMiddle heat exposure,countryIndia,1.72397926012316e-05
+Env_TypeLate heat exposure,countryIndia,-0.000330791700120472
+N_c,countryIndia,2.79649149683321e-06
+N_c_sq,countryIndia,-2.74710735622437e-07
+plant_density_c,countryIndia,-1.19498534685064e-05
+N_strategySV,countryIndia,-9.19390120438238e-06
+N_strategySVR,countryIndia,-0.000107984767862233
+N_strategySR,countryIndia,1.48591044258916e-05
+N_strategyVR,countryIndia,-8.51580503993289e-05
+N_strategyV,countryIndia,-9.80726511975546e-06
+N_strategyR,countryIndia,-2.37997706438315e-06
+countryArgentina,countryIndia,0.00074694348269069
+countryAustralia,countryIndia,0.000771338427293055
+countryBangladesh,countryIndia,0.00103485389927668
+countryBrazil,countryIndia,0.000880878064858046
+countryCanada,countryIndia,0.000413730349369972
+countryColombia,countryIndia,0.000923311023437163
+countryCroatia,countryIndia,0.000826446730917229
+countryEgypt,countryIndia,0.000597052690009381
+countryGermany,countryIndia,0.000382331025191494
+countryGhana,countryIndia,0.00148964649826831
+countryHungary,countryIndia,0.000715561007630369
+countryIndia,countryIndia,0.0139340225558452
+countryIran,countryIndia,0.00055598235229257
+countryItaly,countryIndia,0.00109522464444239
+countryKenya,countryIndia,0.000777831604420882
+countryMalaysia,countryIndia,0.000965152328762387
+countryNepal,countryIndia,0.0020004117407171
+countryNiger,countryIndia,0.00177089217357231
+countryNigeria,countryIndia,0.00129489297021438
+countryPakistan,countryIndia,0.000820196547609815
+countryPoland,countryIndia,0.000969881392894581
+countryPortugal,countryIndia,0.000502623828562759
+countrySpain,countryIndia,0.000389859476346327
+countryTanzania,countryIndia,0.000579397174730397
+countryThailand,countryIndia,0.00109859599429535
+countryTurkey,countryIndia,0.000659161875007011
+countryUSA,countryIndia,0.000837334150942512
+countryUganda,countryIndia,0.000929583970592927
+countryZambia,countryIndia,0.00153790455857513
+year_c,countryIndia,0.000297321688751687
+GDD_c,countryIndia,-4.77119543492782e-05
+pH_c,countryIndia,0.000226655196601396
+SOC_log_c,countryIndia,0.00055448903312009
+TN_log_c,countryIndia,-0.000254595231418918
+rain_c,countryIndia,-3.55613136067202e-05
+rain_c_sq,countryIndia,-1.5406376738038e-06
+irrigationIrrigation,countryIndia,-8.93414508112377e-05
+Env_TypeEarly heat exposure:N_c,countryIndia,1.59202719007065e-05
+Env_TypeMiddle heat exposure:N_c,countryIndia,-2.36793638637114e-06
+Env_TypeLate heat exposure:N_c,countryIndia,1.63306693524908e-05
+Env_TypeEarly heat exposure:N_c_sq,countryIndia,-4.75404490192923e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryIndia,6.73375958058802e-07
+Env_TypeLate heat exposure:N_c_sq,countryIndia,4.83307955245388e-06
+intrcpt,countryIran,-0.000778798015821827
+Env_TypeEarly heat exposure,countryIran,0.000172322910363351
+Env_TypeMiddle heat exposure,countryIran,0.000210876930693309
+Env_TypeLate heat exposure,countryIran,0.000229242970367001
+N_c,countryIran,2.9560360070839e-06
+N_c_sq,countryIran,4.28571925273623e-08
+plant_density_c,countryIran,-1.27141640453738e-05
+N_strategySV,countryIran,-3.01084494580649e-06
+N_strategySVR,countryIran,-7.74867022323388e-06
+N_strategySR,countryIran,-2.07608406979617e-05
+N_strategyVR,countryIran,4.73141911807196e-05
+N_strategyV,countryIran,7.33437221609383e-06
+N_strategyR,countryIran,3.6046676017348e-06
+countryArgentina,countryIran,0.000861146082299058
+countryAustralia,countryIran,0.00129795044741626
+countryBangladesh,countryIran,0.00129920270600232
+countryBrazil,countryIran,0.00104757442326545
+countryCanada,countryIran,0.000632924595827403
+countryColombia,countryIran,0.00101352486146752
+countryCroatia,countryIran,0.000720416979741882
+countryEgypt,countryIran,0.00142035498806866
+countryGermany,countryIran,0.000601964320696564
+countryGhana,countryIran,0.000370173347182139
+countryHungary,countryIran,0.000861931036152758
+countryIndia,countryIran,0.00055598235229257
+countryIran,countryIran,0.015903726807893
+countryItaly,countryIran,0.0010743468745818
+countryKenya,countryIran,0.000733512366093434
+countryMalaysia,countryIran,0.00144268499352633
+countryNepal,countryIran,0.00117936349280892
+countryNiger,countryIran,0.00134290955136263
+countryNigeria,countryIran,0.000817301010092796
+countryPakistan,countryIran,0.000848593033351151
+countryPoland,countryIran,-0.000382353529739833
+countryPortugal,countryIran,0.00164347990082255
+countrySpain,countryIran,0.0015319503332857
+countryTanzania,countryIran,0.000465229938445233
+countryThailand,countryIran,0.00243825403465381
+countryTurkey,countryIran,0.00103254075852871
+countryUSA,countryIran,0.000857796364187679
+countryUganda,countryIran,0.000964007588035671
+countryZambia,countryIran,0.0012660393020057
+year_c,countryIran,0.000187135168394711
+GDD_c,countryIran,-4.96633138417861e-05
+pH_c,countryIran,0.000130339084898948
+SOC_log_c,countryIran,-0.000588450634644442
+TN_log_c,countryIran,0.00102247277505388
+rain_c,countryIran,0.000156201700942898
+rain_c_sq,countryIran,-1.34628188296851e-05
+irrigationIrrigation,countryIran,-0.000148496384838516
+Env_TypeEarly heat exposure:N_c,countryIran,6.8500276803253e-07
+Env_TypeMiddle heat exposure:N_c,countryIran,2.82134121431603e-06
+Env_TypeLate heat exposure:N_c,countryIran,-1.95570965878473e-07
+Env_TypeEarly heat exposure:N_c_sq,countryIran,-8.20096507359121e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryIran,-1.10920518778022e-06
+Env_TypeLate heat exposure:N_c_sq,countryIran,3.96135894305808e-10
+intrcpt,countryItaly,-0.000896720198908147
+Env_TypeEarly heat exposure,countryItaly,0.000143386014351444
+Env_TypeMiddle heat exposure,countryItaly,-0.000410010559399762
+Env_TypeLate heat exposure,countryItaly,-7.69916932439526e-05
+N_c,countryItaly,2.84057264252559e-06
+N_c_sq,countryItaly,-6.08904092144716e-07
+plant_density_c,countryItaly,-1.08147403243843e-05
+N_strategySV,countryItaly,-4.89794177573116e-05
+N_strategySVR,countryItaly,1.66776522593304e-05
+N_strategySR,countryItaly,3.39946112339547e-05
+N_strategyVR,countryItaly,5.17278693442428e-05
+N_strategyV,countryItaly,2.74337470871016e-06
+N_strategyR,countryItaly,7.39492793010834e-06
+countryArgentina,countryItaly,0.00148867596315108
+countryAustralia,countryItaly,0.00211468637112959
+countryBangladesh,countryItaly,0.00122021105327099
+countryBrazil,countryItaly,0.00169469046965842
+countryCanada,countryItaly,0.00118068778288096
+countryColombia,countryItaly,0.00176976796184623
+countryCroatia,countryItaly,0.000881662546612512
+countryEgypt,countryItaly,7.21854966435767e-05
+countryGermany,countryItaly,0.000827089165342372
+countryGhana,countryItaly,0.000865047301969539
+countryHungary,countryItaly,0.0012657728623318
+countryIndia,countryItaly,0.00109522464444239
+countryIran,countryItaly,0.0010743468745818
+countryItaly,countryItaly,0.0821554035620191
+countryKenya,countryItaly,0.00164812982612264
+countryMalaysia,countryItaly,0.00271690033951926
+countryNepal,countryItaly,0.000969943281743512
+countryNiger,countryItaly,0.00212970706999896
+countryNigeria,countryItaly,0.0023247615676291
+countryPakistan,countryItaly,0.000732329561073603
+countryPoland,countryItaly,0.00020609430410722
+countryPortugal,countryItaly,0.00279374298666159
+countrySpain,countryItaly,0.0011578278599864
+countryTanzania,countryItaly,0.000725364870704119
+countryThailand,countryItaly,0.00302737214027579
+countryTurkey,countryItaly,0.000298488243366101
+countryUSA,countryItaly,0.00154767680611781
+countryUganda,countryItaly,0.00173189928808934
+countryZambia,countryItaly,0.00352176497808122
+year_c,countryItaly,0.000590038814045206
+GDD_c,countryItaly,-4.84503755583562e-05
+pH_c,countryItaly,0.000480522453195003
+SOC_log_c,countryItaly,-0.000346764651648664
+TN_log_c,countryItaly,0.00095056763405423
+rain_c,countryItaly,-5.08650485946799e-05
+rain_c_sq,countryItaly,3.72511756953241e-06
+irrigationIrrigation,countryItaly,-0.000244581616274587
+Env_TypeEarly heat exposure:N_c,countryItaly,-6.28109388872143e-06
+Env_TypeMiddle heat exposure:N_c,countryItaly,4.74921044594797e-06
+Env_TypeLate heat exposure:N_c,countryItaly,3.09316727896105e-06
+Env_TypeEarly heat exposure:N_c_sq,countryItaly,1.150000741196e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryItaly,2.3384570564536e-06
+Env_TypeLate heat exposure:N_c_sq,countryItaly,1.50961485383727e-06
+intrcpt,countryKenya,-0.00100321703774319
+Env_TypeEarly heat exposure,countryKenya,0.000273938123190592
+Env_TypeMiddle heat exposure,countryKenya,0.000165635451857061
+Env_TypeLate heat exposure,countryKenya,0.000252797136825103
+N_c,countryKenya,2.80178899111488e-05
+N_c_sq,countryKenya,-8.29453187782712e-06
+plant_density_c,countryKenya,1.74837234804183e-05
+N_strategySV,countryKenya,-4.97426155096728e-05
+N_strategySVR,countryKenya,1.27077483057646e-05
+N_strategySR,countryKenya,2.06808077035059e-05
+N_strategyVR,countryKenya,3.73960844520014e-05
+N_strategyV,countryKenya,-3.20852230978503e-06
+N_strategyR,countryKenya,7.72322163690526e-06
+countryArgentina,countryKenya,0.00142736751090847
+countryAustralia,countryKenya,0.00142554435972482
+countryBangladesh,countryKenya,0.00107903442258477
+countryBrazil,countryKenya,0.00145234973424295
+countryCanada,countryKenya,0.00160667476076598
+countryColombia,countryKenya,0.00132272044708683
+countryCroatia,countryKenya,0.000199155445408261
+countryEgypt,countryKenya,-0.000599811933524924
+countryGermany,countryKenya,0.00168427497290208
+countryGhana,countryKenya,0.00213644657554084
+countryHungary,countryKenya,0.00074542932112653
+countryIndia,countryKenya,0.000777831604420882
+countryIran,countryKenya,0.000733512366093434
+countryItaly,countryKenya,0.00164812982612264
+countryKenya,countryKenya,0.0268520342406707
+countryMalaysia,countryKenya,0.00315059388560999
+countryNepal,countryKenya,0.00194240977875278
+countryNiger,countryKenya,0.00169374544045598
+countryNigeria,countryKenya,0.00194921677425737
+countryPakistan,countryKenya,0.000221880403196987
+countryPoland,countryKenya,0.00125365053387166
+countryPortugal,countryKenya,0.00256506503051701
+countrySpain,countryKenya,0.000183285712455629
+countryTanzania,countryKenya,0.00195131556952894
+countryThailand,countryKenya,0.00242466178760335
+countryTurkey,countryKenya,0.00149514008885076
+countryUSA,countryKenya,0.000886570787327683
+countryUganda,countryKenya,0.00176171064803403
+countryZambia,countryKenya,0.0036668506266454
+year_c,countryKenya,0.000217209047374245
+GDD_c,countryKenya,0.00014147039837279
+pH_c,countryKenya,0.000661783951148487
+SOC_log_c,countryKenya,-4.14237562039801e-05
+TN_log_c,countryKenya,0.000840454882184136
+rain_c,countryKenya,1.7847802237869e-05
+rain_c_sq,countryKenya,-2.84460668704483e-06
+irrigationIrrigation,countryKenya,-1.53948015733082e-05
+Env_TypeEarly heat exposure:N_c,countryKenya,-2.89701609937844e-05
+Env_TypeMiddle heat exposure:N_c,countryKenya,-2.67240124749756e-05
+Env_TypeLate heat exposure:N_c,countryKenya,-2.22751788737365e-05
+Env_TypeEarly heat exposure:N_c_sq,countryKenya,8.01798397991464e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryKenya,7.64359180055619e-06
+Env_TypeLate heat exposure:N_c_sq,countryKenya,9.5899923018085e-06
+intrcpt,countryMalaysia,-0.00130319200405745
+Env_TypeEarly heat exposure,countryMalaysia,0.000832411840750505
+Env_TypeMiddle heat exposure,countryMalaysia,0.000661057217581707
+Env_TypeLate heat exposure,countryMalaysia,0.000739395283789434
+N_c,countryMalaysia,1.69491477203473e-05
+N_c_sq,countryMalaysia,-2.06483611672925e-06
+plant_density_c,countryMalaysia,2.01578942240924e-05
+N_strategySV,countryMalaysia,-2.08524567650203e-05
+N_strategySVR,countryMalaysia,1.09146404346933e-05
+N_strategySR,countryMalaysia,-2.30352978625422e-05
+N_strategyVR,countryMalaysia,-9.71964019029601e-07
+N_strategyV,countryMalaysia,1.39528251578174e-05
+N_strategyR,countryMalaysia,5.89922427741137e-06
+countryArgentina,countryMalaysia,0.000955409912740816
+countryAustralia,countryMalaysia,0.00180155075491514
+countryBangladesh,countryMalaysia,0.00224479553922762
+countryBrazil,countryMalaysia,0.00269271968661908
+countryCanada,countryMalaysia,-0.000317206539191084
+countryColombia,countryMalaysia,0.00338245293024959
+countryCroatia,countryMalaysia,7.74703055397902e-05
+countryEgypt,countryMalaysia,-0.00051194300958864
+countryGermany,countryMalaysia,0.00183875372915554
+countryGhana,countryMalaysia,0.00167529676106656
+countryHungary,countryMalaysia,7.43468089408071e-05
+countryIndia,countryMalaysia,0.000965152328762387
+countryIran,countryMalaysia,0.00144268499352633
+countryItaly,countryMalaysia,0.00271690033951926
+countryKenya,countryMalaysia,0.00315059388560999
+countryMalaysia,countryMalaysia,0.0858511288365669
+countryNepal,countryMalaysia,0.00207052024306913
+countryNiger,countryMalaysia,0.00121970710638876
+countryNigeria,countryMalaysia,0.00271279581335756
+countryPakistan,countryMalaysia,0.000740442712721403
+countryPoland,countryMalaysia,-0.00246988590282903
+countryPortugal,countryMalaysia,0.000353294606038478
+countrySpain,countryMalaysia,0.00130347205599012
+countryTanzania,countryMalaysia,0.00274218553288062
+countryThailand,countryMalaysia,0.0031580450987627
+countryTurkey,countryMalaysia,0.000269762546141129
+countryUSA,countryMalaysia,0.000793872767149636
+countryUganda,countryMalaysia,0.00295977453697406
+countryZambia,countryMalaysia,0.00420684822144986
+year_c,countryMalaysia,-0.000217945462866427
+GDD_c,countryMalaysia,-6.42802616187194e-05
+pH_c,countryMalaysia,0.000933807817495144
+SOC_log_c,countryMalaysia,-0.0012655818866746
+TN_log_c,countryMalaysia,0.00479656345487725
+rain_c,countryMalaysia,-9.72666460138541e-05
+rain_c_sq,countryMalaysia,2.37782897785688e-06
+irrigationIrrigation,countryMalaysia,-0.000253277192958233
+Env_TypeEarly heat exposure:N_c,countryMalaysia,-1.64439978285618e-05
+Env_TypeMiddle heat exposure:N_c,countryMalaysia,-1.3504087044567e-05
+Env_TypeLate heat exposure:N_c,countryMalaysia,-1.09464286912566e-05
+Env_TypeEarly heat exposure:N_c_sq,countryMalaysia,1.88063601465499e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryMalaysia,1.43232110160979e-06
+Env_TypeLate heat exposure:N_c_sq,countryMalaysia,4.09597542426663e-07
+intrcpt,countryNepal,-0.00121565584171607
+Env_TypeEarly heat exposure,countryNepal,0.000777535810135925
+Env_TypeMiddle heat exposure,countryNepal,0.000709943810222384
+Env_TypeLate heat exposure,countryNepal,0.000624369686898019
+N_c,countryNepal,1.06069631193028e-05
+N_c_sq,countryNepal,-1.2472121910106e-06
+plant_density_c,countryNepal,6.03092536931057e-06
+N_strategySV,countryNepal,-1.54716684030686e-06
+N_strategySVR,countryNepal,-5.20208203725912e-05
+N_strategySR,countryNepal,2.1360054832808e-05
+N_strategyVR,countryNepal,-0.000693364949505498
+N_strategyV,countryNepal,-2.69658705209525e-05
+N_strategyR,countryNepal,-3.28115360053356e-05
+countryArgentina,countryNepal,0.000712696993216179
+countryAustralia,countryNepal,0.000755382994727106
+countryBangladesh,countryNepal,0.00138477008801907
+countryBrazil,countryNepal,0.00240654599649574
+countryCanada,countryNepal,0.00154610815020135
+countryColombia,countryNepal,0.00251360881816466
+countryCroatia,countryNepal,0.000930324726195136
+countryEgypt,countryNepal,0.00184193103971851
+countryGermany,countryNepal,0.0011936453072762
+countryGhana,countryNepal,0.00188547785917838
+countryHungary,countryNepal,0.00116499077890764
+countryIndia,countryNepal,0.0020004117407171
+countryIran,countryNepal,0.00117936349280892
+countryItaly,countryNepal,0.000969943281743512
+countryKenya,countryNepal,0.00194240977875278
+countryMalaysia,countryNepal,0.00207052024306913
+countryNepal,countryNepal,0.117351571744682
+countryNiger,countryNepal,0.00216661209096687
+countryNigeria,countryNepal,0.00299764919190817
+countryPakistan,countryNepal,0.000626828150312485
+countryPoland,countryNepal,0.00272497234099617
+countryPortugal,countryNepal,0.00129546770564909
+countrySpain,countryNepal,0.000280044097333691
+countryTanzania,countryNepal,0.00520622701608715
+countryThailand,countryNepal,0.00206686357820648
+countryTurkey,countryNepal,0.000197351435827189
+countryUSA,countryNepal,0.00127467379971249
+countryUganda,countryNepal,0.00490827665567362
+countryZambia,countryNepal,0.00296502076501277
+year_c,countryNepal,0.000254038121573833
+GDD_c,countryNepal,-0.00014552464940712
+pH_c,countryNepal,0.00045033454875048
+SOC_log_c,countryNepal,0.000824914262474139
+TN_log_c,countryNepal,-0.00177438803397403
+rain_c,countryNepal,-9.81835417668462e-06
+rain_c_sq,countryNepal,-7.07197561316852e-05
+irrigationIrrigation,countryNepal,7.17124349773604e-05
+Env_TypeEarly heat exposure:N_c,countryNepal,1.44052826948817e-06
+Env_TypeMiddle heat exposure:N_c,countryNepal,-1.0640599642525e-05
+Env_TypeLate heat exposure:N_c,countryNepal,3.1626831364384e-06
+Env_TypeEarly heat exposure:N_c_sq,countryNepal,-1.10792582674833e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryNepal,1.32086428862986e-06
+Env_TypeLate heat exposure:N_c_sq,countryNepal,1.07117663830261e-05
+intrcpt,countryNiger,-0.000955259636844964
+Env_TypeEarly heat exposure,countryNiger,4.71153847605548e-05
+Env_TypeMiddle heat exposure,countryNiger,-7.06690812472774e-05
+Env_TypeLate heat exposure,countryNiger,-0.000339770543650008
+N_c,countryNiger,3.29077204501841e-06
+N_c_sq,countryNiger,-4.78676525408217e-08
+plant_density_c,countryNiger,-5.81316313206524e-06
+N_strategySV,countryNiger,-4.20041080003229e-05
+N_strategySVR,countryNiger,2.66432085084836e-05
+N_strategySR,countryNiger,2.29771903434379e-05
+N_strategyVR,countryNiger,7.58118736760022e-05
+N_strategyV,countryNiger,5.58581533961231e-06
+N_strategyR,countryNiger,7.32675859953642e-06
+countryArgentina,countryNiger,0.0015398245061288
+countryAustralia,countryNiger,0.00180542844213169
+countryBangladesh,countryNiger,0.00108866519424656
+countryBrazil,countryNiger,0.00107229526278713
+countryCanada,countryNiger,0.00101190984575986
+countryColombia,countryNiger,0.000938896008089575
+countryCroatia,countryNiger,0.000943326217311764
+countryEgypt,countryNiger,0.000766380370976278
+countryGermany,countryNiger,0.000277456247318226
+countryGhana,countryNiger,0.00272320432724016
+countryHungary,countryNiger,0.00130861487541187
+countryIndia,countryNiger,0.00177089217357231
+countryIran,countryNiger,0.00134290955136263
+countryItaly,countryNiger,0.00212970706999896
+countryKenya,countryNiger,0.00169374544045598
+countryMalaysia,countryNiger,0.00121970710638876
+countryNepal,countryNiger,0.00216661209096687
+countryNiger,countryNiger,0.0395062069588856
+countryNigeria,countryNiger,0.00295755045798118
+countryPakistan,countryNiger,0.00110485066794037
+countryPoland,countryNiger,0.000970215711547836
+countryPortugal,countryNiger,0.0022443282174524
+countrySpain,countryNiger,0.00105378789770976
+countryTanzania,countryNiger,0.00050366068511125
+countryThailand,countryNiger,0.00293439559990233
+countryTurkey,countryNiger,0.00169121894664414
+countryUSA,countryNiger,0.00144563276042644
+countryUganda,countryNiger,0.00135414834285216
+countryZambia,countryNiger,0.00401143636249009
+year_c,countryNiger,0.00111257072675407
+GDD_c,countryNiger,-3.22816905633281e-05
+pH_c,countryNiger,0.000467628578785497
+SOC_log_c,countryNiger,0.000666699008190054
+TN_log_c,countryNiger,0.000372341994923909
+rain_c,countryNiger,0.000103073666801946
+rain_c_sq,countryNiger,-9.93434083839913e-06
+irrigationIrrigation,countryNiger,8.29832646643308e-05
+Env_TypeEarly heat exposure:N_c,countryNiger,7.38432839596631e-08
+Env_TypeMiddle heat exposure:N_c,countryNiger,2.0927145975509e-06
+Env_TypeLate heat exposure:N_c,countryNiger,1.2480972015717e-05
+Env_TypeEarly heat exposure:N_c_sq,countryNiger,-1.5168419099537e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryNiger,-8.95543806158623e-07
+Env_TypeLate heat exposure:N_c_sq,countryNiger,2.54930344144869e-06
+intrcpt,countryNigeria,-0.00169737584751487
+Env_TypeEarly heat exposure,countryNigeria,0.000798346193378484
+Env_TypeMiddle heat exposure,countryNigeria,0.000538430457833492
+Env_TypeLate heat exposure,countryNigeria,0.000499053523203405
+N_c,countryNigeria,2.99401889844345e-05
+N_c_sq,countryNigeria,-1.2101271107957e-05
+plant_density_c,countryNigeria,1.23461924164669e-05
+N_strategySV,countryNigeria,-4.94657442777145e-05
+N_strategySVR,countryNigeria,1.01659454649621e-05
+N_strategySR,countryNigeria,2.7061233102219e-05
+N_strategyVR,countryNigeria,2.00267818876732e-05
+N_strategyV,countryNigeria,1.97755207761458e-05
+N_strategyR,countryNigeria,1.56020552739628e-05
+countryArgentina,countryNigeria,0.00152240398984929
+countryAustralia,countryNigeria,0.00151689417417634
+countryBangladesh,countryNigeria,2.87994672400824e-05
+countryBrazil,countryNigeria,0.00145343218596883
+countryCanada,countryNigeria,0.00177690986063588
+countryColombia,countryNigeria,0.00230372150878956
+countryCroatia,countryNigeria,0.000777032897490569
+countryEgypt,countryNigeria,-0.000505421112662812
+countryGermany,countryNigeria,0.000683172428812556
+countryGhana,countryNigeria,0.000881835754683574
+countryHungary,countryNigeria,0.00121722480961571
+countryIndia,countryNigeria,0.00129489297021438
+countryIran,countryNigeria,0.000817301010092796
+countryItaly,countryNigeria,0.0023247615676291
+countryKenya,countryNigeria,0.00194921677425737
+countryMalaysia,countryNigeria,0.00271279581335756
+countryNepal,countryNigeria,0.00299764919190817
+countryNiger,countryNigeria,0.00295755045798118
+countryNigeria,countryNigeria,0.0823697130059498
+countryPakistan,countryNigeria,0.000819558009834666
+countryPoland,countryNigeria,-0.000706082993591627
+countryPortugal,countryNigeria,0.00193629630000101
+countrySpain,countryNigeria,0.00150535663579755
+countryTanzania,countryNigeria,0.00200925287736208
+countryThailand,countryNigeria,0.00279582355753586
+countryTurkey,countryNigeria,8.73954218680094e-05
+countryUSA,countryNigeria,0.00157045471994555
+countryUganda,countryNigeria,0.00285900941328238
+countryZambia,countryNigeria,0.00545099030602859
+year_c,countryNigeria,0.00132643511080335
+GDD_c,countryNigeria,-7.93959731733062e-05
+pH_c,countryNigeria,0.000160064155566449
+SOC_log_c,countryNigeria,-0.000478627123503991
+TN_log_c,countryNigeria,0.0016854502256666
+rain_c,countryNigeria,-0.000141289072906379
+rain_c_sq,countryNigeria,1.61939732382461e-06
+irrigationIrrigation,countryNigeria,0.00017741882763853
+Env_TypeEarly heat exposure:N_c,countryNigeria,-3.43757774016451e-05
+Env_TypeMiddle heat exposure:N_c,countryNigeria,-2.69805933528132e-05
+Env_TypeLate heat exposure:N_c,countryNigeria,-2.41319822914202e-05
+Env_TypeEarly heat exposure:N_c_sq,countryNigeria,1.367320335682e-05
+Env_TypeMiddle heat exposure:N_c_sq,countryNigeria,1.19562987475278e-05
+Env_TypeLate heat exposure:N_c_sq,countryNigeria,1.31055011386562e-05
+intrcpt,countryPakistan,-0.000528879111895565
+Env_TypeEarly heat exposure,countryPakistan,0.00011106793636917
+Env_TypeMiddle heat exposure,countryPakistan,0.000110710929993842
+Env_TypeLate heat exposure,countryPakistan,5.52915971886158e-05
+N_c,countryPakistan,3.02878045542959e-06
+N_c_sq,countryPakistan,-5.01120289950462e-07
+plant_density_c,countryPakistan,-5.98517522431528e-07
+N_strategySV,countryPakistan,-1.61388536301994e-05
+N_strategySVR,countryPakistan,-4.97828447080799e-05
+N_strategySR,countryPakistan,2.26832587350997e-05
+N_strategyVR,countryPakistan,2.70152937616646e-05
+N_strategyV,countryPakistan,1.36600152538631e-06
+N_strategyR,countryPakistan,6.19879493879284e-06
+countryArgentina,countryPakistan,0.000402784232290244
+countryAustralia,countryPakistan,0.000641436562023361
+countryBangladesh,countryPakistan,0.000726062547555415
+countryBrazil,countryPakistan,0.00049660216260453
+countryCanada,countryPakistan,4.28285673919354e-05
+countryColombia,countryPakistan,0.000638673609212237
+countryCroatia,countryPakistan,0.000765349824020572
+countryEgypt,countryPakistan,0.00107308556826312
+countryGermany,countryPakistan,0.000157908516589422
+countryGhana,countryPakistan,0.000698232066759266
+countryHungary,countryPakistan,0.000492235470026522
+countryIndia,countryPakistan,0.000820196547609815
+countryIran,countryPakistan,0.000848593033351151
+countryItaly,countryPakistan,0.000732329561073603
+countryKenya,countryPakistan,0.000221880403196987
+countryMalaysia,countryPakistan,0.000740442712721403
+countryNepal,countryPakistan,0.000626828150312485
+countryNiger,countryPakistan,0.00110485066794037
+countryNigeria,countryPakistan,0.000819558009834666
+countryPakistan,countryPakistan,0.0131963574238185
+countryPoland,countryPakistan,-5.69230271838466e-06
+countryPortugal,countryPakistan,3.42918977674729e-05
+countrySpain,countryPakistan,0.000948203245009253
+countryTanzania,countryPakistan,0.000252258676596903
+countryThailand,countryPakistan,0.000617338968794658
+countryTurkey,countryPakistan,0.000647041724724196
+countryUSA,countryPakistan,0.00053177471364174
+countryUganda,countryPakistan,0.000441251588576053
+countryZambia,countryPakistan,0.000560965142010519
+year_c,countryPakistan,0.000135877259095914
+GDD_c,countryPakistan,-6.47129769849855e-05
+pH_c,countryPakistan,-2.71976945710066e-05
+SOC_log_c,countryPakistan,9.65747689328991e-05
+TN_log_c,countryPakistan,0.00039492864630836
+rain_c,countryPakistan,2.42679412021022e-05
+rain_c_sq,countryPakistan,-2.48735150776033e-06
+irrigationIrrigation,countryPakistan,-0.00010806371073768
+Env_TypeEarly heat exposure:N_c,countryPakistan,2.02443119130463e-06
+Env_TypeMiddle heat exposure:N_c,countryPakistan,-2.54763233791416e-06
+Env_TypeLate heat exposure:N_c,countryPakistan,2.00523815036217e-06
+Env_TypeEarly heat exposure:N_c_sq,countryPakistan,6.46289184117777e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryPakistan,1.30416995778954e-06
+Env_TypeLate heat exposure:N_c_sq,countryPakistan,3.16459815069714e-06
+intrcpt,countryPoland,-0.000787671690986864
+Env_TypeEarly heat exposure,countryPoland,0.00013101279544151
+Env_TypeMiddle heat exposure,countryPoland,1.77617050220533e-05
+Env_TypeLate heat exposure,countryPoland,0.000119169921979704
+N_c,countryPoland,4.77129024843514e-07
+N_c_sq,countryPoland,4.60891723675915e-06
+plant_density_c,countryPoland,-2.7580406440201e-05
+N_strategySV,countryPoland,-4.05903613117971e-05
+N_strategySVR,countryPoland,2.40997376509247e-05
+N_strategySR,countryPoland,6.74292070913469e-06
+N_strategyVR,countryPoland,0.000112867189926599
+N_strategyV,countryPoland,-5.83158315221771e-06
+N_strategyR,countryPoland,-2.51325689915421e-06
+countryArgentina,countryPoland,0.000873055857879204
+countryAustralia,countryPoland,0.00043570964765079
+countryBangladesh,countryPoland,0.000703655228913778
+countryBrazil,countryPoland,0.000796450819054982
+countryCanada,countryPoland,0.00266559070704291
+countryColombia,countryPoland,0.000434942973281526
+countryCroatia,countryPoland,0.000805293894288881
+countryEgypt,countryPoland,0.000607673987156615
+countryGermany,countryPoland,0.00157686363913778
+countryGhana,countryPoland,0.00254939247091443
+countryHungary,countryPoland,0.00152398126713788
+countryIndia,countryPoland,0.000969881392894581
+countryIran,countryPoland,-0.000382353529739833
+countryItaly,countryPoland,0.00020609430410722
+countryKenya,countryPoland,0.00125365053387166
+countryMalaysia,countryPoland,-0.00246988590282903
+countryNepal,countryPoland,0.00272497234099617
+countryNiger,countryPoland,0.000970215711547836
+countryNigeria,countryPoland,-0.000706082993591627
+countryPakistan,countryPoland,-5.69230271838466e-06
+countryPoland,countryPoland,0.0771965886818025
+countryPortugal,countryPoland,0.0024574629574183
+countrySpain,countryPoland,-0.0013526088470901
+countryTanzania,countryPoland,-3.50894821446998e-05
+countryThailand,countryPoland,-0.00020400188013856
+countryTurkey,countryPoland,0.000441801690126375
+countryUSA,countryPoland,0.00112309563366693
+countryUganda,countryPoland,0.000472347893424951
+countryZambia,countryPoland,0.000467388363113657
+year_c,countryPoland,-7.38323970304008e-05
+GDD_c,countryPoland,5.00219578435573e-05
+pH_c,countryPoland,0.000381179020615494
+SOC_log_c,countryPoland,0.00205619546723761
+TN_log_c,countryPoland,-0.00535997412652219
+rain_c,countryPoland,6.99665419314962e-05
+rain_c_sq,countryPoland,-3.75025965392736e-06
+irrigationIrrigation,countryPoland,1.4494600653323e-05
+Env_TypeEarly heat exposure:N_c,countryPoland,-1.82922425203837e-06
+Env_TypeMiddle heat exposure:N_c,countryPoland,-1.71671044513561e-07
+Env_TypeLate heat exposure:N_c,countryPoland,1.0110257104881e-05
+Env_TypeEarly heat exposure:N_c_sq,countryPoland,-5.23816339059672e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryPoland,-3.23373552651796e-06
+Env_TypeLate heat exposure:N_c_sq,countryPoland,2.94477373749379e-06
+intrcpt,countryPortugal,-0.00109212774525366
+Env_TypeEarly heat exposure,countryPortugal,-0.000376808109985506
+Env_TypeMiddle heat exposure,countryPortugal,-0.000751167730490148
+Env_TypeLate heat exposure,countryPortugal,-0.000371831208406841
+N_c,countryPortugal,1.8399707079895e-06
+N_c_sq,countryPortugal,1.29900280072992e-06
+plant_density_c,countryPortugal,-2.19692344037979e-05
+N_strategySV,countryPortugal,-4.85233742302793e-05
+N_strategySVR,countryPortugal,1.76372953502882e-05
+N_strategySR,countryPortugal,2.28422270580334e-05
+N_strategyVR,countryPortugal,6.72261169863512e-05
+N_strategyV,countryPortugal,-3.32387436104963e-06
+N_strategyR,countryPortugal,-2.22462504882023e-06
+countryArgentina,countryPortugal,0.00291621388303975
+countryAustralia,countryPortugal,0.00306055293056077
+countryBangladesh,countryPortugal,0.00146492725142751
+countryBrazil,countryPortugal,0.00229375354700379
+countryCanada,countryPortugal,0.00433612866843142
+countryColombia,countryPortugal,0.00148987511229666
+countryCroatia,countryPortugal,0.00113050794155171
+countryEgypt,countryPortugal,-0.000118908772523105
+countryGermany,countryPortugal,0.00162580192282523
+countryGhana,countryPortugal,-0.000333456648163932
+countryHungary,countryPortugal,0.00270799547802583
+countryIndia,countryPortugal,0.000502623828562759
+countryIran,countryPortugal,0.00164347990082255
+countryItaly,countryPortugal,0.00279374298666159
+countryKenya,countryPortugal,0.00256506503051701
+countryMalaysia,countryPortugal,0.000353294606038478
+countryNepal,countryPortugal,0.00129546770564909
+countryNiger,countryPortugal,0.0022443282174524
+countryNigeria,countryPortugal,0.00193629630000101
+countryPakistan,countryPortugal,3.42918977674729e-05
+countryPoland,countryPortugal,0.0024574629574183
+countryPortugal,countryPortugal,0.109001196536073
+countrySpain,countryPortugal,0.00103179417414855
+countryTanzania,countryPortugal,0.00039099388534138
+countryThailand,countryPortugal,0.00636721689734966
+countryTurkey,countryPortugal,0.00103790723326981
+countryUSA,countryPortugal,0.00258558440774052
+countryUganda,countryPortugal,0.00218223509650167
+countryZambia,countryPortugal,0.00490387752747113
+year_c,countryPortugal,0.00106600335266832
+GDD_c,countryPortugal,0.000116576598386802
+pH_c,countryPortugal,0.000602959648021199
+SOC_log_c,countryPortugal,-0.000982462514424955
+TN_log_c,countryPortugal,-0.00142289203321978
+rain_c,countryPortugal,0.000130912875844121
+rain_c_sq,countryPortugal,-7.67540342081145e-06
+irrigationIrrigation,countryPortugal,-0.000311485127712667
+Env_TypeEarly heat exposure:N_c,countryPortugal,-4.55730982765341e-06
+Env_TypeMiddle heat exposure:N_c,countryPortugal,-6.93080526312583e-06
+Env_TypeLate heat exposure:N_c,countryPortugal,-1.06769493392833e-06
+Env_TypeEarly heat exposure:N_c_sq,countryPortugal,-7.42219828231169e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryPortugal,-1.61584053724797e-06
+Env_TypeLate heat exposure:N_c_sq,countryPortugal,-2.20088010621022e-06
+intrcpt,countrySpain,-0.00095612363701312
+Env_TypeEarly heat exposure,countrySpain,0.000617499488519966
+Env_TypeMiddle heat exposure,countrySpain,0.000225439811091659
+Env_TypeLate heat exposure,countrySpain,0.000323143169692225
+N_c,countrySpain,6.62024162688145e-07
+N_c_sq,countrySpain,-9.05523540811623e-08
+plant_density_c,countrySpain,-8.52773018302523e-06
+N_strategySV,countrySpain,-7.36671030500486e-06
+N_strategySVR,countrySpain,2.06695792208878e-05
+N_strategySR,countrySpain,9.10991670501124e-06
+N_strategyVR,countrySpain,3.95852208914742e-05
+N_strategyV,countrySpain,-3.0020378334022e-05
+N_strategyR,countrySpain,2.09889026582735e-07
+countryArgentina,countrySpain,0.000772564278167307
+countryAustralia,countrySpain,0.00125288557028195
+countryBangladesh,countrySpain,0.000788096714568602
+countryBrazil,countrySpain,0.000706731925446801
+countryCanada,countrySpain,0.000499684309016773
+countryColombia,countrySpain,0.00105746414839451
+countryCroatia,countrySpain,0.000716641485904915
+countryEgypt,countrySpain,0.00136864680212149
+countryGermany,countrySpain,0.000290163583612091
+countryGhana,countrySpain,-0.000603899440080708
+countryHungary,countrySpain,0.000868907762306994
+countryIndia,countrySpain,0.000389859476346327
+countryIran,countrySpain,0.0015319503332857
+countryItaly,countrySpain,0.0011578278599864
+countryKenya,countrySpain,0.000183285712455629
+countryMalaysia,countrySpain,0.00130347205599012
+countryNepal,countrySpain,0.000280044097333691
+countryNiger,countrySpain,0.00105378789770976
+countryNigeria,countrySpain,0.00150535663579755
+countryPakistan,countrySpain,0.000948203245009253
+countryPoland,countrySpain,-0.0013526088470901
+countryPortugal,countrySpain,0.00103179417414855
+countrySpain,countrySpain,0.0117095110424241
+countryTanzania,countrySpain,0.000465763817662809
+countryThailand,countrySpain,0.00192200706732114
+countryTurkey,countrySpain,0.00031978658230699
+countryUSA,countrySpain,0.00084839182902255
+countryUganda,countrySpain,0.000933992460593468
+countryZambia,countrySpain,0.00112284973502013
+year_c,countrySpain,0.000334865121779453
+GDD_c,countrySpain,-9.19405554939251e-05
+pH_c,countrySpain,-0.000207062146426045
+SOC_log_c,countrySpain,-0.000908234854973476
+TN_log_c,countrySpain,0.00159387820269112
+rain_c,countrySpain,6.9652671979449e-05
+rain_c_sq,countrySpain,-5.85809736804385e-06
+irrigationIrrigation,countrySpain,-0.000154895376642387
+Env_TypeEarly heat exposure:N_c,countrySpain,-1.64747138449969e-07
+Env_TypeMiddle heat exposure:N_c,countrySpain,-8.10641188677477e-07
+Env_TypeLate heat exposure:N_c,countrySpain,-1.54544881216911e-06
+Env_TypeEarly heat exposure:N_c_sq,countrySpain,1.03642590016674e-07
+Env_TypeMiddle heat exposure:N_c_sq,countrySpain,2.2599922524693e-06
+Env_TypeLate heat exposure:N_c_sq,countrySpain,5.24127237715279e-07
+intrcpt,countryTanzania,-0.000844863596979748
+Env_TypeEarly heat exposure,countryTanzania,0.000485026817440516
+Env_TypeMiddle heat exposure,countryTanzania,0.000266825747765035
+Env_TypeLate heat exposure,countryTanzania,0.000300971852858219
+N_c,countryTanzania,2.10058392615113e-05
+N_c_sq,countryTanzania,-4.31328919055955e-06
+plant_density_c,countryTanzania,1.84774335078279e-05
+N_strategySV,countryTanzania,3.00445107673621e-05
+N_strategySVR,countryTanzania,4.09699991549758e-05
+N_strategySR,countryTanzania,-0.00014869254968641
+N_strategyVR,countryTanzania,4.13445839051545e-05
+N_strategyV,countryTanzania,1.78253295929365e-05
+N_strategyR,countryTanzania,-4.14970482969518e-06
+countryArgentina,countryTanzania,0.00069060150244068
+countryAustralia,countryTanzania,0.000524826954868713
+countryBangladesh,countryTanzania,0.000362456754177529
+countryBrazil,countryTanzania,0.000910934170600594
+countryCanada,countryTanzania,0.000703561732985714
+countryColombia,countryTanzania,0.00106688646062811
+countryCroatia,countryTanzania,3.5896108399828e-05
+countryEgypt,countryTanzania,-0.000227733208865163
+countryGermany,countryTanzania,0.00113732514268404
+countryGhana,countryTanzania,0.0010152051886877
+countryHungary,countryTanzania,0.00023759088211423
+countryIndia,countryTanzania,0.000579397174730397
+countryIran,countryTanzania,0.000465229938445233
+countryItaly,countryTanzania,0.000725364870704119
+countryKenya,countryTanzania,0.00195131556952894
+countryMalaysia,countryTanzania,0.00274218553288062
+countryNepal,countryTanzania,0.00520622701608715
+countryNiger,countryTanzania,0.00050366068511125
+countryNigeria,countryTanzania,0.00200925287736208
+countryPakistan,countryTanzania,0.000252258676596903
+countryPoland,countryTanzania,-3.50894821446998e-05
+countryPortugal,countryTanzania,0.00039099388534138
+countrySpain,countryTanzania,0.000465763817662809
+countryTanzania,countryTanzania,0.0842529409210601
+countryThailand,countryTanzania,0.000659262749075343
+countryTurkey,countryTanzania,0.00064943961466721
+countryUSA,countryTanzania,0.000374202193916291
+countryUganda,countryTanzania,0.00228044807751545
+countryZambia,countryTanzania,0.00199819574829068
+year_c,countryTanzania,-3.57771743486621e-05
+GDD_c,countryTanzania,7.75920632880359e-05
+pH_c,countryTanzania,0.000143081419742543
+SOC_log_c,countryTanzania,-0.000295768569476463
+TN_log_c,countryTanzania,0.00125871017295139
+rain_c,countryTanzania,-9.34771338175406e-05
+rain_c_sq,countryTanzania,-1.3877198691006e-05
+irrigationIrrigation,countryTanzania,0.00012494484691059
+Env_TypeEarly heat exposure:N_c,countryTanzania,-1.7293715033563e-05
+Env_TypeMiddle heat exposure:N_c,countryTanzania,-1.79772020390129e-05
+Env_TypeLate heat exposure:N_c,countryTanzania,-1.4645868905766e-05
+Env_TypeEarly heat exposure:N_c_sq,countryTanzania,3.89395618847592e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryTanzania,4.11391220256311e-06
+Env_TypeLate heat exposure:N_c_sq,countryTanzania,8.86474929763945e-06
+intrcpt,countryThailand,-0.00148317108727394
+Env_TypeEarly heat exposure,countryThailand,9.57285189977871e-05
+Env_TypeMiddle heat exposure,countryThailand,8.34275158984932e-05
+Env_TypeLate heat exposure,countryThailand,-0.000529555259462601
+N_c,countryThailand,1.19904841072555e-06
+N_c_sq,countryThailand,5.34139929452214e-07
+plant_density_c,countryThailand,1.21603827486133e-05
+N_strategySV,countryThailand,-8.9764919229201e-06
+N_strategySVR,countryThailand,-0.000108687342111031
+N_strategySR,countryThailand,2.81175255337089e-05
+N_strategyVR,countryThailand,-0.000272855653923403
+N_strategyV,countryThailand,-8.862221939929e-06
+N_strategyR,countryThailand,-1.35601804454893e-05
+countryArgentina,countryThailand,0.00276867837138914
+countryAustralia,countryThailand,0.00300637806953149
+countryBangladesh,countryThailand,0.00300474822487088
+countryBrazil,countryThailand,0.00331251783182809
+countryCanada,countryThailand,0.0031139334769085
+countryColombia,countryThailand,0.00305072155010194
+countryCroatia,countryThailand,0.00115845341290376
+countryEgypt,countryThailand,0.000614055026495155
+countryGermany,countryThailand,0.00145447702977318
+countryGhana,countryThailand,-0.000269575517050306
+countryHungary,countryThailand,0.00251847260517467
+countryIndia,countryThailand,0.00109859599429535
+countryIran,countryThailand,0.00243825403465381
+countryItaly,countryThailand,0.00302737214027579
+countryKenya,countryThailand,0.00242466178760335
+countryMalaysia,countryThailand,0.0031580450987627
+countryNepal,countryThailand,0.00206686357820648
+countryNiger,countryThailand,0.00293439559990233
+countryNigeria,countryThailand,0.00279582355753586
+countryPakistan,countryThailand,0.000617338968794658
+countryPoland,countryThailand,-0.00020400188013856
+countryPortugal,countryThailand,0.00636721689734966
+countrySpain,countryThailand,0.00192200706732114
+countryTanzania,countryThailand,0.000659262749075343
+countryThailand,countryThailand,0.111634259043631
+countryTurkey,countryThailand,0.000602379934609253
+countryUSA,countryThailand,0.00266755546438452
+countryUganda,countryThailand,0.00309765511669436
+countryZambia,countryThailand,0.00564425385130771
+year_c,countryThailand,0.00103281940189672
+GDD_c,countryThailand,-6.09469921341523e-05
+pH_c,countryThailand,0.000760473638280179
+SOC_log_c,countryThailand,-0.00170195606403495
+TN_log_c,countryThailand,0.00116783396220305
+rain_c,countryThailand,0.000155965953278326
+rain_c_sq,countryThailand,-1.15222786244632e-05
+irrigationIrrigation,countryThailand,-0.000261700825739443
+Env_TypeEarly heat exposure:N_c,countryThailand,8.02330115641012e-06
+Env_TypeMiddle heat exposure:N_c,countryThailand,-2.55901139250201e-06
+Env_TypeLate heat exposure:N_c,countryThailand,6.02188426147364e-06
+Env_TypeEarly heat exposure:N_c_sq,countryThailand,-1.47251592299221e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryThailand,-3.20451289051952e-07
+Env_TypeLate heat exposure:N_c_sq,countryThailand,1.43802245967059e-05
+intrcpt,countryTurkey,0.000185391252355955
+Env_TypeEarly heat exposure,countryTurkey,-0.000714606666420305
+Env_TypeMiddle heat exposure,countryTurkey,-0.000387916425951276
+Env_TypeLate heat exposure,countryTurkey,-0.000311912250192704
+N_c,countryTurkey,2.62125746360442e-06
+N_c_sq,countryTurkey,2.02593848904719e-06
+plant_density_c,countryTurkey,6.85196243795389e-06
+N_strategySV,countryTurkey,-5.3430083380521e-06
+N_strategySVR,countryTurkey,-0.000100330769867141
+N_strategySR,countryTurkey,1.80803407215289e-07
+N_strategyVR,countryTurkey,1.06856621794136e-05
+N_strategyV,countryTurkey,-1.64431773288185e-05
+N_strategyR,countryTurkey,1.12514836982848e-06
+countryArgentina,countryTurkey,0.000665235627251625
+countryAustralia,countryTurkey,0.000720331031592349
+countryBangladesh,countryTurkey,0.000397650719780535
+countryBrazil,countryTurkey,-0.00044508181324947
+countryCanada,countryTurkey,-5.60123379697003e-05
+countryColombia,countryTurkey,-0.00127447143304889
+countryCroatia,countryTurkey,0.000372451186316587
+countryEgypt,countryTurkey,0.00063062379272008
+countryGermany,countryTurkey,0.000119729540497042
+countryGhana,countryTurkey,0.00210526946172428
+countryHungary,countryTurkey,-6.23386797454082e-05
+countryIndia,countryTurkey,0.000659161875007011
+countryIran,countryTurkey,0.00103254075852871
+countryItaly,countryTurkey,0.000298488243366101
+countryKenya,countryTurkey,0.00149514008885076
+countryMalaysia,countryTurkey,0.000269762546141129
+countryNepal,countryTurkey,0.000197351435827189
+countryNiger,countryTurkey,0.00169121894664414
+countryNigeria,countryTurkey,8.73954218680094e-05
+countryPakistan,countryTurkey,0.000647041724724196
+countryPoland,countryTurkey,0.000441801690126375
+countryPortugal,countryTurkey,0.00103790723326981
+countrySpain,countryTurkey,0.00031978658230699
+countryTanzania,countryTurkey,0.00064943961466721
+countryThailand,countryTurkey,0.000602379934609253
+countryTurkey,countryTurkey,0.0805485033889965
+countryUSA,countryTurkey,-0.00016302704078466
+countryUganda,countryTurkey,-0.000600396451923573
+countryZambia,countryTurkey,0.000598939717357667
+year_c,countryTurkey,0.000119592500324861
+GDD_c,countryTurkey,0.000223519246818288
+pH_c,countryTurkey,0.000167315804933107
+SOC_log_c,countryTurkey,0.000459993614213582
+TN_log_c,countryTurkey,0.000749468702252215
+rain_c,countryTurkey,0.000173060182758408
+rain_c_sq,countryTurkey,-1.27025977653559e-05
+irrigationIrrigation,countryTurkey,-7.68669702706699e-05
+Env_TypeEarly heat exposure:N_c,countryTurkey,1.49373354298233e-05
+Env_TypeMiddle heat exposure:N_c,countryTurkey,-5.24948135162299e-06
+Env_TypeLate heat exposure:N_c,countryTurkey,-3.57781997562493e-06
+Env_TypeEarly heat exposure:N_c_sq,countryTurkey,-3.6059031019004e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryTurkey,-1.0729546037314e-06
+Env_TypeLate heat exposure:N_c_sq,countryTurkey,-9.91428018244067e-07
+intrcpt,countryUSA,-0.00108276952043262
+Env_TypeEarly heat exposure,countryUSA,0.000162880185625553
+Env_TypeMiddle heat exposure,countryUSA,-2.09103588150684e-05
+Env_TypeLate heat exposure,countryUSA,-8.71530125649628e-05
+N_c,countryUSA,1.68606978059879e-06
+N_c_sq,countryUSA,1.57555271409324e-07
+plant_density_c,countryUSA,-8.82100330956161e-06
+N_strategySV,countryUSA,3.43875306046137e-05
+N_strategySVR,countryUSA,5.62394331708214e-05
+N_strategySR,countryUSA,3.86014020724669e-05
+N_strategyVR,countryUSA,8.70992683893289e-05
+N_strategyV,countryUSA,1.23859762145229e-05
+N_strategyR,countryUSA,5.77162300133239e-06
+countryArgentina,countryUSA,0.00133416028317087
+countryAustralia,countryUSA,0.00141847870006651
+countryBangladesh,countryUSA,0.00109455561262737
+countryBrazil,countryUSA,0.0015794368287589
+countryCanada,countryUSA,0.00179610611145295
+countryColombia,countryUSA,0.00167423842005665
+countryCroatia,countryUSA,0.000882594625055152
+countryEgypt,countryUSA,0.000473560570354101
+countryGermany,countryUSA,0.000924802630032107
+countryGhana,countryUSA,0.000301502740196221
+countryHungary,countryUSA,0.00153879001737367
+countryIndia,countryUSA,0.000837334150942512
+countryIran,countryUSA,0.000857796364187679
+countryItaly,countryUSA,0.00154767680611781
+countryKenya,countryUSA,0.000886570787327683
+countryMalaysia,countryUSA,0.000793872767149636
+countryNepal,countryUSA,0.00127467379971249
+countryNiger,countryUSA,0.00144563276042644
+countryNigeria,countryUSA,0.00157045471994555
+countryPakistan,countryUSA,0.00053177471364174
+countryPoland,countryUSA,0.00112309563366693
+countryPortugal,countryUSA,0.00258558440774052
+countrySpain,countryUSA,0.00084839182902255
+countryTanzania,countryUSA,0.000374202193916291
+countryThailand,countryUSA,0.00266755546438452
+countryTurkey,countryUSA,-0.00016302704078466
+countryUSA,countryUSA,0.003048425590567
+countryUganda,countryUSA,0.00161330119417517
+countryZambia,countryUSA,0.00242441120196866
+year_c,countryUSA,0.000481816236272852
+GDD_c,countryUSA,-7.9436581657949e-05
+pH_c,countryUSA,0.000230410854779612
+SOC_log_c,countryUSA,-0.000253412653048242
+TN_log_c,countryUSA,-0.00056457683397104
+rain_c,countryUSA,-2.18068667592519e-07
+rain_c_sq,countryUSA,-2.61416500271577e-09
+irrigationIrrigation,countryUSA,-1.8821866789971e-05
+Env_TypeEarly heat exposure:N_c,countryUSA,-2.41214078173084e-06
+Env_TypeMiddle heat exposure:N_c,countryUSA,2.80737415675302e-06
+Env_TypeLate heat exposure:N_c,countryUSA,2.79785200447617e-06
+Env_TypeEarly heat exposure:N_c_sq,countryUSA,2.04337590158953e-07
+Env_TypeMiddle heat exposure:N_c_sq,countryUSA,-8.92171028529788e-07
+Env_TypeLate heat exposure:N_c_sq,countryUSA,4.81258373345935e-06
+intrcpt,countryUganda,-0.00158755590056796
+Env_TypeEarly heat exposure,countryUganda,0.000710601620244816
+Env_TypeMiddle heat exposure,countryUganda,0.00059570873974351
+Env_TypeLate heat exposure,countryUganda,0.000502846479487488
+N_c,countryUganda,1.58016993180076e-05
+N_c_sq,countryUganda,-3.3054516138937e-06
+plant_density_c,countryUganda,1.39730428794108e-05
+N_strategySV,countryUganda,3.09409123051666e-05
+N_strategySVR,countryUganda,3.14508887498979e-05
+N_strategySR,countryUganda,-0.00014063096434023
+N_strategyVR,countryUganda,4.40877780677537e-05
+N_strategyV,countryUganda,3.05363730781195e-05
+N_strategyR,countryUganda,-6.23246941349337e-06
+countryArgentina,countryUganda,0.00128562515726485
+countryAustralia,countryUganda,0.00131863376805188
+countryBangladesh,countryUganda,0.00122135268468442
+countryBrazil,countryUganda,0.00233499877879969
+countryCanada,countryUganda,0.00194610082430444
+countryColombia,countryUganda,0.00289665324872047
+countryCroatia,countryUganda,0.00068362979740931
+countryEgypt,countryUganda,0.000139316627413102
+countryGermany,countryUganda,0.00145245955983278
+countryGhana,countryUganda,0.000604067957711635
+countryHungary,countryUganda,0.00137155331344912
+countryIndia,countryUganda,0.000929583970592927
+countryIran,countryUganda,0.000964007588035671
+countryItaly,countryUganda,0.00173189928808934
+countryKenya,countryUganda,0.00176171064803403
+countryMalaysia,countryUganda,0.00295977453697406
+countryNepal,countryUganda,0.00490827665567362
+countryNiger,countryUganda,0.00135414834285216
+countryNigeria,countryUganda,0.00285900941328238
+countryPakistan,countryUganda,0.000441251588576053
+countryPoland,countryUganda,0.000472347893424951
+countryPortugal,countryUganda,0.00218223509650167
+countrySpain,countryUganda,0.000933992460593468
+countryTanzania,countryUganda,0.00228044807751545
+countryThailand,countryUganda,0.00309765511669436
+countryTurkey,countryUganda,-0.000600396451923573
+countryUSA,countryUganda,0.00161330119417517
+countryUganda,countryUganda,0.0617664242912563
+countryZambia,countryUganda,0.00376604092643709
+year_c,countryUganda,0.000454423756665231
+GDD_c,countryUganda,-0.000117528345131778
+pH_c,countryUganda,0.000388945366713034
+SOC_log_c,countryUganda,-0.000629521513852336
+TN_log_c,countryUganda,0.000449708373503816
+rain_c,countryUganda,-6.64630723936599e-05
+rain_c_sq,countryUganda,-9.49337990167433e-06
+irrigationIrrigation,countryUganda,7.92890469418056e-05
+Env_TypeEarly heat exposure:N_c,countryUganda,-1.35985958358318e-05
+Env_TypeMiddle heat exposure:N_c,countryUganda,-1.27662778769649e-05
+Env_TypeLate heat exposure:N_c,countryUganda,-7.09041759596081e-06
+Env_TypeEarly heat exposure:N_c_sq,countryUganda,3.57737222244226e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryUganda,2.85753622089451e-06
+Env_TypeLate heat exposure:N_c_sq,countryUganda,5.58147063436289e-06
+intrcpt,countryZambia,-0.00201330891627291
+Env_TypeEarly heat exposure,countryZambia,0.000506813685085534
+Env_TypeMiddle heat exposure,countryZambia,0.000396456739532036
+Env_TypeLate heat exposure,countryZambia,0.000422708364649712
+N_c,countryZambia,2.58331614719469e-05
+N_c_sq,countryZambia,-8.30539881635434e-06
+plant_density_c,countryZambia,1.9033163881078e-05
+N_strategySV,countryZambia,-5.00459457238301e-05
+N_strategySVR,countryZambia,4.14729722644385e-06
+N_strategySR,countryZambia,2.83941927185882e-05
+N_strategyVR,countryZambia,2.32097474189542e-05
+N_strategyV,countryZambia,1.89288802945129e-05
+N_strategyR,countryZambia,9.86997701864885e-06
+countryArgentina,countryZambia,0.00253648341303043
+countryAustralia,countryZambia,0.00266398409773356
+countryBangladesh,countryZambia,0.00110262882712769
+countryBrazil,countryZambia,0.00282506467807137
+countryCanada,countryZambia,0.00312292867445305
+countryColombia,countryZambia,0.00332130636588417
+countryCroatia,countryZambia,0.000882630892362358
+countryEgypt,countryZambia,-0.00112455218394779
+countryGermany,countryZambia,0.00164400713813459
+countryGhana,countryZambia,0.00193393520837327
+countryHungary,countryZambia,0.00193902259870458
+countryIndia,countryZambia,0.00153790455857513
+countryIran,countryZambia,0.0012660393020057
+countryItaly,countryZambia,0.00352176497808122
+countryKenya,countryZambia,0.0036668506266454
+countryMalaysia,countryZambia,0.00420684822144986
+countryNepal,countryZambia,0.00296502076501277
+countryNiger,countryZambia,0.00401143636249009
+countryNigeria,countryZambia,0.00545099030602859
+countryPakistan,countryZambia,0.000560965142010519
+countryPoland,countryZambia,0.000467388363113657
+countryPortugal,countryZambia,0.00490387752747113
+countrySpain,countryZambia,0.00112284973502013
+countryTanzania,countryZambia,0.00199819574829068
+countryThailand,countryZambia,0.00564425385130771
+countryTurkey,countryZambia,0.000598939717357667
+countryUSA,countryZambia,0.00242441120196866
+countryUganda,countryZambia,0.00376604092643709
+countryZambia,countryZambia,0.0751824490369627
+year_c,countryZambia,0.00155927975376417
+GDD_c,countryZambia,-2.52803443843794e-05
+pH_c,countryZambia,0.000888993644011627
+SOC_log_c,countryZambia,-0.000635537364858682
+TN_log_c,countryZambia,0.00148148697018746
+rain_c,countryZambia,-6.03387447773816e-05
+rain_c_sq,countryZambia,1.54359781285282e-06
+irrigationIrrigation,countryZambia,0.000128068346102043
+Env_TypeEarly heat exposure:N_c,countryZambia,-3.04442021228278e-05
+Env_TypeMiddle heat exposure:N_c,countryZambia,-2.5203431602146e-05
+Env_TypeLate heat exposure:N_c,countryZambia,-2.19659894119335e-05
+Env_TypeEarly heat exposure:N_c_sq,countryZambia,9.92189871059718e-06
+Env_TypeMiddle heat exposure:N_c_sq,countryZambia,8.0741377657819e-06
+Env_TypeLate heat exposure:N_c_sq,countryZambia,7.24145746300984e-06
+intrcpt,year_c,-0.000262179277108623
+Env_TypeEarly heat exposure,year_c,1.55978901752319e-05
+Env_TypeMiddle heat exposure,year_c,-1.4284927057375e-06
+Env_TypeLate heat exposure,year_c,-2.46869250906099e-05
+N_c,year_c,-3.78598994240578e-07
+N_c_sq,year_c,6.65199862067106e-08
+plant_density_c,year_c,-5.80114193603643e-07
+N_strategySV,year_c,1.753352728505e-06
+N_strategySVR,year_c,3.31272992018928e-06
+N_strategySR,year_c,-2.0168008810176e-06
+N_strategyVR,year_c,4.60690899355646e-06
+N_strategyV,year_c,7.40428109068881e-06
+N_strategyR,year_c,1.03908631350579e-06
+countryArgentina,year_c,0.000476708182318888
+countryAustralia,year_c,0.000457819446432238
+countryBangladesh,year_c,-0.000234612803961888
+countryBrazil,year_c,0.000136584610519546
+countryCanada,year_c,0.000647734086239315
+countryColombia,year_c,0.000215908922673404
+countryCroatia,year_c,0.000267096046614992
+countryEgypt,year_c,-0.000178882055536149
+countryGermany,year_c,-0.000184299289200136
+countryGhana,year_c,7.55988885023225e-05
+countryHungary,year_c,0.00043958438529316
+countryIndia,year_c,0.000297321688751687
+countryIran,year_c,0.000187135168394711
+countryItaly,year_c,0.000590038814045206
+countryKenya,year_c,0.000217209047374245
+countryMalaysia,year_c,-0.000217945462866427
+countryNepal,year_c,0.000254038121573833
+countryNiger,year_c,0.00111257072675407
+countryNigeria,year_c,0.00132643511080335
+countryPakistan,year_c,0.000135877259095914
+countryPoland,year_c,-7.38323970304008e-05
+countryPortugal,year_c,0.00106600335266832
+countrySpain,year_c,0.000334865121779453
+countryTanzania,year_c,-3.57771743486621e-05
+countryThailand,year_c,0.00103281940189672
+countryTurkey,year_c,0.000119592500324861
+countryUSA,year_c,0.000481816236272852
+countryUganda,year_c,0.000454423756665231
+countryZambia,year_c,0.00155927975376417
+year_c,year_c,0.000620459871037954
+GDD_c,year_c,-1.61493612818212e-05
+pH_c,year_c,1.42332884824614e-05
+SOC_log_c,year_c,-3.50556133990971e-05
+TN_log_c,year_c,-2.96660881458807e-06
+rain_c,year_c,-8.62790562721216e-06
+rain_c_sq,year_c,2.28050765543638e-07
+irrigationIrrigation,year_c,1.83985604047722e-05
+Env_TypeEarly heat exposure:N_c,year_c,-7.5838673197756e-07
+Env_TypeMiddle heat exposure:N_c,year_c,-2.73207588042715e-07
+Env_TypeLate heat exposure:N_c,year_c,-1.12466950335846e-06
+Env_TypeEarly heat exposure:N_c_sq,year_c,6.34309243624186e-07
+Env_TypeMiddle heat exposure:N_c_sq,year_c,3.78204845689532e-07
+Env_TypeLate heat exposure:N_c_sq,year_c,-6.20644001572008e-07
+intrcpt,GDD_c,8.79889602005136e-05
+Env_TypeEarly heat exposure,GDD_c,-8.12581359470622e-05
+Env_TypeMiddle heat exposure,GDD_c,-8.72153411718319e-05
+Env_TypeLate heat exposure,GDD_c,-7.72070918100105e-05
+N_c,GDD_c,1.1795946191625e-07
+N_c_sq,GDD_c,2.39857420212796e-07
+plant_density_c,GDD_c,1.30613486844796e-07
+N_strategySV,GDD_c,-1.85657877445316e-07
+N_strategySVR,GDD_c,1.12481706909076e-06
+N_strategySR,GDD_c,-1.4891715416522e-06
+N_strategyVR,GDD_c,-2.6731062857754e-08
+N_strategyV,GDD_c,-2.00178471253985e-06
+N_strategyR,GDD_c,-2.35577413241484e-07
+countryArgentina,GDD_c,4.25881453993709e-05
+countryAustralia,GDD_c,-7.3420668459916e-06
+countryBangladesh,GDD_c,-7.62276104587705e-05
+countryBrazil,GDD_c,-0.000125263319173584
+countryCanada,GDD_c,1.71390206065487e-05
+countryColombia,GDD_c,-0.000234729039818377
+countryCroatia,GDD_c,-7.34837537055651e-05
+countryEgypt,GDD_c,-0.000140046146216313
+countryGermany,GDD_c,1.42399448559999e-05
+countryGhana,GDD_c,5.88489728256081e-05
+countryHungary,GDD_c,-6.07973786606153e-05
+countryIndia,GDD_c,-4.77119543492782e-05
+countryIran,GDD_c,-4.96633138417861e-05
+countryItaly,GDD_c,-4.84503755583562e-05
+countryKenya,GDD_c,0.00014147039837279
+countryMalaysia,GDD_c,-6.42802616187194e-05
+countryNepal,GDD_c,-0.00014552464940712
+countryNiger,GDD_c,-3.22816905633281e-05
+countryNigeria,GDD_c,-7.93959731733062e-05
+countryPakistan,GDD_c,-6.47129769849855e-05
+countryPoland,GDD_c,5.00219578435573e-05
+countryPortugal,GDD_c,0.000116576598386802
+countrySpain,GDD_c,-9.19405554939251e-05
+countryTanzania,GDD_c,7.75920632880359e-05
+countryThailand,GDD_c,-6.09469921341523e-05
+countryTurkey,GDD_c,0.000223519246818288
+countryUSA,GDD_c,-7.9436581657949e-05
+countryUganda,GDD_c,-0.000117528345131778
+countryZambia,GDD_c,-2.52803443843794e-05
+year_c,GDD_c,-1.61493612818212e-05
+GDD_c,GDD_c,3.81259241133842e-05
+pH_c,GDD_c,4.05815253500759e-06
+SOC_log_c,GDD_c,1.52704771770134e-05
+TN_log_c,GDD_c,2.97962896657712e-05
+rain_c,GDD_c,1.45111946077108e-06
+rain_c_sq,GDD_c,1.13187305354661e-07
+irrigationIrrigation,GDD_c,1.48252002798736e-06
+Env_TypeEarly heat exposure:N_c,GDD_c,7.46279455362924e-08
+Env_TypeMiddle heat exposure:N_c,GDD_c,-3.5944272666694e-07
+Env_TypeLate heat exposure:N_c,GDD_c,-2.79979336826383e-07
+Env_TypeEarly heat exposure:N_c_sq,GDD_c,-3.10870244541732e-07
+Env_TypeMiddle heat exposure:N_c_sq,GDD_c,-1.94010102957049e-07
+Env_TypeLate heat exposure:N_c_sq,GDD_c,-9.85946908651461e-08
+intrcpt,pH_c,-9.11149899834167e-05
+Env_TypeEarly heat exposure,pH_c,-7.20741148877365e-05
+Env_TypeMiddle heat exposure,pH_c,-2.44112274590594e-05
+Env_TypeLate heat exposure,pH_c,-3.14247331995274e-06
+N_c,pH_c,1.07661929223873e-07
+N_c_sq,pH_c,8.86375264656786e-08
+plant_density_c,pH_c,-4.2415735211479e-07
+N_strategySV,pH_c,-5.38852128562123e-07
+N_strategySVR,pH_c,-2.5595697624843e-06
+N_strategySR,pH_c,1.91638953487474e-06
+N_strategyVR,pH_c,1.69303087953028e-06
+N_strategyV,pH_c,-7.075694691526e-08
+N_strategyR,pH_c,-1.6929723369072e-06
+countryArgentina,pH_c,0.000247683736033062
+countryAustralia,pH_c,0.000366823901637336
+countryBangladesh,pH_c,0.000466592941203852
+countryBrazil,pH_c,0.000534485502523997
+countryCanada,pH_c,0.00017478968553952
+countryColombia,pH_c,0.000460024739924527
+countryCroatia,pH_c,1.08337106175439e-05
+countryEgypt,pH_c,-0.000197463166600178
+countryGermany,pH_c,0.000348663041998851
+countryGhana,pH_c,0.000704364279794528
+countryHungary,pH_c,0.000124269497954678
+countryIndia,pH_c,0.000226655196601396
+countryIran,pH_c,0.000130339084898948
+countryItaly,pH_c,0.000480522453195003
+countryKenya,pH_c,0.000661783951148487
+countryMalaysia,pH_c,0.000933807817495144
+countryNepal,pH_c,0.00045033454875048
+countryNiger,pH_c,0.000467628578785497
+countryNigeria,pH_c,0.000160064155566449
+countryPakistan,pH_c,-2.71976945710066e-05
+countryPoland,pH_c,0.000381179020615494
+countryPortugal,pH_c,0.000602959648021199
+countrySpain,pH_c,-0.000207062146426045
+countryTanzania,pH_c,0.000143081419742543
+countryThailand,pH_c,0.000760473638280179
+countryTurkey,pH_c,0.000167315804933107
+countryUSA,pH_c,0.000230410854779612
+countryUganda,pH_c,0.000388945366713034
+countryZambia,pH_c,0.000888993644011627
+year_c,pH_c,1.42332884824614e-05
+GDD_c,pH_c,4.05815253500759e-06
+pH_c,pH_c,0.000321370114403535
+SOC_log_c,pH_c,8.75567185364175e-05
+TN_log_c,pH_c,9.47590868089295e-05
+rain_c,pH_c,1.54872716133744e-05
+rain_c_sq,pH_c,-8.05343608205935e-07
+irrigationIrrigation,pH_c,-1.54249635895725e-05
+Env_TypeEarly heat exposure:N_c,pH_c,-2.65433194381511e-07
+Env_TypeMiddle heat exposure:N_c,pH_c,-7.80183772304923e-07
+Env_TypeLate heat exposure:N_c,pH_c,1.59008561103377e-07
+Env_TypeEarly heat exposure:N_c_sq,pH_c,-9.0743076244597e-08
+Env_TypeMiddle heat exposure:N_c_sq,pH_c,-9.37606511056089e-08
+Env_TypeLate heat exposure:N_c_sq,pH_c,-4.68338230437866e-07
+intrcpt,SOC_log_c,0.0002429238582986
+Env_TypeEarly heat exposure,SOC_log_c,-6.57222606116736e-05
+Env_TypeMiddle heat exposure,SOC_log_c,-6.56998196141068e-05
+Env_TypeLate heat exposure,SOC_log_c,-8.81211890949538e-05
+N_c,SOC_log_c,2.32149967712304e-07
+N_c_sq,SOC_log_c,5.01033153651287e-08
+plant_density_c,SOC_log_c,-1.58790983963923e-06
+N_strategySV,SOC_log_c,5.00480250998441e-06
+N_strategySVR,SOC_log_c,1.09081066597153e-05
+N_strategySR,SOC_log_c,-9.83077448380461e-06
+N_strategyVR,SOC_log_c,3.89791168200667e-05
+N_strategyV,SOC_log_c,-1.15422705446804e-06
+N_strategyR,SOC_log_c,-1.76282361759815e-06
+countryArgentina,SOC_log_c,-0.00032808675637656
+countryAustralia,SOC_log_c,-0.000407164373217136
+countryBangladesh,SOC_log_c,-0.000229245764946355
+countryBrazil,SOC_log_c,-0.000567972270954028
+countryCanada,SOC_log_c,-0.000319011530208463
+countryColombia,SOC_log_c,-0.000711049631445374
+countryCroatia,SOC_log_c,0.000119704889195397
+countryEgypt,SOC_log_c,0.000207341131903051
+countryGermany,SOC_log_c,-0.000216710706445498
+countryGhana,SOC_log_c,0.00179028831355773
+countryHungary,SOC_log_c,-0.000150025184608942
+countryIndia,SOC_log_c,0.00055448903312009
+countryIran,SOC_log_c,-0.000588450634644442
+countryItaly,SOC_log_c,-0.000346764651648664
+countryKenya,SOC_log_c,-4.14237562039801e-05
+countryMalaysia,SOC_log_c,-0.0012655818866746
+countryNepal,SOC_log_c,0.000824914262474139
+countryNiger,SOC_log_c,0.000666699008190054
+countryNigeria,SOC_log_c,-0.000478627123503991
+countryPakistan,SOC_log_c,9.65747689328991e-05
+countryPoland,SOC_log_c,0.00205619546723761
+countryPortugal,SOC_log_c,-0.000982462514424955
+countrySpain,SOC_log_c,-0.000908234854973476
+countryTanzania,SOC_log_c,-0.000295768569476463
+countryThailand,SOC_log_c,-0.00170195606403495
+countryTurkey,SOC_log_c,0.000459993614213582
+countryUSA,SOC_log_c,-0.000253412653048242
+countryUganda,SOC_log_c,-0.000629521513852336
+countryZambia,SOC_log_c,-0.000635537364858682
+year_c,SOC_log_c,-3.50556133990971e-05
+GDD_c,SOC_log_c,1.52704771770134e-05
+pH_c,SOC_log_c,8.75567185364175e-05
+SOC_log_c,SOC_log_c,0.00148965176187459
+TN_log_c,SOC_log_c,-0.00180787247654939
+rain_c,SOC_log_c,1.76600602416162e-06
+rain_c_sq,SOC_log_c,-6.44712999728655e-07
+irrigationIrrigation,SOC_log_c,-9.31048681577677e-06
+Env_TypeEarly heat exposure:N_c,SOC_log_c,-3.28222356529877e-07
+Env_TypeMiddle heat exposure:N_c,SOC_log_c,-7.1519217809857e-07
+Env_TypeLate heat exposure:N_c,SOC_log_c,2.50782438684487e-06
+Env_TypeEarly heat exposure:N_c_sq,SOC_log_c,-2.41263645816338e-07
+Env_TypeMiddle heat exposure:N_c_sq,SOC_log_c,3.12653868856377e-07
+Env_TypeLate heat exposure:N_c_sq,SOC_log_c,3.26368573433269e-06
+intrcpt,TN_log_c,-5.50013636146078e-05
+Env_TypeEarly heat exposure,TN_log_c,0.00015652817596991
+Env_TypeMiddle heat exposure,TN_log_c,4.45996539935001e-05
+Env_TypeLate heat exposure,TN_log_c,0.000129408910268958
+N_c,TN_log_c,1.53217431612202e-06
+N_c_sq,TN_log_c,-8.06732461960649e-08
+plant_density_c,TN_log_c,6.85420483114571e-06
+N_strategySV,TN_log_c,-7.17343929849689e-06
+N_strategySVR,TN_log_c,-7.39993494251425e-06
+N_strategySR,TN_log_c,1.67125042115309e-05
+N_strategyVR,TN_log_c,-6.94739966087819e-05
+N_strategyV,TN_log_c,1.12834537566215e-06
+N_strategyR,TN_log_c,6.97605708620354e-06
+countryArgentina,TN_log_c,-6.03660696607782e-06
+countryAustralia,TN_log_c,0.000581978071325912
+countryBangladesh,TN_log_c,0.000201009984452792
+countryBrazil,TN_log_c,0.000149155506747072
+countryCanada,TN_log_c,-0.00200471060647486
+countryColombia,TN_log_c,0.00051435061312544
+countryCroatia,TN_log_c,-0.000708630447977408
+countryEgypt,TN_log_c,-0.000621683452141986
+countryGermany,TN_log_c,-0.000168803712100485
+countryGhana,TN_log_c,-0.000418073211059307
+countryHungary,TN_log_c,-0.0010864151658795
+countryIndia,TN_log_c,-0.000254595231418918
+countryIran,TN_log_c,0.00102247277505388
+countryItaly,TN_log_c,0.00095056763405423
+countryKenya,TN_log_c,0.000840454882184136
+countryMalaysia,TN_log_c,0.00479656345487725
+countryNepal,TN_log_c,-0.00177438803397403
+countryNiger,TN_log_c,0.000372341994923909
+countryNigeria,TN_log_c,0.0016854502256666
+countryPakistan,TN_log_c,0.00039492864630836
+countryPoland,TN_log_c,-0.00535997412652219
+countryPortugal,TN_log_c,-0.00142289203321978
+countrySpain,TN_log_c,0.00159387820269112
+countryTanzania,TN_log_c,0.00125871017295139
+countryThailand,TN_log_c,0.00116783396220305
+countryTurkey,TN_log_c,0.000749468702252215
+countryUSA,TN_log_c,-0.00056457683397104
+countryUganda,TN_log_c,0.000449708373503816
+countryZambia,TN_log_c,0.00148148697018746
+year_c,TN_log_c,-2.96660881458807e-06
+GDD_c,TN_log_c,2.97962896657712e-05
+pH_c,TN_log_c,9.47590868089295e-05
+SOC_log_c,TN_log_c,-0.00180787247654939
+TN_log_c,TN_log_c,0.00612178267987136
+rain_c,TN_log_c,-2.47653230877995e-05
+rain_c_sq,TN_log_c,2.16439490415139e-06
+irrigationIrrigation,TN_log_c,0.000161837325108379
+Env_TypeEarly heat exposure:N_c,TN_log_c,-8.52296446084515e-07
+Env_TypeMiddle heat exposure:N_c,TN_log_c,-9.38280617490985e-07
+Env_TypeLate heat exposure:N_c,TN_log_c,-5.9166532972267e-06
+Env_TypeEarly heat exposure:N_c_sq,TN_log_c,1.82790094193003e-07
+Env_TypeMiddle heat exposure:N_c_sq,TN_log_c,4.81805966942e-07
+Env_TypeLate heat exposure:N_c_sq,TN_log_c,-5.32315765690246e-06
+intrcpt,rain_c,-2.24956728854538e-05
+Env_TypeEarly heat exposure,rain_c,9.30604952412849e-06
+Env_TypeMiddle heat exposure,rain_c,3.56429677105103e-05
+Env_TypeLate heat exposure,rain_c,4.56965736527448e-05
+N_c,rain_c,1.00534216587664e-07
+N_c_sq,rain_c,1.09576466812744e-07
+plant_density_c,rain_c,2.06903991193582e-07
+N_strategySV,rain_c,7.6763621829211e-07
+N_strategySVR,rain_c,1.44063529011911e-06
+N_strategySR,rain_c,-9.89647362140355e-07
+N_strategyVR,rain_c,3.50878057081887e-06
+N_strategyV,rain_c,-3.8514254157038e-07
+N_strategyR,rain_c,-4.15560688347442e-07
+countryArgentina,rain_c,1.23196525403673e-05
+countryAustralia,rain_c,4.96806528328187e-05
+countryBangladesh,rain_c,9.78696654468889e-05
+countryBrazil,rain_c,2.20029990811826e-06
+countryCanada,rain_c,2.56874735021716e-05
+countryColombia,rain_c,-4.11896077596481e-05
+countryCroatia,rain_c,3.40744606620873e-06
+countryEgypt,rain_c,0.000203115639266141
+countryGermany,rain_c,2.35758418012718e-05
+countryGhana,rain_c,9.63139941667941e-05
+countryHungary,rain_c,3.7279235428706e-05
+countryIndia,rain_c,-3.55613136067202e-05
+countryIran,rain_c,0.000156201700942898
+countryItaly,rain_c,-5.08650485946799e-05
+countryKenya,rain_c,1.7847802237869e-05
+countryMalaysia,rain_c,-9.72666460138541e-05
+countryNepal,rain_c,-9.81835417668462e-06
+countryNiger,rain_c,0.000103073666801946
+countryNigeria,rain_c,-0.000141289072906379
+countryPakistan,rain_c,2.42679412021022e-05
+countryPoland,rain_c,6.99665419314962e-05
+countryPortugal,rain_c,0.000130912875844121
+countrySpain,rain_c,6.9652671979449e-05
+countryTanzania,rain_c,-9.34771338175406e-05
+countryThailand,rain_c,0.000155965953278326
+countryTurkey,rain_c,0.000173060182758408
+countryUSA,rain_c,-2.18068667592519e-07
+countryUganda,rain_c,-6.64630723936599e-05
+countryZambia,rain_c,-6.03387447773816e-05
+year_c,rain_c,-8.62790562721216e-06
+GDD_c,rain_c,1.45111946077108e-06
+pH_c,rain_c,1.54872716133744e-05
+SOC_log_c,rain_c,1.76600602416162e-06
+TN_log_c,rain_c,-2.47653230877995e-05
+rain_c,rain_c,4.39627747818873e-05
+rain_c_sq,rain_c,-2.6609723116331e-06
+irrigationIrrigation,rain_c,1.41588122929991e-05
+Env_TypeEarly heat exposure:N_c,rain_c,2.5024116152453e-07
+Env_TypeMiddle heat exposure:N_c,rain_c,-2.60253196891377e-07
+Env_TypeLate heat exposure:N_c,rain_c,-9.46049404982618e-07
+Env_TypeEarly heat exposure:N_c_sq,rain_c,-2.30519254257722e-07
+Env_TypeMiddle heat exposure:N_c_sq,rain_c,-8.19150249679965e-08
+Env_TypeLate heat exposure:N_c_sq,rain_c,-5.43907059087718e-07
+intrcpt,rain_c_sq,4.70806584049988e-07
+Env_TypeEarly heat exposure,rain_c_sq,-7.19004775088537e-07
+Env_TypeMiddle heat exposure,rain_c_sq,-2.26629715169699e-06
+Env_TypeLate heat exposure,rain_c_sq,-2.59054490960475e-06
+N_c,rain_c_sq,4.77981428719482e-09
+N_c_sq,rain_c_sq,-7.27419689297781e-09
+plant_density_c,rain_c_sq,-1.64003489535449e-08
+N_strategySV,rain_c_sq,-3.79211379761419e-08
+N_strategySVR,rain_c_sq,-7.77612350110142e-08
+N_strategySR,rain_c_sq,6.34828004929443e-09
+N_strategyVR,rain_c_sq,-2.8016357434507e-07
+N_strategyV,rain_c_sq,2.42017745038488e-08
+N_strategyR,rain_c_sq,2.16924298666305e-08
+countryArgentina,rain_c_sq,-1.62632675068361e-07
+countryAustralia,rain_c_sq,-2.71594159790719e-06
+countryBangladesh,rain_c_sq,-7.01314100622356e-06
+countryBrazil,rain_c_sq,-3.0321323456918e-06
+countryCanada,rain_c_sq,-3.05027116187867e-07
+countryColombia,rain_c_sq,1.61036943151047e-06
+countryCroatia,rain_c_sq,-1.03908479302525e-06
+countryEgypt,rain_c_sq,-1.88288260717097e-05
+countryGermany,rain_c_sq,4.49683408148065e-08
+countryGhana,rain_c_sq,-5.57189532536423e-06
+countryHungary,rain_c_sq,-2.05008189557077e-06
+countryIndia,rain_c_sq,-1.5406376738038e-06
+countryIran,rain_c_sq,-1.34628188296851e-05
+countryItaly,rain_c_sq,3.72511756953241e-06
+countryKenya,rain_c_sq,-2.84460668704483e-06
+countryMalaysia,rain_c_sq,2.37782897785688e-06
+countryNepal,rain_c_sq,-7.07197561316852e-05
+countryNiger,rain_c_sq,-9.93434083839913e-06
+countryNigeria,rain_c_sq,1.61939732382461e-06
+countryPakistan,rain_c_sq,-2.48735150776033e-06
+countryPoland,rain_c_sq,-3.75025965392736e-06
+countryPortugal,rain_c_sq,-7.67540342081145e-06
+countrySpain,rain_c_sq,-5.85809736804385e-06
+countryTanzania,rain_c_sq,-1.3877198691006e-05
+countryThailand,rain_c_sq,-1.15222786244632e-05
+countryTurkey,rain_c_sq,-1.27025977653559e-05
+countryUSA,rain_c_sq,-2.61416500271577e-09
+countryUganda,rain_c_sq,-9.49337990167433e-06
+countryZambia,rain_c_sq,1.54359781285282e-06
+year_c,rain_c_sq,2.28050765543638e-07
+GDD_c,rain_c_sq,1.13187305354661e-07
+pH_c,rain_c_sq,-8.05343608205935e-07
+SOC_log_c,rain_c_sq,-6.44712999728655e-07
+TN_log_c,rain_c_sq,2.16439490415139e-06
+rain_c,rain_c_sq,-2.6609723116331e-06
+rain_c_sq,rain_c_sq,4.77027907529274e-07
+irrigationIrrigation,rain_c_sq,-8.28088282832727e-07
+Env_TypeEarly heat exposure:N_c,rain_c_sq,-1.97223108985676e-08
+Env_TypeMiddle heat exposure:N_c,rain_c_sq,3.83330872087e-09
+Env_TypeLate heat exposure:N_c,rain_c_sq,7.21475518089155e-09
+Env_TypeEarly heat exposure:N_c_sq,rain_c_sq,1.26146410495429e-08
+Env_TypeMiddle heat exposure:N_c_sq,rain_c_sq,4.81346456453416e-09
+Env_TypeLate heat exposure:N_c_sq,rain_c_sq,1.49923666807249e-08
+intrcpt,irrigationIrrigation,-0.000143137224302137
+Env_TypeEarly heat exposure,irrigationIrrigation,-5.13689518218474e-05
+Env_TypeMiddle heat exposure,irrigationIrrigation,-1.77892414996005e-05
+Env_TypeLate heat exposure,irrigationIrrigation,1.02778414086328e-05
+N_c,irrigationIrrigation,5.24406420549685e-07
+N_c_sq,irrigationIrrigation,4.82473478226731e-08
+plant_density_c,irrigationIrrigation,-1.25074879949498e-06
+N_strategySV,irrigationIrrigation,-2.97046096823739e-06
+N_strategySVR,irrigationIrrigation,-6.91397864053688e-06
+N_strategySR,irrigationIrrigation,-7.09252927263251e-08
+N_strategyVR,irrigationIrrigation,-1.45258380719168e-05
+N_strategyV,irrigationIrrigation,-1.19288009437772e-06
+N_strategyR,irrigationIrrigation,-9.00739250161841e-07
+countryArgentina,irrigationIrrigation,-5.40832697008225e-05
+countryAustralia,irrigationIrrigation,-0.00022282919724236
+countryBangladesh,irrigationIrrigation,-0.000270613861859019
+countryBrazil,irrigationIrrigation,-2.21490449236167e-05
+countryCanada,irrigationIrrigation,-2.97781380640918e-06
+countryColombia,irrigationIrrigation,8.27802922974005e-05
+countryCroatia,irrigationIrrigation,-0.000217604280049482
+countryEgypt,irrigationIrrigation,-0.000149581098237764
+countryGermany,irrigationIrrigation,9.55742434249244e-05
+countryGhana,irrigationIrrigation,0.000225177176545133
+countryHungary,irrigationIrrigation,-5.87225129451072e-05
+countryIndia,irrigationIrrigation,-8.93414508112377e-05
+countryIran,irrigationIrrigation,-0.000148496384838516
+countryItaly,irrigationIrrigation,-0.000244581616274587
+countryKenya,irrigationIrrigation,-1.53948015733082e-05
+countryMalaysia,irrigationIrrigation,-0.000253277192958233
+countryNepal,irrigationIrrigation,7.17124349773604e-05
+countryNiger,irrigationIrrigation,8.29832646643308e-05
+countryNigeria,irrigationIrrigation,0.00017741882763853
+countryPakistan,irrigationIrrigation,-0.00010806371073768
+countryPoland,irrigationIrrigation,1.4494600653323e-05
+countryPortugal,irrigationIrrigation,-0.000311485127712667
+countrySpain,irrigationIrrigation,-0.000154895376642387
+countryTanzania,irrigationIrrigation,0.00012494484691059
+countryThailand,irrigationIrrigation,-0.000261700825739443
+countryTurkey,irrigationIrrigation,-7.68669702706699e-05
+countryUSA,irrigationIrrigation,-1.8821866789971e-05
+countryUganda,irrigationIrrigation,7.92890469418056e-05
+countryZambia,irrigationIrrigation,0.000128068346102043
+year_c,irrigationIrrigation,1.83985604047722e-05
+GDD_c,irrigationIrrigation,1.48252002798736e-06
+pH_c,irrigationIrrigation,-1.54249635895725e-05
+SOC_log_c,irrigationIrrigation,-9.31048681577677e-06
+TN_log_c,irrigationIrrigation,0.000161837325108379
+rain_c,irrigationIrrigation,1.41588122929991e-05
+rain_c_sq,irrigationIrrigation,-8.28088282832727e-07
+irrigationIrrigation,irrigationIrrigation,0.000422153264531378
+Env_TypeEarly heat exposure:N_c,irrigationIrrigation,-6.17511364071933e-07
+Env_TypeMiddle heat exposure:N_c,irrigationIrrigation,-5.67252491234774e-07
+Env_TypeLate heat exposure:N_c,irrigationIrrigation,-5.57093579999731e-07
+Env_TypeEarly heat exposure:N_c_sq,irrigationIrrigation,-7.3364022599579e-08
+Env_TypeMiddle heat exposure:N_c_sq,irrigationIrrigation,-3.10677985995271e-07
+Env_TypeLate heat exposure:N_c_sq,irrigationIrrigation,1.07536001060574e-07
+intrcpt,Env_TypeEarly heat exposure:N_c,-1.537436891856e-06
+Env_TypeEarly heat exposure,Env_TypeEarly heat exposure:N_c,6.13065799555497e-06
+Env_TypeMiddle heat exposure,Env_TypeEarly heat exposure:N_c,4.61992158766695e-06
+Env_TypeLate heat exposure,Env_TypeEarly heat exposure:N_c,2.80360338287258e-06
+N_c,Env_TypeEarly heat exposure:N_c,-2.20156882849454e-05
+N_c_sq,Env_TypeEarly heat exposure:N_c,2.92910299039316e-06
+plant_density_c,Env_TypeEarly heat exposure:N_c,3.52365057376888e-08
+N_strategySV,Env_TypeEarly heat exposure:N_c,2.63770896459248e-06
+N_strategySVR,Env_TypeEarly heat exposure:N_c,-5.56454336074977e-06
+N_strategySR,Env_TypeEarly heat exposure:N_c,-3.29388000433523e-06
+N_strategyVR,Env_TypeEarly heat exposure:N_c,-1.44145189728958e-05
+N_strategyV,Env_TypeEarly heat exposure:N_c,6.43454828002003e-07
+N_strategyR,Env_TypeEarly heat exposure:N_c,-2.29416662300196e-06
+countryArgentina,Env_TypeEarly heat exposure:N_c,-3.42796569622156e-06
+countryAustralia,Env_TypeEarly heat exposure:N_c,-3.00551548931798e-06
+countryBangladesh,Env_TypeEarly heat exposure:N_c,5.78973711590259e-06
+countryBrazil,Env_TypeEarly heat exposure:N_c,7.67280300308155e-06
+countryCanada,Env_TypeEarly heat exposure:N_c,-7.72370954675731e-06
+countryColombia,Env_TypeEarly heat exposure:N_c,-2.41712237404388e-06
+countryCroatia,Env_TypeEarly heat exposure:N_c,-8.32159418938864e-07
+countryEgypt,Env_TypeEarly heat exposure:N_c,1.01892870181436e-06
+countryGermany,Env_TypeEarly heat exposure:N_c,-1.26930898568405e-05
+countryGhana,Env_TypeEarly heat exposure:N_c,6.21559140960311e-06
+countryHungary,Env_TypeEarly heat exposure:N_c,-3.23403216514174e-06
+countryIndia,Env_TypeEarly heat exposure:N_c,1.59202719007065e-05
+countryIran,Env_TypeEarly heat exposure:N_c,6.8500276803253e-07
+countryItaly,Env_TypeEarly heat exposure:N_c,-6.28109388872143e-06
+countryKenya,Env_TypeEarly heat exposure:N_c,-2.89701609937844e-05
+countryMalaysia,Env_TypeEarly heat exposure:N_c,-1.64439978285618e-05
+countryNepal,Env_TypeEarly heat exposure:N_c,1.44052826948817e-06
+countryNiger,Env_TypeEarly heat exposure:N_c,7.38432839596631e-08
+countryNigeria,Env_TypeEarly heat exposure:N_c,-3.43757774016451e-05
+countryPakistan,Env_TypeEarly heat exposure:N_c,2.02443119130463e-06
+countryPoland,Env_TypeEarly heat exposure:N_c,-1.82922425203837e-06
+countryPortugal,Env_TypeEarly heat exposure:N_c,-4.55730982765341e-06
+countrySpain,Env_TypeEarly heat exposure:N_c,-1.64747138449969e-07
+countryTanzania,Env_TypeEarly heat exposure:N_c,-1.7293715033563e-05
+countryThailand,Env_TypeEarly heat exposure:N_c,8.02330115641012e-06
+countryTurkey,Env_TypeEarly heat exposure:N_c,1.49373354298233e-05
+countryUSA,Env_TypeEarly heat exposure:N_c,-2.41214078173084e-06
+countryUganda,Env_TypeEarly heat exposure:N_c,-1.35985958358318e-05
+countryZambia,Env_TypeEarly heat exposure:N_c,-3.04442021228278e-05
+year_c,Env_TypeEarly heat exposure:N_c,-7.5838673197756e-07
+GDD_c,Env_TypeEarly heat exposure:N_c,7.46279455362924e-08
+pH_c,Env_TypeEarly heat exposure:N_c,-2.65433194381511e-07
+SOC_log_c,Env_TypeEarly heat exposure:N_c,-3.28222356529877e-07
+TN_log_c,Env_TypeEarly heat exposure:N_c,-8.52296446084515e-07
+rain_c,Env_TypeEarly heat exposure:N_c,2.5024116152453e-07
+rain_c_sq,Env_TypeEarly heat exposure:N_c,-1.97223108985676e-08
+irrigationIrrigation,Env_TypeEarly heat exposure:N_c,-6.17511364071933e-07
+Env_TypeEarly heat exposure:N_c,Env_TypeEarly heat exposure:N_c,4.6904227906833e-05
+Env_TypeMiddle heat exposure:N_c,Env_TypeEarly heat exposure:N_c,2.19007065455633e-05
+Env_TypeLate heat exposure:N_c,Env_TypeEarly heat exposure:N_c,2.19078876643702e-05
+Env_TypeEarly heat exposure:N_c_sq,Env_TypeEarly heat exposure:N_c,-1.09884173314257e-05
+Env_TypeMiddle heat exposure:N_c_sq,Env_TypeEarly heat exposure:N_c,-2.86270942681703e-06
+Env_TypeLate heat exposure:N_c_sq,Env_TypeEarly heat exposure:N_c,-2.87982711201424e-06
+intrcpt,Env_TypeMiddle heat exposure:N_c,-6.14999500221712e-06
+Env_TypeEarly heat exposure,Env_TypeMiddle heat exposure:N_c,5.56168229757105e-06
+Env_TypeMiddle heat exposure,Env_TypeMiddle heat exposure:N_c,9.07462850207276e-06
+Env_TypeLate heat exposure,Env_TypeMiddle heat exposure:N_c,4.38625152417318e-06
+N_c,Env_TypeMiddle heat exposure:N_c,-2.19433271737812e-05
+N_c_sq,Env_TypeMiddle heat exposure:N_c,2.90177848635343e-06
+plant_density_c,Env_TypeMiddle heat exposure:N_c,-1.77432161928798e-08
+N_strategySV,Env_TypeMiddle heat exposure:N_c,2.00938726625304e-06
+N_strategySVR,Env_TypeMiddle heat exposure:N_c,2.89046446924246e-06
+N_strategySR,Env_TypeMiddle heat exposure:N_c,1.65724607490016e-06
+N_strategyVR,Env_TypeMiddle heat exposure:N_c,3.93410969784456e-06
+N_strategyV,Env_TypeMiddle heat exposure:N_c,1.91162502321297e-06
+N_strategyR,Env_TypeMiddle heat exposure:N_c,5.61959612798965e-06
+countryArgentina,Env_TypeMiddle heat exposure:N_c,-2.44754726041691e-06
+countryAustralia,Env_TypeMiddle heat exposure:N_c,1.1556936484672e-05
+countryBangladesh,Env_TypeMiddle heat exposure:N_c,-1.03014681350633e-06
+countryBrazil,Env_TypeMiddle heat exposure:N_c,3.97041528264158e-06
+countryCanada,Env_TypeMiddle heat exposure:N_c,-4.51384021302194e-06
+countryColombia,Env_TypeMiddle heat exposure:N_c,-4.34571957299346e-06
+countryCroatia,Env_TypeMiddle heat exposure:N_c,-3.7202460194514e-06
+countryEgypt,Env_TypeMiddle heat exposure:N_c,-7.40346444284578e-06
+countryGermany,Env_TypeMiddle heat exposure:N_c,-9.38051508359623e-06
+countryGhana,Env_TypeMiddle heat exposure:N_c,-1.61125907800667e-05
+countryHungary,Env_TypeMiddle heat exposure:N_c,7.92609614231806e-06
+countryIndia,Env_TypeMiddle heat exposure:N_c,-2.36793638637114e-06
+countryIran,Env_TypeMiddle heat exposure:N_c,2.82134121431603e-06
+countryItaly,Env_TypeMiddle heat exposure:N_c,4.74921044594797e-06
+countryKenya,Env_TypeMiddle heat exposure:N_c,-2.67240124749756e-05
+countryMalaysia,Env_TypeMiddle heat exposure:N_c,-1.3504087044567e-05
+countryNepal,Env_TypeMiddle heat exposure:N_c,-1.0640599642525e-05
+countryNiger,Env_TypeMiddle heat exposure:N_c,2.0927145975509e-06
+countryNigeria,Env_TypeMiddle heat exposure:N_c,-2.69805933528132e-05
+countryPakistan,Env_TypeMiddle heat exposure:N_c,-2.54763233791416e-06
+countryPoland,Env_TypeMiddle heat exposure:N_c,-1.71671044513561e-07
+countryPortugal,Env_TypeMiddle heat exposure:N_c,-6.93080526312583e-06
+countrySpain,Env_TypeMiddle heat exposure:N_c,-8.10641188677477e-07
+countryTanzania,Env_TypeMiddle heat exposure:N_c,-1.79772020390129e-05
+countryThailand,Env_TypeMiddle heat exposure:N_c,-2.55901139250201e-06
+countryTurkey,Env_TypeMiddle heat exposure:N_c,-5.24948135162299e-06
+countryUSA,Env_TypeMiddle heat exposure:N_c,2.80737415675302e-06
+countryUganda,Env_TypeMiddle heat exposure:N_c,-1.27662778769649e-05
+countryZambia,Env_TypeMiddle heat exposure:N_c,-2.5203431602146e-05
+year_c,Env_TypeMiddle heat exposure:N_c,-2.73207588042715e-07
+GDD_c,Env_TypeMiddle heat exposure:N_c,-3.5944272666694e-07
+pH_c,Env_TypeMiddle heat exposure:N_c,-7.80183772304923e-07
+SOC_log_c,Env_TypeMiddle heat exposure:N_c,-7.1519217809857e-07
+TN_log_c,Env_TypeMiddle heat exposure:N_c,-9.38280617490985e-07
+rain_c,Env_TypeMiddle heat exposure:N_c,-2.60253196891377e-07
+rain_c_sq,Env_TypeMiddle heat exposure:N_c,3.83330872087e-09
+irrigationIrrigation,Env_TypeMiddle heat exposure:N_c,-5.67252491234774e-07
+Env_TypeEarly heat exposure:N_c,Env_TypeMiddle heat exposure:N_c,2.19007065455633e-05
+Env_TypeMiddle heat exposure:N_c,Env_TypeMiddle heat exposure:N_c,4.72148132089214e-05
+Env_TypeLate heat exposure:N_c,Env_TypeMiddle heat exposure:N_c,2.19604457447397e-05
+Env_TypeEarly heat exposure:N_c_sq,Env_TypeMiddle heat exposure:N_c,-2.88203048436793e-06
+Env_TypeMiddle heat exposure:N_c_sq,Env_TypeMiddle heat exposure:N_c,-8.47342664749868e-06
+Env_TypeLate heat exposure:N_c_sq,Env_TypeMiddle heat exposure:N_c,-2.85751884389187e-06
+intrcpt,Env_TypeLate heat exposure:N_c,-3.26903296000944e-06
+Env_TypeEarly heat exposure,Env_TypeLate heat exposure:N_c,3.44323111319699e-06
+Env_TypeMiddle heat exposure,Env_TypeLate heat exposure:N_c,2.95870897359029e-06
+Env_TypeLate heat exposure,Env_TypeLate heat exposure:N_c,3.51340644307989e-06
+N_c,Env_TypeLate heat exposure:N_c,-2.19238277886974e-05
+N_c_sq,Env_TypeLate heat exposure:N_c,2.87137904578853e-06
+plant_density_c,Env_TypeLate heat exposure:N_c,-3.00242566682951e-08
+N_strategySV,Env_TypeLate heat exposure:N_c,-2.53906257192057e-06
+N_strategySVR,Env_TypeLate heat exposure:N_c,-1.48513521671672e-06
+N_strategySR,Env_TypeLate heat exposure:N_c,3.17581937800567e-07
+N_strategyVR,Env_TypeLate heat exposure:N_c,2.29343246299938e-07
+N_strategyV,Env_TypeLate heat exposure:N_c,5.25711321180132e-07
+N_strategyR,Env_TypeLate heat exposure:N_c,-2.43230515448044e-06
+countryArgentina,Env_TypeLate heat exposure:N_c,2.48815493141213e-06
+countryAustralia,Env_TypeLate heat exposure:N_c,-1.81382226761914e-06
+countryBangladesh,Env_TypeLate heat exposure:N_c,1.28298811895191e-05
+countryBrazil,Env_TypeLate heat exposure:N_c,5.69202258874479e-06
+countryCanada,Env_TypeLate heat exposure:N_c,-5.13729853269387e-06
+countryColombia,Env_TypeLate heat exposure:N_c,-1.19494367621727e-06
+countryCroatia,Env_TypeLate heat exposure:N_c,2.54780966789505e-06
+countryEgypt,Env_TypeLate heat exposure:N_c,-4.02739970523159e-06
+countryGermany,Env_TypeLate heat exposure:N_c,-1.02131601636686e-05
+countryGhana,Env_TypeLate heat exposure:N_c,-1.26437008075595e-05
+countryHungary,Env_TypeLate heat exposure:N_c,5.86879795775086e-06
+countryIndia,Env_TypeLate heat exposure:N_c,1.63306693524908e-05
+countryIran,Env_TypeLate heat exposure:N_c,-1.95570965878473e-07
+countryItaly,Env_TypeLate heat exposure:N_c,3.09316727896105e-06
+countryKenya,Env_TypeLate heat exposure:N_c,-2.22751788737365e-05
+countryMalaysia,Env_TypeLate heat exposure:N_c,-1.09464286912566e-05
+countryNepal,Env_TypeLate heat exposure:N_c,3.1626831364384e-06
+countryNiger,Env_TypeLate heat exposure:N_c,1.2480972015717e-05
+countryNigeria,Env_TypeLate heat exposure:N_c,-2.41319822914202e-05
+countryPakistan,Env_TypeLate heat exposure:N_c,2.00523815036217e-06
+countryPoland,Env_TypeLate heat exposure:N_c,1.0110257104881e-05
+countryPortugal,Env_TypeLate heat exposure:N_c,-1.06769493392833e-06
+countrySpain,Env_TypeLate heat exposure:N_c,-1.54544881216911e-06
+countryTanzania,Env_TypeLate heat exposure:N_c,-1.4645868905766e-05
+countryThailand,Env_TypeLate heat exposure:N_c,6.02188426147364e-06
+countryTurkey,Env_TypeLate heat exposure:N_c,-3.57781997562493e-06
+countryUSA,Env_TypeLate heat exposure:N_c,2.79785200447617e-06
+countryUganda,Env_TypeLate heat exposure:N_c,-7.09041759596081e-06
+countryZambia,Env_TypeLate heat exposure:N_c,-2.19659894119335e-05
+year_c,Env_TypeLate heat exposure:N_c,-1.12466950335846e-06
+GDD_c,Env_TypeLate heat exposure:N_c,-2.79979336826383e-07
+pH_c,Env_TypeLate heat exposure:N_c,1.59008561103377e-07
+SOC_log_c,Env_TypeLate heat exposure:N_c,2.50782438684487e-06
+TN_log_c,Env_TypeLate heat exposure:N_c,-5.9166532972267e-06
+rain_c,Env_TypeLate heat exposure:N_c,-9.46049404982618e-07
+rain_c_sq,Env_TypeLate heat exposure:N_c,7.21475518089155e-09
+irrigationIrrigation,Env_TypeLate heat exposure:N_c,-5.57093579999731e-07
+Env_TypeEarly heat exposure:N_c,Env_TypeLate heat exposure:N_c,2.19078876643702e-05
+Env_TypeMiddle heat exposure:N_c,Env_TypeLate heat exposure:N_c,2.19604457447397e-05
+Env_TypeLate heat exposure:N_c,Env_TypeLate heat exposure:N_c,6.08777029280441e-05
+Env_TypeEarly heat exposure:N_c_sq,Env_TypeLate heat exposure:N_c,-2.88801294545515e-06
+Env_TypeMiddle heat exposure:N_c_sq,Env_TypeLate heat exposure:N_c,-2.88231041627989e-06
+Env_TypeLate heat exposure:N_c_sq,Env_TypeLate heat exposure:N_c,5.1209133168811e-07
+intrcpt,Env_TypeEarly heat exposure:N_c_sq,6.16810933738438e-06
+Env_TypeEarly heat exposure,Env_TypeEarly heat exposure:N_c_sq,-1.01979299478908e-05
+Env_TypeMiddle heat exposure,Env_TypeEarly heat exposure:N_c_sq,-5.74175449148205e-06
+Env_TypeLate heat exposure,Env_TypeEarly heat exposure:N_c_sq,-5.46820025227449e-06
+N_c,Env_TypeEarly heat exposure:N_c_sq,2.90180677361048e-06
+N_c_sq,Env_TypeEarly heat exposure:N_c_sq,-9.28607633902125e-06
+plant_density_c,Env_TypeEarly heat exposure:N_c_sq,-2.10168963919034e-08
+N_strategySV,Env_TypeEarly heat exposure:N_c_sq,-7.03851775775627e-07
+N_strategySVR,Env_TypeEarly heat exposure:N_c_sq,-1.61793711707774e-08
+N_strategySR,Env_TypeEarly heat exposure:N_c_sq,4.17486537967979e-07
+N_strategyVR,Env_TypeEarly heat exposure:N_c_sq,2.70132869827518e-06
+N_strategyV,Env_TypeEarly heat exposure:N_c_sq,-2.16949564508985e-07
+N_strategyR,Env_TypeEarly heat exposure:N_c_sq,4.28782170932285e-07
+countryArgentina,Env_TypeEarly heat exposure:N_c_sq,-7.08030766512614e-07
+countryAustralia,Env_TypeEarly heat exposure:N_c_sq,-3.36106367155647e-07
+countryBangladesh,Env_TypeEarly heat exposure:N_c_sq,-1.17024052772285e-06
+countryBrazil,Env_TypeEarly heat exposure:N_c_sq,-7.52273492192502e-07
+countryCanada,Env_TypeEarly heat exposure:N_c_sq,-9.04951698201476e-07
+countryColombia,Env_TypeEarly heat exposure:N_c_sq,2.14022362332907e-06
+countryCroatia,Env_TypeEarly heat exposure:N_c_sq,3.90952322619548e-06
+countryEgypt,Env_TypeEarly heat exposure:N_c_sq,1.63540246215865e-07
+countryGermany,Env_TypeEarly heat exposure:N_c_sq,-1.14222496124307e-06
+countryGhana,Env_TypeEarly heat exposure:N_c_sq,-4.72521751150508e-06
+countryHungary,Env_TypeEarly heat exposure:N_c_sq,2.82666754185569e-07
+countryIndia,Env_TypeEarly heat exposure:N_c_sq,-4.75404490192923e-06
+countryIran,Env_TypeEarly heat exposure:N_c_sq,-8.20096507359121e-07
+countryItaly,Env_TypeEarly heat exposure:N_c_sq,1.150000741196e-06
+countryKenya,Env_TypeEarly heat exposure:N_c_sq,8.01798397991464e-06
+countryMalaysia,Env_TypeEarly heat exposure:N_c_sq,1.88063601465499e-06
+countryNepal,Env_TypeEarly heat exposure:N_c_sq,-1.10792582674833e-06
+countryNiger,Env_TypeEarly heat exposure:N_c_sq,-1.5168419099537e-06
+countryNigeria,Env_TypeEarly heat exposure:N_c_sq,1.367320335682e-05
+countryPakistan,Env_TypeEarly heat exposure:N_c_sq,6.46289184117777e-07
+countryPoland,Env_TypeEarly heat exposure:N_c_sq,-5.23816339059672e-06
+countryPortugal,Env_TypeEarly heat exposure:N_c_sq,-7.42219828231169e-07
+countrySpain,Env_TypeEarly heat exposure:N_c_sq,1.03642590016674e-07
+countryTanzania,Env_TypeEarly heat exposure:N_c_sq,3.89395618847592e-06
+countryThailand,Env_TypeEarly heat exposure:N_c_sq,-1.47251592299221e-06
+countryTurkey,Env_TypeEarly heat exposure:N_c_sq,-3.6059031019004e-06
+countryUSA,Env_TypeEarly heat exposure:N_c_sq,2.04337590158953e-07
+countryUganda,Env_TypeEarly heat exposure:N_c_sq,3.57737222244226e-06
+countryZambia,Env_TypeEarly heat exposure:N_c_sq,9.92189871059718e-06
+year_c,Env_TypeEarly heat exposure:N_c_sq,6.34309243624186e-07
+GDD_c,Env_TypeEarly heat exposure:N_c_sq,-3.10870244541732e-07
+pH_c,Env_TypeEarly heat exposure:N_c_sq,-9.0743076244597e-08
+SOC_log_c,Env_TypeEarly heat exposure:N_c_sq,-2.41263645816338e-07
+TN_log_c,Env_TypeEarly heat exposure:N_c_sq,1.82790094193003e-07
+rain_c,Env_TypeEarly heat exposure:N_c_sq,-2.30519254257722e-07
+rain_c_sq,Env_TypeEarly heat exposure:N_c_sq,1.26146410495429e-08
+irrigationIrrigation,Env_TypeEarly heat exposure:N_c_sq,-7.3364022599579e-08
+Env_TypeEarly heat exposure:N_c,Env_TypeEarly heat exposure:N_c_sq,-1.09884173314257e-05
+Env_TypeMiddle heat exposure:N_c,Env_TypeEarly heat exposure:N_c_sq,-2.88203048436793e-06
+Env_TypeLate heat exposure:N_c,Env_TypeEarly heat exposure:N_c_sq,-2.88801294545515e-06
+Env_TypeEarly heat exposure:N_c_sq,Env_TypeEarly heat exposure:N_c_sq,1.69635246831032e-05
+Env_TypeMiddle heat exposure:N_c_sq,Env_TypeEarly heat exposure:N_c_sq,9.29211561638719e-06
+Env_TypeLate heat exposure:N_c_sq,Env_TypeEarly heat exposure:N_c_sq,9.27256146917515e-06
+intrcpt,Env_TypeMiddle heat exposure:N_c_sq,6.88132203070386e-06
+Env_TypeEarly heat exposure,Env_TypeMiddle heat exposure:N_c_sq,-5.61789157697442e-06
+Env_TypeMiddle heat exposure,Env_TypeMiddle heat exposure:N_c_sq,-1.35225353438696e-05
+Env_TypeLate heat exposure,Env_TypeMiddle heat exposure:N_c_sq,-6.12704284310414e-06
+N_c,Env_TypeMiddle heat exposure:N_c_sq,2.88546553219401e-06
+N_c_sq,Env_TypeMiddle heat exposure:N_c_sq,-9.27980441645154e-06
+plant_density_c,Env_TypeMiddle heat exposure:N_c_sq,-2.97081179528214e-08
+N_strategySV,Env_TypeMiddle heat exposure:N_c_sq,-3.62283301119401e-07
+N_strategySVR,Env_TypeMiddle heat exposure:N_c_sq,-6.70699191742441e-07
+N_strategySR,Env_TypeMiddle heat exposure:N_c_sq,-3.18315230745854e-07
+N_strategyVR,Env_TypeMiddle heat exposure:N_c_sq,-8.18161617121046e-07
+N_strategyV,Env_TypeMiddle heat exposure:N_c_sq,-3.97819939554533e-07
+N_strategyR,Env_TypeMiddle heat exposure:N_c_sq,-1.373109447847e-06
+countryArgentina,Env_TypeMiddle heat exposure:N_c_sq,7.50086731827597e-07
+countryAustralia,Env_TypeMiddle heat exposure:N_c_sq,-8.74858135585007e-08
+countryBangladesh,Env_TypeMiddle heat exposure:N_c_sq,-4.78389486384545e-09
+countryBrazil,Env_TypeMiddle heat exposure:N_c_sq,-1.88843844330825e-07
+countryCanada,Env_TypeMiddle heat exposure:N_c_sq,-1.9310256516247e-06
+countryColombia,Env_TypeMiddle heat exposure:N_c_sq,1.13566753003019e-06
+countryCroatia,Env_TypeMiddle heat exposure:N_c_sq,2.97502357459131e-06
+countryEgypt,Env_TypeMiddle heat exposure:N_c_sq,3.50273912791608e-08
+countryGermany,Env_TypeMiddle heat exposure:N_c_sq,-1.63607910620586e-06
+countryGhana,Env_TypeMiddle heat exposure:N_c_sq,4.21453348054177e-06
+countryHungary,Env_TypeMiddle heat exposure:N_c_sq,-2.82669599284137e-06
+countryIndia,Env_TypeMiddle heat exposure:N_c_sq,6.73375958058802e-07
+countryIran,Env_TypeMiddle heat exposure:N_c_sq,-1.10920518778022e-06
+countryItaly,Env_TypeMiddle heat exposure:N_c_sq,2.3384570564536e-06
+countryKenya,Env_TypeMiddle heat exposure:N_c_sq,7.64359180055619e-06
+countryMalaysia,Env_TypeMiddle heat exposure:N_c_sq,1.43232110160979e-06
+countryNepal,Env_TypeMiddle heat exposure:N_c_sq,1.32086428862986e-06
+countryNiger,Env_TypeMiddle heat exposure:N_c_sq,-8.95543806158623e-07
+countryNigeria,Env_TypeMiddle heat exposure:N_c_sq,1.19562987475278e-05
+countryPakistan,Env_TypeMiddle heat exposure:N_c_sq,1.30416995778954e-06
+countryPoland,Env_TypeMiddle heat exposure:N_c_sq,-3.23373552651796e-06
+countryPortugal,Env_TypeMiddle heat exposure:N_c_sq,-1.61584053724797e-06
+countrySpain,Env_TypeMiddle heat exposure:N_c_sq,2.2599922524693e-06
+countryTanzania,Env_TypeMiddle heat exposure:N_c_sq,4.11391220256311e-06
+countryThailand,Env_TypeMiddle heat exposure:N_c_sq,-3.20451289051952e-07
+countryTurkey,Env_TypeMiddle heat exposure:N_c_sq,-1.0729546037314e-06
+countryUSA,Env_TypeMiddle heat exposure:N_c_sq,-8.92171028529788e-07
+countryUganda,Env_TypeMiddle heat exposure:N_c_sq,2.85753622089451e-06
+countryZambia,Env_TypeMiddle heat exposure:N_c_sq,8.0741377657819e-06
+year_c,Env_TypeMiddle heat exposure:N_c_sq,3.78204845689532e-07
+GDD_c,Env_TypeMiddle heat exposure:N_c_sq,-1.94010102957049e-07
+pH_c,Env_TypeMiddle heat exposure:N_c_sq,-9.37606511056089e-08
+SOC_log_c,Env_TypeMiddle heat exposure:N_c_sq,3.12653868856377e-07
+TN_log_c,Env_TypeMiddle heat exposure:N_c_sq,4.81805966942e-07
+rain_c,Env_TypeMiddle heat exposure:N_c_sq,-8.19150249679965e-08
+rain_c_sq,Env_TypeMiddle heat exposure:N_c_sq,4.81346456453416e-09
+irrigationIrrigation,Env_TypeMiddle heat exposure:N_c_sq,-3.10677985995271e-07
+Env_TypeEarly heat exposure:N_c,Env_TypeMiddle heat exposure:N_c_sq,-2.86270942681703e-06
+Env_TypeMiddle heat exposure:N_c,Env_TypeMiddle heat exposure:N_c_sq,-8.47342664749868e-06
+Env_TypeLate heat exposure:N_c,Env_TypeMiddle heat exposure:N_c_sq,-2.88231041627989e-06
+Env_TypeEarly heat exposure:N_c_sq,Env_TypeMiddle heat exposure:N_c_sq,9.29211561638719e-06
+Env_TypeMiddle heat exposure:N_c_sq,Env_TypeMiddle heat exposure:N_c_sq,2.03182672155823e-05
+Env_TypeLate heat exposure:N_c_sq,Env_TypeMiddle heat exposure:N_c_sq,9.29233539584579e-06
+intrcpt,Env_TypeLate heat exposure:N_c_sq,4.01746426670465e-06
+Env_TypeEarly heat exposure,Env_TypeLate heat exposure:N_c_sq,-5.3736225056899e-06
+Env_TypeMiddle heat exposure,Env_TypeLate heat exposure:N_c_sq,-7.154350722776e-06
+Env_TypeLate heat exposure,Env_TypeLate heat exposure:N_c_sq,-3.44071814389023e-05
+N_c,Env_TypeLate heat exposure:N_c_sq,2.91079925200137e-06
+N_c_sq,Env_TypeLate heat exposure:N_c_sq,-9.27575138076062e-06
+plant_density_c,Env_TypeLate heat exposure:N_c_sq,-5.17734683861438e-08
+N_strategySV,Env_TypeLate heat exposure:N_c_sq,4.98412290305263e-07
+N_strategySVR,Env_TypeLate heat exposure:N_c_sq,5.74120925841325e-07
+N_strategySR,Env_TypeLate heat exposure:N_c_sq,2.44671071726817e-07
+N_strategyVR,Env_TypeLate heat exposure:N_c_sq,-8.77526081624945e-07
+N_strategyV,Env_TypeLate heat exposure:N_c_sq,-1.84501629588711e-06
+N_strategyR,Env_TypeLate heat exposure:N_c_sq,6.46377101495894e-08
+countryArgentina,Env_TypeLate heat exposure:N_c_sq,6.37281429849257e-06
+countryAustralia,Env_TypeLate heat exposure:N_c_sq,1.95870336469223e-06
+countryBangladesh,Env_TypeLate heat exposure:N_c_sq,2.44252858701806e-05
+countryBrazil,Env_TypeLate heat exposure:N_c_sq,3.05317417077878e-06
+countryCanada,Env_TypeLate heat exposure:N_c_sq,1.65758036593277e-06
+countryColombia,Env_TypeLate heat exposure:N_c_sq,2.13774579296087e-06
+countryCroatia,Env_TypeLate heat exposure:N_c_sq,2.135299133072e-06
+countryEgypt,Env_TypeLate heat exposure:N_c_sq,-1.78855086899597e-06
+countryGermany,Env_TypeLate heat exposure:N_c_sq,2.23974812873271e-06
+countryGhana,Env_TypeLate heat exposure:N_c_sq,8.30650897654587e-06
+countryHungary,Env_TypeLate heat exposure:N_c_sq,1.89622036022402e-06
+countryIndia,Env_TypeLate heat exposure:N_c_sq,4.83307955245388e-06
+countryIran,Env_TypeLate heat exposure:N_c_sq,3.96135894305808e-10
+countryItaly,Env_TypeLate heat exposure:N_c_sq,1.50961485383727e-06
+countryKenya,Env_TypeLate heat exposure:N_c_sq,9.5899923018085e-06
+countryMalaysia,Env_TypeLate heat exposure:N_c_sq,4.09597542426663e-07
+countryNepal,Env_TypeLate heat exposure:N_c_sq,1.07117663830261e-05
+countryNiger,Env_TypeLate heat exposure:N_c_sq,2.54930344144869e-06
+countryNigeria,Env_TypeLate heat exposure:N_c_sq,1.31055011386562e-05
+countryPakistan,Env_TypeLate heat exposure:N_c_sq,3.16459815069714e-06
+countryPoland,Env_TypeLate heat exposure:N_c_sq,2.94477373749379e-06
+countryPortugal,Env_TypeLate heat exposure:N_c_sq,-2.20088010621022e-06
+countrySpain,Env_TypeLate heat exposure:N_c_sq,5.24127237715279e-07
+countryTanzania,Env_TypeLate heat exposure:N_c_sq,8.86474929763945e-06
+countryThailand,Env_TypeLate heat exposure:N_c_sq,1.43802245967059e-05
+countryTurkey,Env_TypeLate heat exposure:N_c_sq,-9.91428018244067e-07
+countryUSA,Env_TypeLate heat exposure:N_c_sq,4.81258373345935e-06
+countryUganda,Env_TypeLate heat exposure:N_c_sq,5.58147063436289e-06
+countryZambia,Env_TypeLate heat exposure:N_c_sq,7.24145746300984e-06
+year_c,Env_TypeLate heat exposure:N_c_sq,-6.20644001572008e-07
+GDD_c,Env_TypeLate heat exposure:N_c_sq,-9.85946908651461e-08
+pH_c,Env_TypeLate heat exposure:N_c_sq,-4.68338230437866e-07
+SOC_log_c,Env_TypeLate heat exposure:N_c_sq,3.26368573433269e-06
+TN_log_c,Env_TypeLate heat exposure:N_c_sq,-5.32315765690246e-06
+rain_c,Env_TypeLate heat exposure:N_c_sq,-5.43907059087718e-07
+rain_c_sq,Env_TypeLate heat exposure:N_c_sq,1.49923666807249e-08
+irrigationIrrigation,Env_TypeLate heat exposure:N_c_sq,1.07536001060574e-07
+Env_TypeEarly heat exposure:N_c,Env_TypeLate heat exposure:N_c_sq,-2.87982711201424e-06
+Env_TypeMiddle heat exposure:N_c,Env_TypeLate heat exposure:N_c_sq,-2.85751884389187e-06
+Env_TypeLate heat exposure:N_c,Env_TypeLate heat exposure:N_c_sq,5.1209133168811e-07
+Env_TypeEarly heat exposure:N_c_sq,Env_TypeLate heat exposure:N_c_sq,9.27256146917515e-06
+Env_TypeMiddle heat exposure:N_c_sq,Env_TypeLate heat exposure:N_c_sq,9.29233539584579e-06
+Env_TypeLate heat exposure:N_c_sq,Env_TypeLate heat exposure:N_c_sq,4.650171352186e-05

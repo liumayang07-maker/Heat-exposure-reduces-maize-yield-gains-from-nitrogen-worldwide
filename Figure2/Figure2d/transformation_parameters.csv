@@ -1,0 +1,9 @@
+source,target,kind,center,divisor
+EDH30_total,heat_c,log1p,6.4399699235619,1
+N_rate,N_c,identity,186.878111971412,100
+Exp_year,year_c,identity,2012.15604526504,10
+GDD_total,GDD_c,identity,1685.11037894777,100
+soil_pH,pH_c,identity,7.06799505906403,1
+SOC,SOC_log_c,log1p,2.50215968868748,1
+soil_total_N,TN_log_c,log1p,0.800459885012596,1
+total_rainfall,rain_c,identity,410.134391115372,100

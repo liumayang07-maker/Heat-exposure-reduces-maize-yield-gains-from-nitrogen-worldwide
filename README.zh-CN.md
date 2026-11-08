@@ -2,9 +2,9 @@
 
 [English README](README.md)
 
-本仓库保存论文的数据与分析代码。目前仅包含 **Figure1**，其他图尚未纳入。仓库保持私有，编辑和审稿人的访问需另行安排。
+本仓库保存论文的数据与分析代码。目前包含 **Figure1、Figure2 及 Figure2 对应的补充分析**。仓库保持私有，编辑和审稿人的访问需另行安排。
 
-根目录仅保留两份 README 和 `Figure1/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
+根目录仅保留两份 README 和 `Figure1/`、`Figure2/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
 
 ## 目录
 
@@ -14,6 +14,7 @@
 - [Figure1b](#figure1b)
 - [Figure1c](#figure1c)
 - [Figure1d](#figure1d)
+- [Figure2 文件与运行命令](#figure2)
 - [数据来源与使用条件](#数据来源与使用条件)
 
 ## 环境与安装
@@ -179,3 +180,60 @@ EDH30 是全年 UTC 每小时 `max(T_C - 30, 0)` 的累计，不是生育期暴�
 作者尚未指定代码开源许可或全部输出的统一开放许可；私有审稿访问不等于授予无限制再分发权。公开前仍需确认面积及派生空间数据适用条款、确定作者代码/输出许可，并安排审稿访问。本次未联系数据提供方或代为申请许可。
 
 本仓库以代码及其输入输出供查阅为目的，不包含额外的投稿工作簿组装和历史验证报告。随附 Source Data 工作簿为已归档结果。保留的数据处理、模型分析和绘图代码用于说明这些结果如何得到，不要求使用者重跑整个流程。
+
+<a id="figure2"></a>
+
+## Figure2 文件与运行命令
+
+Figure2 共 96 个文件，仅保留分析代码、输入、绘图需要的拟合模型和结果。Source Data 工作簿供直接查阅；工作簿组装脚本、排版资产、重复格式化回归表及核验报告未收录。
+
+| 目录 | 文件数 | 内容 |
+| --- | ---: | --- |
+| `Figure2/Figure2a/` | 14 | 比较输入、总体 REML 代码与结果、直方图、地图及空间输入；另含可选面积栅格准备代码。 |
+| `Figure2/Figure2b/` | 17 | 施氮分组分析的拟合、绘图、简单斜率代码，比较与模型输入、变换参数、拟合模型、系数/协方差/Wald/曲线结果、PDF 和 Source Data。 |
+| `Figure2/Figure2c/` | 15 | 环境类型与施氮量分析的拟合、绘图代码，以及对应输入、模型、结果、PDF 和 Source Data。 |
+| `Figure2/Figure2d/` | 15 | 三因素交互分析的拟合、绘图代码，以及对应输入、模型、结果、PDF 和 Source Data。 |
+| `Figure2/Extended_Data_Figure/` | 8 | 三份输入表、绘图代码、三份 PDF 和 Source Data。 |
+| `Figure2/Supplementary_Figure_heat_classification/` | 6 | 热暴露曲线输入、分类及诊断代码、分类结果、两份 PDF 和 Source Data。 |
+| `Figure2/Supplementary_Table_SD_imputation/` | 4 | 当前 SD 输入、插补代码、重插补 SD 表及分组中位 CV 工作簿。 |
+| `Figure2/SD_sensitivity/` | 8 | 拟合与汇总代码，以及 Baseline、CV05、CV10、CV20 四情景的六份核心结果 CSV。 |
+| `Figure2/Weather_preprocessing/` | 9 | 下载及指标计算代码、下载任务和环境/R1 输入、四份派生天气表。 |
+
+Figure2 额外使用的 R 包为 `Matrix`、`metafor`、`patchwork`、`scales`、`openxlsx`、`mclust`、`cluster`、`lubridate`，按需安装。天气下载另需 Python `cdsapi` 和使用者自己的 CDS 凭据；凭据与原始小时天气文件未收录。
+
+以下命令从仓库根目录执行。代码根据自身位置定位已收录输入，不依赖整理者的本地绝对路径。结果可直接查阅；重新运行可能覆盖派生输出，如需保留归档版本，请在独立副本运行。
+
+```text
+python Figure2/Figure2a/plot_map.py
+Rscript Figure2/Figure2a/plot_histogram.R
+Rscript Figure2/Figure2b/plot_Figure2b.R
+Rscript Figure2/Figure2c/plot_Figure2c.R
+Rscript Figure2/Figure2d/plot_Figure2d.R
+Rscript Figure2/Extended_Data_Figure/reproduce_extended_data.R
+Rscript Figure2/Supplementary_Figure_heat_classification/reproduce_classification.R
+Rscript Figure2/Supplementary_Table_SD_imputation/reproduce_SD_imputation.R
+```
+
+按需重新拟合模型时，默认读取已收录的比较输入表：
+
+```text
+Rscript Figure2/Figure2a/fit_overall_REML.R
+Rscript Figure2/Figure2b/fit_Figure2b.R
+Rscript Figure2/Figure2c/fit_Figure2c.R
+Rscript Figure2/Figure2d/fit_Figure2d.R
+Rscript Figure2/Figure2b/calculate_simple_slopes.R
+Rscript Figure2/SD_sensitivity/run_sensitivity.R
+```
+
+敏感性分析入口内部调用 `summarize_sensitivity.py`，除六份核心结果外还生成运行状态 CSV；归档未保留旧状态表。重新拟合可能较耗时。三份 `model_REML.rds` 是面板绘图代码的读取输入，因此保留。Source Data 工作簿作为现成输出供查阅，未收录的组装脚本不属于运行步骤。
+
+查阅结果不需要原始天气文件。若要重建天气指标，将以下占位符换为自己的目录；这些示例不含整理者的实际机器路径。下载需要 CDS 授权，数据量较大；`--check-only` 仅检查本地文件，不下载。
+
+```text
+python Figure2/Weather_preprocessing/01_download_weather.py --output-dir <weather_directory> --check-only
+python Figure2/Weather_preprocessing/01_download_weather.py --output-dir <weather_directory>
+Rscript Figure2/Weather_preprocessing/02_calculate_weather_metrics.R --raw-dir <weather_directory>/raw_utc --output-dir <derived_output_directory>
+python Figure2/Figure2a/prepare_maize_area.py --area-h5 <maize_area_hdf5> --output <mean_area_tif>
+```
+
+下载任务表对应通过 CDS 获取 ERA5-Land 数据。气候、作物面积和边界数据沿用各自来源的署名与使用条件；本仓库不赋予这些外部数据额外授权。本次推送准备未下载天气数据，也未重新拟合 Figure2 模型。

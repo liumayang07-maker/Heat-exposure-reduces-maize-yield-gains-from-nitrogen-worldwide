@@ -1,0 +1,8 @@
+source,target,kind,center,divisor
+N_rate,N_c,identity,180.671298504227,100
+Exp_year,year_c,identity,2011.4814654238,10
+GDD_total,GDD_c,identity,1590.49017032428,100
+soil_pH,pH_c,identity,6.9323785774509,1
+SOC,SOC_log_c,log1p,2.58532956651893,1
+soil_total_N,TN_log_c,log1p,0.853677346079638,1
+total_rainfall,rain_c,identity,453.137634616132,100

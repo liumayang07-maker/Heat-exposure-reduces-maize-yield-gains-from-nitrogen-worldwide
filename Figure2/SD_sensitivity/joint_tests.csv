@@ -1,0 +1,41 @@
+model,scenario,test,QM,df,p,n,N_control_kg_ha,comparison,scope
+Figure2b,Baseline,Equal EDH30 slopes across N-rate groups,15.2021884757117,4,0.00429972244633282,4613,,,
+Figure2b,CV05,Equal EDH30 slopes across N-rate groups,12.9200311312998,4,0.011673218653954,4613,,,
+Figure2b,CV10,Equal EDH30 slopes across N-rate groups,14.1703168429882,4,0.00677085211157869,4613,,,
+Figure2b,CV20,Equal EDH30 slopes across N-rate groups,13.4353333568441,4,0.00933341223465344,4613,,,
+Figure2c,Baseline,All environment by N interactions,34.0463247648951,6,6.59024297022269e-06,4613,,,
+Figure2c,Baseline,Environment by linear N interaction,25.6943282417128,3,1.10513890287498e-05,4613,,,
+Figure2c,Baseline,Environment by quadratic N interaction,9.84362135946958,3,0.0199432699466563,4613,,,
+Figure2c,CV05,All environment by N interactions,26.7245395776027,6,0.000163063387613695,4613,,,
+Figure2c,CV05,Environment by linear N interaction,20.3499683629741,3,0.000143626777554677,4613,,,
+Figure2c,CV05,Environment by quadratic N interaction,7.54181445771306,3,0.0564937377320331,4613,,,
+Figure2c,CV10,All environment by N interactions,30.2072645828375,6,3.58975667725258e-05,4613,,,
+Figure2c,CV10,Environment by linear N interaction,22.8000144103447,3,4.44504291488767e-05,4613,,,
+Figure2c,CV10,Environment by quadratic N interaction,8.33616103141191,3,0.0395518981419197,4613,,,
+Figure2c,CV20,All environment by N interactions,35.8750255795243,6,2.91515974240974e-06,4613,,,
+Figure2c,CV20,Environment by linear N interaction,28.7562109176538,3,2.51975129722341e-06,4613,,,
+Figure2c,CV20,Environment by quadratic N interaction,9.53132971799736,3,0.0230003899898215,4613,,,
+Figure2d,Baseline,Overall equality of the three heat-pattern curves,3.22934379859313,4,0.520204498498788,3358,100.0,Early = Middle = Late,overall
+Figure2d,Baseline,Overall equality of the three heat-pattern curves,7.32134901613716,4,0.119849999031254,3358,200.0,Early = Middle = Late,overall
+Figure2d,Baseline,Overall equality of the three heat-pattern curves,13.7361097054936,4,0.00818670337373345,3358,300.0,Early = Middle = Late,overall
+Figure2d,Baseline,Overall heat x pattern x quadratic-N interaction,29.4541406255627,4,6.3206604009062e-06,3358,,,
+Figure2d,Baseline,Heat x pattern x linear-N component,28.9585781488376,2,5.14902088168567e-07,3358,,,
+Figure2d,Baseline,Heat x pattern x quadratic-N component,2.47933229819135,2,0.289480845250567,3358,,,
+Figure2d,CV05,Overall equality of the three heat-pattern curves,3.03230133259677,4,0.552434477166559,3358,100.0,Early = Middle = Late,overall
+Figure2d,CV05,Overall equality of the three heat-pattern curves,7.09820705602256,4,0.130788555329054,3358,200.0,Early = Middle = Late,overall
+Figure2d,CV05,Overall equality of the three heat-pattern curves,12.8893158024854,4,0.011829472567589,3358,300.0,Early = Middle = Late,overall
+Figure2d,CV05,Overall heat x pattern x quadratic-N interaction,22.5845032812102,4,0.000153274132415365,3358,,,
+Figure2d,CV05,Heat x pattern x linear-N component,22.2864557116767,2,1.44729689912032e-05,3358,,,
+Figure2d,CV05,Heat x pattern x quadratic-N component,2.51905875732294,2,0.283787551554807,3358,,,
+Figure2d,CV10,Overall equality of the three heat-pattern curves,3.04798296784641,4,0.549827925029777,3358,100.0,Early = Middle = Late,overall
+Figure2d,CV10,Overall equality of the three heat-pattern curves,7.12796394348143,4,0.129278473775874,3358,200.0,Early = Middle = Late,overall
+Figure2d,CV10,Overall equality of the three heat-pattern curves,13.6899725595268,4,0.00835319112478736,3358,300.0,Early = Middle = Late,overall
+Figure2d,CV10,Overall heat x pattern x quadratic-N interaction,28.8640780394066,4,8.33044888393542e-06,3358,,,
+Figure2d,CV10,Heat x pattern x linear-N component,28.5097214965741,2,6.44455058184525e-07,3358,,,
+Figure2d,CV10,Heat x pattern x quadratic-N component,2.35273703863834,2,0.308396644001377,3358,,,
+Figure2d,CV20,Overall equality of the three heat-pattern curves,2.96123044997405,4,0.564334216252207,3358,100.0,Early = Middle = Late,overall
+Figure2d,CV20,Overall equality of the three heat-pattern curves,7.76582561166962,4,0.100542889875184,3358,200.0,Early = Middle = Late,overall
+Figure2d,CV20,Overall equality of the three heat-pattern curves,17.3679130473597,4,0.00163929997281637,3358,300.0,Early = Middle = Late,overall
+Figure2d,CV20,Overall heat x pattern x quadratic-N interaction,39.7487727585516,4,4.8783997205888e-08,3358,,,
+Figure2d,CV20,Heat x pattern x linear-N component,38.2296816367703,2,4.99493809465512e-09,3358,,,
+Figure2d,CV20,Heat x pattern x quadratic-N component,0.379237776120419,2,0.827274358007039,3358,,,
