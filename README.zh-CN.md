@@ -15,7 +15,6 @@
 - [Figure1c](#figure1c)
 - [Figure1d](#figure1d)
 - [数据来源与使用条件](#数据来源与使用条件)
-- [验证结果与边界](#验证结果与边界)
 
 ## 环境与安装
 
@@ -23,7 +22,7 @@
 
 ```text
 python -m venv .venv
-python -m pip install numpy==2.4.4 pandas==2.3.3 scipy==1.17.1 statsmodels==0.14.6 matplotlib==3.10.8 rasterio==1.5.0 geopandas==1.1.3 openpyxl==3.1.5
+python -m pip install numpy==2.4.4 pandas==2.3.3 scipy==1.17.1 statsmodels==0.14.6 matplotlib==3.10.8 rasterio==1.5.0 geopandas==1.1.3
 ```
 
 仅当需要从外部气候与面积输入重建结果时，额外安装：
@@ -47,12 +46,11 @@ install.packages(c("terra", "sf", "ggplot2", "data.table", "nlme", "pheatmap"))
 ```text
 Rscript Figure1/Figure1a/plot_Figure1a.R --overwrite
 Rscript Figure1/Figure1b/plot_Figure1b.R --overwrite
-python Figure1/build_source_data.py --rscript Rscript --overwrite
 python Figure1/Figure1c/plot_Figure1c.py --data-dir Figure1/Figure1c --output Figure1/Figure1c/Figure1c.pdf --overwrite
 python Figure1/Figure1d/plot_Figure1d.py --rscript Rscript --overwrite
 ```
 
-保持主体目录结构。1c 使用 1a 的 `world_boundaries.gpkg`；1d 使用 1c 的 HAC 函数和 `Figure1/build_source_data.py` 的工作簿写入函数。两份 crosswalk 用于外部输入的上游重建，不是现有分图重绘的必需数据。1c 压缩 Source Data 保留标准误、置信区间等栅格之外的模型信息。
+保持主体目录结构。1c 使用 1a 的 `world_boundaries.gpkg`；1d 使用 1c 的 HAC 函数。两份 crosswalk 用于外部输入的上游重建，不是现有分图重绘的必需数据。1c 压缩 Source Data 保留标准误、置信区间等栅格之外的模型信息。
 
 完整外部输入重建命令见英文 README 对应面板。该过程需要自行获取面积 HDF5、认证 Earth Engine 并下载气候导出结果；不要把这些上游任务当成普通重绘命令重复提交。
 
@@ -68,7 +66,7 @@ GeoTIFF 含 599,246 个有效像元，其中 28,070 个为零；数值范围为 
 
 ## Figure1b
 
-洲际年度 EDH30。核心输入 `continent_annual_EDH30_1986_2025.csv` 为六洲 × 40 年的 240 行记录。`plot_Figure1b.R` 重拟合六个 GLS AR(1)/REML 模型，生成 PDF 和 `GLS_models.csv`；共享入口生成五个 sheet 的 `Figure1b_Source_Data.xlsx`。`maize_continent_crosswalk.csv.gz` 固定原空间归属，空白归属不自动补入任何洲。
+洲际年度 EDH30。核心输入 `continent_annual_EDH30_1986_2025.csv` 为六洲 × 40 年的 240 行记录。`plot_Figure1b.R` 重拟合六个 GLS AR(1)/REML 模型，生成 PDF 和 `GLS_models.csv`；五个 sheet 的 `Figure1b_Source_Data.xlsx` 作为归档输出随附。`maize_continent_crosswalk.csv.gz` 固定原空间归属，空白归属不自动补入任何洲。
 
 #### 核心数据字段
 
@@ -121,7 +119,7 @@ EDH30 是全年 UTC 每小时 `max(T_C - 30, 0)` 的累计，不是生育期暴�
 
 ## Figure1d
 
-区域夏季热图与趋势图。核心输入为 `region_summer_1985_2025.csv` 和 `regions.csv`；`plot_Figure1d.py` 调用 `plot_heatmap.R`，生成两份 PDF 和五个 sheet 的 Source Data。`maize_region_crosswalk.csv.gz` 固定原区域归属。
+区域夏季热图与趋势图。核心输入为 `region_summer_1985_2025.csv` 和 `regions.csv`；`plot_Figure1d.py` 调用 `plot_heatmap.R`，生成两份 PDF；五个 sheet 的 Source Data 工作簿作为归档输出随附，不由此入口改写。`maize_region_crosswalk.csv.gz` 固定原区域归属。
 
 #### 两个子图的区别
 
@@ -180,19 +178,4 @@ EDH30 是全年 UTC 每小时 `max(T_C - 30, 0)` 的累计，不是生育期暴�
 
 作者尚未指定代码开源许可或全部输出的统一开放许可；私有审稿访问不等于授予无限制再分发权。公开前仍需确认面积及派生空间数据适用条款、确定作者代码/输出许可，并安排审稿访问。本次未联系数据提供方或代为申请许可。
 
-## 验证结果与边界
-
-2026-11-08 已在第二份独立副本中运行上述五个入口，全部返回 0：
-
-| 检查 | 结果 |
-| --- | --- |
-| 五份 PDF | 页面尺寸一致，144 dpi 全页 RGB 渲染逐像素一致 |
-| 六行 GLS 结果 | 与原表数值一致，rtol=1e-12、atol=1e-12 |
-| 两份 Source Data | 五个 sheet 的顺序、文本与数值一致，数值容差同上 |
-| 1a 均值栅格 | EPSG:4326、单波段，599,246 个有效非负像元，含 28,070 个零值 |
-| 1c Source Data | 540,269 行，置信区间经独立公式检查，BH 校正重算通过，308,069 个调整后 P 值小于 0.05 |
-| 1c 栅格与表格 | 所有像元坐标对应一致；斜率比较 rtol=1e-6、atol=1e-5，调整后 P 值 rtol=1e-6、atol=1e-7 |
-
-PDF/Excel 元数据时间戳不要求字节相同，复现依据为数值和渲染对照。上述使用已有安装环境；未重新安装环境，未提交 GEE 任务，未下载外部数据，也未从小时/月度数据完整重建 1a 均值和 1c 趋势。最终 Figure1 为人工拼版，分图重绘不等于自动复现最终版式。
-
-此次仅精简说明与根目录辅助文件，主体代码、数据和图件校验值不变，沿用已通过的数值验证，不重复运行分析。
+本仓库以代码及其输入输出供查阅为目的，不包含额外的投稿工作簿组装和历史验证报告。随附 Source Data 工作簿为已归档结果。保留的数据处理、模型分析和绘图代码用于说明这些结果如何得到，不要求使用者重跑整个流程。

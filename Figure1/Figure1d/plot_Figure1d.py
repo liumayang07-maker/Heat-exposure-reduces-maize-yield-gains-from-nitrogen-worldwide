@@ -1,4 +1,4 @@
-"""Reproduce both Figure1d plots and an English-only Source Data workbook.
+"""Analyze the supplied regional input and draw both Figure1d panels.
 
 Original sources: scripts 07 (row Z-scores/Ward.D2) and 09 (OLS/HAC/BH).
 """
@@ -20,7 +20,7 @@ import statsmodels.api as sm
 from statsmodels.stats.multitest import multipletests
 
 ROOT = Path(__file__).resolve().parent
-OUTPUTS = ('Figure1d_heatmap.pdf', 'Figure1d_trend.pdf', 'Figure1d_Source_Data.xlsx')
+OUTPUTS = ('Figure1d_heatmap.pdf', 'Figure1d_trend.pdf')
 
 
 def load_module(path, name):
@@ -137,18 +137,13 @@ def main():
         heatmap = pd.read_csv(temp / 'Heatmap_data.csv')
         cluster_order = heatmap.sort_values('row_order').region_id.drop_duplicates().to_list()
         assert len(cluster_order) == 15 and set(cluster_order) == set(styles.region_id)
-        result, parameters, covariance = fit_models(data, styles, cluster_order)
+        result, _, _ = fit_models(data, styles, cluster_order)
         plot_trend(result, temp / 'Figure1d_trend.pdf')
-        writer = load_module(ROOT.parent / 'build_source_data.py', 'source_workbook')
-        # 3. 只导出五类英文数据，临时表不进入投稿目录。
-        writer.write_workbook(temp / 'Figure1d_Source_Data.xlsx', {
-            'Annual_data': data, 'Heatmap_data': heatmap, 'Trend_models': result,
-            'Model_parameters': parameters, 'Coefficient_covariance': covariance})
         args.output_dir.mkdir(parents=True, exist_ok=True)
-        # 所有计算和工作簿回读核对成功后，再写入最终目录。
+        # 3. 分析和绘图成功后，只写入两份 PDF；归档工作簿保持只读。
         for name in OUTPUTS:
             shutil.copy2(temp / name, args.output_dir / name)
-    print('Verified: 615 heatmap cells; 15 OLS/HAC models; five Source Data sheets.')
+    print('Complete: 615 heatmap cells; 15 OLS/HAC models; two panel PDFs.')
 
 
 if __name__ == '__main__':

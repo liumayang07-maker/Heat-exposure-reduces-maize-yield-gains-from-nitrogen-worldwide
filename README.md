@@ -4,7 +4,7 @@
 
 Data and analysis code accompanying the manuscript with this working title. This initial deposit contains **Figure 1 only**. Other analyses are not yet included. The repository is private; editor/reviewer access must be arranged separately.
 
-Start with [Figure 1](#figure-1). See [verification](#verification) for the exact tests performed and [sources and rights](#sources-and-rights) for attribution and unresolved permissions. No publication or archive DOI has been assigned here.
+Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) for attribution and applicable access conditions. No publication or archive DOI has been assigned here.
 
 [中文说明 / Chinese README](README.zh-CN.md)
 
@@ -17,7 +17,6 @@ Start with [Figure 1](#figure-1). See [verification](#verification) for the exac
 - [Figure 1c](#figure-1c)
 - [Figure 1d](#figure-1d)
 - [Data sources and rights](#sources-and-rights)
-- [Verification](#verification)
 
 <a id="environment"></a>
 
@@ -28,7 +27,7 @@ Tested runtime: Python 3.12.5 and R 4.5.3 on Windows. The tested direct Python d
 ```text
 python -m venv .venv
 # Activate .venv using the command appropriate for your shell.
-python -m pip install numpy==2.4.4 pandas==2.3.3 scipy==1.17.1 statsmodels==0.14.6 matplotlib==3.10.8 rasterio==1.5.0 geopandas==1.1.3 openpyxl==3.1.5
+python -m pip install numpy==2.4.4 pandas==2.3.3 scipy==1.17.1 statsmodels==0.14.6 matplotlib==3.10.8 rasterio==1.5.0 geopandas==1.1.3
 ```
 
 For optional reconstruction from external climate and area inputs, also install:
@@ -49,7 +48,7 @@ Scripts do not install packages automatically. Fresh environment installation an
 
 ## Reproduction levels
 
-1. **Bundled inputs:** regenerate five panel PDFs, six GLS model rows and two source workbooks, without downloads or the original working directory.
+1. **Bundled inputs:** regenerate five panel PDFs and six GLS model rows; source workbooks are supplied outputs, without downloads or the original working directory.
 2. **External inputs:** obtain the area HDF5 and monthly climate exports, then run preparation scripts. This requires external access and potentially substantial compute; it was not rerun for this deposit.
 3. **Final layout:** the assembled manuscript figure was manually edited. Reproducing individual panels does not recreate that layout.
 
@@ -66,7 +65,7 @@ Scripts, archived inputs, numerical results and reference PDFs for panels 1a-d. 
 | [1a](#figure-1a) | `Figure1a/plot_Figure1a.R` | mean TIFF and Natural Earth GeoPackage | PDF |
 | [1b](#figure-1b) | `Figure1b/plot_Figure1b.R` | continental annual CSV | PDF and GLS model CSV |
 | [1c](#figure-1c) | `Figure1c/plot_Figure1c.py` | slope/P TIFFs and 1a geometry | PDF |
-| [1d](#figure-1d) | `Figure1d/plot_Figure1d.py` | regional annual CSV and region definitions | two PDFs and source workbook |
+| [1d](#figure-1d) | `Figure1d/plot_Figure1d.py` | regional annual CSV and region definitions | two PDFs |
 
 ### Run from the repository root
 
@@ -75,16 +74,15 @@ Archived outputs already exist. These commands explicitly replace them in your c
 ```text
 Rscript Figure1/Figure1a/plot_Figure1a.R --overwrite
 Rscript Figure1/Figure1b/plot_Figure1b.R --overwrite
-python Figure1/build_source_data.py --rscript Rscript --overwrite
 python Figure1/Figure1c/plot_Figure1c.py --data-dir Figure1/Figure1c --output Figure1/Figure1c/Figure1c.pdf --overwrite
 python Figure1/Figure1d/plot_Figure1d.py --rscript Rscript --overwrite
 ```
 
-`build_source_data.py` refits 1b through R and writes its source workbook. It also provides the workbook writer imported by 1d. Panel 1d imports HAC functions from `Figure1c/prepare_grid_EDH30_trends.py`; 1c shares upstream functions with `Figure1a/03_prepare_mean_EDH30.py`. The 1c map reads `Figure1a/world_boundaries.gpkg`.
+Source-data workbooks are supplied as archived numerical outputs; a separate workbook-building wrapper is not included. Panel 1d imports HAC functions from `Figure1c/prepare_grid_EDH30_trends.py`; 1c shares upstream functions with `Figure1a/03_prepare_mean_EDH30.py`. The 1c map reads `Figure1a/world_boundaries.gpkg`.
 
 Crosswalks support external-input reconstruction, preserving the actual spatial assignments. The 1c compressed source table preserves pixel-level model results beyond the two plotting TIFFs.
 
-See [environment](#overview), [verification](#verification) and [sources/rights](#sources-and-rights). The Chinese README retains detailed field definitions; they do not establish that upstream reconstruction was repeated for this deposit. Individual PDFs do not recreate the manually assembled final figure.
+See [environment](#environment) and [sources/rights](#sources-and-rights). The Chinese README retains detailed field definitions; they do not establish that upstream reconstruction was repeated for this deposit. Individual PDFs do not recreate the manually assembled final figure.
 
 <a id="figure-1a"></a>
 
@@ -143,7 +141,6 @@ From the repository root:
 
 ```text
 Rscript Figure1/Figure1b/plot_Figure1b.R --overwrite
-python Figure1/build_source_data.py --rscript Rscript --overwrite
 ```
 
 For external reconstruction, obtain monthly climate files and annual area tables as described for 1a, then run:
@@ -209,7 +206,7 @@ From the repository root:
 python Figure1/Figure1d/plot_Figure1d.py --rscript Rscript --overwrite
 ```
 
-Retain `Figure1c/prepare_grid_EDH30_trends.py` and `Figure1/build_source_data.py`, which provide shared functions. The entry writes two PDFs and the workbook; temporary tables are cleaned automatically.
+Retain `Figure1c/prepare_grid_EDH30_trends.py`, which provides shared HAC functions. The entry writes two PDFs; the supplied source workbook is an archived output and is not rewritten.
 
 For optional external reconstruction, obtain 1984-2025 monthly exports (1a exporter with `--start-year 1984`) and 1985-2020 area tables (extractor with `--start-year 1985`), then run:
 
@@ -241,37 +238,3 @@ Made with Natural Earth. Country geometry was converted to GeoPackage without si
 ### Before public release
 
 Confirm area-file access and terms covering redistribution of derived spatial assignments and area-weighted results. Clarify the derived regional crosswalk's status with the applicable rights holder if needed. Select an author-approved code/output licence separately from third-party terms. Arrange editor/reviewer access while private. No provider contact or permission request has been made here.
-
-<a id="verification"></a>
-
-## Figure 1 deposit verification
-
-Verified on 2026-11-08 using Python 3.12.5 and R 4.5.3 on Windows. Exact direct dependency versions are recorded in the environment section above. Existing installed environments were used; a fresh dependency installation and other operating systems were not tested.
-
-### Isolation and unchanged references
-
-The 35 selected files were copied from the manuscript archive into an independent repository directory. Only documentation was revised there; scientific scripts, numerical inputs and archived outputs were not changed. A second complete Figure1 copy was used for execution, so its overwritten outputs did not replace the deposit references. The original archive is checked by SHA256 before push. The seven excluded files are the two final-layout assets and five historical audit files described in the preparation plan; no original file was deleted.
-
-### Commands executed
-
-The five commands in [Figure 1 commands](#figure-1) were executed with the actual Rscript path substituted. All returned exit code 0. Execution times were approximately 4.75 s (1a), 1.38 s (1b), 2.70 s (1b workbook), 4.94 s (1c) and 8.80 s (1d); these are local observations, not performance guarantees.
-
-| Check | Result |
-| --- | --- |
-| 1b GLS model table | Six rows reproduce the archived table; numeric comparison rtol=1e-12, atol=1e-12 |
-| 1b workbook | Five sheets reproduce: 240 annual rows, 240 plot rows, six GLS rows, six parameter rows, 24 covariance rows |
-| 1d workbook | Five sheets reproduce: 615 annual rows, 615 heatmap rows, 15 trends, 15 parameter rows, 60 covariance rows |
-| Workbook numerical tolerance | rtol=1e-12, atol=1e-12; sheet names/order and text values also compared |
-| Five PDFs | One page each, equal page dimensions; full-page RGB rendering at 144 dpi has zero differing components against archived references |
-| 1a raster | Single-band EPSG:4326; 599,246 valid, nonnegative pixels, including 28,070 zeros |
-| 1c source table | 540,269 rows; pointwise intervals independently checked with t(0.975,38) and supplied HAC SE |
-| 1c BH correction | Recomputed across all supplied raw P values; 308,069 adjusted P values below 0.05 |
-| 1c rasters versus source table | All pixel coordinates mapped back to both rasters; valid-cell counts match. Slope tolerance rtol=1e-6, atol=1e-5; adjusted-P tolerance rtol=1e-6, atol=1e-7 |
-
-Workbook/PDF metadata timestamps need not match byte-for-byte. Numerical and rendered output comparisons, rather than file hashes, establish reproduction.
-
-### Limits
-
-No Earth Engine task was submitted, no external climate or area data downloaded, and no complete upstream aggregation rerun. The 1a mean and 1c trends were not independently rebuilt from hourly/monthly inputs in this deposit check. Their archived inputs, plotting and source-table consistency were checked. The manually assembled final figure was not reconstructed. Source-access and redistribution questions remain documented in [Sources and rights](#sources-and-rights); passing numerical checks does not resolve them.
-
-Repository presentation: only the English and Chinese READMEs and the Figure1 directory are retained at the root. Dependency commands and verification information are embedded in the READMEs; scientific files are unchanged.
