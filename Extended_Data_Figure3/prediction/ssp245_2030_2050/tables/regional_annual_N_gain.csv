@@ -1,0 +1,1009 @@
+﻿year,region_code,region_id,region_name,irrigated,delta_yield_Mg_ha,N_rate
+2030,1,East_Africa,East Africa,0,1.368836516017983,120
+2030,1,East_Africa,East Africa,1,1.3619645581445607,120
+2030,2,Europe,Europe,0,3.095204307404593,120
+2030,2,Europe,Europe,1,3.2300926594805137,120
+2030,3,North_America_Irrigated,North America - Irrigated,0,3.2168147955637423,120
+2030,3,North_America_Irrigated,North America - Irrigated,1,3.411378594752011,120
+2030,4,North_America_Rainfed,North America - Rainfed,0,2.766618241731657,120
+2030,4,North_America_Rainfed,North America - Rainfed,1,3.0387336838410803,120
+2030,5,North_China_Plain,North China Plain,0,1.5584440011446716,120
+2030,5,North_China_Plain,North China Plain,1,1.6999048159236523,120
+2030,6,Northeast_China,Northeast China,0,3.2023461229750163,120
+2030,6,Northeast_China,Northeast China,1,3.115897570237248,120
+2030,7,Northwest_China,Northwest China,0,2.1450676203495567,120
+2030,7,Northwest_China,Northwest China,1,2.301593076874701,120
+2030,8,South_America,South America,0,2.0533123953265537,120
+2030,8,South_America,South America,1,2.126707526588161,120
+2030,9,South_Asia,South Asia,0,1.7484875596328,120
+2030,9,South_Asia,South Asia,1,1.746731489279171,120
+2030,10,Southwest_China,Southwest China,0,2.302838204756834,120
+2030,10,Southwest_China,Southwest China,1,2.333659344929324,120
+2030,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7696909465099626,120
+2030,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.8154723791147713,120
+2030,12,West_Africa,West Africa,0,1.8111189176501399,120
+2030,12,West_Africa,West Africa,1,1.8234290071007488,120
+2031,1,East_Africa,East Africa,0,1.4158075085508708,120
+2031,1,East_Africa,East Africa,1,1.405849012013785,120
+2031,2,Europe,Europe,0,3.007121252476102,120
+2031,2,Europe,Europe,1,3.152198837148439,120
+2031,3,North_America_Irrigated,North America - Irrigated,0,3.429491621077278,120
+2031,3,North_America_Irrigated,North America - Irrigated,1,3.623155997131419,120
+2031,4,North_America_Rainfed,North America - Rainfed,0,3.0292338167403834,120
+2031,4,North_America_Rainfed,North America - Rainfed,1,3.235805274512714,120
+2031,5,North_China_Plain,North China Plain,0,1.681438059075651,120
+2031,5,North_China_Plain,North China Plain,1,1.8221646793436674,120
+2031,6,Northeast_China,Northeast China,0,3.1844939755284587,120
+2031,6,Northeast_China,Northeast China,1,3.085737291330431,120
+2031,7,Northwest_China,Northwest China,0,2.0406057212321294,120
+2031,7,Northwest_China,Northwest China,1,2.206931753602528,120
+2031,8,South_America,South America,0,2.0037947776632796,120
+2031,8,South_America,South America,1,2.0792273440263207,120
+2031,9,South_Asia,South Asia,0,1.7606414737956602,120
+2031,9,South_Asia,South Asia,1,1.7571449680506253,120
+2031,10,Southwest_China,Southwest China,0,2.2416089611169188,120
+2031,10,Southwest_China,Southwest China,1,2.2803171716499477,120
+2031,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.763693749114311,120
+2031,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.817479844284457,120
+2031,12,West_Africa,West Africa,0,1.8075938331282613,120
+2031,12,West_Africa,West Africa,1,1.8198054894926003,120
+2032,1,East_Africa,East Africa,0,1.4146046884772745,120
+2032,1,East_Africa,East Africa,1,1.4033342624725775,120
+2032,2,Europe,Europe,0,2.9457108011498523,120
+2032,2,Europe,Europe,1,3.1109257082038075,120
+2032,3,North_America_Irrigated,North America - Irrigated,0,2.8026260399794607,120
+2032,3,North_America_Irrigated,North America - Irrigated,1,2.9390061747746987,120
+2032,4,North_America_Rainfed,North America - Rainfed,0,2.622255436579872,120
+2032,4,North_America_Rainfed,North America - Rainfed,1,2.8491751714443785,120
+2032,5,North_China_Plain,North China Plain,0,1.6430652824019,120
+2032,5,North_China_Plain,North China Plain,1,1.7755449414734654,120
+2032,6,Northeast_China,Northeast China,0,2.886201969233257,120
+2032,6,Northeast_China,Northeast China,1,2.8992113318268142,120
+2032,7,Northwest_China,Northwest China,0,2.033947415203608,120
+2032,7,Northwest_China,Northwest China,1,2.190868132752776,120
+2032,8,South_America,South America,0,2.007310542360969,120
+2032,8,South_America,South America,1,2.074936150440405,120
+2032,9,South_Asia,South Asia,0,1.7538310226580607,120
+2032,9,South_Asia,South Asia,1,1.7510676541869743,120
+2032,10,Southwest_China,Southwest China,0,2.320968341019764,120
+2032,10,Southwest_China,Southwest China,1,2.3583423631492915,120
+2032,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7522608287954915,120
+2032,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.801116151018209,120
+2032,12,West_Africa,West Africa,0,1.819591477339614,120
+2032,12,West_Africa,West Africa,1,1.8346956792058284,120
+2033,1,East_Africa,East Africa,0,1.3921599711472843,120
+2033,1,East_Africa,East Africa,1,1.3825468882636716,120
+2033,2,Europe,Europe,0,2.9082190777715002,120
+2033,2,Europe,Europe,1,3.091958183197473,120
+2033,3,North_America_Irrigated,North America - Irrigated,0,3.1381880592833946,120
+2033,3,North_America_Irrigated,North America - Irrigated,1,3.3203173179484633,120
+2033,4,North_America_Rainfed,North America - Rainfed,0,3.313204723334149,120
+2033,4,North_America_Rainfed,North America - Rainfed,1,3.4764830589332414,120
+2033,5,North_China_Plain,North China Plain,0,1.712764593394394,120
+2033,5,North_China_Plain,North China Plain,1,1.8594009895590533,120
+2033,6,Northeast_China,Northeast China,0,3.098746912318571,120
+2033,6,Northeast_China,Northeast China,1,3.05927182359586,120
+2033,7,Northwest_China,Northwest China,0,2.1429938781083813,120
+2033,7,Northwest_China,Northwest China,1,2.31439810801621,120
+2033,8,South_America,South America,0,2.0090209462525275,120
+2033,8,South_America,South America,1,2.084769674768965,120
+2033,9,South_Asia,South Asia,0,1.7560993048560212,120
+2033,9,South_Asia,South Asia,1,1.7533833398179985,120
+2033,10,Southwest_China,Southwest China,0,2.3584374521480127,120
+2033,10,Southwest_China,Southwest China,1,2.3997291243610714,120
+2033,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7243483135288917,120
+2033,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7813763915951002,120
+2033,12,West_Africa,West Africa,0,1.8119063989912743,120
+2033,12,West_Africa,West Africa,1,1.8241858747530184,120
+2034,1,East_Africa,East Africa,0,1.3800795946179774,120
+2034,1,East_Africa,East Africa,1,1.376068467883211,120
+2034,2,Europe,Europe,0,2.844398766001775,120
+2034,2,Europe,Europe,1,3.0284695678285045,120
+2034,3,North_America_Irrigated,North America - Irrigated,0,3.4642013049470304,120
+2034,3,North_America_Irrigated,North America - Irrigated,1,3.6564256453376975,120
+2034,4,North_America_Rainfed,North America - Rainfed,0,3.3975666349245497,120
+2034,4,North_America_Rainfed,North America - Rainfed,1,3.550743695937137,120
+2034,5,North_China_Plain,North China Plain,0,1.6862605437647327,120
+2034,5,North_China_Plain,North China Plain,1,1.9312241474589893,120
+2034,6,Northeast_China,Northeast China,0,3.10512669016953,120
+2034,6,Northeast_China,Northeast China,1,3.024295078472643,120
+2034,7,Northwest_China,Northwest China,0,2.171132614933982,120
+2034,7,Northwest_China,Northwest China,1,2.3463451583197577,120
+2034,8,South_America,South America,0,2.0622024312458445,120
+2034,8,South_America,South America,1,2.142304045697262,120
+2034,9,South_Asia,South Asia,0,1.750393904900422,120
+2034,9,South_Asia,South Asia,1,1.7480009774229748,120
+2034,10,Southwest_China,Southwest China,0,2.3662790837624623,120
+2034,10,Southwest_China,Southwest China,1,2.4039197566408452,120
+2034,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7799779480115916,120
+2034,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.8250937652777903,120
+2034,12,West_Africa,West Africa,0,1.809175221129185,120
+2034,12,West_Africa,West Africa,1,1.8217901483447352,120
+2035,1,East_Africa,East Africa,0,1.3950767890962075,120
+2035,1,East_Africa,East Africa,1,1.3875327096251069,120
+2035,2,Europe,Europe,0,2.9004035942626665,120
+2035,2,Europe,Europe,1,3.0934189934393936,120
+2035,3,North_America_Irrigated,North America - Irrigated,0,2.8089653728910386,120
+2035,3,North_America_Irrigated,North America - Irrigated,1,2.9442419119093817,120
+2035,4,North_America_Rainfed,North America - Rainfed,0,2.9531151010912815,120
+2035,4,North_America_Rainfed,North America - Rainfed,1,3.2417470803458635,120
+2035,5,North_China_Plain,North China Plain,0,1.711453852936394,120
+2035,5,North_China_Plain,North China Plain,1,1.8584667858510704,120
+2035,6,Northeast_China,Northeast China,0,3.0507171792318903,120
+2035,6,Northeast_China,Northeast China,1,3.026253906622822,120
+2035,7,Northwest_China,Northwest China,0,2.1356519175609545,120
+2035,7,Northwest_China,Northwest China,1,2.3105190772036206,120
+2035,8,South_America,South America,0,2.0109928862183777,120
+2035,8,South_America,South America,1,2.07504768216533,120
+2035,9,South_Asia,South Asia,0,1.7427982485450157,120
+2035,9,South_Asia,South Asia,1,1.7428314142466537,120
+2035,10,Southwest_China,Southwest China,0,2.3461903509859674,120
+2035,10,Southwest_China,Southwest China,1,2.387255227106608,120
+2035,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7342824464714939,120
+2035,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7824661560636175,120
+2035,12,West_Africa,West Africa,0,1.799947784713301,120
+2035,12,West_Africa,West Africa,1,1.8140658146426918,120
+2036,1,East_Africa,East Africa,0,1.3909688003537162,120
+2036,1,East_Africa,East Africa,1,1.3826394698202011,120
+2036,2,Europe,Europe,0,3.0411554620381684,120
+2036,2,Europe,Europe,1,3.18311508180388,120
+2036,3,North_America_Irrigated,North America - Irrigated,0,2.6630974186329786,120
+2036,3,North_America_Irrigated,North America - Irrigated,1,2.7783270804397935,120
+2036,4,North_America_Rainfed,North America - Rainfed,0,2.8830701137091586,120
+2036,4,North_America_Rainfed,North America - Rainfed,1,3.157043943970357,120
+2036,5,North_China_Plain,North China Plain,0,1.6119519126679247,120
+2036,5,North_China_Plain,North China Plain,1,1.7733656606629093,120
+2036,6,Northeast_China,Northeast China,0,3.1616117394106755,120
+2036,6,Northeast_China,Northeast China,1,3.07841582690347,120
+2036,7,Northwest_China,Northwest China,0,2.1581177859211857,120
+2036,7,Northwest_China,Northwest China,1,2.312500779671768,120
+2036,8,South_America,South America,0,2.0482133475275726,120
+2036,8,South_America,South America,1,2.111638489241641,120
+2036,9,South_Asia,South Asia,0,1.7579320521823893,120
+2036,9,South_Asia,South Asia,1,1.7574983854699662,120
+2036,10,Southwest_China,Southwest China,0,2.3466921287410374,120
+2036,10,Southwest_China,Southwest China,1,2.39591256221013,120
+2036,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.748642965799772,120
+2036,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.8074605053129202,120
+2036,12,West_Africa,West Africa,0,1.806830915483428,120
+2036,12,West_Africa,West Africa,1,1.8183801991201212,120
+2037,1,East_Africa,East Africa,0,1.4182966560746921,120
+2037,1,East_Africa,East Africa,1,1.4084637393798531,120
+2037,2,Europe,Europe,0,2.9222353598826434,120
+2037,2,Europe,Europe,1,3.081134216943153,120
+2037,3,North_America_Irrigated,North America - Irrigated,0,3.0122997619376086,120
+2037,3,North_America_Irrigated,North America - Irrigated,1,3.184437288464122,120
+2037,4,North_America_Rainfed,North America - Rainfed,0,2.691442262730039,120
+2037,4,North_America_Rainfed,North America - Rainfed,1,2.994120013264128,120
+2037,5,North_China_Plain,North China Plain,0,1.6857109022513823,120
+2037,5,North_China_Plain,North China Plain,1,1.8501845193503028,120
+2037,6,Northeast_China,Northeast China,0,3.2007694208246162,120
+2037,6,Northeast_China,Northeast China,1,3.0905234046139336,120
+2037,7,Northwest_China,Northwest China,0,2.1644183774483094,120
+2037,7,Northwest_China,Northwest China,1,2.3302663058640762,120
+2037,8,South_America,South America,0,1.9772712512863162,120
+2037,8,South_America,South America,1,2.04364983046048,120
+2037,9,South_Asia,South Asia,0,1.7495588831044087,120
+2037,9,South_Asia,South Asia,1,1.7435234950674383,120
+2037,10,Southwest_China,Southwest China,0,2.3229067068617653,120
+2037,10,Southwest_China,Southwest China,1,2.352524362491639,120
+2037,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.739101410468785,120
+2037,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.791499302112519,120
+2037,12,West_Africa,West Africa,0,1.811245018560725,120
+2037,12,West_Africa,West Africa,1,1.8264463968721714,120
+2038,1,East_Africa,East Africa,0,1.46352993080193,120
+2038,1,East_Africa,East Africa,1,1.452411681322371,120
+2038,2,Europe,Europe,0,2.8537061898785723,120
+2038,2,Europe,Europe,1,3.042554827446148,120
+2038,3,North_America_Irrigated,North America - Irrigated,0,2.6936551055362337,120
+2038,3,North_America_Irrigated,North America - Irrigated,1,2.809908071958904,120
+2038,4,North_America_Rainfed,North America - Rainfed,0,2.768576987522021,120
+2038,4,North_America_Rainfed,North America - Rainfed,1,3.048607467029763,120
+2038,5,North_China_Plain,North China Plain,0,1.6544837444268206,120
+2038,5,North_China_Plain,North China Plain,1,1.8510078987476675,120
+2038,6,Northeast_China,Northeast China,0,3.3144468533948306,120
+2038,6,Northeast_China,Northeast China,1,3.152819798663857,120
+2038,7,Northwest_China,Northwest China,0,2.0975156118756484,120
+2038,7,Northwest_China,Northwest China,1,2.2567043749568496,120
+2038,8,South_America,South America,0,1.9903112663184634,120
+2038,8,South_America,South America,1,2.059731771792813,120
+2038,9,South_Asia,South Asia,0,1.7487575961843969,120
+2038,9,South_Asia,South Asia,1,1.7484995891615704,120
+2038,10,Southwest_China,Southwest China,0,2.2540086929951286,120
+2038,10,Southwest_China,Southwest China,1,2.2945522487983787,120
+2038,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7109871243060484,120
+2038,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7585309772012518,120
+2038,12,West_Africa,West Africa,0,1.7994555064101636,120
+2038,12,West_Africa,West Africa,1,1.8153994689593729,120
+2039,1,East_Africa,East Africa,0,1.3989523796941152,120
+2039,1,East_Africa,East Africa,1,1.3900241340946078,120
+2039,2,Europe,Europe,0,2.936679119189277,120
+2039,2,Europe,Europe,1,3.1202615719831037,120
+2039,3,North_America_Irrigated,North America - Irrigated,0,2.750406204653829,120
+2039,3,North_America_Irrigated,North America - Irrigated,1,2.8875344829149974,120
+2039,4,North_America_Rainfed,North America - Rainfed,0,2.767469654818684,120
+2039,4,North_America_Rainfed,North America - Rainfed,1,3.0562779998232665,120
+2039,5,North_China_Plain,North China Plain,0,1.7665837231854038,120
+2039,5,North_China_Plain,North China Plain,1,1.9829074742097994,120
+2039,6,Northeast_China,Northeast China,0,3.3954579665758136,120
+2039,6,Northeast_China,Northeast China,1,3.244189747170031,120
+2039,7,Northwest_China,Northwest China,0,2.153642323796845,120
+2039,7,Northwest_China,Northwest China,1,2.300048993580802,120
+2039,8,South_America,South America,0,2.033486060713929,120
+2039,8,South_America,South America,1,2.1070100395832183,120
+2039,9,South_Asia,South Asia,0,1.7489422828976333,120
+2039,9,South_Asia,South Asia,1,1.750394630173571,120
+2039,10,Southwest_China,Southwest China,0,2.3323059992694892,120
+2039,10,Southwest_China,Southwest China,1,2.3754787401632473,120
+2039,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7748834417960984,120
+2039,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.8213798333489404,120
+2039,12,West_Africa,West Africa,0,1.8125520413587823,120
+2039,12,West_Africa,West Africa,1,1.8252565398928207,120
+2040,1,East_Africa,East Africa,0,1.41811450429035,120
+2040,1,East_Africa,East Africa,1,1.4109007732596592,120
+2040,2,Europe,Europe,0,2.922376898236794,120
+2040,2,Europe,Europe,1,3.0720589487928054,120
+2040,3,North_America_Irrigated,North America - Irrigated,0,2.6972533698311345,120
+2040,3,North_America_Irrigated,North America - Irrigated,1,2.819130367250617,120
+2040,4,North_America_Rainfed,North America - Rainfed,0,2.6541235001735695,120
+2040,4,North_America_Rainfed,North America - Rainfed,1,2.960445084076607,120
+2040,5,North_China_Plain,North China Plain,0,1.734151453186957,120
+2040,5,North_China_Plain,North China Plain,1,1.8693317534523421,120
+2040,6,Northeast_China,Northeast China,0,3.1849618916315103,120
+2040,6,Northeast_China,Northeast China,1,3.0762135874077208,120
+2040,7,Northwest_China,Northwest China,0,2.019895996019115,120
+2040,7,Northwest_China,Northwest China,1,2.180263409252916,120
+2040,8,South_America,South America,0,2.0102592145406843,120
+2040,8,South_America,South America,1,2.0827743393008014,120
+2040,9,South_Asia,South Asia,0,1.7308867368661494,120
+2040,9,South_Asia,South Asia,1,1.7273795486551062,120
+2040,10,Southwest_China,Southwest China,0,2.2436952233026295,120
+2040,10,Southwest_China,Southwest China,1,2.2889090959889966,120
+2040,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.707204307456652,120
+2040,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7583450084971952,120
+2040,12,West_Africa,West Africa,0,1.7976863596742834,120
+2040,12,West_Africa,West Africa,1,1.810536469380613,120
+2041,1,East_Africa,East Africa,0,1.4044503322411845,120
+2041,1,East_Africa,East Africa,1,1.398365541505771,120
+2041,2,Europe,Europe,0,2.8758002665042577,120
+2041,2,Europe,Europe,1,3.051080509477555,120
+2041,3,North_America_Irrigated,North America - Irrigated,0,2.7131955595591366,120
+2041,3,North_America_Irrigated,North America - Irrigated,1,2.8370600131147095,120
+2041,4,North_America_Rainfed,North America - Rainfed,0,2.589812932053495,120
+2041,4,North_America_Rainfed,North America - Rainfed,1,2.863304393191175,120
+2041,5,North_China_Plain,North China Plain,0,1.761125323689062,120
+2041,5,North_China_Plain,North China Plain,1,1.9292738617672809,120
+2041,6,Northeast_China,Northeast China,0,3.0325526653568398,120
+2041,6,Northeast_China,Northeast China,1,3.002904508526945,120
+2041,7,Northwest_China,Northwest China,0,2.1030793455636116,120
+2041,7,Northwest_China,Northwest China,1,2.2611705998428606,120
+2041,8,South_America,South America,0,2.0458108016781296,120
+2041,8,South_America,South America,1,2.1215086873896087,120
+2041,9,South_Asia,South Asia,0,1.7400974233957882,120
+2041,9,South_Asia,South Asia,1,1.7413919116245324,120
+2041,10,Southwest_China,Southwest China,0,2.224848536292826,120
+2041,10,Southwest_China,Southwest China,1,2.2692884254458825,120
+2041,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7241989867106797,120
+2041,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7717471285169868,120
+2041,12,West_Africa,West Africa,0,1.8093194267898531,120
+2041,12,West_Africa,West Africa,1,1.8232015959088321,120
+2042,1,East_Africa,East Africa,0,1.413530678814011,120
+2042,1,East_Africa,East Africa,1,1.4071294076314351,120
+2042,2,Europe,Europe,0,2.7586368828043177,120
+2042,2,Europe,Europe,1,2.905525760419998,120
+2042,3,North_America_Irrigated,North America - Irrigated,0,2.644631806931941,120
+2042,3,North_America_Irrigated,North America - Irrigated,1,2.7633831970847167,120
+2042,4,North_America_Rainfed,North America - Rainfed,0,2.577990115494856,120
+2042,4,North_America_Rainfed,North America - Rainfed,1,2.818156283805446,120
+2042,5,North_China_Plain,North China Plain,0,1.6687364750784122,120
+2042,5,North_China_Plain,North China Plain,1,1.8491652176366236,120
+2042,6,Northeast_China,Northeast China,0,3.2943900955201757,120
+2042,6,Northeast_China,Northeast China,1,3.1483523665285977,120
+2042,7,Northwest_China,Northwest China,0,2.0655677669997443,120
+2042,7,Northwest_China,Northwest China,1,2.228960955664329,120
+2042,8,South_America,South America,0,1.9605189059972163,120
+2042,8,South_America,South America,1,2.0304454581420615,120
+2042,9,South_Asia,South Asia,0,1.7358930825499614,120
+2042,9,South_Asia,South Asia,1,1.737446366079611,120
+2042,10,Southwest_China,Southwest China,0,2.211750300311004,120
+2042,10,Southwest_China,Southwest China,1,2.256833259755566,120
+2042,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7010547593712566,120
+2042,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7509174711941355,120
+2042,12,West_Africa,West Africa,0,1.8054090539316654,120
+2042,12,West_Africa,West Africa,1,1.8204864741812052,120
+2043,1,East_Africa,East Africa,0,1.3794313354839263,120
+2043,1,East_Africa,East Africa,1,1.374610885206757,120
+2043,2,Europe,Europe,0,2.873039852936336,120
+2043,2,Europe,Europe,1,3.0307155293134125,120
+2043,3,North_America_Irrigated,North America - Irrigated,0,2.7727517528155996,120
+2043,3,North_America_Irrigated,North America - Irrigated,1,2.9153964502482994,120
+2043,4,North_America_Rainfed,North America - Rainfed,0,2.6183880099891086,120
+2043,4,North_America_Rainfed,North America - Rainfed,1,2.871282191675772,120
+2043,5,North_China_Plain,North China Plain,0,1.6077154255860826,120
+2043,5,North_China_Plain,North China Plain,1,1.7593883208104648,120
+2043,6,Northeast_China,Northeast China,0,3.034453158443199,120
+2043,6,Northeast_China,Northeast China,1,3.054200093838645,120
+2043,7,Northwest_China,Northwest China,0,2.037855530671983,120
+2043,7,Northwest_China,Northwest China,1,2.1951196331088516,120
+2043,8,South_America,South America,0,2.002811601880974,120
+2043,8,South_America,South America,1,2.0729423278692467,120
+2043,9,South_Asia,South Asia,0,1.737495316151017,120
+2043,9,South_Asia,South Asia,1,1.742537304519483,120
+2043,10,Southwest_China,Southwest China,0,2.2574337063403807,120
+2043,10,Southwest_China,Southwest China,1,2.3093012017379637,120
+2043,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7334854939802407,120
+2043,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7790646710804525,120
+2043,12,West_Africa,West Africa,0,1.7894562863492247,120
+2043,12,West_Africa,West Africa,1,1.8032682539126998,120
+2044,1,East_Africa,East Africa,0,1.4105678998807885,120
+2044,1,East_Africa,East Africa,1,1.4028465774161667,120
+2044,2,Europe,Europe,0,2.8762302060407228,120
+2044,2,Europe,Europe,1,3.0239489765035197,120
+2044,3,North_America_Irrigated,North America - Irrigated,0,2.6092666091912413,120
+2044,3,North_America_Irrigated,North America - Irrigated,1,2.7365906569062792,120
+2044,4,North_America_Rainfed,North America - Rainfed,0,2.535109938427583,120
+2044,4,North_America_Rainfed,North America - Rainfed,1,2.773765688670042,120
+2044,5,North_China_Plain,North China Plain,0,1.6576749095670618,120
+2044,5,North_China_Plain,North China Plain,1,1.821386328722438,120
+2044,6,Northeast_China,Northeast China,0,3.052146946296163,120
+2044,6,Northeast_China,Northeast China,1,3.037422020685563,120
+2044,7,Northwest_China,Northwest China,0,2.0814873245610475,120
+2044,7,Northwest_China,Northwest China,1,2.2354909340396647,120
+2044,8,South_America,South America,0,2.000935962305829,120
+2044,8,South_America,South America,1,2.073385674079905,120
+2044,9,South_Asia,South Asia,0,1.7514365272992065,120
+2044,9,South_Asia,South Asia,1,1.7543050483522058,120
+2044,10,Southwest_China,Southwest China,0,2.2420398413819953,120
+2044,10,Southwest_China,Southwest China,1,2.2795560527871235,120
+2044,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7073597564477296,120
+2044,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7600111168543746,120
+2044,12,West_Africa,West Africa,0,1.8081933060750401,120
+2044,12,West_Africa,West Africa,1,1.8211049380786921,120
+2045,1,East_Africa,East Africa,0,1.3966590984766718,120
+2045,1,East_Africa,East Africa,1,1.392190675933223,120
+2045,2,Europe,Europe,0,2.6433712103586453,120
+2045,2,Europe,Europe,1,2.8123268825991605,120
+2045,3,North_America_Irrigated,North America - Irrigated,0,2.6413796625610395,120
+2045,3,North_America_Irrigated,North America - Irrigated,1,2.7581722308269008,120
+2045,4,North_America_Rainfed,North America - Rainfed,0,2.541120086769391,120
+2045,4,North_America_Rainfed,North America - Rainfed,1,2.7553247813954913,120
+2045,5,North_China_Plain,North China Plain,0,1.6653362923717827,120
+2045,5,North_China_Plain,North China Plain,1,1.8353638700366135,120
+2045,6,Northeast_China,Northeast China,0,3.133675402574929,120
+2045,6,Northeast_China,Northeast China,1,3.0742930294628827,120
+2045,7,Northwest_China,Northwest China,0,2.130525965015794,120
+2045,7,Northwest_China,Northwest China,1,2.2969710002334107,120
+2045,8,South_America,South America,0,2.0631229751014013,120
+2045,8,South_America,South America,1,2.1506855289117954,120
+2045,9,South_Asia,South Asia,0,1.7595614459548186,120
+2045,9,South_Asia,South Asia,1,1.7609824674860635,120
+2045,10,Southwest_China,Southwest China,0,2.3299063503607345,120
+2045,10,Southwest_China,Southwest China,1,2.3799439625336927,120
+2045,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.6860149656243477,120
+2045,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7366407656332594,120
+2045,12,West_Africa,West Africa,0,1.792810965190275,120
+2045,12,West_Africa,West Africa,1,1.8039092466338773,120
+2046,1,East_Africa,East Africa,0,1.3920942112541481,120
+2046,1,East_Africa,East Africa,1,1.3867483632200237,120
+2046,2,Europe,Europe,0,2.945460884452955,120
+2046,2,Europe,Europe,1,3.127522592417896,120
+2046,3,North_America_Irrigated,North America - Irrigated,0,2.7405987146363495,120
+2046,3,North_America_Irrigated,North America - Irrigated,1,2.8772329669445194,120
+2046,4,North_America_Rainfed,North America - Rainfed,0,2.8190671261768223,120
+2046,4,North_America_Rainfed,North America - Rainfed,1,3.084839238452025,120
+2046,5,North_China_Plain,North China Plain,0,1.6643738040139056,120
+2046,5,North_China_Plain,North China Plain,1,1.8224608481399747,120
+2046,6,Northeast_China,Northeast China,0,3.1246401662103134,120
+2046,6,Northeast_China,Northeast China,1,3.043412315235786,120
+2046,7,Northwest_China,Northwest China,0,2.0739622949533967,120
+2046,7,Northwest_China,Northwest China,1,2.2403796333133084,120
+2046,8,South_America,South America,0,2.012722568299983,120
+2046,8,South_America,South America,1,2.0841979777181283,120
+2046,9,South_Asia,South Asia,0,1.7322575689038766,120
+2046,9,South_Asia,South Asia,1,1.7341210578197868,120
+2046,10,Southwest_China,Southwest China,0,2.2335907803696324,120
+2046,10,Southwest_China,Southwest China,1,2.2704322088753575,120
+2046,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.6851621195399282,120
+2046,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.733331753977592,120
+2046,12,West_Africa,West Africa,0,1.8027267537378906,120
+2046,12,West_Africa,West Africa,1,1.817380448895031,120
+2047,1,East_Africa,East Africa,0,1.3953225220020569,120
+2047,1,East_Africa,East Africa,1,1.3912314013087559,120
+2047,2,Europe,Europe,0,2.866418861192967,120
+2047,2,Europe,Europe,1,3.0370166750690206,120
+2047,3,North_America_Irrigated,North America - Irrigated,0,2.6029819623257344,120
+2047,3,North_America_Irrigated,North America - Irrigated,1,2.7215373991278566,120
+2047,4,North_America_Rainfed,North America - Rainfed,0,2.4710619567462198,120
+2047,4,North_America_Rainfed,North America - Rainfed,1,2.651187214688604,120
+2047,5,North_China_Plain,North China Plain,0,1.6752350452459126,120
+2047,5,North_China_Plain,North China Plain,1,1.8327426354910035,120
+2047,6,Northeast_China,Northeast China,0,3.09909753350908,120
+2047,6,Northeast_China,Northeast China,1,3.02625589905195,120
+2047,7,Northwest_China,Northwest China,0,2.1133212670380344,120
+2047,7,Northwest_China,Northwest China,1,2.276330736994283,120
+2047,8,South_America,South America,0,1.9707818375572081,120
+2047,8,South_America,South America,1,2.032864387649308,120
+2047,9,South_Asia,South Asia,0,1.7267931438390032,120
+2047,9,South_Asia,South Asia,1,1.730071434549438,120
+2047,10,Southwest_China,Southwest China,0,2.269122341149309,120
+2047,10,Southwest_China,Southwest China,1,2.316105051168515,120
+2047,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.6757848409850151,120
+2047,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7272271925744507,120
+2047,12,West_Africa,West Africa,0,1.7918157782010078,120
+2047,12,West_Africa,West Africa,1,1.8072354785441922,120
+2048,1,East_Africa,East Africa,0,1.3897107515675224,120
+2048,1,East_Africa,East Africa,1,1.386415686556401,120
+2048,2,Europe,Europe,0,2.8193317196767937,120
+2048,2,Europe,Europe,1,3.0315089887785254,120
+2048,3,North_America_Irrigated,North America - Irrigated,0,2.592768915231682,120
+2048,3,North_America_Irrigated,North America - Irrigated,1,2.7118567820953805,120
+2048,4,North_America_Rainfed,North America - Rainfed,0,2.5927961284270395,120
+2048,4,North_America_Rainfed,North America - Rainfed,1,2.815847449479927,120
+2048,5,North_China_Plain,North China Plain,0,1.7678101785095484,120
+2048,5,North_China_Plain,North China Plain,1,1.905685770948602,120
+2048,6,Northeast_China,Northeast China,0,3.0450286852554163,120
+2048,6,Northeast_China,Northeast China,1,2.9976633434329187,120
+2048,7,Northwest_China,Northwest China,0,2.039163441811491,120
+2048,7,Northwest_China,Northwest China,1,2.1804385493007468,120
+2048,8,South_America,South America,0,1.9726967440448746,120
+2048,8,South_America,South America,1,2.035666156407979,120
+2048,9,South_Asia,South Asia,0,1.7321851003781394,120
+2048,9,South_Asia,South Asia,1,1.735822608650456,120
+2048,10,Southwest_China,Southwest China,0,2.1974983199914373,120
+2048,10,Southwest_China,Southwest China,1,2.234822338356733,120
+2048,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.6905520533831107,120
+2048,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.741416613844251,120
+2048,12,West_Africa,West Africa,0,1.7998047737018612,120
+2048,12,West_Africa,West Africa,1,1.813590477628078,120
+2049,1,East_Africa,East Africa,0,1.4290579007043647,120
+2049,1,East_Africa,East Africa,1,1.4216593879864408,120
+2049,2,Europe,Europe,0,2.8390605894549177,120
+2049,2,Europe,Europe,1,3.0058550442183476,120
+2049,3,North_America_Irrigated,North America - Irrigated,0,2.5654572776140325,120
+2049,3,North_America_Irrigated,North America - Irrigated,1,2.6918666406872456,120
+2049,4,North_America_Rainfed,North America - Rainfed,0,2.549798075296412,120
+2049,4,North_America_Rainfed,North America - Rainfed,1,2.765918216453927,120
+2049,5,North_China_Plain,North China Plain,0,1.671409703499748,120
+2049,5,North_China_Plain,North China Plain,1,1.8126006784016795,120
+2049,6,Northeast_China,Northeast China,0,3.282209932118267,120
+2049,6,Northeast_China,Northeast China,1,3.1362557628171768,120
+2049,7,Northwest_China,Northwest China,0,2.109739957216499,120
+2049,7,Northwest_China,Northwest China,1,2.2711688391999756,120
+2049,8,South_America,South America,0,1.9661418324985354,120
+2049,8,South_America,South America,1,2.02821300467157,120
+2049,9,South_Asia,South Asia,0,1.7462009802337461,120
+2049,9,South_Asia,South Asia,1,1.7480177824941339,120
+2049,10,Southwest_China,Southwest China,0,2.2876770666788104,120
+2049,10,Southwest_China,Southwest China,1,2.3306143506138675,120
+2049,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.7307928716628975,120
+2049,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7798873140921616,120
+2049,12,West_Africa,West Africa,0,1.7971454577923516,120
+2049,12,West_Africa,West Africa,1,1.8096248608974719,120
+2050,1,East_Africa,East Africa,0,1.4221341877146463,120
+2050,1,East_Africa,East Africa,1,1.413961257889774,120
+2050,2,Europe,Europe,0,2.8781099050748455,120
+2050,2,Europe,Europe,1,3.050499333555323,120
+2050,3,North_America_Irrigated,North America - Irrigated,0,2.5723655703169968,120
+2050,3,North_America_Irrigated,North America - Irrigated,1,2.6999372318391304,120
+2050,4,North_America_Rainfed,North America - Rainfed,0,2.572766577695189,120
+2050,4,North_America_Rainfed,North America - Rainfed,1,2.773873977497731,120
+2050,5,North_China_Plain,North China Plain,0,1.7861820318323396,120
+2050,5,North_China_Plain,North China Plain,1,1.9319881769396225,120
+2050,6,Northeast_China,Northeast China,0,3.0730761193122644,120
+2050,6,Northeast_China,Northeast China,1,2.996774763223816,120
+2050,7,Northwest_China,Northwest China,0,2.0964493553979358,120
+2050,7,Northwest_China,Northwest China,1,2.2495501742109196,120
+2050,8,South_America,South America,0,1.947815102744447,120
+2050,8,South_America,South America,1,2.0106080992081647,120
+2050,9,South_Asia,South Asia,0,1.7515629740245862,120
+2050,9,South_Asia,South Asia,1,1.7523224026141246,120
+2050,10,Southwest_China,Southwest China,0,2.2789197844827322,120
+2050,10,Southwest_China,Southwest China,1,2.3217981158353043,120
+2050,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,1.6900266001969353,120
+2050,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,1.7464245355209869,120
+2050,12,West_Africa,West Africa,0,1.8083376871539514,120
+2050,12,West_Africa,West Africa,1,1.8235039114706915,120
+2030,1,East_Africa,East Africa,0,2.481584481538748,240
+2030,1,East_Africa,East Africa,1,2.5439137350008094,240
+2030,2,Europe,Europe,0,4.502488194527778,240
+2030,2,Europe,Europe,1,4.85825859390212,240
+2030,3,North_America_Irrigated,North America - Irrigated,0,5.3422224320215115,240
+2030,3,North_America_Irrigated,North America - Irrigated,1,5.614918208847446,240
+2030,4,North_America_Rainfed,North America - Rainfed,0,4.685613473341719,240
+2030,4,North_America_Rainfed,North America - Rainfed,1,5.10480033649992,240
+2030,5,North_China_Plain,North China Plain,0,3.2387159239537873,240
+2030,5,North_China_Plain,North China Plain,1,3.4613739986772227,240
+2030,6,Northeast_China,Northeast China,0,4.566305715891102,240
+2030,6,Northeast_China,Northeast China,1,4.449315887877859,240
+2030,7,Northwest_China,Northwest China,0,3.9953761085490713,240
+2030,7,Northwest_China,Northwest China,1,4.188108377367685,240
+2030,8,South_America,South America,0,3.6160980833242506,240
+2030,8,South_America,South America,1,3.9929420752957103,240
+2030,9,South_Asia,South Asia,0,2.6643315383668047,240
+2030,9,South_Asia,South Asia,1,2.723189723859432,240
+2030,10,Southwest_China,Southwest China,0,3.421242382090104,240
+2030,10,Southwest_China,Southwest China,1,3.5690090674108417,240
+2030,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.7233282184762873,240
+2030,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8725997819512212,240
+2030,12,West_Africa,West Africa,0,2.2848685458909306,240
+2030,12,West_Africa,West Africa,1,2.3392770604496183,240
+2031,1,East_Africa,East Africa,0,2.519393018723028,240
+2031,1,East_Africa,East Africa,1,2.5838346776965717,240
+2031,2,Europe,Europe,0,4.3611709894576105,240
+2031,2,Europe,Europe,1,4.724662355149694,240
+2031,3,North_America_Irrigated,North America - Irrigated,0,5.496586602531273,240
+2031,3,North_America_Irrigated,North America - Irrigated,1,5.796308306260742,240
+2031,4,North_America_Rainfed,North America - Rainfed,0,4.911405395112755,240
+2031,4,North_America_Rainfed,North America - Rainfed,1,5.305940286938789,240
+2031,5,North_China_Plain,North China Plain,0,3.4065016258652925,240
+2031,5,North_China_Plain,North China Plain,1,3.644766942440241,240
+2031,6,Northeast_China,Northeast China,0,4.556196021440271,240
+2031,6,Northeast_China,Northeast China,1,4.428854881197171,240
+2031,7,Northwest_China,Northwest China,0,3.870424175847347,240
+2031,7,Northwest_China,Northwest China,1,4.08414496378684,240
+2031,8,South_America,South America,0,3.6099616601617592,240
+2031,8,South_America,South America,1,3.975918528296277,240
+2031,9,South_Asia,South Asia,0,2.6695650131545525,240
+2031,9,South_Asia,South Asia,1,2.728323809402832,240
+2031,10,Southwest_China,Southwest China,0,3.3905280929511274,240
+2031,10,Southwest_China,Southwest China,1,3.5460628198190083,240
+2031,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.709891838221983,240
+2031,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8591849181184887,240
+2031,12,West_Africa,West Africa,0,2.2854548785293387,240
+2031,12,West_Africa,West Africa,1,2.3412685932513297,240
+2032,1,East_Africa,East Africa,0,2.531277243702248,240
+2032,1,East_Africa,East Africa,1,2.596481273435148,240
+2032,2,Europe,Europe,0,4.297062833373138,240
+2032,2,Europe,Europe,1,4.684495861950665,240
+2032,3,North_America_Irrigated,North America - Irrigated,0,4.849917779632041,240
+2032,3,North_America_Irrigated,North America - Irrigated,1,5.096931797863551,240
+2032,4,North_America_Rainfed,North America - Rainfed,0,4.635933161771076,240
+2032,4,North_America_Rainfed,North America - Rainfed,1,4.969809561143989,240
+2032,5,North_China_Plain,North China Plain,0,3.363713015913812,240
+2032,5,North_China_Plain,North China Plain,1,3.603544660188205,240
+2032,6,Northeast_China,Northeast China,0,4.361908694631117,240
+2032,6,Northeast_China,Northeast China,1,4.353768075017696,240
+2032,7,Northwest_China,Northwest China,0,3.8330883487733587,240
+2032,7,Northwest_China,Northwest China,1,4.04063955902156,240
+2032,8,South_America,South America,0,3.6123279033606313,240
+2032,8,South_America,South America,1,3.9642870062671918,240
+2032,9,South_Asia,South Asia,0,2.6557619689102316,240
+2032,9,South_Asia,South Asia,1,2.7120366357489636,240
+2032,10,Southwest_China,Southwest China,0,3.5133919535030316,240
+2032,10,Southwest_China,Southwest China,1,3.657583963706422,240
+2032,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.7226028377877354,240
+2032,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.881389215955906,240
+2032,12,West_Africa,West Africa,0,2.2812133706368547,240
+2032,12,West_Africa,West Africa,1,2.3401542551414574,240
+2033,1,East_Africa,East Africa,0,2.5136305664587333,240
+2033,1,East_Africa,East Africa,1,2.5771829410359777,240
+2033,2,Europe,Europe,0,4.36525463671803,240
+2033,2,Europe,Europe,1,4.786183612734119,240
+2033,3,North_America_Irrigated,North America - Irrigated,0,5.23090168160089,240
+2033,3,North_America_Irrigated,North America - Irrigated,1,5.498178499855609,240
+2033,4,North_America_Rainfed,North America - Rainfed,0,5.1817485407098385,240
+2033,4,North_America_Rainfed,North America - Rainfed,1,5.547613611416247,240
+2033,5,North_China_Plain,North China Plain,0,3.4688673017494756,240
+2033,5,North_China_Plain,North China Plain,1,3.706422728196457,240
+2033,6,Northeast_China,Northeast China,0,4.496547662221008,240
+2033,6,Northeast_China,Northeast China,1,4.407653756426341,240
+2033,7,Northwest_China,Northwest China,0,3.9157587776884206,240
+2033,7,Northwest_China,Northwest China,1,4.105319281560469,240
+2033,8,South_America,South America,0,3.5776882287284923,240
+2033,8,South_America,South America,1,3.938950912590088,240
+2033,9,South_Asia,South Asia,0,2.6653206557973084,240
+2033,9,South_Asia,South Asia,1,2.723698949928638,240
+2033,10,Southwest_China,Southwest China,0,3.5680940513383526,240
+2033,10,Southwest_China,Southwest China,1,3.7130086934822684,240
+2033,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6497765808389353,240
+2033,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8058591403293685,240
+2033,12,West_Africa,West Africa,0,2.2842315721344786,240
+2033,12,West_Africa,West Africa,1,2.3395688480265857,240
+2034,1,East_Africa,East Africa,0,2.472927801190162,240
+2034,1,East_Africa,East Africa,1,2.537078766721106,240
+2034,2,Europe,Europe,0,4.455519035008652,240
+2034,2,Europe,Europe,1,4.837375498969894,240
+2034,3,North_America_Irrigated,North America - Irrigated,0,5.594605147532176,240
+2034,3,North_America_Irrigated,North America - Irrigated,1,5.8812315783553855,240
+2034,4,North_America_Rainfed,North America - Rainfed,0,5.323772516792744,240
+2034,4,North_America_Rainfed,North America - Rainfed,1,5.647214980851618,240
+2034,5,North_China_Plain,North China Plain,0,3.2080681314090773,240
+2034,5,North_China_Plain,North China Plain,1,3.5097002879632395,240
+2034,6,Northeast_China,Northeast China,0,4.490127090568792,240
+2034,6,Northeast_China,Northeast China,1,4.344089197877243,240
+2034,7,Northwest_China,Northwest China,0,3.882944397475156,240
+2034,7,Northwest_China,Northwest China,1,4.06388650094027,240
+2034,8,South_America,South America,0,3.57660928038376,240
+2034,8,South_America,South America,1,3.96636768830054,240
+2034,9,South_Asia,South Asia,0,2.6442127708001406,240
+2034,9,South_Asia,South Asia,1,2.704017632605285,240
+2034,10,Southwest_China,Southwest China,0,3.546210254236848,240
+2034,10,Southwest_China,Southwest China,1,3.6900993767933175,240
+2034,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.724834412786721,240
+2034,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8766119500322134,240
+2034,12,West_Africa,West Africa,0,2.2897262399648417,240
+2034,12,West_Africa,West Africa,1,2.3458445506463588,240
+2035,1,East_Africa,East Africa,0,2.5036522349688872,240
+2035,1,East_Africa,East Africa,1,2.567063355847376,240
+2035,2,Europe,Europe,0,4.306752821349264,240
+2035,2,Europe,Europe,1,4.739847336078859,240
+2035,3,North_America_Irrigated,North America - Irrigated,0,4.902443678987152,240
+2035,3,North_America_Irrigated,North America - Irrigated,1,5.164974433181657,240
+2035,4,North_America_Rainfed,North America - Rainfed,0,5.00436114259915,240
+2035,4,North_America_Rainfed,North America - Rainfed,1,5.384463046593519,240
+2035,5,North_China_Plain,North China Plain,0,3.4603807537718207,240
+2035,5,North_China_Plain,North China Plain,1,3.697151593917222,240
+2035,6,Northeast_China,Northeast China,0,4.437118631895622,240
+2035,6,Northeast_China,Northeast China,1,4.378740091254993,240
+2035,7,Northwest_China,Northwest China,0,3.8859796979431707,240
+2035,7,Northwest_China,Northwest China,1,4.092983169940963,240
+2035,8,South_America,South America,0,3.6153448866724016,240
+2035,8,South_America,South America,1,3.9640101914332,240
+2035,9,South_Asia,South Asia,0,2.628671217095659,240
+2035,9,South_Asia,South Asia,1,2.690437168970689,240
+2035,10,Southwest_China,Southwest China,0,3.4517715307091184,240
+2035,10,Southwest_China,Southwest China,1,3.6094082647131396,240
+2035,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6964951857124007,240
+2035,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8480037961255142,240
+2035,12,West_Africa,West Africa,0,2.2822645949407923,240
+2035,12,West_Africa,West Africa,1,2.3413973828363894,240
+2036,1,East_Africa,East Africa,0,2.4977001694239407,240
+2036,1,East_Africa,East Africa,1,2.5597294865533478,240
+2036,2,Europe,Europe,0,4.396298050040749,240
+2036,2,Europe,Europe,1,4.759215659375673,240
+2036,3,North_America_Irrigated,North America - Irrigated,0,4.725641414995961,240
+2036,3,North_America_Irrigated,North America - Irrigated,1,4.9744630633359685,240
+2036,4,North_America_Rainfed,North America - Rainfed,0,4.955852002056909,240
+2036,4,North_America_Rainfed,North America - Rainfed,1,5.30562338014101,240
+2036,5,North_China_Plain,North China Plain,0,3.232864139332433,240
+2036,5,North_China_Plain,North China Plain,1,3.437829232134085,240
+2036,6,Northeast_China,Northeast China,0,4.503503940839407,240
+2036,6,Northeast_China,Northeast China,1,4.383659744442422,240
+2036,7,Northwest_China,Northwest China,0,3.923038417811184,240
+2036,7,Northwest_China,Northwest China,1,4.115878661136542,240
+2036,8,South_America,South America,0,3.6635940964754905,240
+2036,8,South_America,South America,1,4.024629832224266,240
+2036,9,South_Asia,South Asia,0,2.6633738087026,240
+2036,9,South_Asia,South Asia,1,2.7240037912245567,240
+2036,10,Southwest_China,Southwest China,0,3.5366239116514153,240
+2036,10,Southwest_China,Southwest China,1,3.691606674842764,240
+2036,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.7085175605152694,240
+2036,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.860698798771364,240
+2036,12,West_Africa,West Africa,0,2.2823620890986516,240
+2036,12,West_Africa,West Africa,1,2.335762785877296,240
+2037,1,East_Africa,East Africa,0,2.5192073341299386,240
+2037,1,East_Africa,East Africa,1,2.5828644357142476,240
+2037,2,Europe,Europe,0,4.376482613986484,240
+2037,2,Europe,Europe,1,4.765669045011509,240
+2037,3,North_America_Irrigated,North America - Irrigated,0,5.085080252484003,240
+2037,3,North_America_Irrigated,North America - Irrigated,1,5.332515931433293,240
+2037,4,North_America_Rainfed,North America - Rainfed,0,4.604435543437075,240
+2037,4,North_America_Rainfed,North America - Rainfed,1,5.048695851002691,240
+2037,5,North_China_Plain,North China Plain,0,3.323300389910183,240
+2037,5,North_China_Plain,North China Plain,1,3.5314466100059603,240
+2037,6,Northeast_China,Northeast China,0,4.573402006217042,240
+2037,6,Northeast_China,Northeast China,1,4.41423473204076,240
+2037,7,Northwest_China,Northwest China,0,3.928131738897954,240
+2037,7,Northwest_China,Northwest China,1,4.108930691411369,240
+2037,8,South_America,South America,0,3.578076716113249,240
+2037,8,South_America,South America,1,3.9300529438792235,240
+2037,9,South_Asia,South Asia,0,2.653182488549489,240
+2037,9,South_Asia,South Asia,1,2.705935426934672,240
+2037,10,Southwest_China,Southwest China,0,3.5338553073905983,240
+2037,10,Southwest_China,Southwest China,1,3.6657847926194425,240
+2037,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.693560268339289,240
+2037,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8489512748233796,240
+2037,12,West_Africa,West Africa,0,2.2746780902171277,240
+2037,12,West_Africa,West Africa,1,2.3346487704180996,240
+2038,1,East_Africa,East Africa,0,2.5497639044292333,240
+2038,1,East_Africa,East Africa,1,2.6161896578391897,240
+2038,2,Europe,Europe,0,4.3314031964239454,240
+2038,2,Europe,Europe,1,4.730616598384348,240
+2038,3,North_America_Irrigated,North America - Irrigated,0,4.736072603143189,240
+2038,3,North_America_Irrigated,North America - Irrigated,1,4.97744435438526,240
+2038,4,North_America_Rainfed,North America - Rainfed,0,4.81952467462261,240
+2038,4,North_America_Rainfed,North America - Rainfed,1,5.17985300142953,240
+2038,5,North_China_Plain,North China Plain,0,3.2428893755313384,240
+2038,5,North_China_Plain,North China Plain,1,3.465340570249051,240
+2038,6,Northeast_China,Northeast China,0,4.654364596648334,240
+2038,6,Northeast_China,Northeast China,1,4.464376860460972,240
+2038,7,Northwest_China,Northwest China,0,3.896487709156524,240
+2038,7,Northwest_China,Northwest China,1,4.08946885762465,240
+2038,8,South_America,South America,0,3.5747521305019037,240
+2038,8,South_America,South America,1,3.9186420729842775,240
+2038,9,South_Asia,South Asia,0,2.6489808217379562,240
+2038,9,South_Asia,South Asia,1,2.7111448357261065,240
+2038,10,Southwest_China,Southwest China,0,3.40608397601276,240
+2038,10,Southwest_China,Southwest China,1,3.5615607731706884,240
+2038,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6623642497869,240
+2038,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8199072804970458,240
+2038,12,West_Africa,West Africa,0,2.2605420015877824,240
+2038,12,West_Africa,West Africa,1,2.322516161934203,240
+2039,1,East_Africa,East Africa,0,2.506879313111224,240
+2039,1,East_Africa,East Africa,1,2.570279262119259,240
+2039,2,Europe,Europe,0,4.397378959224394,240
+2039,2,Europe,Europe,1,4.808699865758584,240
+2039,3,North_America_Irrigated,North America - Irrigated,0,4.853074169788321,240
+2039,3,North_America_Irrigated,North America - Irrigated,1,5.100460209580675,240
+2039,4,North_America_Rainfed,North America - Rainfed,0,4.800198643635793,240
+2039,4,North_America_Rainfed,North America - Rainfed,1,5.1869097429440005,240
+2039,5,North_China_Plain,North China Plain,0,3.154595514060489,240
+2039,5,North_China_Plain,North China Plain,1,3.4228050814065263,240
+2039,6,Northeast_China,Northeast China,0,4.626581112170479,240
+2039,6,Northeast_China,Northeast China,1,4.452158282687913,240
+2039,7,Northwest_China,Northwest China,0,3.813838323065891,240
+2039,7,Northwest_China,Northwest China,1,4.002408352430761,240
+2039,8,South_America,South America,0,3.6025351444687557,240
+2039,8,South_America,South America,1,3.9698243002288063,240
+2039,9,South_Asia,South Asia,0,2.6519783403686827,240
+2039,9,South_Asia,South Asia,1,2.7155175702491743,240
+2039,10,Southwest_China,Southwest China,0,3.48619428889974,240
+2039,10,Southwest_China,Southwest China,1,3.648571252541144,240
+2039,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.751722508369741,240
+2039,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.898749941712567,240
+2039,12,West_Africa,West Africa,0,2.2886440952168767,240
+2039,12,West_Africa,West Africa,1,2.344182640097295,240
+2040,1,East_Africa,East Africa,0,2.5025581240971695,240
+2040,1,East_Africa,East Africa,1,2.5649911598071045,240
+2040,2,Europe,Europe,0,4.43250372298752,240
+2040,2,Europe,Europe,1,4.807968842426896,240
+2040,3,North_America_Irrigated,North America - Irrigated,0,4.7596208944617135,240
+2040,3,North_America_Irrigated,North America - Irrigated,1,4.998590670229907,240
+2040,4,North_America_Rainfed,North America - Rainfed,0,4.56737228958004,240
+2040,4,North_America_Rainfed,North America - Rainfed,1,5.012546774810023,240
+2040,5,North_China_Plain,North China Plain,0,3.5022869480435883,240
+2040,5,North_China_Plain,North China Plain,1,3.750031224003357,240
+2040,6,Northeast_China,Northeast China,0,4.534020371779065,240
+2040,6,Northeast_China,Northeast China,1,4.40595690100415,240
+2040,7,Northwest_China,Northwest China,0,3.840975614794684,240
+2040,7,Northwest_China,Northwest China,1,4.058455024711211,240
+2040,8,South_America,South America,0,3.5945836476910253,240
+2040,8,South_America,South America,1,3.9502748277859876,240
+2040,9,South_Asia,South Asia,0,2.615884947373903,240
+2040,9,South_Asia,South Asia,1,2.6738012999048504,240
+2040,10,Southwest_China,Southwest China,0,3.408389700117829,240
+2040,10,Southwest_China,Southwest China,1,3.555864160511235,240
+2040,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6710748104842024,240
+2040,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.835636330007338,240
+2040,12,West_Africa,West Africa,0,2.287777593922922,240
+2040,12,West_Africa,West Africa,1,2.3441029681615837,240
+2041,1,East_Africa,East Africa,0,2.492836380159496,240
+2041,1,East_Africa,East Africa,1,2.557227151054223,240
+2041,2,Europe,Europe,0,4.362338316266121,240
+2041,2,Europe,Europe,1,4.771144176648675,240
+2041,3,North_America_Irrigated,North America - Irrigated,0,4.757432995486044,240
+2041,3,North_America_Irrigated,North America - Irrigated,1,5.000035410728848,240
+2041,4,North_America_Rainfed,North America - Rainfed,0,4.563655469862652,240
+2041,4,North_America_Rainfed,North America - Rainfed,1,4.937939054503891,240
+2041,5,North_China_Plain,North China Plain,0,3.476090011694665,240
+2041,5,North_China_Plain,North China Plain,1,3.705746370688087,240
+2041,6,Northeast_China,Northeast China,0,4.411930156193638,240
+2041,6,Northeast_China,Northeast China,1,4.348071632748623,240
+2041,7,Northwest_China,Northwest China,0,3.862108248154713,240
+2041,7,Northwest_China,Northwest China,1,4.061298850757184,240
+2041,8,South_America,South America,0,3.6176781820011374,240
+2041,8,South_America,South America,1,3.9942831240218055,240
+2041,9,South_Asia,South Asia,0,2.631159454459346,240
+2041,9,South_Asia,South Asia,1,2.695620484090462,240
+2041,10,Southwest_China,Southwest China,0,3.345849474461578,240
+2041,10,Southwest_China,Southwest China,1,3.505670447036433,240
+2041,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.681015420638797,240
+2041,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8399209444578997,240
+2041,12,West_Africa,West Africa,0,2.2825127476740117,240
+2041,12,West_Africa,West Africa,1,2.3401134514276287,240
+2042,1,East_Africa,East Africa,0,2.5042004759475733,240
+2042,1,East_Africa,East Africa,1,2.5687263745256903,240
+2042,2,Europe,Europe,0,4.316833036208498,240
+2042,2,Europe,Europe,1,4.683608385011059,240
+2042,3,North_America_Irrigated,North America - Irrigated,0,4.676501790883352,240
+2042,3,North_America_Irrigated,North America - Irrigated,1,4.910901423194466,240
+2042,4,North_America_Rainfed,North America - Rainfed,0,4.640075514656971,240
+2042,4,North_America_Rainfed,North America - Rainfed,1,4.979043404544918,240
+2042,5,North_China_Plain,North China Plain,0,3.2729281062467743,240
+2042,5,North_China_Plain,North China Plain,1,3.518473040174487,240
+2042,6,Northeast_China,Northeast China,0,4.619281677565417,240
+2042,6,Northeast_China,Northeast China,1,4.4358910130277645,240
+2042,7,Northwest_China,Northwest China,0,3.8459746047293573,240
+2042,7,Northwest_China,Northwest China,1,4.059261899217246,240
+2042,8,South_America,South America,0,3.548416343067289,240
+2042,8,South_America,South America,1,3.8891128945309896,240
+2042,9,South_Asia,South Asia,0,2.628521633725436,240
+2042,9,South_Asia,South Asia,1,2.693141067654651,240
+2042,10,Southwest_China,Southwest China,0,3.351281053170049,240
+2042,10,Southwest_China,Southwest China,1,3.5131438952368788,240
+2042,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6660760408663586,240
+2042,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8243026329139624,240
+2042,12,West_Africa,West Africa,0,2.2762524945371423,240
+2042,12,West_Africa,West Africa,1,2.336648058837431,240
+2043,1,East_Africa,East Africa,0,2.477976635689057,240
+2043,1,East_Africa,East Africa,1,2.5411886539790918,240
+2043,2,Europe,Europe,0,4.374357180196255,240
+2043,2,Europe,Europe,1,4.762393262901084,240
+2043,3,North_America_Irrigated,North America - Irrigated,0,4.8325308372096405,240
+2043,3,North_America_Irrigated,North America - Irrigated,1,5.084600785558094,240
+2043,4,North_America_Rainfed,North America - Rainfed,0,4.663019884411903,240
+2043,4,North_America_Rainfed,North America - Rainfed,1,4.995269232619257,240
+2043,5,North_China_Plain,North China Plain,0,3.3610340129063285,240
+2043,5,North_China_Plain,North China Plain,1,3.609080355248085,240
+2043,6,Northeast_China,Northeast China,0,4.449670228250632,240
+2043,6,Northeast_China,Northeast China,1,4.428274324474502,240
+2043,7,Northwest_China,Northwest China,0,3.800702366860854,240
+2043,7,Northwest_China,Northwest China,1,4.018076242471639,240
+2043,8,South_America,South America,0,3.6187601468077526,240
+2043,8,South_America,South America,1,3.9763207045141273,240
+2043,9,South_Asia,South Asia,0,2.629840282762381,240
+2043,9,South_Asia,South Asia,1,2.6977687418414824,240
+2043,10,Southwest_China,Southwest China,0,3.4105580837462046,240
+2043,10,Southwest_China,Southwest China,1,3.5846510050781495,240
+2043,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6929022068444093,240
+2043,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.845670221957606,240
+2043,12,West_Africa,West Africa,0,2.282784501256602,240
+2043,12,West_Africa,West Africa,1,2.3420729718605093,240
+2044,1,East_Africa,East Africa,0,2.503747652528668,240
+2044,1,East_Africa,East Africa,1,2.5659050843023286,240
+2044,2,Europe,Europe,0,4.386566717293694,240
+2044,2,Europe,Europe,1,4.763202613298824,240
+2044,3,North_America_Irrigated,North America - Irrigated,0,4.612046038230412,240
+2044,3,North_America_Irrigated,North America - Irrigated,1,4.882924408715731,240
+2044,4,North_America_Rainfed,North America - Rainfed,0,4.540111522081739,240
+2044,4,North_America_Rainfed,North America - Rainfed,1,4.8883215575832955,240
+2044,5,North_China_Plain,North China Plain,0,3.313962895778509,240
+2044,5,North_China_Plain,North China Plain,1,3.5442607821538203,240
+2044,6,Northeast_China,Northeast China,0,4.407681700238277,240
+2044,6,Northeast_China,Northeast China,1,4.357284418386598,240
+2044,7,Northwest_China,Northwest China,0,3.8234998825678286,240
+2044,7,Northwest_China,Northwest China,1,4.039950212641545,240
+2044,8,South_America,South America,0,3.5694288706484745,240
+2044,8,South_America,South America,1,3.9258536927486958,240
+2044,9,South_Asia,South Asia,0,2.6497783596247744,240
+2044,9,South_Asia,South Asia,1,2.714592265474939,240
+2044,10,Southwest_China,Southwest China,0,3.402147079045595,240
+2044,10,Southwest_China,Southwest China,1,3.5480494396763724,240
+2044,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6878166221428454,240
+2044,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8542252244128488,240
+2044,12,West_Africa,West Africa,0,2.2918274135780603,240
+2044,12,West_Africa,West Africa,1,2.3490507843598207,240
+2045,1,East_Africa,East Africa,0,2.483204301529109,240
+2045,1,East_Africa,East Africa,1,2.547233616244437,240
+2045,2,Europe,Europe,0,4.350740778833713,240
+2045,2,Europe,Europe,1,4.688815656053855,240
+2045,3,North_America_Irrigated,North America - Irrigated,0,4.682691362501211,240
+2045,3,North_America_Irrigated,North America - Irrigated,1,4.936835368845674,240
+2045,4,North_America_Rainfed,North America - Rainfed,0,4.606878809581785,240
+2045,4,North_America_Rainfed,North America - Rainfed,1,4.917102040729108,240
+2045,5,North_China_Plain,North China Plain,0,3.2733780046413967,240
+2045,5,North_China_Plain,North China Plain,1,3.4808148696765153,240
+2045,6,Northeast_China,Northeast China,0,4.5004998667031755,240
+2045,6,Northeast_China,Northeast China,1,4.395247672293458,240
+2045,7,Northwest_China,Northwest China,0,3.879909411670008,240
+2045,7,Northwest_China,Northwest China,1,4.0776378776200595,240
+2045,8,South_America,South America,0,3.56848459699036,240
+2045,8,South_America,South America,1,3.960650794361748,240
+2045,9,South_Asia,South Asia,0,2.6559955479722905,240
+2045,9,South_Asia,South Asia,1,2.720145606709341,240
+2045,10,Southwest_China,Southwest China,0,3.471330219536604,240
+2045,10,Southwest_China,Southwest China,1,3.6411816233651457,240
+2045,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.646408686670001,240
+2045,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.80968330390212,240
+2045,12,West_Africa,West Africa,0,2.286303366462707,240
+2045,12,West_Africa,West Africa,1,2.3395806646780426,240
+2046,1,East_Africa,East Africa,0,2.490493757788543,240
+2046,1,East_Africa,East Africa,1,2.554859418703851,240
+2046,2,Europe,Europe,0,4.364829625422641,240
+2046,2,Europe,Europe,1,4.7778516723949105,240
+2046,3,North_America_Irrigated,North America - Irrigated,0,4.7702284399954005,240
+2046,3,North_America_Irrigated,North America - Irrigated,1,5.002066300504052,240
+2046,4,North_America_Rainfed,North America - Rainfed,0,4.889939172505862,240
+2046,4,North_America_Rainfed,North America - Rainfed,1,5.23251057362519,240
+2046,5,North_China_Plain,North China Plain,0,3.3209953129679732,240
+2046,5,North_China_Plain,North China Plain,1,3.541931616402521,240
+2046,6,Northeast_China,Northeast China,0,4.483700817885203,240
+2046,6,Northeast_China,Northeast China,1,4.3613524270749995,240
+2046,7,Northwest_China,Northwest China,0,3.82824731745891,240
+2046,7,Northwest_China,Northwest China,1,4.047363327947858,240
+2046,8,South_America,South America,0,3.5884992437281866,240
+2046,8,South_America,South America,1,3.942496483947399,240
+2046,9,South_Asia,South Asia,0,2.607422857435396,240
+2046,9,South_Asia,South Asia,1,2.6703641109004566,240
+2046,10,Southwest_China,Southwest China,0,3.353025171258974,240
+2046,10,Southwest_China,Southwest China,1,3.501223126051503,240
+2046,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6607077483102914,240
+2046,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.819452692736326,240
+2046,12,West_Africa,West Africa,0,2.280906752484877,240
+2046,12,West_Africa,West Africa,1,2.3405064049268236,240
+2047,1,East_Africa,East Africa,0,2.4840804117038537,240
+2047,1,East_Africa,East Africa,1,2.5489448136225286,240
+2047,2,Europe,Europe,0,4.455339068231337,240
+2047,2,Europe,Europe,1,4.833203222870878,240
+2047,3,North_America_Irrigated,North America - Irrigated,0,4.609637574774335,240
+2047,3,North_America_Irrigated,North America - Irrigated,1,4.87447509376034,240
+2047,4,North_America_Rainfed,North America - Rainfed,0,4.482630325971177,240
+2047,4,North_America_Rainfed,North America - Rainfed,1,4.783197629399623,240
+2047,5,North_China_Plain,North China Plain,0,3.3488606747718013,240
+2047,5,North_China_Plain,North China Plain,1,3.562909621658557,240
+2047,6,Northeast_China,Northeast China,0,4.443502207683713,240
+2047,6,Northeast_China,Northeast China,1,4.324818598593653,240
+2047,7,Northwest_China,Northwest China,0,3.858411735538481,240
+2047,7,Northwest_China,Northwest China,1,4.060076073126038,240
+2047,8,South_America,South America,0,3.569022251881001,240
+2047,8,South_America,South America,1,3.905397920932776,240
+2047,9,South_Asia,South Asia,0,2.600927138027662,240
+2047,9,South_Asia,South Asia,1,2.665885966071877,240
+2047,10,Southwest_China,Southwest China,0,3.397134775165024,240
+2047,10,Southwest_China,Southwest China,1,3.5709143943300177,240
+2047,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.64693916658255,240
+2047,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8121651851643117,240
+2047,12,West_Africa,West Africa,0,2.2753010365633455,240
+2047,12,West_Africa,West Africa,1,2.3369142237263425,240
+2048,1,East_Africa,East Africa,0,2.4733929278705884,240
+2048,1,East_Africa,East Africa,1,2.5378659213776413,240
+2048,2,Europe,Europe,0,4.3617300135889545,240
+2048,2,Europe,Europe,1,4.7849135086281676,240
+2048,3,North_America_Irrigated,North America - Irrigated,0,4.63262846719762,240
+2048,3,North_America_Irrigated,North America - Irrigated,1,4.901328591988775,240
+2048,4,North_America_Rainfed,North America - Rainfed,0,4.622018210897142,240
+2048,4,North_America_Rainfed,North America - Rainfed,1,4.935687086995294,240
+2048,5,North_China_Plain,North China Plain,0,3.5499264948569094,240
+2048,5,North_China_Plain,North China Plain,1,3.8125348793354954,240
+2048,6,Northeast_China,Northeast China,0,4.376300417989584,240
+2048,6,Northeast_China,Northeast China,1,4.309127849097488,240
+2048,7,Northwest_China,Northwest China,0,3.8542113280525587,240
+2048,7,Northwest_China,Northwest China,1,4.084626178580744,240
+2048,8,South_America,South America,0,3.562164014468567,240
+2048,8,South_America,South America,1,3.903158272783889,240
+2048,9,South_Asia,South Asia,0,2.615571839490538,240
+2048,9,South_Asia,South Asia,1,2.6806795672295447,240
+2048,10,Southwest_China,Southwest China,0,3.3081940865928496,240
+2048,10,Southwest_China,Southwest China,1,3.4547237615049777,240
+2048,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6554087077184585,240
+2048,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8195891740864623,240
+2048,12,West_Africa,West Africa,0,2.2811031638156076,240
+2048,12,West_Africa,West Africa,1,2.3389150629796926,240
+2049,1,East_Africa,East Africa,0,2.503856331974286,240
+2049,1,East_Africa,East Africa,1,2.567071327549623,240
+2049,2,Europe,Europe,0,4.350278227498994,240
+2049,2,Europe,Europe,1,4.744564022903204,240
+2049,3,North_America_Irrigated,North America - Irrigated,0,4.558456699434834,240
+2049,3,North_America_Irrigated,North America - Irrigated,1,4.815946728310401,240
+2049,4,North_America_Rainfed,North America - Rainfed,0,4.58559843189269,240
+2049,4,North_America_Rainfed,North America - Rainfed,1,4.905504807112451,240
+2049,5,North_China_Plain,North China Plain,0,3.40032486081183,240
+2049,5,North_China_Plain,North China Plain,1,3.647641103706391,240
+2049,6,Northeast_China,Northeast China,0,4.6459080839234375,240
+2049,6,Northeast_China,Northeast China,1,4.4628650081916845,240
+2049,7,Northwest_China,Northwest China,0,3.841667249383166,240
+2049,7,Northwest_China,Northwest China,1,4.045745510706742,240
+2049,8,South_America,South America,0,3.569595865396704,240
+2049,8,South_America,South America,1,3.910574044400846,240
+2049,9,South_Asia,South Asia,0,2.6410730250602525,240
+2049,9,South_Asia,South Asia,1,2.7066000801529015,240
+2049,10,Southwest_China,Southwest China,0,3.442289768492974,240
+2049,10,Southwest_China,Southwest China,1,3.6039865776722877,240
+2049,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.681768670811686,240
+2049,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8367789710758515,240
+2049,12,West_Africa,West Africa,0,2.293830995462718,240
+2049,12,West_Africa,West Africa,1,2.3496212092728586,240
+2050,1,East_Africa,East Africa,0,2.5074020520900557,240
+2050,1,East_Africa,East Africa,1,2.571443496008369,240
+2050,2,Europe,Europe,0,4.328769290352492,240
+2050,2,Europe,Europe,1,4.733426672825359,240
+2050,3,North_America_Irrigated,North America - Irrigated,0,4.64339165451273,240
+2050,3,North_America_Irrigated,North America - Irrigated,1,4.914668770718326,240
+2050,4,North_America_Rainfed,North America - Rainfed,0,4.61596536812157,240
+2050,4,North_America_Rainfed,North America - Rainfed,1,4.93211308697442,240
+2050,5,North_China_Plain,North China Plain,0,3.572568974126325,240
+2050,5,North_China_Plain,North China Plain,1,3.834731930145338,240
+2050,6,Northeast_China,Northeast China,0,4.44442132007203,240
+2050,6,Northeast_China,Northeast China,1,4.328273823257677,240
+2050,7,Northwest_China,Northwest China,0,3.7853581923351465,240
+2050,7,Northwest_China,Northwest China,1,3.997767211984674,240
+2050,8,South_America,South America,0,3.5119034721946294,240
+2050,8,South_America,South America,1,3.848839085258839,240
+2050,9,South_Asia,South Asia,0,2.6461903184902793,240
+2050,9,South_Asia,South Asia,1,2.710114197788889,240
+2050,10,Southwest_China,Southwest China,0,3.45585019489993,240
+2050,10,Southwest_China,Southwest China,1,3.6075639814578127,240
+2050,11,West_Asia_North_Africa,West Asia - North Africa (WANA),0,2.6709068786107215,240
+2050,11,West_Asia_North_Africa,West Asia - North Africa (WANA),1,2.8416032042391812,240
+2050,12,West_Africa,West Africa,0,2.276942803834374,240
+2050,12,West_Africa,West Africa,1,2.3360688104293894,240

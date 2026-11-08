@@ -2,9 +2,9 @@
 
 [English README](README.md)
 
-本仓库保存论文的数据与分析代码。目前包含 **Figure1–Figure4 及已归档的对应补充分析**。仓库保持私有，编辑和审稿人的访问需另行安排。
+本仓库保存论文的数据与分析代码。目前包含 **Figure1–Figure4、Extended Data Figure3 及已归档的对应补充分析**。仓库保持私有，编辑和审稿人的访问需另行安排。
 
-根目录仅保留两份 README 和 `Figure1/`、`Figure2/`、`Figure3/`、`Figure4/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
+根目录仅保留两份 README 和 `Figure1/`、`Figure2/`、`Figure3/`、`Figure4/`、`Extended_Data_Figure3/` 主体目录。代码、数据与分图保持原始归档版本；本地 `manuscripts/` 原件未修改。
 
 ## 目录
 
@@ -17,6 +17,7 @@
 - [Figure2 文件与运行命令](#figure2)
 - [Figure3 文件与运行命令](#figure3)
 - [Figure4 文件与运行命令](#figure4)
+- [Extended Data Figure3](#extended-data-figure3)
 - [数据来源与使用条件](#数据来源与使用条件)
 
 ## 环境与安装
@@ -316,3 +317,40 @@ python Figure4/APSIM_inputs/ERA5_hourly/scripts/download_era5_land_hourly.py --o
 ```
 
 基线分箱需要外部 `<xSite>_2010_2025_hourly_utc.csv` 文件，本仓库未收录。下载使用 CDS ERA5-Land timeseries，需使用者自行配置凭据、接受数据条款，并安装 `requests`、`xarray`、`h5netcdf`、`h5py`、`cdsapi` 等依赖；数据量较大。本次归档未下载天气或运行 APSIM。查阅现成结果无需这些外部输入。
+
+<a id="extended-data-figure3"></a>
+
+## Extended Data Figure3
+
+`Extended_Data_Figure3/` 为精简版归档，共 229 个文件、约 194.5 MiB。保留完整扩展图 PDF 与代码、五波段平均 EDH30 栅格、固定参数工作簿、RF 训练输入/折分/调参/验证结果及模型、SHAP 数值与绘图输入、96 份年度 NPZ、30 份时期平均产量栅格、区域结果和补充图 PDF。数据 TIFF、NPZ 属于数值输入输出，不能作为重复图片排除。
+
+98 份上游气候/土壤/玉米面积源栅格及 576 份年度产量 TIFF 仅本地保留；重复 PNG/SVG/图件 TIFF、纯核验代码与报告、子目录 README、表格组装脚本和根目录重复验证图未收录。验证图保留 `RF_model/figures/` 版本。六份 JSON 提供运行配置、变量顺序、方法参数或必需校验信息，继续保留；其中本地绝对来源路径已改为外部文件标识。
+
+| 位置 | 内容 |
+| --- | --- |
+| `RF_model/` | 精确的 6,040 行训练表及 17 个预测变量、原始训练输入、折分/调参/验证表、`rf_model.joblib`、训练/预测/验证绘图代码与 PDF。模型保存版本为 scikit-learn 1.8.0。 |
+| `RF_model/SHAP/` | 完整 SHAP、重要性和预测分解、计算代码、RCS/直方图结果、绘图代码及 PDF；解释训练集上的拟合模型，不等于 OOF 或因果效应。 |
+| `prediction/` | 96 份 NPZ、共享参数和掩膜、30 份时期均值、区域输出、预测/准备/汇总代码。 |
+| `Extended_Data_Figure3_a-e/` | 年均 EDH30 栅格、地图代码、必要配置及 PDF。 |
+| `Extended_Data_Figure3_f-g/` | 区域氮肥增产热图代码与 PDF。 |
+| `Supplementary_Figures/` | 基于现成时期均值的历史产量及氮肥增产地图。 |
+
+历史为 2011–2022 年，未来为 SSP2-4.5/SSP5-8.5 的 2030–2050、2070–2090 年。历史 ERA5-Land 小时累计与未来 ACCESS-CM2 日温正弦估算沿用不同方法；未来输入仍为暂定状态，完整性检查不代表外推可靠性验证。地图采用 35,267 个共同支持格点，区域增产表则保留各包自身支持域；这些结果不覆盖全部全球玉米面积。
+
+从仓库根目录运行：
+
+```text
+python Extended_Data_Figure3/assemble_Extended_Data_Figure3.py
+python Extended_Data_Figure3/Extended_Data_Figure3_f-g/plot_yield_heatmaps.py
+python Extended_Data_Figure3/Supplementary_Figures/plot_supplementary.py
+python Extended_Data_Figure3/RF_model/plot_validation.py
+python Extended_Data_Figure3/RF_model/SHAP/scripts/plot_extended_shap.py
+python Extended_Data_Figure3/prediction/summarize_outputs.py
+python Extended_Data_Figure3/prediction/run_prediction.py --package historical_2011_2022
+```
+
+绘图可能覆盖派生输出，请在独立副本运行。最后两条命令默认仅检查已收录文件及预测输入，不训练或执行 RF 推断。批量推断需显式加 `--execute --output-dir <new_external_package_directory>`，未来情景还需 `--accept-provisional-climate`；包名及参数见 `--help`。现成 NPZ 与模型可重新生成年度预测，不依赖未上传的源气候栅格。
+
+基于外部年度预测重建时期汇总时，使用 `summarize_outputs.py --annual-root <external_root>`，文件应位于 `<external_root>/<package>/outputs/`。重建 NPZ 或共享土壤输入时，准备脚本要求 `--source-dir <external_sources_directory>`，目录布局应对应 `prediction/manifest.json` 的 `external_source_files`；这些上游文件不在仓库内。GEE 导出代码需将 `YOUR_MAIZE_ASSET_ID` 换为自己有权限访问的资产，不包含原资产 ID 或凭据。
+
+Python 依赖包括 numpy、pandas、scipy、scikit-learn、joblib、matplotlib、geopandas、shapely、pyproj、rasterio、statsmodels、patsy；完整 SHAP 重算另需 shap（归档方法版本 0.52.0）。图件使用 Arial，空间边界复用 `Figure2/Figure2a/`。本次整理未训练 RF、重算 SHAP、批量预测或导出气候数据。

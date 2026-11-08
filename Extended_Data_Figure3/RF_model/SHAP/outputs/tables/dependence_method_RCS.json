@@ -1,0 +1,329 @@
+{
+  "family": "Gaussian",
+  "link": "identity",
+  "knot_quantiles": [
+    0.05,
+    0.275,
+    0.5,
+    0.725,
+    0.95
+  ],
+  "duplicate_knots": "Removed; no sample removal",
+  "covariance": "cluster robust by reference_ID",
+  "interval": "Pointwise 95% confidence interval for the mean trend",
+  "panels": [
+    {
+      "feature": "N_rate",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        0.0,
+        56.0,
+        135.0,
+        202.0,
+        315.2500000000009
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        3.3306690738754696e-16,
+        4.440892098500626e-16
+      ]
+    },
+    {
+      "feature": "annual_DD10_30_C_d",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        1250.90120775,
+        1722.407308,
+        2228.031933,
+        2751.330645,
+        4494.814673
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        8.881784197001252e-16,
+        1.27675647831893e-15
+      ]
+    },
+    {
+      "feature": "annual_EDH30_C_h",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        0.33013,
+        123.72555,
+        427.245075,
+        1164.50203,
+        3986.38547
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        1.7763568394002505e-15,
+        1.3322676295501878e-15
+      ]
+    },
+    {
+      "feature": "annual_precip_mm",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        289.825659555,
+        599.1365436,
+        762.4313748,
+        980.2172693,
+        1491.973614
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        4.440892098500626e-16,
+        1.3322676295501878e-15
+      ]
+    },
+    {
+      "feature": "SOC",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        4.6,
+        8.10324826,
+        12.153,
+        17.986224999999994,
+        30.7424594
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        7.771561172376096e-16,
+        2.220446049250313e-16
+      ]
+    },
+    {
+      "feature": "soil_total_N",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        0.5,
+        0.930000007,
+        1.330000043,
+        1.940000057,
+        3.210000038
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        3.3306690738754696e-16,
+        2.220446049250313e-16
+      ]
+    },
+    {
+      "feature": "soil_pH",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        5.3,
+        6.199999809,
+        6.8,
+        7.9,
+        8.4
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        4.440892098500626e-16,
+        4.3298697960381105e-15
+      ]
+    },
+    {
+      "feature": "irrigated",
+      "method": "Binary category means",
+      "knots": [],
+      "design_columns": 2,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": []
+    },
+    {
+      "feature": "growing_season_GDD_fraction",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        0.3468778207165097,
+        0.6145858641146815,
+        0.7670583898552124,
+        0.8772891879920146,
+        0.950777201353068
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        4.440892098500626e-16,
+        4.440892098500626e-15
+      ]
+    },
+    {
+      "feature": "growing_season_EDH30_fraction",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        0.0,
+        0.7843756573335411,
+        0.9898644725111176,
+        1.0
+      ],
+      "design_columns": 4,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        6.661338147750939e-16,
+        2.1316282072803006e-14
+      ]
+    },
+    {
+      "feature": "growing_season_precip_fraction",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        0.2542175836408062,
+        0.4767060670858397,
+        0.5693917800695499,
+        0.6727674076168927,
+        0.8266844825044863
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        4.440892098500626e-16,
+        1.887379141862766e-15
+      ]
+    },
+    {
+      "feature": "EDH30_0_40_growing_season_fraction",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        0.0,
+        0.115192841,
+        0.286692873,
+        0.544111057,
+        0.905175013
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        2.220446049250313e-15,
+        6.661338147750939e-16
+      ]
+    },
+    {
+      "feature": "EDH30_40_70_growing_season_fraction",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        0.0,
+        0.213289243,
+        0.372115339,
+        0.538892186,
+        0.904368219
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        4.163336342344337e-16,
+        3.3306690738754696e-16
+      ]
+    },
+    {
+      "feature": "EDH30_70_100_growing_season_fraction",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        0.0,
+        0.010107982,
+        0.08950321,
+        0.274380307,
+        0.767057193
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        7.105427357601002e-15,
+        7.771561172376096e-16
+      ]
+    },
+    {
+      "feature": "Exp_year",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        1999.0,
+        2007.0,
+        2013.0,
+        2017.0,
+        2020.0
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        6.328271240363392e-14,
+        1.0302869668521453e-13
+      ]
+    },
+    {
+      "feature": "log_gdp_pc_ppp_prior3",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        8.333746738197885,
+        9.479535915327096,
+        9.786685584553087,
+        10.906267404961246,
+        11.084998653457328
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        8.881784197001252e-16,
+        8.881784197001252e-16
+      ]
+    },
+    {
+      "feature": "plant_density",
+      "method": "Gaussian GLM restricted cubic spline (natural cubic basis)",
+      "knots": [
+        5.0,
+        6.1,
+        7.4,
+        8.0,
+        9.4
+      ],
+      "design_columns": 5,
+      "n": 6040,
+      "clusters": 281,
+      "converged": true,
+      "tail_basis_second_difference": [
+        1.5543122344752192e-15,
+        2.55351295663786e-15
+      ]
+    }
+  ]
+}

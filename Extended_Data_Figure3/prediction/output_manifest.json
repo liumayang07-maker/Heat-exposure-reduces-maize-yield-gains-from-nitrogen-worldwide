@@ -1,0 +1,375 @@
+{
+  "stage": "RF prediction outputs and summaries",
+  "model": "../RF_model/rf_model.joblib",
+  "model_sha256": "b59b89fb541cae13d01de5a913051b96b0365c46c12fe020ee6cd3fd4961c586",
+  "input_manifest_sha256": "469ae3abe13dac6eca73ca39806aa7e147de50569d04721329c647041cbc76dd",
+  "files": [
+    {
+      "path": "historical_2011_2022/summary/mean_yield_2011_2022_N0_irrigated.tif",
+      "source": "external/mean_yield_2011_2022_N0_irrigated.tif",
+      "sha256": "c92eff31096df78cdfcc2fba9897e84e122ce207176842a4d0203311643cce42",
+      "bytes": 160071
+    },
+    {
+      "path": "historical_2011_2022/summary/mean_yield_2011_2022_N0_rainfed.tif",
+      "source": "external/mean_yield_2011_2022_N0_rainfed.tif",
+      "sha256": "dd5a33ec0774e4d76bec54c83afbc390026ad77a086071dadab3a15ff6fa65a7",
+      "bytes": 160027
+    },
+    {
+      "path": "historical_2011_2022/summary/mean_yield_2011_2022_N120_irrigated.tif",
+      "source": "external/mean_yield_2011_2022_N120_irrigated.tif",
+      "sha256": "e9d5477cd6d2a33e3ea1a90d982d6ebec436bd70829f4a03e8b915be06a44095",
+      "bytes": 160201
+    },
+    {
+      "path": "historical_2011_2022/summary/mean_yield_2011_2022_N120_rainfed.tif",
+      "source": "external/mean_yield_2011_2022_N120_rainfed.tif",
+      "sha256": "af35c8c6da47ee038b1009df8f6f6a4b859513dbbc56a030cd904321c45c9ab3",
+      "bytes": 160183
+    },
+    {
+      "path": "historical_2011_2022/summary/mean_yield_2011_2022_N240_irrigated.tif",
+      "source": "external/mean_yield_2011_2022_N240_irrigated.tif",
+      "sha256": "3bdfc0e6771271074e8078608fcf99e8f97c0c7df0353213c7353542b5b9a293",
+      "bytes": 159317
+    },
+    {
+      "path": "historical_2011_2022/summary/mean_yield_2011_2022_N240_rainfed.tif",
+      "source": "external/mean_yield_2011_2022_N240_rainfed.tif",
+      "sha256": "0bb648688bc8be826f897ce3c4cdf9ace17ae0879d072b988092a2fba872c142",
+      "bytes": 159503
+    },
+    {
+      "path": "historical_2011_2022/tables/regional_annual_yield.csv",
+      "source": "external/regional_annual_yield.csv",
+      "sha256": "5a9c29b82b0ef53967e20393f46df899abde8c7dcb8b35f6299b3fa0e5050ac8",
+      "bytes": 173819
+    },
+    {
+      "path": "historical_2011_2022/tables/regional_mean_yield.csv",
+      "source": "external/regional_mean_yield_2011_2022.csv",
+      "sha256": "0e641f29613e3a31fae58c11fd161f29ac501f9a719f7134c24603a535656472",
+      "bytes": 8528
+    },
+    {
+      "path": "historical_2011_2022/tables/regional_annual_N_gain.csv",
+      "derived_from": "historical_2011_2022/tables/regional_annual_yield.csv",
+      "sha256": "c53740fcadd92743ba78f8dc34b0d02471f32105f950a900dc4f9971f6a9888a",
+      "bytes": 37865
+    },
+    {
+      "path": "ssp245_2030_2050/summary/mean_yield_2030_2050_N0_irrigated.tif",
+      "source": "external/mean_yield_2030_2050_N0_irrigated.tif",
+      "sha256": "a8a8a55512629b1cbcc11a8d79df96d2b69d45341439b1a29e53bb967135f67a",
+      "bytes": 150521
+    },
+    {
+      "path": "ssp245_2030_2050/summary/mean_yield_2030_2050_N0_rainfed.tif",
+      "source": "external/mean_yield_2030_2050_N0_rainfed.tif",
+      "sha256": "b36d6f32e714c188e8350d8afc5d4a96b5c2c5c1fe54f12a0deedfe1b7f00481",
+      "bytes": 150533
+    },
+    {
+      "path": "ssp245_2030_2050/summary/mean_yield_2030_2050_N120_irrigated.tif",
+      "source": "external/mean_yield_2030_2050_N120_irrigated.tif",
+      "sha256": "5b50808347a24047daadcd44aa20c8e51d0e888c48af55f860bc5cf46a43a418",
+      "bytes": 151135
+    },
+    {
+      "path": "ssp245_2030_2050/summary/mean_yield_2030_2050_N120_rainfed.tif",
+      "source": "external/mean_yield_2030_2050_N120_rainfed.tif",
+      "sha256": "20ef1fcd3e4c95e7ec813075651efddaf7405f32854bdf3239440c25314f4d1c",
+      "bytes": 151071
+    },
+    {
+      "path": "ssp245_2030_2050/summary/mean_yield_2030_2050_N240_irrigated.tif",
+      "source": "external/mean_yield_2030_2050_N240_irrigated.tif",
+      "sha256": "f8febb8e7986d336df1c7a4e2767a936ac7e3f426cba332547056bf8a54bcfbe",
+      "bytes": 150335
+    },
+    {
+      "path": "ssp245_2030_2050/summary/mean_yield_2030_2050_N240_rainfed.tif",
+      "source": "external/mean_yield_2030_2050_N240_rainfed.tif",
+      "sha256": "733d6a65fa7588debee527b7849d463937040fff269f978a6b607220e06fa530",
+      "bytes": 150855
+    },
+    {
+      "path": "ssp245_2030_2050/tables/regional_annual_yield.csv",
+      "source": "external/regional_annual_yield.csv",
+      "sha256": "8f1b8202df0cc37a79b97e09f4e2d2a775c8bab800463c8b2de8c1c2d9acd409",
+      "bytes": 317931
+    },
+    {
+      "path": "ssp245_2030_2050/tables/regional_mean_yield.csv",
+      "source": "external/regional_mean_yield_2030_2050.csv",
+      "sha256": "82917552bdebc99dedae045babfb5ef465ae86d11309bce47c2d6a4fc4b450f1",
+      "bytes": 7569
+    },
+    {
+      "path": "ssp245_2030_2050/tables/regional_annual_N_gain.csv",
+      "derived_from": "ssp245_2030_2050/tables/regional_annual_yield.csv",
+      "sha256": "f6d59d2fb5ce5116993e9da531c99bd1edccd950426cff3646998d636a16dae1",
+      "bytes": 66237
+    },
+    {
+      "path": "ssp245_2070_2090/summary/mean_yield_2070_2090_N0_irrigated.tif",
+      "source": "external/mean_yield_2070_2090_N0_irrigated.tif",
+      "sha256": "bab707e6536f676a91c6d68fcfd67993b9f14ac719ccc7d34602a9f87e376174",
+      "bytes": 150263
+    },
+    {
+      "path": "ssp245_2070_2090/summary/mean_yield_2070_2090_N0_rainfed.tif",
+      "source": "external/mean_yield_2070_2090_N0_rainfed.tif",
+      "sha256": "91b4e34219ad1b755ee81e0ecb37c6155c57dd43f7bb6386b5f7f2f9b8508130",
+      "bytes": 150289
+    },
+    {
+      "path": "ssp245_2070_2090/summary/mean_yield_2070_2090_N120_irrigated.tif",
+      "source": "external/mean_yield_2070_2090_N120_irrigated.tif",
+      "sha256": "59202edda452541b4ef3e2035b3e8eb3350756260fbf836d14b4537062b95839",
+      "bytes": 151157
+    },
+    {
+      "path": "ssp245_2070_2090/summary/mean_yield_2070_2090_N120_rainfed.tif",
+      "source": "external/mean_yield_2070_2090_N120_rainfed.tif",
+      "sha256": "7a80de27fec1b133050709f49ab2560bd15107582e901ea43515d387b1ee7247",
+      "bytes": 151131
+    },
+    {
+      "path": "ssp245_2070_2090/summary/mean_yield_2070_2090_N240_irrigated.tif",
+      "source": "external/mean_yield_2070_2090_N240_irrigated.tif",
+      "sha256": "114cf26a1e2908c5943b98db743dc6b165eef2bd99ffbe09dac551ebeba6aa01",
+      "bytes": 150053
+    },
+    {
+      "path": "ssp245_2070_2090/summary/mean_yield_2070_2090_N240_rainfed.tif",
+      "source": "external/mean_yield_2070_2090_N240_rainfed.tif",
+      "sha256": "dfabb323d92992536d236a1e6b89876fa24b4ea6f78f2db153e42f2ac2c00209",
+      "bytes": 150597
+    },
+    {
+      "path": "ssp245_2070_2090/tables/regional_annual_yield.csv",
+      "source": "external/regional_annual_yield.csv",
+      "sha256": "d0285642872edca57aacbd4ec45d8d3ef2716055919f22d6a4303843dcb5ea4a",
+      "bytes": 318110
+    },
+    {
+      "path": "ssp245_2070_2090/tables/regional_mean_yield.csv",
+      "source": "external/regional_mean_yield_2070_2090.csv",
+      "sha256": "2774fcbda55701ccb11a5434d14edbffa561ea84216ec91a2d1ebbfaaf4ead78",
+      "bytes": 7490
+    },
+    {
+      "path": "ssp245_2070_2090/tables/regional_annual_N_gain.csv",
+      "derived_from": "ssp245_2070_2090/tables/regional_annual_yield.csv",
+      "sha256": "1ed35d89a6776c844103cde4a9f0275339ea5c6b62366e0c4c5eabbb143f3662",
+      "bytes": 66270
+    },
+    {
+      "path": "ssp585_2030_2050/summary/mean_yield_2030_2050_N0_irrigated.tif",
+      "source": "external/mean_yield_2030_2050_N0_irrigated.tif",
+      "sha256": "31425a48f33e7beb8d0df439e15ef90fc37b0eeb02de2646f310b8521149a279",
+      "bytes": 150465
+    },
+    {
+      "path": "ssp585_2030_2050/summary/mean_yield_2030_2050_N0_rainfed.tif",
+      "source": "external/mean_yield_2030_2050_N0_rainfed.tif",
+      "sha256": "df9f71c5193e7b4c2c7f00cd1a268eac75b3fd8e2579611eb109125973809709",
+      "bytes": 150553
+    },
+    {
+      "path": "ssp585_2030_2050/summary/mean_yield_2030_2050_N120_irrigated.tif",
+      "source": "external/mean_yield_2030_2050_N120_irrigated.tif",
+      "sha256": "cba0b58752f844abfe93297fcbf74b088a7e093886661834b5757d24d1b22aa3",
+      "bytes": 151053
+    },
+    {
+      "path": "ssp585_2030_2050/summary/mean_yield_2030_2050_N120_rainfed.tif",
+      "source": "external/mean_yield_2030_2050_N120_rainfed.tif",
+      "sha256": "250ad5d44aa9aa5aec53e61cbcfa6abd25c87ad7b59d36bfec5e896240b6d316",
+      "bytes": 151087
+    },
+    {
+      "path": "ssp585_2030_2050/summary/mean_yield_2030_2050_N240_irrigated.tif",
+      "source": "external/mean_yield_2030_2050_N240_irrigated.tif",
+      "sha256": "42af4d79d69f599325213441b1232fbfdef6e86eca7a58157dcc8696ce49ac4e",
+      "bytes": 150277
+    },
+    {
+      "path": "ssp585_2030_2050/summary/mean_yield_2030_2050_N240_rainfed.tif",
+      "source": "external/mean_yield_2030_2050_N240_rainfed.tif",
+      "sha256": "e36bdedb289a399ecae809ef003b3011fd44bdf77d20813fe42058d6ee2d5e43",
+      "bytes": 150809
+    },
+    {
+      "path": "ssp585_2030_2050/tables/regional_annual_yield.csv",
+      "source": "external/regional_annual_yield.csv",
+      "sha256": "a8c56f9d11097c3dae5d0cfe71eb1c4d4039dcc07a1b86576bee4fdcb46ec131",
+      "bytes": 317818
+    },
+    {
+      "path": "ssp585_2030_2050/tables/regional_mean_yield.csv",
+      "source": "external/regional_mean_yield_2030_2050.csv",
+      "sha256": "6cc0e116d23565ce98601396944d728953c101156dc93fa763f8ec367962acee",
+      "bytes": 7453
+    },
+    {
+      "path": "ssp585_2030_2050/tables/regional_annual_N_gain.csv",
+      "derived_from": "ssp585_2030_2050/tables/regional_annual_yield.csv",
+      "sha256": "26ffa42820bd0bdb30152d0830ea860aad24ff4ac3bc566f1efc4a630d3eb99e",
+      "bytes": 66230
+    },
+    {
+      "path": "ssp585_2070_2090/summary/mean_yield_2070_2090_N0_irrigated.tif",
+      "source": "external/mean_yield_2070_2090_N0_irrigated.tif",
+      "sha256": "a481ef4a28eb2ff0f569a121288bd140010ef7d61c9b70019239793d45799aa7",
+      "bytes": 150023
+    },
+    {
+      "path": "ssp585_2070_2090/summary/mean_yield_2070_2090_N0_rainfed.tif",
+      "source": "external/mean_yield_2070_2090_N0_rainfed.tif",
+      "sha256": "466deca524b5de458b4d496a6471dc78be2676ae1ce04e2bcbeda129905291cd",
+      "bytes": 149995
+    },
+    {
+      "path": "ssp585_2070_2090/summary/mean_yield_2070_2090_N120_irrigated.tif",
+      "source": "external/mean_yield_2070_2090_N120_irrigated.tif",
+      "sha256": "a1527ea236418b1b97e429a66ec10be183136990d69356dd64da8bf37def643f",
+      "bytes": 151165
+    },
+    {
+      "path": "ssp585_2070_2090/summary/mean_yield_2070_2090_N120_rainfed.tif",
+      "source": "external/mean_yield_2070_2090_N120_rainfed.tif",
+      "sha256": "0311f60801b73d8d9387ff1a1226dc72e74a1c83121a8c7a3d60a75ef0b736ab",
+      "bytes": 151159
+    },
+    {
+      "path": "ssp585_2070_2090/summary/mean_yield_2070_2090_N240_irrigated.tif",
+      "source": "external/mean_yield_2070_2090_N240_irrigated.tif",
+      "sha256": "a86ebe9e61eda4bf40e84fe39b9bd3deaac2d5fe0d2ad86589bda52b2add48f3",
+      "bytes": 150223
+    },
+    {
+      "path": "ssp585_2070_2090/summary/mean_yield_2070_2090_N240_rainfed.tif",
+      "source": "external/mean_yield_2070_2090_N240_rainfed.tif",
+      "sha256": "ec2e239f694e806c7b96220c767a91acafd4b9cfb74bfc07c8a100a808108682",
+      "bytes": 150709
+    },
+    {
+      "path": "ssp585_2070_2090/tables/regional_annual_yield.csv",
+      "source": "external/regional_annual_yield.csv",
+      "sha256": "0e226a912590de4392be87a38cd8e2c4df3950943468a60fcf0bc68417e3deac",
+      "bytes": 317926
+    },
+    {
+      "path": "ssp585_2070_2090/tables/regional_mean_yield.csv",
+      "source": "external/regional_mean_yield_2070_2090.csv",
+      "sha256": "84c218c1ae5f8a405318beca5c724c3d5baae112e37d5e6034be8ef48a39a0ea",
+      "bytes": 7553
+    },
+    {
+      "path": "ssp585_2070_2090/tables/regional_annual_N_gain.csv",
+      "derived_from": "ssp585_2070_2090/tables/regional_annual_yield.csv",
+      "sha256": "d6df28d72919d3d51621c169031c826ba3bde11d63e54c53f7adde6ba10d51f3",
+      "bytes": 66255
+    },
+    {
+      "path": "summary/regional_N_gain_source.csv",
+      "source": "external/regional_N_gain_source.csv",
+      "sha256": "17baca68887b1bb086a39b94877107d57dc9a5aa461b5a714fe1c2cfeeee7579",
+      "bytes": 19842
+    }
+  ],
+  "model_inference_executed": true,
+  "annual_rasters": 576,
+  "period_mean_rasters": 30,
+  "regional_annual_rows": 6912,
+  "heatmap_rows": 240,
+  "source_status": "Future predictions retain provisional climate limitations",
+  "full_prediction_executed": false,
+  "inference_scope": "Verification only: 360 sampled pixel-management combinations; no full-package prediction",
+  "verification": {
+    "status": "PASS_OUTPUT_AND_SUMMARY_INTEGRITY",
+    "annual_rasters_checked": 576,
+    "period_mean_rasters_reconstructed_exactly": 30,
+    "annual_regional_rows_checked": 6912,
+    "annual_N_gain_rows": 4608,
+    "heatmap_rows_recalculated": 240,
+    "maximum_raster_vs_float64_regional_mean_difference": 3.816283111746088e-08,
+    "regional_yield_tolerance_Mg_ha": 1e-05,
+    "summary_tolerance_Mg_ha": 1e-12,
+    "sampled_pixel_management_predictions": 360,
+    "sampled_predictions_float32_match": "exact equality",
+    "dry_run_packages": 5,
+    "CLI_guards_checked": 4,
+    "full_prediction_executed": false
+  },
+  "code_origins": {
+    "Figure4_v3/RF_prediction_v7/global_prediction_p50_n0_100_200/run.py": "f33472e16c57980a06fc8a97cfe3da9894e34d3327ba7abba6d38aa0f1d4d223",
+    "Figure4_v3/RF_prediction_v7/global_prediction/run.py": "fe8388f7f46362a5135f8351b6c3f922f9cef9bb18a38d90abcaef121556c28e",
+    "Figure4_v3/future_climate_cmip6/run_filtered_prediction.py": "650e9e51776762ccedae1942476ce5d8159355f5ce2a51c9d1748546783a7c91",
+    "Figure4_v3/future_climate_cmip6/rf_inputs_filtered8000_fixed2020/ssp245_2030_2050/summarize_plot.py": "88590269fd07f7203fd48e8772f729b0f7db49d9799df08e139246f0a777d5b2",
+    "Figure4_v3/Figure4_main/scripts/plot_main.py": "7010cf106a64ed1b9e0f4ec91a37c899f78a86e36e884feda34d29bce9486e88"
+  },
+  "source_run_manifests": {
+    "historical_2011_2022": {
+      "path": "Figure4_v3\\RF_prediction_v7\\global_prediction_p50_n0_100_200\\prediction_manifest.json",
+      "sha256": "95d7575896a21a090332d75ee854d63765eaeb055260c9133bb8f60f96f912f9",
+      "status": "PASS"
+    },
+    "ssp245_2030_2050": {
+      "path": "Figure4_v3\\future_climate_cmip6\\rf_inputs_filtered8000_fixed2020\\ssp245_2030_2050\\outputs\\prediction_manifest.json",
+      "sha256": "1fe89a6b776b024516866ec131d04edb2020832775663379e8a8ad5f22000868",
+      "status": "PASS_TRIAL_PREDICTION",
+      "limitations": [
+        "Rain >8000 or prior exclusions removed; z3.5 advisory only; remaining extremes not certified",
+        "Daily sine heat not calibrated against hourly ERA5; single climate model",
+        "Univariate range flags retained, not automatic exclusions or joint applicability clearance",
+        "Periods have different support; period comparison requires a further common-grid intersection",
+        "Historical grid and weights differ; no direct climate-attributed subtraction"
+      ]
+    },
+    "ssp245_2070_2090": {
+      "path": "Figure4_v3\\future_climate_cmip6\\rf_inputs_filtered8000_fixed2020\\ssp245_2070_2090\\outputs\\prediction_manifest.json",
+      "sha256": "340d5c85e5430f52826b9785ad2ce4714c2210641063e9a4542419316555afc0",
+      "status": "PASS_TRIAL_PREDICTION",
+      "limitations": [
+        "Rain >8000 or prior exclusions removed; z3.5 advisory only; remaining extremes not certified",
+        "Daily sine heat not calibrated against hourly ERA5; single climate model",
+        "Univariate range flags retained, not automatic exclusions or joint applicability clearance",
+        "Periods have different support; period comparison requires a further common-grid intersection",
+        "Historical grid and weights differ; no direct climate-attributed subtraction"
+      ]
+    },
+    "ssp585_2030_2050": {
+      "path": "Figure4_v3\\future_climate_cmip6\\rf_inputs_filtered8000_fixed2020\\ssp585_2030_2050\\outputs\\prediction_manifest.json",
+      "sha256": "118560294d01e68a666d8efc35c26af8abb2b17782b8686937a0a33d3f47838d",
+      "status": "PASS_TRIAL_PREDICTION",
+      "limitations": [
+        "Rain >8000 or prior exclusions removed; z3.5 advisory only; remaining extremes not certified",
+        "Daily sine heat not calibrated against hourly ERA5; single climate model",
+        "Univariate range flags retained, not automatic exclusions or joint applicability clearance",
+        "Periods have different support; period comparison requires a further common-grid intersection",
+        "Historical grid and weights differ; no direct climate-attributed subtraction"
+      ]
+    },
+    "ssp585_2070_2090": {
+      "path": "Figure4_v3\\future_climate_cmip6\\rf_inputs_filtered8000_fixed2020\\ssp585_2070_2090\\outputs\\prediction_manifest.json",
+      "sha256": "7037537aa193742df1b4cab73d1a4e282d7e0308f850994fda310c50d39a434e",
+      "status": "PASS_TRIAL_PREDICTION",
+      "limitations": [
+        "Rain >8000 or prior exclusions removed; z3.5 advisory only; remaining extremes not certified",
+        "Daily sine heat not calibrated against hourly ERA5; single climate model",
+        "Univariate range flags retained, not automatic exclusions or joint applicability clearance",
+        "Periods have different support; period comparison requires a further common-grid intersection",
+        "Historical grid and weights differ; no direct climate-attributed subtraction"
+      ]
+    }
+  },
+  "code_sha256": {
+    "run_prediction.py": "34075a4f72cd6aff802f882d2a296c41e57cf3b739e2dabf7cb2c8473ce601da",
+    "summarize_outputs.py": "8b308d20bea20430eff61af0232fc212ed310e13d859ae7c98d269ccec7eab67"
+  },
+  "archive_scope": "Annual raster outputs omitted; period means and regional tables retained. Original run counts describe the source analysis."
+}

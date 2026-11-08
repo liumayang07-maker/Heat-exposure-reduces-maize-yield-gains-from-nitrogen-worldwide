@@ -1,0 +1,132 @@
+{
+  "source_sha256": "28d6a402e10f2b4415a79c19bfe06eaa82c86c7c8632475d638123898cb0640b",
+  "gdp_source_sha256": "9aa98b6d33e8c5ef3edc63581568754b085ce588940bc271ef251724b0368fff",
+  "model_sha256": "b59b89fb541cae13d01de5a913051b96b0365c46c12fe020ee6cd3fd4961c586",
+  "features": [
+    "N_rate",
+    "annual_DD10_30_C_d",
+    "annual_EDH30_C_h",
+    "annual_precip_mm",
+    "SOC",
+    "soil_total_N",
+    "soil_pH",
+    "irrigated",
+    "growing_season_GDD_fraction",
+    "growing_season_EDH30_fraction",
+    "growing_season_precip_fraction",
+    "EDH30_0_40_growing_season_fraction",
+    "EDH30_40_70_growing_season_fraction",
+    "EDH30_70_100_growing_season_fraction",
+    "Exp_year",
+    "log_gdp_pc_ppp_prior3",
+    "plant_density"
+  ],
+  "parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": null,
+    "max_features": 4,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 500,
+    "n_jobs": 8,
+    "oob_score": false,
+    "random_state": 20260914,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "grid": {
+    "n_estimators": [
+      250,
+      500
+    ],
+    "max_features": [
+      4,
+      8,
+      12,
+      17
+    ],
+    "min_samples_leaf": [
+      2,
+      4,
+      8
+    ],
+    "max_depth": [
+      12,
+      null
+    ]
+  },
+  "rows": 6040,
+  "studies": 281,
+  "validation_components": 222,
+  "countries": 30,
+  "experiment_year_range": [
+    1990,
+    2022
+  ],
+  "gdp_boundary_filled_rows": 28,
+  "plant_density_range": [
+    3.2,
+    13.5
+  ],
+  "plant_density_filled_source_rows": 483,
+  "overall": {
+    "n": 6040,
+    "R2": 0.49170096870766533,
+    "RMSE": 2.498426354943622,
+    "MAE": 1.924490050855104,
+    "bias": 0.08611475971245053
+  },
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "parameter_combinations": 48,
+  "seed": 20260914,
+  "sklearn": "1.8.0",
+  "seconds": 445.9497628211975,
+  "evaluation_scope": "Nested grouped development validation using preserved outer folds; temporal and country holdouts are fixed-parameter transfer diagnostics, not independent external validation",
+  "main_model": "All 6040 valid arms; 17 predictors; equal weights; no response-quantile trimming; disjoint within-growing-season heat composition fractions.",
+  "training_csv": "tables/training_arms_v7.csv",
+  "gdp_source": "data/world_bank_gdp.csv",
+  "original_training_table_sha256": "76fefbe8a868d60892ee37059d08199b6442bae3bdbfdb9920ef2cde6ee099c9",
+  "training_csv_sha256": "a8df930ad5f82f801f5d4317ad7467d99642a38e24a2f6caf9aa5516105c2e07",
+  "prepared_source_sha256": "88714a0c801feb2f7636bf2562394461aae7063e0b48fd8bf6c4e1ba4b5aefb6",
+  "current_master_sha256": "8eedc7a779e88822d5b0225b16230ed05f7d68b1208bd22c6f65d09d73a55a30",
+  "original_model_source": "Figure4_v3/RF_prediction_v7",
+  "archive_note": "Existing fitted model and predictions preserved; input table projected onto required columns without refitting.",
+  "input_files": {
+    "data/country_iso3.csv": "2920e8028066d03b14ebf1342d11f76a11a1f1d4ab7b616763719725f7f4a08a",
+    "data/environment_EDH30_100bins.csv": "4df9fb76005b7061afe8df4358683016d2cad65c08cdf4ab59b6b771bcb3ee66",
+    "data/training_source.csv": "88714a0c801feb2f7636bf2562394461aae7063e0b48fd8bf6c4e1ba4b5aefb6",
+    "data/world_bank_gdp.csv": "9aa98b6d33e8c5ef3edc63581568754b085ce588940bc271ef251724b0368fff"
+  },
+  "source_rows": 4613,
+  "source_columns": 28,
+  "training_columns": 29,
+  "rebuild_note": "Stage fractions recalculated from all 100 relative-GDD bins; preserve archived training precision for exact fitted-model input.",
+  "verification_runtime": {
+    "pandas": "2.3.3",
+    "numpy": "2.4.4",
+    "joblib": "1.5.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "statsmodels": "0.14.6"
+  },
+  "archive_verification": {
+    "status": "PASS",
+    "source_rows": 4613,
+    "training_rows": 6040,
+    "environment_bin_rows": 85600,
+    "training_feature_values_unchanged": true,
+    "model_bytes_unchanged": true,
+    "validation_png_bytes_unchanged": true,
+    "maximum_rebuild_stage_fraction_difference": 4.991723701053274e-10,
+    "RF_refitted": false,
+    "full_training_entrypoint_executed": false
+  }
+}

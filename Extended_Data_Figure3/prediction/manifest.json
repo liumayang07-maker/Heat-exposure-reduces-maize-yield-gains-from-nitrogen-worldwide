@@ -1,0 +1,1404 @@
+{
+  "stage": "Climate and RF prediction inputs",
+  "packages": [
+    {
+      "name": "historical_2011_2022",
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "rows": 40456
+    },
+    {
+      "name": "ssp245_2030_2050",
+      "years": [
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2044,
+        2045,
+        2046,
+        2047,
+        2048,
+        2049,
+        2050
+      ],
+      "rows": 38054
+    },
+    {
+      "name": "ssp245_2070_2090",
+      "years": [
+        2070,
+        2071,
+        2072,
+        2073,
+        2074,
+        2075,
+        2076,
+        2077,
+        2078,
+        2079,
+        2080,
+        2081,
+        2082,
+        2083,
+        2084,
+        2085,
+        2086,
+        2087,
+        2088,
+        2089,
+        2090
+      ],
+      "rows": 38123
+    },
+    {
+      "name": "ssp585_2030_2050",
+      "years": [
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2044,
+        2045,
+        2046,
+        2047,
+        2048,
+        2049,
+        2050
+      ],
+      "rows": 38054
+    },
+    {
+      "name": "ssp585_2070_2090",
+      "years": [
+        2070,
+        2071,
+        2072,
+        2073,
+        2074,
+        2075,
+        2076,
+        2077,
+        2078,
+        2079,
+        2080,
+        2081,
+        2082,
+        2083,
+        2084,
+        2085,
+        2086,
+        2087,
+        2088,
+        2089,
+        2090
+      ],
+      "rows": 38123
+    }
+  ],
+  "model": "../RF_model/rf_model.joblib",
+  "regions": "../../Figure2/Figure2a/study_regions.geojson",
+  "files": [
+    {
+      "path": "shared/static_soil_0p25.tif",
+      "source": "external/static_soil_0p25.tif",
+      "sha256": "661b35ffca6c4ea1246517d88225d43ba1328966d36146d066b01bb82b30dc5a",
+      "bytes": 598490
+    },
+    {
+      "path": "shared/country_codes.csv",
+      "source": "external/country_code_lookup_v7.csv",
+      "sha256": "805deb09f2434d0a7ceb7c991517e04af2523db3c002f0d924ceb5d219b711e5",
+      "bytes": 3241
+    },
+    {
+      "path": "shared/country_year_parameters.csv",
+      "source": "external/country_year_parameters_v7.csv",
+      "sha256": "09ab3df4243577a78883121fdcfe4077644da2bf1ca6f101d322a87b0de5e53b",
+      "bytes": 139482
+    },
+    {
+      "path": "shared/management_scenarios.csv",
+      "source": "external/management_scenarios_p50_n0_100_200.csv",
+      "sha256": "0b610922c4d05f8d95e0b6ad3b33f206e8bc713988fd7f381f29877c7744e1cc",
+      "bytes": 217
+    },
+    {
+      "path": "shared/density_settings.csv",
+      "source": "external/regional_parameters_historical_and_ssp245.csv",
+      "sha256": "ec14bc4f3d820b642501f1faf78e28aef31bd33cd1483d7936bab81c8b0c29bc",
+      "bytes": 6598
+    },
+    {
+      "path": "shared/historical_target_grid.csv",
+      "source": "external/target_grid_audit_v7.csv",
+      "sha256": "74d5bc7a6d7379e277d7611ac724530a5edad51640b954084b3c66dd73979663",
+      "bytes": 2870018
+    },
+    {
+      "path": "shared/future_target_grid.csv",
+      "source": "external/target_grid_audit.csv",
+      "sha256": "6439b8d239036073943c28e5e742e94fa52df14ede24f2301589ef673a577176",
+      "bytes": 3877533
+    },
+    {
+      "path": "shared/regional_parameters_historical.csv",
+      "source": "external/regional_parameters_actual_p50.csv",
+      "source_sha256": "ab2f1b0a0f64b3e8a8302f1e95a1934f0c208fcba249391a38d2d2dcedfc8a76",
+      "sha256": "807e9be1779062b116447119c85c4e62a20ebba0b9bdd25ea8951c40b68b9d50",
+      "columns": [
+        "region_code",
+        "region_id",
+        "region_name",
+        "plant_density",
+        "growing_season_GDD_fraction",
+        "growing_season_EDH30_fraction",
+        "growing_season_precip_fraction",
+        "EDH30_0_40_growing_season_fraction",
+        "EDH30_40_70_growing_season_fraction",
+        "EDH30_70_100_growing_season_fraction"
+      ],
+      "bytes": 1975
+    },
+    {
+      "path": "shared/regional_parameters_future.csv",
+      "source": "external/regional_parameters_2020.csv",
+      "source_sha256": "f6b0993fbb8b005e88f8035c162a0c14264fafff840181ade3699a419354a68c",
+      "sha256": "16bd5e0b9775a579060abcc9c2e932029ad790a0b6635072a85307368a99ab0e",
+      "columns": [
+        "region_code",
+        "region_id",
+        "region_name",
+        "plant_density",
+        "growing_season_GDD_fraction",
+        "growing_season_EDH30_fraction",
+        "growing_season_precip_fraction",
+        "EDH30_0_40_growing_season_fraction",
+        "EDH30_40_70_growing_season_fraction",
+        "EDH30_70_100_growing_season_fraction"
+      ],
+      "bytes": 1973
+    },
+    {
+      "path": "shared/prior_exclusions_ssp245.csv",
+      "source": "external/excluded_pixel_years.csv",
+      "sha256": "ac79e95e6edc2bb2a65ba07fd64a77021aebfa9beffdf891ce3ff00d6e349848",
+      "bytes": 58886
+    },
+    {
+      "path": "shared/prior_exclusions_ssp585.csv",
+      "source": "external/excluded_pixel_years.csv",
+      "sha256": "378bdfaa9dff1593557a4b56d5dbeb7043b721444dcc469e45aad29684fc04d0",
+      "bytes": 55406
+    },
+    {
+      "path": "shared/additional_exclusions_ssp245.csv",
+      "source": "external/additional_exclusions.csv",
+      "sha256": "f69748b25beaefd3e6a91fcf5e220357f463cdc4fe14c30f9361dad56157235d",
+      "bytes": 1034
+    },
+    {
+      "path": "shared/environment_timing_fractions.csv",
+      "source": "external/meta_data_v2.csv",
+      "source_sha256": "8eedc7a779e88822d5b0225b16230ed05f7d68b1208bd22c6f65d09d73a55a30",
+      "sha256": "b9c70c7d2aba5ceb3dbf1f9dbe80589dbcfdd49655e738a912e66e9c1b3e77cb",
+      "bytes": 57541,
+      "columns": [
+        "env_ID",
+        "EDH30_0_40_growing_season_fraction",
+        "EDH30_40_70_growing_season_fraction",
+        "EDH30_70_100_growing_season_fraction"
+      ]
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2011_median_P50.npz",
+      "source": "external/inputs_2011_median_P50.npz",
+      "sha256": "d76b8ea7686e1fae6c90d6b2b65e6a700a9e9850b14ba2d0e34f210f4c94c55c",
+      "bytes": 1686483
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2012_median_P50.npz",
+      "source": "external/inputs_2012_median_P50.npz",
+      "sha256": "3a89bf574d845dd8b40583c3b3996fbb25fe13e58f048b476ddc813f5d61e969",
+      "bytes": 1688587
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2013_median_P50.npz",
+      "source": "external/inputs_2013_median_P50.npz",
+      "sha256": "4cc03ced71acfb64174155524a49d939fec054f5d3dd50941cdcb820667e0d26",
+      "bytes": 1684377
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2014_median_P50.npz",
+      "source": "external/inputs_2014_median_P50.npz",
+      "sha256": "a203cc3a8e3d860906cc622511475ec2b4d34ecd7eafb1dbb02ae3af80ad3c41",
+      "bytes": 1686155
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2015_median_P50.npz",
+      "source": "external/inputs_2015_median_P50.npz",
+      "sha256": "d4146d576e0cd1a31afc5b7bc278689778e3790b082018b41b2509246bb71b7c",
+      "bytes": 1688921
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2016_median_P50.npz",
+      "source": "external/inputs_2016_median_P50.npz",
+      "sha256": "83b2cbe73c0efeb3caf7ca34a1d6e89a7ee4b83b02484a315450e101eeb4930f",
+      "bytes": 1687723
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2017_median_P50.npz",
+      "source": "external/inputs_2017_median_P50.npz",
+      "sha256": "938606c55a0995a386ff2a434032a45f5e8bdbabc070cac32b5fe771d322c8e0",
+      "bytes": 1684995
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2018_median_P50.npz",
+      "source": "external/inputs_2018_median_P50.npz",
+      "sha256": "2fa0e3e73ead78006bdde4f6bfa57747138b5ceb2e059c169e19354f64f175be",
+      "bytes": 1689595
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2019_median_P50.npz",
+      "source": "external/inputs_2019_median_P50.npz",
+      "sha256": "28abd8da9f71d88178b7d892df9a0890daa31048a0102a72e49cd7fe1b534806",
+      "bytes": 1688636
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2020_median_P50.npz",
+      "source": "external/inputs_2020_median_P50.npz",
+      "sha256": "cbbd15be56392d63fd4e554f252c9a861412a4c783e2c6345603f8021090cd4b",
+      "bytes": 1689115
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2021_median_P50.npz",
+      "source": "external/inputs_2021_median_P50.npz",
+      "sha256": "e32450a4082a4d2259c62ffca7c37ff61ed01eb61a47f237942fcc0bc0ffb084",
+      "bytes": 1688531
+    },
+    {
+      "path": "historical_2011_2022/data/inputs_2022_median_P50.npz",
+      "source": "external/inputs_2022_median_P50.npz",
+      "sha256": "738fbbbedc20b7c7107a2ba30bf24443d870f7116db8b9cfbe613a3358b9f64f",
+      "bytes": 1687834
+    },
+    {
+      "path": "historical_2011_2022/tables/prediction_grid.csv",
+      "source": "external/prediction_grid_v7.csv",
+      "sha256": "8a01146687c4225ac746f58cb62387a026d010b518e4b60fc44af1f546369259",
+      "bytes": 2626577
+    },
+    {
+      "path": "historical_2011_2022/data/prediction_region_mask.tif",
+      "source": "external/prediction_region_mask_v7.tif",
+      "sha256": "022ecc2f87872907fbd07a18d5577ba0ad69c8dd41494c1ea4dc2d21441d1945",
+      "bytes": 11502
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2030_median_P50.npz",
+      "source": "external/inputs_2030_median_P50.npz",
+      "sha256": "359c1a377fd0648dc48e707cbc4a0aa86e9de0672ab2dbe6a6543529c8d96d8c",
+      "bytes": 1088991
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2031_median_P50.npz",
+      "source": "external/inputs_2031_median_P50.npz",
+      "sha256": "c20597b76cbcef840931d8879d792fcfd51a6ffa3e744eb425949ee58cc39eb9",
+      "bytes": 1088017
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2032_median_P50.npz",
+      "source": "external/inputs_2032_median_P50.npz",
+      "sha256": "92cff85fbd39058aa1333b3d217182d53f25725da6574b7efa0166df4ecb4caa",
+      "bytes": 1088057
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2033_median_P50.npz",
+      "source": "external/inputs_2033_median_P50.npz",
+      "sha256": "8e263beb7671b0472bf99f8f4a22a90414470fd3af43d278ae38227c24110852",
+      "bytes": 1088501
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2034_median_P50.npz",
+      "source": "external/inputs_2034_median_P50.npz",
+      "sha256": "67268d136982ab8b9ceb7a749e44a20f94f19af5ca5047290b2df16535513520",
+      "bytes": 1087982
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2035_median_P50.npz",
+      "source": "external/inputs_2035_median_P50.npz",
+      "sha256": "89ce0f58e67b9f9a54cf07c15641291a57308d6a1eddcbfe0f40cdedd32b3d66",
+      "bytes": 1089274
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2036_median_P50.npz",
+      "source": "external/inputs_2036_median_P50.npz",
+      "sha256": "14940bc843a7afc18eca45b7dd3fa7bcd0664821c6e820b71ed37b85e5a88aff",
+      "bytes": 1088390
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2037_median_P50.npz",
+      "source": "external/inputs_2037_median_P50.npz",
+      "sha256": "c415ec675ec180876930433cad2cb7784f01e4143e80a2615c95b0cd99483048",
+      "bytes": 1087928
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2038_median_P50.npz",
+      "source": "external/inputs_2038_median_P50.npz",
+      "sha256": "49f393b3d19d0da93a4a2c6b494d204c85e6b76d115df2eb011a7955c8a8f16c",
+      "bytes": 1088504
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2039_median_P50.npz",
+      "source": "external/inputs_2039_median_P50.npz",
+      "sha256": "39bfa0dc55925ad02e87dd47a614bfcd4857b072c80e04af7a332da3b7a64d6c",
+      "bytes": 1089968
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2040_median_P50.npz",
+      "source": "external/inputs_2040_median_P50.npz",
+      "sha256": "03e2954f54f09a9cf5a5b22ec2015eba8f24bc77be29e46caf2de4cfb43363cb",
+      "bytes": 1087755
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2041_median_P50.npz",
+      "source": "external/inputs_2041_median_P50.npz",
+      "sha256": "0f34776ffdf5c533f3a62d1c324d01431b49224bbb86f571899dc7ece2c50d6b",
+      "bytes": 1088766
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2042_median_P50.npz",
+      "source": "external/inputs_2042_median_P50.npz",
+      "sha256": "195b5e5afda4eef968c75afc1ebf238c81ea21d2ad82838e7d1cd57e4849af5e",
+      "bytes": 1088860
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2043_median_P50.npz",
+      "source": "external/inputs_2043_median_P50.npz",
+      "sha256": "6962bfb84e273524addcbc53212d778251342436e98b012cab784dae4920d87b",
+      "bytes": 1087861
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2044_median_P50.npz",
+      "source": "external/inputs_2044_median_P50.npz",
+      "sha256": "bdd5a8ed9f73fb5a16ce584e236c8929801c397a7e20577aaec67bcccb9ef220",
+      "bytes": 1087871
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2045_median_P50.npz",
+      "source": "external/inputs_2045_median_P50.npz",
+      "sha256": "c4766f0bafbd3d0d10ff869496d00868b89688b1ff0e4d9f80cd2a92d4c33d07",
+      "bytes": 1087835
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2046_median_P50.npz",
+      "source": "external/inputs_2046_median_P50.npz",
+      "sha256": "7c1e54590f5b1ee788d4f21458e49aa0fd0b8724b77448fe0b5aa0f242950b19",
+      "bytes": 1087822
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2047_median_P50.npz",
+      "source": "external/inputs_2047_median_P50.npz",
+      "sha256": "3c6684f34fba228eeb98d0a2ce7f8cf51a02f2f8f7e94eca6760a9afa7bf96c1",
+      "bytes": 1087639
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2048_median_P50.npz",
+      "source": "external/inputs_2048_median_P50.npz",
+      "sha256": "305c9f0481a5769c3eb690d2a3ef7b8dbeed041e5cb00823d2048f35b1c3ea6c",
+      "bytes": 1088100
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2049_median_P50.npz",
+      "source": "external/inputs_2049_median_P50.npz",
+      "sha256": "1bc23162a8b42336cbe089fd2aab15de6e06494e001d989ba668f976df0d1f49",
+      "bytes": 1088678
+    },
+    {
+      "path": "ssp245_2030_2050/data/inputs_2050_median_P50.npz",
+      "source": "external/inputs_2050_median_P50.npz",
+      "sha256": "23fcee37d43b7b3827f48ed81a8964de199e7cf73f45a692867da9e3c9ce8477",
+      "bytes": 1088584
+    },
+    {
+      "path": "ssp245_2030_2050/tables/prediction_grid.csv",
+      "source": "external/prediction_grid.csv",
+      "sha256": "605ba971009fe3c0ce6b5bf06ba3c6875087ae0337bec109bc6f960ab2291f01",
+      "bytes": 3002631
+    },
+    {
+      "path": "ssp245_2030_2050/data/prediction_region_mask.tif",
+      "source": "external/prediction_region_mask.tif",
+      "sha256": "4ea7c77c73f50f335dd4833d7f3ed5e910335a7a112124c67987bf57860946ed",
+      "bytes": 11297
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2070_median_P50.npz",
+      "source": "external/inputs_2070_median_P50.npz",
+      "sha256": "97f07264c387a2a6a699c5444850bd2c7daab187d6538f286e4ca072e86dac62",
+      "bytes": 1088789
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2071_median_P50.npz",
+      "source": "external/inputs_2071_median_P50.npz",
+      "sha256": "96be7d4e81d89c4bf8392bb3bb03bbaae9ea8b274752266f9d5f8fa4b8805ad4",
+      "bytes": 1087365
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2072_median_P50.npz",
+      "source": "external/inputs_2072_median_P50.npz",
+      "sha256": "38d09bbf78976733aa037cec56f0b857b67cbda190a5b6008e27375f3072a1fd",
+      "bytes": 1087908
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2073_median_P50.npz",
+      "source": "external/inputs_2073_median_P50.npz",
+      "sha256": "2a29a3076ab252776e3de30a2290a45ad613a625895a533ddc73224bb7d35c3f",
+      "bytes": 1088677
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2074_median_P50.npz",
+      "source": "external/inputs_2074_median_P50.npz",
+      "sha256": "a53d73f3ef3719fcf4488551f58a759a4f926c5ca9ab2e72dc8af8604cad0d1a",
+      "bytes": 1088175
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2075_median_P50.npz",
+      "source": "external/inputs_2075_median_P50.npz",
+      "sha256": "79af499c70985c5033440d8abffc6ce140100ee67d9ee57fe8ad5e0ccf07608f",
+      "bytes": 1087883
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2076_median_P50.npz",
+      "source": "external/inputs_2076_median_P50.npz",
+      "sha256": "ea85a5e4446e0bace8f70dc413cd328910e87859c42503e7caa35614fb74080c",
+      "bytes": 1088003
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2077_median_P50.npz",
+      "source": "external/inputs_2077_median_P50.npz",
+      "sha256": "f89d46fa2d6f4dba9db7d99decb2cb557f2319202ab6d47d10e6ed072e9b0466",
+      "bytes": 1088578
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2078_median_P50.npz",
+      "source": "external/inputs_2078_median_P50.npz",
+      "sha256": "5fe6cf397fd4b709e4867cdd8785fe1088f00036bfa053494a13051489ab8614",
+      "bytes": 1089187
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2079_median_P50.npz",
+      "source": "external/inputs_2079_median_P50.npz",
+      "sha256": "5f7d46a68734dcf20fb9c236edc54f2de023f16d5d947a2fc76f19a671caccea",
+      "bytes": 1087520
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2080_median_P50.npz",
+      "source": "external/inputs_2080_median_P50.npz",
+      "sha256": "a6b0914b6c89c0cf8234c144b5014a112513054d1f717ba37abaab3043460113",
+      "bytes": 1088702
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2081_median_P50.npz",
+      "source": "external/inputs_2081_median_P50.npz",
+      "sha256": "44a00b5e8de1cfe70f1ac6371c2c5761847c03bf6416039a0996996680879c98",
+      "bytes": 1088144
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2082_median_P50.npz",
+      "source": "external/inputs_2082_median_P50.npz",
+      "sha256": "cd8ddceb018d453e5ee1578cdefc804b0f37a7dce99c10034927db96362dd6f5",
+      "bytes": 1087916
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2083_median_P50.npz",
+      "source": "external/inputs_2083_median_P50.npz",
+      "sha256": "873219f78b4a190f8d2a23a55ce8f45da11677bbef2949762018f4be00b47ddb",
+      "bytes": 1087734
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2084_median_P50.npz",
+      "source": "external/inputs_2084_median_P50.npz",
+      "sha256": "9d5c3ac955c0d06212fc3cdf212d15d84f0a3132852d9b70310b3d7c01a0a23f",
+      "bytes": 1088479
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2085_median_P50.npz",
+      "source": "external/inputs_2085_median_P50.npz",
+      "sha256": "70ce14c376aacdf54412fa4a14c4bffb4fdc3fa96446ae1224daa41a09bf5194",
+      "bytes": 1087849
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2086_median_P50.npz",
+      "source": "external/inputs_2086_median_P50.npz",
+      "sha256": "fa2aecf04bdb9f941ddda4cb1cea7355133400a2699238ecf6c073ebe8bfe704",
+      "bytes": 1087004
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2087_median_P50.npz",
+      "source": "external/inputs_2087_median_P50.npz",
+      "sha256": "a2aeb3fc64857f1cc2bc2320ecf2b976acc946bc57408dbf4e63029e4fff7212",
+      "bytes": 1086977
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2088_median_P50.npz",
+      "source": "external/inputs_2088_median_P50.npz",
+      "sha256": "319c229d8bcb2358e69cad5d11264ca6a1b6f761f4d349295f691edeafdd993e",
+      "bytes": 1087507
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2089_median_P50.npz",
+      "source": "external/inputs_2089_median_P50.npz",
+      "sha256": "50e3e894d69d27735f3149acabfd6369cca0f60a1e7c86982dc6f79c6ae3a25d",
+      "bytes": 1086628
+    },
+    {
+      "path": "ssp245_2070_2090/data/inputs_2090_median_P50.npz",
+      "source": "external/inputs_2090_median_P50.npz",
+      "sha256": "227cc7feb30d371dae149b7dfbe7c864aa0841edc7f5eb3b72da0162d54b96ac",
+      "bytes": 1087937
+    },
+    {
+      "path": "ssp245_2070_2090/tables/prediction_grid.csv",
+      "source": "external/prediction_grid.csv",
+      "sha256": "63bcffc3d0844504bb71bd2212b7c914ef566208a9f7b50a64a4c6fdc2e46b03",
+      "bytes": 3006197
+    },
+    {
+      "path": "ssp245_2070_2090/data/prediction_region_mask.tif",
+      "source": "external/prediction_region_mask.tif",
+      "sha256": "bb55cf6f82adb8cbc7b08c4f77eca082788445e9030de119bbdbf480f0ce3da1",
+      "bytes": 11187
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2030_median_P50.npz",
+      "source": "external/inputs_2030_median_P50.npz",
+      "sha256": "8ef2414bcedb42afaadaea1f0af89fe3c50a7e02eae2b78df3fd5467d758de8e",
+      "bytes": 1089138
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2031_median_P50.npz",
+      "source": "external/inputs_2031_median_P50.npz",
+      "sha256": "7d99bbb6e89330c17e2145346f2e45bd6eb200a523e973ec9a8d4bfc23e0ed38",
+      "bytes": 1089069
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2032_median_P50.npz",
+      "source": "external/inputs_2032_median_P50.npz",
+      "sha256": "1392ff171f355d4c2bc669bd005fa7efba7619900faa8f0d810a3f29e264fa32",
+      "bytes": 1088191
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2033_median_P50.npz",
+      "source": "external/inputs_2033_median_P50.npz",
+      "sha256": "b046aa9a0ea42e9ec947bb799b2f9d49fbc4b247a0dd5c0c3fff963304a2e4b0",
+      "bytes": 1088863
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2034_median_P50.npz",
+      "source": "external/inputs_2034_median_P50.npz",
+      "sha256": "10dc8ed5cfbfdd5ba72d949fbe93ad3dc85e2d223e71720839157f8ce49a73bd",
+      "bytes": 1088984
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2035_median_P50.npz",
+      "source": "external/inputs_2035_median_P50.npz",
+      "sha256": "0365c003715843fa01cd6e978309b4f4edc90f599746ff700955dda82c78b26d",
+      "bytes": 1088373
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2036_median_P50.npz",
+      "source": "external/inputs_2036_median_P50.npz",
+      "sha256": "1f7255848c3cb183c3d8146a95c75f006f5fc6a7e3f3d8599c846072d3a1779a",
+      "bytes": 1088970
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2037_median_P50.npz",
+      "source": "external/inputs_2037_median_P50.npz",
+      "sha256": "050a22e0c123af1a01e720825bf1229ee37b331d91fa1b96124d1b05262963d5",
+      "bytes": 1087834
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2038_median_P50.npz",
+      "source": "external/inputs_2038_median_P50.npz",
+      "sha256": "468f31f67f535a10ad0a47dc2a13ff100f79533c3dc1475c4a7519715bf0181b",
+      "bytes": 1089120
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2039_median_P50.npz",
+      "source": "external/inputs_2039_median_P50.npz",
+      "sha256": "ad0261fa4f1a7735d44e76664114edf100207c06512f5126005ba1075e09eb87",
+      "bytes": 1088363
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2040_median_P50.npz",
+      "source": "external/inputs_2040_median_P50.npz",
+      "sha256": "4d2a51bc540c16e40bc8f11d08d127fb968ff96e5aff015ea2bd141c1c3e5781",
+      "bytes": 1087749
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2041_median_P50.npz",
+      "source": "external/inputs_2041_median_P50.npz",
+      "sha256": "8746d15b05518be049cb2f06bb98e9231839df72397bb9b8b06d6994491790e7",
+      "bytes": 1088087
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2042_median_P50.npz",
+      "source": "external/inputs_2042_median_P50.npz",
+      "sha256": "5b48f3cd54670993bfe92b8829dde2a2c7f87a8085413a087f3e92a8ca040fc3",
+      "bytes": 1088761
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2043_median_P50.npz",
+      "source": "external/inputs_2043_median_P50.npz",
+      "sha256": "1eff29b26cdf7ac94df7c2d65e2fc6c03aa02cb7e1a6777f4fdfa46f761ae565",
+      "bytes": 1088380
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2044_median_P50.npz",
+      "source": "external/inputs_2044_median_P50.npz",
+      "sha256": "f69a0006cae51b2f608f512e9b857fb75d538fb2633ffc0e91498991fdbbadb1",
+      "bytes": 1087231
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2045_median_P50.npz",
+      "source": "external/inputs_2045_median_P50.npz",
+      "sha256": "4635d102b1493098b83fb629c192bb03467732250c5c76ded72a19f31e8fe1e2",
+      "bytes": 1087480
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2046_median_P50.npz",
+      "source": "external/inputs_2046_median_P50.npz",
+      "sha256": "f628fa12218acb7fe4567cdd87ee5c3c5de4396d0787ef41dc7c3c3f5575ca5d",
+      "bytes": 1088612
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2047_median_P50.npz",
+      "source": "external/inputs_2047_median_P50.npz",
+      "sha256": "8d6b87445b79200fb97085e252b373883599e5bcd3b3f84b3e9dbfdd43368370",
+      "bytes": 1088873
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2048_median_P50.npz",
+      "source": "external/inputs_2048_median_P50.npz",
+      "sha256": "71400c6780c888bf73e3adfb4eae3c37f0e78c40a1a7386dec26347331978666",
+      "bytes": 1087621
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2049_median_P50.npz",
+      "source": "external/inputs_2049_median_P50.npz",
+      "sha256": "8ef33a37d48b7db03a0e535afe71fe7d7b05b86ebe65875662cf63abc7833aee",
+      "bytes": 1087834
+    },
+    {
+      "path": "ssp585_2030_2050/data/inputs_2050_median_P50.npz",
+      "source": "external/inputs_2050_median_P50.npz",
+      "sha256": "ee254235dfde091ef446e07735f11deb68940931da679d0a48e8034e94a1daaa",
+      "bytes": 1088314
+    },
+    {
+      "path": "ssp585_2030_2050/tables/prediction_grid.csv",
+      "source": "external/prediction_grid.csv",
+      "sha256": "605ba971009fe3c0ce6b5bf06ba3c6875087ae0337bec109bc6f960ab2291f01",
+      "bytes": 3002631
+    },
+    {
+      "path": "ssp585_2030_2050/data/prediction_region_mask.tif",
+      "source": "external/prediction_region_mask.tif",
+      "sha256": "4ea7c77c73f50f335dd4833d7f3ed5e910335a7a112124c67987bf57860946ed",
+      "bytes": 11297
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2070_median_P50.npz",
+      "source": "external/inputs_2070_median_P50.npz",
+      "sha256": "e3282011927c515ece170c323ba55a6baec067060958520c949734aa746480cf",
+      "bytes": 1086715
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2071_median_P50.npz",
+      "source": "external/inputs_2071_median_P50.npz",
+      "sha256": "3beece8d0a52a42378c530710d3642ab40380790fb36be6b3fd40ba7ab28b304",
+      "bytes": 1087160
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2072_median_P50.npz",
+      "source": "external/inputs_2072_median_P50.npz",
+      "sha256": "0451792bbc8f18f6f76a063d3cd6ba1dd55a80d29b791a076c0263338fe8c744",
+      "bytes": 1086523
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2073_median_P50.npz",
+      "source": "external/inputs_2073_median_P50.npz",
+      "sha256": "29fcad3204b5ecc8de418f9dd803643c8d8eadf3e483d09133622a59eed8612f",
+      "bytes": 1086782
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2074_median_P50.npz",
+      "source": "external/inputs_2074_median_P50.npz",
+      "sha256": "622336b4e9653bbe346af8ad6fc9369b99423d8005e59efbb23f3aacffdc5a6c",
+      "bytes": 1086673
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2075_median_P50.npz",
+      "source": "external/inputs_2075_median_P50.npz",
+      "sha256": "a50bbd36a715b13a73eb1c0f15b249ffb09041f78b877f5947afbf929d512bb2",
+      "bytes": 1087115
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2076_median_P50.npz",
+      "source": "external/inputs_2076_median_P50.npz",
+      "sha256": "5d5c76a7a62ed43b5038448df9b3f51229e02f48fdce6260ce5875fb0ed8e6eb",
+      "bytes": 1086889
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2077_median_P50.npz",
+      "source": "external/inputs_2077_median_P50.npz",
+      "sha256": "f80cb17fb256aafa52a4bc22a9775b784126ddce287fce60c48cc32cf70f6007",
+      "bytes": 1087460
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2078_median_P50.npz",
+      "source": "external/inputs_2078_median_P50.npz",
+      "sha256": "9ee5c64f8667692f7df6d5b98a4bd7d919ec0327fdf409144fe911171b7d1bdd",
+      "bytes": 1086337
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2079_median_P50.npz",
+      "source": "external/inputs_2079_median_P50.npz",
+      "sha256": "fc7626ef6bf7843f9d2e9ac48da65f0ba753d813cf1e8a42c80684621633fdc0",
+      "bytes": 1086150
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2080_median_P50.npz",
+      "source": "external/inputs_2080_median_P50.npz",
+      "sha256": "663dd96b056acbd9091625e61119b53fb2f80aaf57636b45ed4d2fe4c1e87076",
+      "bytes": 1085807
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2081_median_P50.npz",
+      "source": "external/inputs_2081_median_P50.npz",
+      "sha256": "59d18bdd2deffad4ce9eaad6673bd3ae005e53179aab875391649039453488bd",
+      "bytes": 1085817
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2082_median_P50.npz",
+      "source": "external/inputs_2082_median_P50.npz",
+      "sha256": "4c3a7b2a2b9333d4751972f7892b78a20a014cfa8c2aff2da167a51bed4a4f8b",
+      "bytes": 1085736
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2083_median_P50.npz",
+      "source": "external/inputs_2083_median_P50.npz",
+      "sha256": "4835e5fc0b669cea479be25835679a058921c94095318503e0a52febacc194a2",
+      "bytes": 1086241
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2084_median_P50.npz",
+      "source": "external/inputs_2084_median_P50.npz",
+      "sha256": "7333885af7aba7882e661fd166812f3780b06af880c47cb8d68b8b8fadb8af19",
+      "bytes": 1084443
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2085_median_P50.npz",
+      "source": "external/inputs_2085_median_P50.npz",
+      "sha256": "3d927ffdc34e4b8d291958ec49c973d7d8ae8cf5e1a52465a377d1a215558164",
+      "bytes": 1085246
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2086_median_P50.npz",
+      "source": "external/inputs_2086_median_P50.npz",
+      "sha256": "9944988d8975a7d0cfde8dcdc8bf08934c0e5bcfe25d536ccf96976f6d11261a",
+      "bytes": 1085499
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2087_median_P50.npz",
+      "source": "external/inputs_2087_median_P50.npz",
+      "sha256": "5d345ba144b3008d43589573d4f1dc949ec0e91ac5bcfda432ded43bee471127",
+      "bytes": 1084919
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2088_median_P50.npz",
+      "source": "external/inputs_2088_median_P50.npz",
+      "sha256": "7d1daf163b263e5b6d52bb8e519eb3d664af03a4365757907aa9955eb96e94f4",
+      "bytes": 1085260
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2089_median_P50.npz",
+      "source": "external/inputs_2089_median_P50.npz",
+      "sha256": "ccdecd027a717bab5c8bef4ae218e927a7455089361069bb7b73531fc5062a3f",
+      "bytes": 1085360
+    },
+    {
+      "path": "ssp585_2070_2090/data/inputs_2090_median_P50.npz",
+      "source": "external/inputs_2090_median_P50.npz",
+      "sha256": "3d8a99889e300f46a9b5f915763bb91aa35c9f23c8ee2b77557050e4b5468cb6",
+      "bytes": 1085516
+    },
+    {
+      "path": "ssp585_2070_2090/tables/prediction_grid.csv",
+      "source": "external/prediction_grid.csv",
+      "sha256": "63bcffc3d0844504bb71bd2212b7c914ef566208a9f7b50a64a4c6fdc2e46b03",
+      "bytes": 3006197
+    },
+    {
+      "path": "ssp585_2070_2090/data/prediction_region_mask.tif",
+      "source": "external/prediction_region_mask.tif",
+      "sha256": "bb55cf6f82adb8cbc7b08c4f77eca082788445e9030de119bbdbf480f0ce3da1",
+      "bytes": 11187
+    }
+  ],
+  "bytes": 133989889,
+  "model_inference_executed": false,
+  "dependencies": {
+    "../RF_model/rf_model.joblib": "b59b89fb541cae13d01de5a913051b96b0365c46c12fe020ee6cd3fd4961c586",
+    "../RF_model/data/training_source.csv": "88714a0c801feb2f7636bf2562394461aae7063e0b48fd8bf6c4e1ba4b5aefb6",
+    "../../Figure2/Figure2a/study_regions.geojson": "b80d1967581631b03a2c41bdc00e9164a7e99a5e0a87a4e4d31a93d37433d571"
+  },
+  "code_origins": {
+    "Figure4_v3/global_prediction_v7_inputs/build_historical_0p25.py": "fc4b706d2563fbbb92c68e880d187c67affbe68747503f269af8c765a9e210c7",
+    "Figure4_v3/global_prediction_v7_inputs/prepare_regional_heat_timing.py": "7252a35b9488d4dbcdb695303833e932405f6c63f53e927f94c0e73dfc3914a5",
+    "Figure4_v3/global_prediction_v7_inputs/prepare_regional_heat_scenarios.py": "762d91214cd4ed916f8ab58d1bfba00c5b6e0d72cc5601d457b4ee90040ff60b",
+    "Figure4_v3/global_prediction_v7_inputs/prepare_regional_seasonal_fractions.py": "a56e45ebb0b6adb9cf447d28c8254a05d2bfb947944c4d0b887d4421f8f0ac7a",
+    "Figure4_v3/future_climate_cmip6/prepare_filtered_prediction.py": "cd890ef58978cf89f7fbdb6d0bebcd2203aa8e08c1b83603a2217a5f780185a9",
+    "Figure4_v3/future_climate_cmip6/filter_rainfall_inputs.py": "ff4daa6e336860fb981d569164c4884693c57fe76abe7087af10714765af9d8e",
+    "Figure4_v3/future_climate_cmip6/rf_inputs_ssp245_2030_2050_fixed2020_before_filtered_20261008/prepare.py": "8e9120471fde3b7adf8ac8db17530521a2107128c61d0a58cb283344f4400d8e",
+    "Figure4_v3/future_climate_cmip6/export_crop_year_climate.js": "f028a4dbc7b994c4c5f48e4637be8406e88c0e21a5cee7ea2d389bcc6bbb1a30"
+  },
+  "verification": {
+    "status": "PASS_INPUT_RECONSTRUCTION",
+    "matrices_checked": 96,
+    "maximum_absolute_feature_difference": 1.7763568394002505e-15,
+    "grid_ids_regions_weights": "exact equality",
+    "soil_4band_pixel_values": "exact equality from 0.1 degree source",
+    "regional_parameters": "12 regions, historical and future, tolerance 1e-12",
+    "model_inference_executed": false,
+    "gee_export_executed": false,
+    "historical_gee_export_script_located": false,
+    "region_masks_checked": 5
+  },
+  "external_source_files": [
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2011.tif",
+      "sha256": "077e43998f9b561c77488d5c4748825ccb2009db6974c5a113ba4bc853bade34",
+      "bytes": 12982447
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2012.tif",
+      "sha256": "86491792d063f814331225c5e4a55cc352286a26a55d159e91e521c81782d632",
+      "bytes": 13024661
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2013.tif",
+      "sha256": "1feacf7c23548f780fa5bc0a58eb3ca99e24b0cef399333bb27b1ea3ab699645",
+      "bytes": 12944541
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2014.tif",
+      "sha256": "67584dc8f59918cc408615cee1c86c36dbec92078f2015ac1b8bc8331f529df5",
+      "bytes": 12975770
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2015.tif",
+      "sha256": "c3bbd5cb1425362ecd8225743ccd9a8838d7576fa2185b0519dfbeac3e5c0de5",
+      "bytes": 13034317
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2016.tif",
+      "sha256": "a2fba864dac07b53cb93c028ef111a727d12ff51a0e785421d93264a2ad65f40",
+      "bytes": 12974738
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2017.tif",
+      "sha256": "5ea3900c43f8c91b478aa136dc07e16c295efc2c18dc18845afa38b933e23dfe",
+      "bytes": 12988946
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2018.tif",
+      "sha256": "670340ba0deeff00c4098d747cb56c0447399700b43d10defb9853b5d24d39aa",
+      "bytes": 12987302
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2019.tif",
+      "sha256": "5c52c23c35b92a30522371bf8e1dbb92f92f1559abe45476ede8d43403c80f15",
+      "bytes": 12988190
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2020.tif",
+      "sha256": "312d96befb5b74fd432f961613795102c740575324cbd34457cfb7db92d16152",
+      "bytes": 13023888
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2021.tif",
+      "sha256": "47a3c0e77aa30eccfc179483e911a6af5d8c2c48dbd5f1021f683822e1037fff",
+      "bytes": 13058218
+    },
+    {
+      "path": "sources/historical/MaizeCropYearClimate_2022.tif",
+      "sha256": "550d90bea9d4d01a76b02c230a2cdb1a3c377e6b6924da2377508f91fe76fcef",
+      "bytes": 13020628
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2030.tif",
+      "sha256": "9257ef4187f9f56d566e03290944a71d543842e5901412d66822b581e6bd02ca",
+      "bytes": 3361894
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2031.tif",
+      "sha256": "f6037411eb3eb5eb30f2b8e90ac1108ba8870abb5462f8bde1f5c3298cb3a076",
+      "bytes": 3362027
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2032.tif",
+      "sha256": "243b2ba125998cff1ed3e95a89c2cad246133be2a3eb9fc6ccaccc8f144ce971",
+      "bytes": 3369207
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2033.tif",
+      "sha256": "ac075f7581bc3f01d8f4d0e851fa63395a7f24601280b8333c8eb97b1d503ef7",
+      "bytes": 3362491
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2034.tif",
+      "sha256": "85e445cc2dc9c3be88372abeb5ff14e7bb3faaaddd2d68e462b0f13c67ea3303",
+      "bytes": 3361506
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2035.tif",
+      "sha256": "10117e481deaf5449d68e6d5328f6474b1294ed0c5b4e25b7e09e7b5423c053b",
+      "bytes": 3366918
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2036.tif",
+      "sha256": "85a7ad5f445ca4601d09237d359ca9938803b3c1164c5470bbcb9c75f4adcf0a",
+      "bytes": 3366028
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2037.tif",
+      "sha256": "83994f9a22f9bb7a4e20c3276a3e1fedd35b414decdfad1174dc2229a7aa5015",
+      "bytes": 3352759
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2038.tif",
+      "sha256": "6b312e1d0952e8de2d1aa34af611f33ce08aace833c8f9143c64089f5ffa96b8",
+      "bytes": 3367436
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2039.tif",
+      "sha256": "e16e33c1becf10489b7dc7a14e9bf7e72d10edb9ed5c8679fbaba44e32783498",
+      "bytes": 3366133
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2040.tif",
+      "sha256": "212ff97183e20b8a5ebc66cbbb5406b3fd7c673f3c9ec4f5d667b06004aecbc5",
+      "bytes": 3373570
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2041.tif",
+      "sha256": "6b9ce83a11645d6d1a5ee4ac95a4e986c05ecc63a016f8ec64a5a61941f5c7e5",
+      "bytes": 3363262
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2042.tif",
+      "sha256": "13ecfd3d35969389a687573e66f05d487731b0953352c522fc1d556ab0517ac1",
+      "bytes": 3364517
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2043.tif",
+      "sha256": "43dcee9df1dd22677650bb4fd74cbe8b12a7498b79a148fc3111f8626e937a3e",
+      "bytes": 3348776
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2044.tif",
+      "sha256": "afe7a37f3dcff660b9182cc0e29c5c965bb4f4a039539ab45de24d6ff09dd3d4",
+      "bytes": 3359606
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2045.tif",
+      "sha256": "c157bf2614d5ffd8ec879cf15c0ad2281ca5463852c8eb9fbb3a0bd8d1397316",
+      "bytes": 3366703
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2046.tif",
+      "sha256": "e8e42413a8d1cc90252f5130df8a9ffb9a5defdf3fb9f9d100e6c5dbc73fcdad",
+      "bytes": 3370840
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2047.tif",
+      "sha256": "42c2712b80b4f6893b726c008ba24859b07e2c82ead7bf1567088f2c23cd29a6",
+      "bytes": 3364951
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2048.tif",
+      "sha256": "22595da56731793bfbfb599b72afecb83c7b1c2ce632a9a0f47ba2916d1c049a",
+      "bytes": 3363878
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2049.tif",
+      "sha256": "8ea1d2941c2680249c8c32a1b794d96fa165e7f0c2455bf2c3a36a4158d87310",
+      "bytes": 3372222
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2050.tif",
+      "sha256": "f0ac2bc062cc87b1ba9ef4ea451f51280e0c5ec762709d74b180ec2b0b54d150",
+      "bytes": 3373114
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2070.tif",
+      "sha256": "98af546bd2fa20b224fab60b0c839364be9aab6a52bbb27a4c65385175ba2bdd",
+      "bytes": 3371211
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2071.tif",
+      "sha256": "37ec7e9376726c2f913ac394591ac39d73c879238650967b8de7c9ed0843036f",
+      "bytes": 3368371
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2072.tif",
+      "sha256": "22578b33262871b41d77b93e51d068a06747bbdecbda41ca83e17ccaffd97864",
+      "bytes": 3367201
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2073.tif",
+      "sha256": "7cf1ec702403dc2c2d2b8cd5761df4db7851ec64f3c118ea8ff65223d26f38d0",
+      "bytes": 3372150
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2074.tif",
+      "sha256": "0bbc5ba73ff84acf110a2fb6332d24cfbc9043c12f00f8c0bf36df9e7c5fb719",
+      "bytes": 3377602
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2075.tif",
+      "sha256": "d3646408e66cf6a9141f4abe42a934c3580e49ffbe3ab7ff9ffa7be051a62ad9",
+      "bytes": 3343267
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2076.tif",
+      "sha256": "e24f840f8ed33970a5e6148bbfc745254af075abf04ea7d9cd1ffea51fd0920d",
+      "bytes": 3378861
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2077.tif",
+      "sha256": "8b43b9c29c10349755b08edb11635b4954da91100c55fc6601ecbae075fbbf93",
+      "bytes": 3370093
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2078.tif",
+      "sha256": "cde37c298ea8b4552459177648e32d79d01231959d36d6a4f7fe22c22418acd1",
+      "bytes": 3374394
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2079.tif",
+      "sha256": "b28b1cf59e8588ff783cb5742f858f9b3f05c0a379f735be4289fc45d24dada2",
+      "bytes": 3369497
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2080.tif",
+      "sha256": "1e3219f3a81268a6ee6163db9ad82ca673ab8ffb5fb6d029f6ab7a3375cb8505",
+      "bytes": 3371434
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2081.tif",
+      "sha256": "6d87c027d34206edf1bfbc0db8e62c08a533b167353d5e9c3721f7a0e1aef173",
+      "bytes": 3355320
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2082.tif",
+      "sha256": "59a36fe67e2f7dcef178a08b76f2eab6a2280a0019676fcbddb782aa4ee57f4f",
+      "bytes": 3368071
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2083.tif",
+      "sha256": "53f6561a0f7095df320daa3efb7d8df67fce710023a6f676a55e24fbae7bce89",
+      "bytes": 3368349
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2084.tif",
+      "sha256": "50c50d7ee9c29c0bb0d66f16ed93115932f16146a976126035c05905ae388402",
+      "bytes": 3377873
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2085.tif",
+      "sha256": "a5eb26590e414b9bb355ed48bf59357c9a05ffb03351875ed1f9f2d9a7b397cf",
+      "bytes": 3369664
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2086.tif",
+      "sha256": "8fcc686bc4299aee453d08a6f22f4fbc1ac4124a759c8c61a59eb8883e9325db",
+      "bytes": 3362470
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2087.tif",
+      "sha256": "6e1187fea70c4f403db3ee71fac9d330be71c2fe6ed4488f3a9bb2104cdcd51b",
+      "bytes": 3364970
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2088.tif",
+      "sha256": "82d8bc55377b7440b5891bc64d8904ea2590ec04490c0ec1872c14ba4f3b4142",
+      "bytes": 3377274
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2089.tif",
+      "sha256": "589cfddc58d3cad11a6d9e6881868b4a5d0dd682d3ba994ab39b4e33010ed97b",
+      "bytes": 3370366
+    },
+    {
+      "path": "sources/ssp245/MaizeFutureClimate_v2_ACCESS-CM2_ssp245_2090.tif",
+      "sha256": "ab1ab2b752dbfe41c95cd12d0401393b766cce00e0ef30c691959b717be29fd6",
+      "bytes": 3372636
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2030.tif",
+      "sha256": "43c286b8173a36ce1157dd186d19426f8bb3e9efeda597adb59dec28e6de2c23",
+      "bytes": 3369297
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2031.tif",
+      "sha256": "b46bd2f61aaf91d0366821b0c8749fba46efbe99f1811836c9735fec218351e4",
+      "bytes": 3368285
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2032.tif",
+      "sha256": "cf878b93bcea54d835baac5e6db01c76bb7e815b43b366163d3367b91f08a829",
+      "bytes": 3366989
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2033.tif",
+      "sha256": "0012abe668feff1989e977cacc25dc6ded8fd7a337c290d7fd37e685c056688f",
+      "bytes": 3355359
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2034.tif",
+      "sha256": "501b920fe250f0791a146431c7fecf16ccd3bc0e330dac312ed6c05a9c3f1c5f",
+      "bytes": 3369620
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2035.tif",
+      "sha256": "0593b162b7056ae6139d888be9d67da8738e5c24481a29f2608724101f6626b5",
+      "bytes": 3366717
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2036.tif",
+      "sha256": "68ced442ca703883c4c3c9e98b9468cdf2d99f3e4dd42bab0b0ada3b49575ccd",
+      "bytes": 3365212
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2037.tif",
+      "sha256": "a57c527a8c7a609277ae6ee6687a1b0eaef41f42c0eff245383245c37279e3b1",
+      "bytes": 3367517
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2038.tif",
+      "sha256": "85e3037d55aeca257502339500d4c632c6be2caccbd135a540345c0086226b96",
+      "bytes": 3367856
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2039.tif",
+      "sha256": "e712e6224a13d3e8736d5f7739a7116def9dd41e89c71f2733bca43d7411c538",
+      "bytes": 3366217
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2040.tif",
+      "sha256": "2c36f548558e9b61fda879c9aa9d8f8b250889a69783f95e8e086c5c7e695d05",
+      "bytes": 3367997
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2041.tif",
+      "sha256": "58aa783eb4d5a6f321560a261fd08673dfc6ad866c31a83f626475a574e7fe6c",
+      "bytes": 3357427
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2042.tif",
+      "sha256": "dc5c2c31380aafd8ca4b9f664e51a2acb2e695664d76e6d4a6a58294d9e93508",
+      "bytes": 3363158
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2043.tif",
+      "sha256": "2204f833ef59b2237eb5272afcbfc524b560ed83ada37724229f9c1ac038ee77",
+      "bytes": 3375757
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2044.tif",
+      "sha256": "bf7213f3fe23e7a844ae05a5c7a9085af7b02e1f289d93d47536f3567b22449c",
+      "bytes": 3364708
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2045.tif",
+      "sha256": "03bc2409fff8a2bc3b24340c1ef60343404c21e94f84d932653440fc0f40c713",
+      "bytes": 3365941
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2046.tif",
+      "sha256": "8aa2ee02d4a57e82b7624db9d579b98ccb9c37ec8c579a012b65d2965ab90b49",
+      "bytes": 3372956
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2047.tif",
+      "sha256": "18b9db1e327e525c7135b26f201b30c46c055fd9de9ac2ac1ee5473810d4dbcd",
+      "bytes": 3354423
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2048.tif",
+      "sha256": "e80b54e7558503e14a80e5b9f3c54265d8132446ad80467478fbc137e2bddbc0",
+      "bytes": 3370004
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2049.tif",
+      "sha256": "dd3d641a0cd624596e8cd79dbbf4631de1a84162484c35ca0c040cf404c8787d",
+      "bytes": 3375824
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2050.tif",
+      "sha256": "f0215438e7b2e6b52043ff158fcf1b5b650ca73d0f1250e83a640a2a2631934f",
+      "bytes": 3363505
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2070.tif",
+      "sha256": "5b3a420bc7b48a8a1bc7d8805abf542ffb7bb460fa5a4f749415de3527cad53a",
+      "bytes": 3378430
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2071.tif",
+      "sha256": "f0572a08a54059aec7d44139660e622e6fe35a34c798f06a30949d6af7fbdad6",
+      "bytes": 3369287
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2072.tif",
+      "sha256": "9b8aef9fe6857a8ccd4effe7f7979a913211a0fd5ce39bdb6e9daa241d68d7b9",
+      "bytes": 3362214
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2073.tif",
+      "sha256": "e90405733b64c1da1f447808a5b52987711b986d916d4ebaf4b4d6e398ef2149",
+      "bytes": 3378970
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2074.tif",
+      "sha256": "4ca5b542e5d7786213d705adc3223ad43c869586602b830faf153a1404c67e5b",
+      "bytes": 3373308
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2075.tif",
+      "sha256": "74a15d2f7d462bfc9035eae8acde368f9d60b2b2c0b5fc22aac821a2cd2b1e36",
+      "bytes": 3357537
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2076.tif",
+      "sha256": "5066886fd07542c6c1ecb72ed75857829e695cb4e93b2810cb1a36368eb53245",
+      "bytes": 3367957
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2077.tif",
+      "sha256": "7ddf2483b88aa3109fc942af18d1ee466fd0b8bca839d1cb4d11b7b4d164fcac",
+      "bytes": 3376721
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2078.tif",
+      "sha256": "97adbba9c4cf57238bd403ecd8022eb1dffce57ba73ddeebec85b0229c52f6bc",
+      "bytes": 3376307
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2079.tif",
+      "sha256": "d5d9d7282c63574230026c7caf4bed168978ebd6358dcc04113e7541c6888c7b",
+      "bytes": 3380171
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2080.tif",
+      "sha256": "10282e07162ea2f6d11ef222fc4756ca22f0a01dfda7481cd7ef9c0b59ca3d54",
+      "bytes": 3367681
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2081.tif",
+      "sha256": "38a71af1f784a240f98e7f224c73bd0d5b9741ad146f081199e68db6ac30143b",
+      "bytes": 3385649
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2082.tif",
+      "sha256": "3e6a35a22935f7325c7bbdb0873c934eed7e0ad8c085c23a3a0c26496a8f478e",
+      "bytes": 3371352
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2083.tif",
+      "sha256": "36fccc0d0b533cb4c2b592e4ce860c145054ca040d0b40a1b3da25e48d4e844c",
+      "bytes": 3383813
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2084.tif",
+      "sha256": "e775191202e4f6a27735228d93c6c4792e4694a83929a6ff13cdf8fdb7b91c26",
+      "bytes": 3364788
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2085.tif",
+      "sha256": "a0c64e8d097303dabc68b4a9fc23adfc06165df98917e1103946fa9d38228a13",
+      "bytes": 3377693
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2086.tif",
+      "sha256": "681598eb708b55ceccd36bb84960725203e619628c8cd851cfe7b84f6d60af07",
+      "bytes": 3384914
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2087.tif",
+      "sha256": "086bc6bd6201ae6fa0506316fe5a749db4b32f1117c0486b71dd3c39d83c9c77",
+      "bytes": 3367540
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2088.tif",
+      "sha256": "af924ca2e0985d5996a396b68bdd05abd1ce59b740cc446da557e18a44657fa7",
+      "bytes": 3379052
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2089.tif",
+      "sha256": "dcbe9d4ff17f73f5faa4c60e191dc518d8072f9306fe37825ff3b5094e793ad8",
+      "bytes": 3375456
+    },
+    {
+      "path": "sources/ssp585/MaizeFutureClimate_v2_ACCESS-CM2_ssp585_2090.tif",
+      "sha256": "c152c72b13ef96c411a05455359302b23225d4c04be39227f160cd1d725fda6c",
+      "bytes": 3363080
+    },
+    {
+      "path": "sources/soil_0p1.tif",
+      "sha256": "30bf5fd8ac5f81e8bddc38a99ace8b5c153f9eddc0e1e99d5bea73d761a08e97",
+      "bytes": 5339545
+    },
+    {
+      "path": "sources/maize_area_crop_year_2020.tif",
+      "sha256": "a296969c30ae5c96cbc069081d159ad7262ebe5ebc71d0214919378d0b95b9ae",
+      "bytes": 5041539
+    }
+  ],
+  "archive_scope": "Compact deposit: annual NPZ inputs retained; source rasters stored externally."
+}

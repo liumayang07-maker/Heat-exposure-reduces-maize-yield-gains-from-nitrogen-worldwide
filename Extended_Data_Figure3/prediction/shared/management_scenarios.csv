@@ -1,0 +1,7 @@
+management_id,N_rate,irrigated,water_regime
+N0_rainfed,0,0,rainfed
+N0_irrigated,0,1,irrigated
+N120_rainfed,120,0,rainfed
+N120_irrigated,120,1,irrigated
+N240_rainfed,240,0,rainfed
+N240_irrigated,240,1,irrigated

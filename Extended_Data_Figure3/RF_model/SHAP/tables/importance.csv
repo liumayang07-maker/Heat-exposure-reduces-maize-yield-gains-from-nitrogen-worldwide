@@ -1,0 +1,18 @@
+﻿feature,feature_label,feature_block,mean_abs_SHAP,study_equal_mean_abs_SHAP,rank,contribution_share
+N_rate,N rate (kg N ha$^{-1}$),Management,1.3491649884041195,1.390673926135614,1,0.3107956938043582
+plant_density,Plant density (plants m$^{-2}$),Management,0.6401091812186611,0.6192892696228288,2,0.14745652221728375
+growing_season_GDD_fraction,Growing-season GDD / annual DD,Seasonal allocation,0.2877639936839404,0.30287579992782937,3,0.0662897502066843
+annual_DD10_30_C_d,Annual DD$_{10-30}$ (degree-days),Annual climate,0.28090148310838625,0.290804871986263,4,0.06470889185807568
+log_gdp_pc_ppp_prior3,ln prior-3-year GDPpc (PPP),Temporal and socioeconomic,0.27309426002363113,0.2795997222657083,5,0.06291040810244396
+annual_EDH30_C_h,Annual EDH$_{30}$ (degree-hours),Annual climate,0.21172323432666149,0.20985568023276946,6,0.04877288550519915
+Exp_year,Experiment year,Temporal and socioeconomic,0.20255096052501004,0.19679569883279188,7,0.046659946595244334
+growing_season_EDH30_fraction,Growing-season EDH$_{30}$ / annual EDH$_{30}$,Seasonal allocation,0.181965106746648,0.18769386406267669,8,0.04191775808413491
+growing_season_precip_fraction,Growing-season precipitation / annual precipitation,Seasonal allocation,0.1463314735574409,0.14405400919451156,9,0.03370914027608639
+annual_precip_mm,Annual precipitation (mm),Annual climate,0.14211408913287749,0.13797130509726388,10,0.0327376172010455
+soil_pH,Soil pH,Soil,0.13549537720346197,0.13460644472168964,11,0.031212920678474816
+SOC,Soil organic carbon,Soil,0.10936372237930264,0.10682781497066605,12,0.025193193023862782
+soil_total_N,Soil total N,Soil,0.09502616819294675,0.09984242704853039,13,0.021890372287255197
+irrigated,Irrigation,Management,0.08615785337870295,0.08753675567880342,14,0.019847453830833774
+EDH30_40_70_growing_season_fraction,Middle EDH$_{30}$ share (40-70%),Heat timing,0.07926323320517717,0.07477271758341565,15,0.018259198666516818
+EDH30_0_40_growing_season_fraction,Early EDH$_{30}$ share (0-40%),Heat timing,0.0735449494520797,0.07159794678692316,16,0.016941926144854125
+EDH30_70_100_growing_season_fraction,Late EDH$_{30}$ share (70-100%),Heat timing,0.04643276204916251,0.0456055835289496,17,0.010696321517646396

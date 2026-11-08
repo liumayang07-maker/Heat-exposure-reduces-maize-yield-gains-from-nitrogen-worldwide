@@ -1,0 +1,111 @@
+{
+  "rows": 6040,
+  "features": [
+    "N_rate",
+    "annual_DD10_30_C_d",
+    "annual_EDH30_C_h",
+    "annual_precip_mm",
+    "SOC",
+    "soil_total_N",
+    "soil_pH",
+    "irrigated",
+    "growing_season_GDD_fraction",
+    "growing_season_EDH30_fraction",
+    "growing_season_precip_fraction",
+    "EDH30_0_40_growing_season_fraction",
+    "EDH30_40_70_growing_season_fraction",
+    "EDH30_70_100_growing_season_fraction",
+    "Exp_year",
+    "log_gdp_pc_ppp_prior3",
+    "plant_density"
+  ],
+  "explainer": "TreeExplainer",
+  "feature_perturbation": "tree_path_dependent",
+  "model_output": "raw predicted yield Mg/ha",
+  "base_value": 8.554201579510966,
+  "max_additivity_error": 1.971756091734278e-13,
+  "model_sha256": "b59b89fb541cae13d01de5a913051b96b0365c46c12fe020ee6cd3fd4961c586",
+  "training_table": "../tables/training_arms_v7.csv",
+  "training_table_sha256": "a8df930ad5f82f801f5d4317ad7467d99642a38e24a2f6caf9aa5516105c2e07",
+  "shap_version": "0.52.0",
+  "scope": "Final fitted model on the full training covariate distribution; not OOF and not causal",
+  "model_version": "v7",
+  "composition_note": "The three heat-timing shares sum to one for positive growing-season EDH30 and must be interpreted jointly",
+  "reference_style": "SER4_RF_SHAP_final typography, export, block colors, and smooth dependence layout",
+  "original_training_table_sha256": "76fefbe8a868d60892ee37059d08199b6442bae3bdbfdb9920ef2cde6ee099c9",
+  "input_files": {
+    "tables/importance.csv": "8461e25fa7b0828d09008ade74ea0202dfd41917be313b7a8292283282ec7b0a",
+    "tables/prediction_decomposition.csv": "925ee970d1c3ba82ddf187c0b51091b267c998521b8b8a1d3b1d102821d18710",
+    "tables/shap_values.csv": "b7c312415918b030296544345386dd76d37f7c27164b579bfc8342f15d5c4332"
+  },
+  "feature_metadata": {
+    "N_rate": {
+      "feature_label": "N rate (kg N ha$^{-1}$)",
+      "feature_block": "Management"
+    },
+    "plant_density": {
+      "feature_label": "Plant density (plants m$^{-2}$)",
+      "feature_block": "Management"
+    },
+    "growing_season_GDD_fraction": {
+      "feature_label": "Growing-season GDD / annual DD",
+      "feature_block": "Seasonal allocation"
+    },
+    "annual_DD10_30_C_d": {
+      "feature_label": "Annual DD$_{10-30}$ (degree-days)",
+      "feature_block": "Annual climate"
+    },
+    "log_gdp_pc_ppp_prior3": {
+      "feature_label": "ln prior-3-year GDPpc (PPP)",
+      "feature_block": "Temporal and socioeconomic"
+    },
+    "annual_EDH30_C_h": {
+      "feature_label": "Annual EDH$_{30}$ (degree-hours)",
+      "feature_block": "Annual climate"
+    },
+    "Exp_year": {
+      "feature_label": "Experiment year",
+      "feature_block": "Temporal and socioeconomic"
+    },
+    "growing_season_EDH30_fraction": {
+      "feature_label": "Growing-season EDH$_{30}$ / annual EDH$_{30}$",
+      "feature_block": "Seasonal allocation"
+    },
+    "growing_season_precip_fraction": {
+      "feature_label": "Growing-season precipitation / annual precipitation",
+      "feature_block": "Seasonal allocation"
+    },
+    "annual_precip_mm": {
+      "feature_label": "Annual precipitation (mm)",
+      "feature_block": "Annual climate"
+    },
+    "soil_pH": {
+      "feature_label": "Soil pH",
+      "feature_block": "Soil"
+    },
+    "SOC": {
+      "feature_label": "Soil organic carbon",
+      "feature_block": "Soil"
+    },
+    "soil_total_N": {
+      "feature_label": "Soil total N",
+      "feature_block": "Soil"
+    },
+    "irrigated": {
+      "feature_label": "Irrigation",
+      "feature_block": "Management"
+    },
+    "EDH30_40_70_growing_season_fraction": {
+      "feature_label": "Middle EDH$_{30}$ share (40-70%)",
+      "feature_block": "Heat timing"
+    },
+    "EDH30_0_40_growing_season_fraction": {
+      "feature_label": "Early EDH$_{30}$ share (0-40%)",
+      "feature_block": "Heat timing"
+    },
+    "EDH30_70_100_growing_season_fraction": {
+      "feature_label": "Late EDH$_{30}$ share (70-100%)",
+      "feature_block": "Heat timing"
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 # Heat exposure reduces maize yield gains from nitrogen worldwide
 
-Data and analysis code accompanying the manuscript with this working title. This deposit contains **Figures 1–4**, including their deposited supplementary analyses. The repository is private; editor/reviewer access must be arranged separately.
+Data and analysis code accompanying the manuscript with this working title. This deposit contains **Figures 1–4 and Extended Data Figure 3**, including their deposited supplementary analyses. The repository is private; editor/reviewer access must be arranged separately.
 
 Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) for attribution and applicable access conditions. No publication or archive DOI has been assigned here.
 
@@ -19,6 +19,7 @@ Start with [Figure 1](#figure-1). See [sources and rights](#sources-and-rights) 
 - [Figure 2 files and commands](#figure-2)
 - [Figure 3 files and commands](#figure-3)
 - [Figure 4 files and commands](#figure-4)
+- [Extended Data Figure 3](#extended-data-figure-3)
 - [Data sources and rights](#sources-and-rights)
 
 <a id="environment"></a>
@@ -375,3 +376,40 @@ python Figure4/APSIM_inputs/ERA5_hourly/scripts/download_era5_land_hourly.py --o
 ```
 
 The baseline binning step requires external hourly weather files named `<xSite>_2010_2025_hourly_utc.csv`; these are not deposited. The downloader uses CDS ERA5-Land timeseries and requires the user's own credentials, accepted data terms and the Python dependencies `requests`, `xarray`, `h5netcdf`, `h5py` and `cdsapi`, in addition to numpy/pandas. Actual downloading can be large. No download or APSIM simulation was run while preparing this deposit. Existing downstream CSVs/PDFs can be inspected without these external inputs.
+
+<a id="extended-data-figure-3"></a>
+
+## Extended Data Figure 3
+
+`Extended_Data_Figure3/` is a compact deposit of 229 files (approximately 194.5 MiB). It contains the complete figure PDF and code; the five-band mean EDH30 raster; fixed prediction parameters; RF training inputs, folds, tuning/validation results and the final model; SHAP values and plotting inputs; 96 annual NPZ predictor matrices; 30 period-mean yield rasters; regional numerical results; and supplementary figure PDFs. Model and numerical data TIFF/NPZ files are inputs/results, rather than duplicate figure exports.
+
+The 98 upstream climate/soil/maize-area source rasters and 576 annual yield TIFFs are stored locally outside this deposit. PNG/SVG/figure TIFF duplicates, verification-only scripts/reports, child READMEs, a workbook builder and the root duplicate validation PDF are also omitted. The canonical validation PDF is under `RF_model/figures/`. Six JSON files remain because they provide runtime configuration, feature order, method details or required integrity records. Local absolute provenance paths have been replaced by external file identifiers.
+
+| Location | Role |
+| --- | --- |
+| `RF_model/` | Exact 6,040-row training table with 17 predictors, original training-source inputs, fold/tuning/validation tables, `rf_model.joblib`, training/prediction/validation code and PDFs. The model was saved with scikit-learn 1.8.0. |
+| `RF_model/SHAP/` | Complete SHAP values, importance and prediction decomposition, calculation code, RCS/histogram results, plotting code and PDF. SHAP explains the fitted model on the training set, not out-of-fold performance or causal effects. |
+| `prediction/` | 96 NPZ matrices, shared parameters and masks, 30 period means, regional outputs and prediction/preparation/summarization code. |
+| `Extended_Data_Figure3_a-e/` | Mean annual EDH30 raster, map code, necessary configuration and PDF. |
+| `Extended_Data_Figure3_f-g/` | Regional nitrogen-gain heatmap code and PDF. |
+| `Supplementary_Figures/` | Historical-yield and nitrogen-gain maps, using the deposited period means. |
+
+The historical period is 2011–2022; future periods are 2030–2050 and 2070–2090 under SSP2-4.5/SSP5-8.5. Historical ERA5-Land hourly heat calculations and future ACCESS-CM2 daily-sine estimates retain different methods. The future inputs remain provisional; file integrity does not validate climate extrapolation. Maps use 35,267 common-support cells; regional gain tables retain each package's own support. Predictions concern the archived study-region maize cells, not all global maize area.
+
+From the repository root:
+
+```text
+python Extended_Data_Figure3/assemble_Extended_Data_Figure3.py
+python Extended_Data_Figure3/Extended_Data_Figure3_f-g/plot_yield_heatmaps.py
+python Extended_Data_Figure3/Supplementary_Figures/plot_supplementary.py
+python Extended_Data_Figure3/RF_model/plot_validation.py
+python Extended_Data_Figure3/RF_model/SHAP/scripts/plot_extended_shap.py
+python Extended_Data_Figure3/prediction/summarize_outputs.py
+python Extended_Data_Figure3/prediction/run_prediction.py --package historical_2011_2022
+```
+
+Plotting can overwrite derived outputs; use a separate copy to preserve this deposit. The last two commands only check deposited file integrity and prediction inputs by default. They do not train or run RF inference. Batch inference requires `--execute --output-dir <new_external_package_directory>`; future packages additionally require `--accept-provisional-climate`. Consult `--help` for package names and options. Annual outputs can be regenerated from NPZ and the model without the omitted source climate rasters.
+
+To reconstruct period summaries from external annual outputs, use `summarize_outputs.py --annual-root <external_root>`, where files are under `<external_root>/<package>/outputs/`. To rebuild NPZ or shared soil inputs, preparation scripts require `--source-dir <external_sources_directory>`; its layout must match `prediction/manifest.json`'s `external_source_files`. These optional upstream inputs are not deposited. `export_crop_year_climate.js` requires replacing `YOUR_MAIZE_ASSET_ID` with an accessible Earth Engine asset; original asset IDs and user credentials are not supplied.
+
+Python dependencies include numpy, pandas, scipy, scikit-learn, joblib, matplotlib, geopandas, shapely, pyproj, rasterio, statsmodels and patsy. Full SHAP recalculation additionally needs shap (archived method: 0.52.0). Arial is used for figures. Geospatial boundaries are shared with `Figure2/Figure2a/`. No RF training, SHAP recalculation, batch inference or climate export was performed while preparing this compact deposit.

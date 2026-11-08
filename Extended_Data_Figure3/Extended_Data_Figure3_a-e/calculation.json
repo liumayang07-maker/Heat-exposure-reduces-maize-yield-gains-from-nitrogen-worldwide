@@ -1,0 +1,216 @@
+{
+  "feature": "annual_EDH30_C_h",
+  "units": "degree_C_hour",
+  "input_manifest": "../prediction/manifest.json",
+  "input_manifest_sha256": "469ae3abe13dac6eca73ca39806aa7e147de50569d04721329c647041cbc76dd",
+  "inputs": {
+    "historical_2011_2022": {
+      "years": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "inputs_checked": 12
+    },
+    "ssp245_2030_2050": {
+      "years": [
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2044,
+        2045,
+        2046,
+        2047,
+        2048,
+        2049,
+        2050
+      ],
+      "inputs_checked": 21
+    },
+    "ssp245_2070_2090": {
+      "years": [
+        2070,
+        2071,
+        2072,
+        2073,
+        2074,
+        2075,
+        2076,
+        2077,
+        2078,
+        2079,
+        2080,
+        2081,
+        2082,
+        2083,
+        2084,
+        2085,
+        2086,
+        2087,
+        2088,
+        2089,
+        2090
+      ],
+      "inputs_checked": 21
+    },
+    "ssp585_2030_2050": {
+      "years": [
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2044,
+        2045,
+        2046,
+        2047,
+        2048,
+        2049,
+        2050
+      ],
+      "inputs_checked": 21
+    },
+    "ssp585_2070_2090": {
+      "years": [
+        2070,
+        2071,
+        2072,
+        2073,
+        2074,
+        2075,
+        2076,
+        2077,
+        2078,
+        2079,
+        2080,
+        2081,
+        2082,
+        2083,
+        2084,
+        2085,
+        2086,
+        2087,
+        2088,
+        2089,
+        2090
+      ],
+      "inputs_checked": 21
+    }
+  },
+  "support": {
+    "historical_2011_2022": {
+      "original_cells": 40456,
+      "common_cells": 35267,
+      "excluded_cells": 5189
+    },
+    "ssp245_2030_2050": {
+      "original_cells": 38054,
+      "common_cells": 35267,
+      "excluded_cells": 2787
+    },
+    "ssp245_2070_2090": {
+      "original_cells": 38123,
+      "common_cells": 35267,
+      "excluded_cells": 2856
+    },
+    "ssp585_2030_2050": {
+      "original_cells": 38054,
+      "common_cells": 35267,
+      "excluded_cells": 2787
+    },
+    "ssp585_2070_2090": {
+      "original_cells": 38123,
+      "common_cells": 35267,
+      "excluded_cells": 2856
+    }
+  },
+  "domain": "Intersection of all five RF input supports within the 12 study regions; not all global maize land",
+  "bands": {
+    "1": "historical_2011_2022",
+    "2": "ssp245_2030_2050",
+    "3": "ssp245_2070_2090",
+    "4": "ssp585_2030_2050",
+    "5": "ssp585_2070_2090"
+  },
+  "display": {
+    "longitude": [
+      -150,
+      150
+    ],
+    "latitude": [
+      -60,
+      75
+    ],
+    "projection": "Robinson"
+  },
+  "boundaries": {
+    "world": {
+      "path": "../../Figure2/Figure2a/world_boundaries.gpkg",
+      "sha256": "6b64fb713775b06b1b9c3c347d25217c2cabaf5232c3289390f74feabc787118"
+    },
+    "regions": {
+      "path": "../../Figure2/Figure2a/study_regions.geojson",
+      "sha256": "b80d1967581631b03a2c41bdc00e9164a7e99a5e0a87a4e4d31a93d37433d571"
+    }
+  },
+  "values": {
+    "historical_2011_2022": {
+      "min": 0.0,
+      "max": 32449.54630297224
+    },
+    "ssp245_2030_2050": {
+      "min": 0.0,
+      "max": 38421.88374255953
+    },
+    "ssp245_2070_2090": {
+      "min": 0.0,
+      "max": 50149.49702380953
+    },
+    "ssp585_2030_2050": {
+      "min": 0.0,
+      "max": 38886.125093005954
+    },
+    "ssp585_2070_2090": {
+      "min": 0.0,
+      "max": 63438.829799107145
+    }
+  },
+  "raster_roundtrip": "PASS",
+  "script_sha256": "30b85a339f39945477a04db7f0c7a1eec492788ea1a05e96945c75c10c2c618e",
+  "outputs_sha256": {
+    "EDH30_map_data.tif": "eecec3a736e7a58b4a232494c646a0e3242e8d718ee5f48451ffca383617392f"
+  },
+  "limitations": [
+    "Historical hourly ERA5-Land and future daily-sine ACCESS-CM2 retain their distinct calculation methods.",
+    "Single climate model; existing provisional future inputs; no new physical validation, RF inference or significance testing."
+  ]
+}
