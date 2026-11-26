@@ -128,7 +128,7 @@ Scripts do not install packages automatically. Fresh environment installation an
 2. **External inputs:** obtain the area HDF5 and monthly climate exports, then run preparation scripts. This requires external access and potentially substantial compute; it was not rerun for this deposit.
 3. **Final layout:** the assembled manuscript figure was manually edited. Reproducing individual panels does not recreate that layout.
 
-No open-source or blanket open-data licence has been selected. Third-party terms remain applicable; see [Sources and rights](#sources-and-rights).
+The author-written analysis code is released under the [MIT License](LICENSE). See [Sources and rights](#sources-and-rights) for the terms applicable to other repository materials.
 
 <a id="figure-1"></a>
 
@@ -297,13 +297,13 @@ The fixed regional assignment derives from GADM 4.1 countries and Natural Earth 
 
 ## Data sources, access and rights
 
-Source pages checked on 2026-11-08. This record documents provenance and access, not legal clearance for an open release. The repository remains private. No open-source licence for author code or blanket licence for author outputs has been selected; rights are reserved pending an explicit choice. Review access does not itself grant unrestricted redistribution.
+Source pages checked on 2026-11-08. The [MIT License](LICENSE) applies to the author-written analysis code only. Third-party code, datasets and materials remain subject to their respective terms. The repository grants no blanket licence to redistribute data or non-code outputs.
 
 | Source | Use here | Verified terms/access | Treatment |
 | --- | --- | --- | --- |
 | [ERA5-Land / Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_HOURLY) | Hourly `temperature_2m`, converted to EDH30 | Official catalogue supplies acknowledgement and licence conditions | Derived results and code included; raw hourly/monthly files excluded |
 | [Natural Earth](https://www.naturalearthdata.com/about/terms-of-use/) | Country geometry; continental and Chinese admin-1 assignments | Source states map data are public domain | Geometry-only GeoPackage and attribution included |
-| [GADM](https://gadm.org/license.html) | Countries in the original regional assignment | Academic/non-commercial use permitted; redistribution of GADM data requires prior permission | No original GADM boundaries included. Derived ID-to-region table retained for private research review; unrestricted redistribution of that table is not asserted or verified |
+| [GADM](https://gadm.org/license.html) | Countries in the original regional assignment | Academic/non-commercial use permitted; redistribution of GADM data requires prior permission | No original GADM boundaries included. Unrestricted redistribution rights for the derived ID-to-region table have not been verified |
 | [Area dataset DOI](https://doi.org/10.11888/Terre.tpdc.300446), [source article](https://doi.org/10.1038/s41597-023-02526-z), [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC10495426/) | `Harvested_area_1961-2020.h5`, `Maize` group, mask and annual weights | DOI portal inaccessible during this check. Article CC BY 4.0 does not alone establish the HDF5 redistribution licence | HDF5 and annual area tables excluded; obtain data and applicable permission from provider |
 | [Zenodo 7408852](https://zenodo.org/records/7408852) | Alternate area/fertilizer dataset record | Metadata public; files explicitly restricted on check date | Not represented as an anonymous download mirror |
 
@@ -311,9 +311,9 @@ ERA5-Land acknowledgement: **Generated using Copernicus Climate Change Service I
 
 Made with Natural Earth. Country geometry was converted to GeoPackage without simplification or reprojection. Crosswalks contain IDs and labels, not boundary polygons or harvested-area values. They preserve actual assignments rather than substituting different boundaries.
 
-### Before public release
+### Redistribution of underlying and derived data
 
-Confirm area-file access and terms covering redistribution of derived spatial assignments and area-weighted results. Clarify the derived regional crosswalk's status with the applicable rights holder if needed. Select an author-approved code/output licence separately from third-party terms. Arrange editor/reviewer access while private. No provider contact or permission request has been made here.
+Confirm the applicable terms before redistributing area files, derived spatial assignments or area-weighted results. No provider contact or permission request has been made here.
 
 <a id="figure-2"></a>
 
