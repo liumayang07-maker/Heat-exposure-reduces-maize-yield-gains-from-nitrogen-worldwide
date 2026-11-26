@@ -65,6 +65,7 @@
 | Supplementary Figure 7 | 年度模拟产量 | [Figure4/Yield_analysis/Supplementary_yield_annual.pdf](Figure4/Yield_analysis/Supplementary_yield_annual.pdf) |
 | Supplementary Figure 8 | 年度模拟 N₂O | [Figure4/N2O_analysis/Supplementary_N2O_annual.pdf](Figure4/N2O_analysis/Supplementary_N2O_annual.pdf) |
 | Supplementary Figure 9 | PRISMA 流程图 | **Not deposited / 尚未收录** |
+| Supplementary Figure 10 | 发表偏倚评估 | [图件 PDF](Figure2/Supplementary_Figure_publication_bias/publication_bias_assessment_abc.pdf); [Source Data](Figure2/Supplementary_Figure_publication_bias/Supplementary_Figure10_Source_Data.xlsx) |
 
 
 
@@ -260,7 +261,7 @@ EDH30 是全年 UTC 每小时 `max(T_C - 30, 0)` 的累计，不是生育期暴�
 
 ## Figure2 文件与运行命令
 
-Figure2 共 96 个文件，仅保留分析代码、输入、绘图需要的拟合模型和结果。Source Data 工作簿供直接查阅；工作簿组装脚本、排版资产、重复格式化回归表及核验报告未收录。
+Figure2 共 103 个文件，仅保留分析代码、输入、绘图需要的拟合模型和结果。Source Data 工作簿供直接查阅；工作簿组装脚本、排版资产、重复格式化回归表及核验报告未收录。
 
 | 目录 | 文件数 | 内容 |
 | --- | ---: | --- |
@@ -270,6 +271,7 @@ Figure2 共 96 个文件，仅保留分析代码、输入、绘图需要的拟�
 | `Figure2/Figure2d/` | 15 | 三因素交互分析的拟合、绘图代码，以及对应输入、模型、结果、PDF 和 Source Data。 |
 | `Figure2/Extended_Data_Figure/` | 8 | 三份输入表、绘图代码、三份 PDF 和 Source Data。 |
 | `Figure2/Supplementary_Figure_heat_classification/` | 6 | 热暴露曲线输入、分类及诊断代码、分类结果、两份 PDF 和 Source Data。 |
+| `Figure2/Supplementary_Figure_publication_bias/` | 7 | 拟合与绘图脚本、漏斗图点数据、Egger 与剪补结果、模型摘要、PDF 和 Source Data。 |
 | `Figure2/Supplementary_Table_SD_imputation/` | 4 | 当前 SD 输入、插补代码、重插补 SD 表及分组中位 CV 工作簿。 |
 | `Figure2/SD_sensitivity/` | 8 | 拟合与汇总代码，以及 Baseline、CV05、CV10、CV20 四情景的六份核心结果 CSV。 |
 | `Figure2/Weather_preprocessing/` | 9 | 下载及指标计算代码、下载任务和环境/R1 输入、四份派生天气表。 |
@@ -286,8 +288,11 @@ Rscript Figure2/Figure2c/plot_Figure2c.R
 Rscript Figure2/Figure2d/plot_Figure2d.R
 Rscript Figure2/Extended_Data_Figure/reproduce_extended_data.R
 Rscript Figure2/Supplementary_Figure_heat_classification/reproduce_classification.R
+Rscript Figure2/Supplementary_Figure_publication_bias/build_publication_bias_figure.R
 Rscript Figure2/Supplementary_Table_SD_imputation/reproduce_SD_imputation.R
 ```
+
+Supplementary Figure 10 的脚本复用 Figure 2a 和 SD 插补目录中的输入。运行需要 R 包 `data.table`、`Matrix`、`metafor`、`ggplot2` 和 `patchwork`，支持 Cairo 且可用 Arial 字体的 R 环境，以及用于校正 PDF 页框的 Python 3 和 `PyMuPDF`。复跑还会在本地保存拟合模型对象。
 
 按需重新拟合模型时，默认读取已收录的比较输入表：
 

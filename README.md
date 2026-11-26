@@ -67,6 +67,7 @@ Numbering follows the final submission files `Figures.docx`, `Extended_Data_Figu
 | Supplementary Figure 7 | Annual simulated yield | [Figure4/Yield_analysis/Supplementary_yield_annual.pdf](Figure4/Yield_analysis/Supplementary_yield_annual.pdf) |
 | Supplementary Figure 8 | Annual simulated N₂O | [Figure4/N2O_analysis/Supplementary_N2O_annual.pdf](Figure4/N2O_analysis/Supplementary_N2O_annual.pdf) |
 | Supplementary Figure 9 | PRISMA flow diagram | **Not deposited / 尚未收录** |
+| Supplementary Figure 10 | Publication-bias assessment | [Figure PDF](Figure2/Supplementary_Figure_publication_bias/publication_bias_assessment_abc.pdf); [Source Data](Figure2/Supplementary_Figure_publication_bias/Supplementary_Figure10_Source_Data.xlsx) |
 
 
 
@@ -319,7 +320,7 @@ Confirm the applicable terms before redistributing area files, derived spatial a
 
 ## Figure 2 files and commands
 
-Figure2 contains 96 files: analysis code, its inputs, fitted models needed by the plotting code, and archived results. Source Data workbooks are supplied for inspection; workbook-assembly scripts, editable layout assets, duplicate formatted regression tables and verification reports are omitted.
+Figure2 contains 103 files: analysis code, its inputs, fitted models needed by the plotting code, and archived results. Source Data workbooks are supplied for inspection; workbook-assembly scripts, editable layout assets, duplicate formatted regression tables and verification reports are omitted.
 
 | Directory | Files | Contents |
 | --- | ---: | --- |
@@ -329,6 +330,7 @@ Figure2 contains 96 files: analysis code, its inputs, fitted models needed by th
 | `Figure2/Figure2d/` | 15 | Three-way interaction analysis with fit/plot code and corresponding inputs, model, results, PDF and Source Data. |
 | `Figure2/Extended_Data_Figure/` | 8 | Three input tables, plotting code, three PDFs and Source Data. |
 | `Figure2/Supplementary_Figure_heat_classification/` | 6 | Profile input, classification/diagnostic code and results, two PDFs and Source Data. |
+| `Figure2/Supplementary_Figure_publication_bias/` | 7 | Fitting and plotting script, funnel points, Egger and trim-and-fill results, model summaries, PDF and Source Data. |
 | `Figure2/Supplementary_Table_SD_imputation/` | 4 | Observed/current SD input, imputation code, reimputed SD table and grouped-median-CV workbook. |
 | `Figure2/SD_sensitivity/` | 8 | Fitting and summarization code plus six core result CSVs for Baseline, CV05, CV10 and CV20. |
 | `Figure2/Weather_preprocessing/` | 9 | Download/metric code, request and environment/R1 inputs, and four derived weather tables. |
@@ -345,8 +347,11 @@ Rscript Figure2/Figure2c/plot_Figure2c.R
 Rscript Figure2/Figure2d/plot_Figure2d.R
 Rscript Figure2/Extended_Data_Figure/reproduce_extended_data.R
 Rscript Figure2/Supplementary_Figure_heat_classification/reproduce_classification.R
+Rscript Figure2/Supplementary_Figure_publication_bias/build_publication_bias_figure.R
 Rscript Figure2/Supplementary_Table_SD_imputation/reproduce_SD_imputation.R
 ```
+
+The Supplementary Figure 10 script reuses the deposited Figure 2a and SD-imputation inputs. It requires R packages `data.table`, `Matrix`, `metafor`, `ggplot2` and `patchwork`, a Cairo-enabled R installation with Arial available, and Python 3 with `PyMuPDF` for setting the exact PDF page size. It also saves fitted model objects locally.
 
 Optional model fitting uses the deposited comparison tables by default:
 

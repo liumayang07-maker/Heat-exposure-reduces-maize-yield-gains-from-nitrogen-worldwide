@@ -1,0 +1,222 @@
+all_overall
+
+Multivariate Meta-Analysis Model (k = 4613; method: REML)
+
+    logLik    Deviance         AIC         BIC        AICc
+ 1138.8989  -2277.7979  -2269.7979  -2244.0522  -2269.7892
+
+Variance Components:
+
+            estim    sqrt  nlvls  fixed            factor
+sigma^2.1  0.0621  0.2492    281     no      reference_ID
+sigma^2.2  0.0410  0.2025    881     no  ref_site_year_ID
+sigma^2.3  0.0174  0.1320   4613     no         effect_id
+
+Test for Heterogeneity:
+Q(df = 4612) = 134869.0852, p-val < .0001
+
+Model Results:
+
+estimate      se     zval    pval   ci.lb   ci.ub
+  0.4871  0.0172  28.2628  <.0001  0.4534  0.5209  ***
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+all_egger
+
+Multivariate Meta-Analysis Model (k = 4613; method: REML)
+
+    logLik    Deviance         AIC         BIC        AICc
+ 1143.6628  -2287.3255  -2277.3255  -2245.1445  -2277.3125
+
+Variance Components:
+
+            estim    sqrt  nlvls  fixed            factor
+sigma^2.1  0.0589  0.2426    281     no      reference_ID
+sigma^2.2  0.0401  0.2003    881     no  ref_site_year_ID
+sigma^2.3  0.0175  0.1325   4613     no         effect_id
+
+Test for Residual Heterogeneity:
+QE(df = 4611) = 120656.0447, p-val < .0001
+
+Test of Moderators (coefficient 2):
+QM(df = 1) = 9.2528, p-val = 0.0024
+
+Model Results:
+
+          estimate      se     zval    pval   ci.lb   ci.ub
+intrcpt     0.4446  0.0219  20.2897  <.0001  0.4016  0.4875  ***
+sei_lnRR    0.6411  0.2108   3.0418  0.0024  0.2280  1.0542   **
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+observed_sd_overall
+
+Multivariate Meta-Analysis Model (k = 1326; method: REML)
+
+   logLik   Deviance        AIC        BIC       AICc
+ 341.1118  -682.2236  -674.2236  -653.4670  -674.1933
+
+Variance Components:
+
+            estim    sqrt  nlvls  fixed            factor
+sigma^2.1  0.0860  0.2932     97     no      reference_ID
+sigma^2.2  0.0256  0.1601    272     no  ref_site_year_ID
+sigma^2.3  0.0160  0.1264   1326     no         effect_id
+
+Test for Heterogeneity:
+Q(df = 1325) = 59643.2885, p-val < .0001
+
+Model Results:
+
+estimate      se     zval    pval   ci.lb   ci.ub
+  0.4772  0.0324  14.7297  <.0001  0.4137  0.5407  ***
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+observed_sd_egger
+
+Multivariate Meta-Analysis Model (k = 1326; method: REML)
+
+   logLik   Deviance        AIC        BIC       AICc
+ 344.0249  -688.0498  -678.0498  -652.1077  -678.0042
+
+Variance Components:
+
+            estim    sqrt  nlvls  fixed            factor
+sigma^2.1  0.0796  0.2821     97     no      reference_ID
+sigma^2.2  0.0248  0.1576    272     no  ref_site_year_ID
+sigma^2.3  0.0161  0.1271   1326     no         effect_id
+
+Test for Residual Heterogeneity:
+QE(df = 1324) = 53639.1452, p-val < .0001
+
+Test of Moderators (coefficient 2):
+QM(df = 1) = 5.7871, p-val = 0.0161
+
+Model Results:
+
+          estimate      se     zval    pval   ci.lb   ci.ub
+intrcpt     0.4408  0.0347  12.6989  <.0001  0.3728  0.5089  ***
+sei_lnRR    0.5196  0.2160   2.4056  0.0161  0.0963  0.9430    *
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+publication_before_fill
+
+Random-Effects Model (k = 281; tau^2 estimator: REML)
+
+  logLik  deviance       AIC       BIC      AICc
+-51.3646  102.7292  106.7292  113.9987  106.7725
+
+tau^2 (estimated amount of total heterogeneity): 0.0621 (SE = 0.0070)
+tau (square root of estimated tau^2 value):      0.2492
+I^2 (total heterogeneity / total variability):   79.57%
+H^2 (total variability / sampling variability):  4.90
+
+Test for Heterogeneity:
+Q(df = 280) = 1446.4831, p-val < .0001
+
+Model Results:
+
+estimate      se     zval    pval   ci.lb   ci.ub
+  0.4871  0.0172  28.2628  <.0001  0.4534  0.5209  ***
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+publication_side_selection
+
+Mixed-Effects Model (k = 281; tau^2 estimator: REML)
+
+  logLik  deviance       AIC       BIC      AICc
+-51.3634  102.7268  108.7268  119.6204  108.8140
+
+tau^2 (estimated amount of residual heterogeneity):     0.0619 (SE = 0.0070)
+tau (square root of estimated tau^2 value):             0.2488
+I^2 (residual heterogeneity / unaccounted variability): 79.42%
+H^2 (unaccounted variability / sampling variability):   4.86
+R^2 (amount of heterogeneity accounted for):            0.30%
+
+Test for Residual Heterogeneity:
+QE(df = 279) = 1396.1928, p-val < .0001
+
+Test of Moderators (coefficient 2):
+QM(df = 1) = 0.5939, p-val = 0.4409
+
+Model Results:
+
+         estimate      se     zval    pval    ci.lb   ci.ub
+intrcpt    0.5349  0.0643   8.3180  <.0001   0.4089  0.6609  ***
+sei       -0.3387  0.4395  -0.7706  0.4409  -1.2002  0.5228
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+publication_after_fill
+
+Estimated number of missing studies on the right side: 42 (SE = 10.9095)
+
+Random-Effects Model (k = 323; tau^2 estimator: REML)
+
+  logLik  deviance       AIC       BIC      AICc
+-81.7533  163.5067  167.5067  175.0558  167.5443
+
+tau^2 (estimated amount of total heterogeneity): 0.0743 (SE = 0.0075)
+tau (square root of estimated tau^2 value):      0.2725
+I^2 (total heterogeneity / total variability):   81.92%
+H^2 (total variability / sampling variability):  5.53
+
+Test for Heterogeneity:
+Q(df = 322) = 1789.3989, p-val < .0001
+
+Model Results:
+
+estimate      se     zval    pval   ci.lb   ci.ub
+  0.5449  0.0173  31.5790  <.0001  0.5111  0.5788  ***
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+R version 4.5.3 (2026-03-11 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 22000)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=C                        LC_CTYPE=English_United States.utf8
+[3] LC_MONETARY=C                       LC_NUMERIC=C
+[5] LC_TIME=C
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base
+
+other attached packages:
+[1] patchwork_1.3.2     ggplot2_4.0.2       metafor_4.8-0
+[4] numDeriv_2016.8-1.1 metadat_1.4-0       Matrix_1.7-4
+[7] data.table_1.18.2.1
+
+loaded via a namespace (and not attached):
+ [1] vctrs_0.7.1        nlme_3.1-168       cli_3.6.5          rlang_1.1.7
+ [5] generics_0.1.4     S7_0.2.1           labeling_0.4.3     glue_1.8.0
+ [9] scales_1.4.0       grid_4.5.3         tibble_3.3.1       lifecycle_1.0.5
+[13] compiler_4.5.3     mathjaxr_2.0-0     dplyr_1.2.0        RColorBrewer_1.1-3
+[17] pkgconfig_2.0.3    farver_2.1.2       lattice_0.22-9     digest_0.6.39
+[21] R6_2.6.1           dichromat_2.0-0.1  tidyselect_1.2.1   pillar_1.11.1
+[25] magrittr_2.0.4     tools_4.5.3        withr_3.0.2        gtable_0.3.6
